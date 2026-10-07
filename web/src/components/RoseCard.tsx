@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { CatalogueRose } from "@/lib/catalogue";
+import { CardPhotos } from "./CardPhotos";
 import { ColourSwatch } from "./ColourSwatch";
 
 export function RoseCard({ rose, list = false }: Readonly<{ rose: CatalogueRose; list?: boolean }>) {
@@ -9,7 +10,11 @@ export function RoseCard({ rose, list = false }: Readonly<{ rose: CatalogueRose;
       href={`/rose/${rose.id}`}
       className={`group flex overflow-hidden rounded-xl border border-border bg-card transition hover:border-accent ${list ? "flex-row" : "flex-col"}`}
     >
-      <ColourSwatch group={rose.colour_group} className={list ? "w-20 shrink-0 sm:w-28" : "h-24 w-full"} />
+      {rose.photos?.length ? (
+        <CardPhotos photos={rose.photos} name={rose.canonical_name} className={list ? "w-28 shrink-0 sm:w-36" : "h-48 w-full"} />
+      ) : (
+        <ColourSwatch group={rose.colour_group} className={list ? "w-20 shrink-0 sm:w-28" : "h-24 w-full"} />
+      )}
       <div className="flex min-w-0 flex-1 flex-col gap-1 p-3">
         <div className="flex flex-wrap items-center gap-1.5 text-xs text-muted">
           <span>{rose.class}</span>

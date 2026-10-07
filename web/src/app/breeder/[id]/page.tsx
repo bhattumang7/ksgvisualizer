@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { joinBreeders } from "@/lib/catalogue";
 import { loadDataset } from "@/lib/data";
+import { withCardPhotos } from "@/lib/photos";
 import { RoseCard } from "@/components/RoseCard";
 
 export function generateStaticParams() {
@@ -19,7 +20,7 @@ export default async function BreederPage({ params }: Readonly<PageProps<"/breed
   const { roses, breeders } = loadDataset();
   const breeder = breeders.find((b) => b.id === id);
   if (!breeder) notFound();
-  const list = joinBreeders(roses.filter((r) => r.breeder_id === id), breeders).sort((a, b) => a.canonical_name.localeCompare(b.canonical_name));
+  const list = withCardPhotos(joinBreeders(roses.filter((r) => r.breeder_id === id), breeders)).sort((a, b) => a.canonical_name.localeCompare(b.canonical_name));
   const country = new Intl.DisplayNames(["en"], { type: "region" }).of(breeder.country);
 
   return (

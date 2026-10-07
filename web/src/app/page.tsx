@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import { Catalogue } from "@/components/Catalogue";
 import { joinBreeders } from "@/lib/catalogue";
 import { loadDataset } from "@/lib/data";
+import { withCardPhotos } from "@/lib/photos";
 
 export default function Home() {
   const { roses, breeders } = loadDataset();
@@ -10,7 +11,7 @@ export default function Home() {
   return (
     <main>
       <Suspense fallback={<p className="p-6 text-muted">Loading roses…</p>}>
-        <Catalogue roses={joinBreeders(roses, breeders)} breeders={breeders} pageSize={pageSize} />
+        <Catalogue roses={withCardPhotos(joinBreeders(roses, breeders))} breeders={breeders} pageSize={pageSize} />
       </Suspense>
     </main>
   );

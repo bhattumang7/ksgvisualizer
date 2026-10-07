@@ -1,8 +1,19 @@
 import MiniSearch from "minisearch";
 import type { Breeder, Rose } from "./schema";
 
+/** A snapshotted HMF photo shown on a listing card. */
+export interface CardPhoto {
+  src: string;
+  width: number;
+  height: number;
+  pageUrl: string;
+  credit: string | null;
+}
+
 /** A rose joined with its breeder, as sent to the browser. */
 export interface CatalogueRose extends Rose {
+  /** Stored HMF photos for the listing card's swipeable image; absent when none are snapshotted. */
+  photos?: CardPhoto[];
   breeder_name: string | null;
   breeder_country: string | null;
   breeder_indian: boolean;
