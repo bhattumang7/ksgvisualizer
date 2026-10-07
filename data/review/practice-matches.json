@@ -4,7 +4,8 @@
     "ksg_page_line": "Floribundas list",
     "hmf": {
       "id": "97659",
-      "url": "https://www.helpmefind.com/rose/pl.php?n=97659"
+      "url": "https://www.helpmefind.com/rose/pl.php?n=97659",
+      "alt_form_seen": "l=2.69538.4 (same rose as n=97659, from search results; page not fetched)"
     },
     "match_confidence": "exact",
     "checks": {
@@ -18,10 +19,11 @@
     "ksg_entry": "(Princess Charlene de Monaco, Meilland) - not found in KSG catalogue",
     "hmf": {
       "id": "96406",
-      "url": "https://www.helpmefind.com/rose/pl.php?n=96406"
+      "url": "https://www.helpmefind.com/rose/pl.php?n=96406",
+      "alt_url": "https://www.helpmefind.com/gardening/l.php?l=2.65539.2"
     },
     "match_confidence": "none",
-    "note": "HMF has this rose, but I could not find it in the KSG catalogue: not in the text of the list pages and not among the photo-grid captions (checked 2026-10-07). User believes KSG carries it, so confirm the source (another edition or a price list?). Do not map it to PRINCESS DE MONACO, which is a different rose."
+    "note": "HMF has this rose, but I could not find it in the KSG catalogue: not in the text of the list pages and not among the photo-grid captions (checked 2026-10-07). User believes KSG carries it, so confirm the source (another edition or a price list?). Do not map it to PRINCESS DE MONACO, which is a different rose. The user's link l=2.65539.2 is the same rose as n=96406 (verified: same name, breeder and synonyms), so HMF uses two ID forms for one rose."
   },
   {
     "ksg_entry": "PRINCESS DE MONACO - Hybrid Teas, Meilland '82",
