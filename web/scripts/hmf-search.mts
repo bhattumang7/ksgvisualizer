@@ -3,7 +3,7 @@
  * matches the result rows (name, class, "Breeder (year)") against the KSG breeder, year and class offline.
  * One request per unique name; the page is plain HTML, so no browser is needed.
  *
- *   pnpm hmf-search [--limit N] [--id ROSE_ID] [--refresh] [--score-only] [--delay MIN-MAX]
+ *   pnpm hmf-search [--limit N] [--id ROSE_ID] [--refresh] [--score-only] [--delay MIN-MAX] [--threads N]
  *
  * Gentle by design: --limit defaults to 100 requests per run, 5-8 s apart by default (--delay 2-3 to go faster), one at a time. It stops at the
  * first 403/429/5xx or unexpected page. Raw result pages are parsed and cached per name in cache/hmf-search/
@@ -30,6 +30,7 @@ const cacheFile = cacheFor(CACHE);
 
 /** Seconds between requests, "--delay 2-3" or "--delay 2"; default 5-8. */
 const [DELAY_MIN, DELAY_MAX] = (flag("delay") ? value("delay") : "5-8").split("-").map((x) => Number(x) * 1000) as [number, number?];
+const THREADS = Math.max(1, Number(flag("threads") ? value("threads") : 1));
 const gap = () => jitter(DELAY_MIN, DELAY_MAX ?? DELAY_MIN);
 
 const blocked = (status: number) => status === 403 || status === 429 || status >= 500;
@@ -108,26 +109,31 @@ function fallbackWords(wanted: typeof roses): string[] {
   return [...out];
 }
 
+/** Runs `work` over the items with `threads` workers, each waiting `gap()` between its own requests; all stop on the first non-null exit code. */
+async function pool<T>(items: T[], threads: number, work: (item: T, n: number) => Promise<number | null>): Promise<number> {
+  let next = 0;
+  let stop = 0;
+  await Promise.all(
+    Array.from({ length: Math.min(threads, items.length) }, async (_, w) => {
+      await sleep(w * 400);
+      for (let first = true; !stop && next < items.length; first = false) {
+        if (!first) await sleep(gap());
+        const n = next++;
+        stop ||= (await work(items[n], n)) ?? 0;
+      }
+    }),
+  );
+  return stop;
+}
+
 async function search(todo: string[], fallbacks: (() => string[]) | null, limit: number): Promise<number> {
   persistCookies(path.join(ROOT, "cache", "hmf-search-cookies.json"));
-  let used = 0;
-  const pause = async () => {
-    if (used++ > 0) await sleep(gap());
-  };
-  console.log(`${todo.length} names to search`);
-  for (const [n, term] of todo.entries()) {
-    await pause();
-    const stop = await fetchOne(term, "best", cacheFile(term), n + 1, todo.length);
-    if (stop) return stop;
-  }
-  const words = fallbacks && used < limit ? fallbacks().slice(0, limit - used) : [];
+  console.log(`${todo.length} names to search, ${THREADS} at a time`);
+  const stop = await pool(todo, THREADS, (term, n) => fetchOne(term, "best", cacheFile(term), n + 1, todo.length));
+  if (stop) return stop;
+  const words = fallbacks && todo.length < limit ? fallbacks().slice(0, limit - todo.length) : [];
   if (words.length) console.log(`${words.length} names with no match get one looser search each`);
-  for (const [n, w] of words.entries()) {
-    await pause();
-    const stop = await fetchOne(w, "contains", fallbackCacheFor(CACHE)(w), n + 1, words.length);
-    if (stop) return stop;
-  }
-  return 0;
+  return pool(words, THREADS, (w, n) => fetchOne(w, "contains", fallbackCacheFor(CACHE)(w), n + 1, words.length));
 }
 
 let code = 0;

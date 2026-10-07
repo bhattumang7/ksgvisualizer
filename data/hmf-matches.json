@@ -628,6 +628,16 @@
     ],
     "query": "Bellisima"
   },
+  "bertrand-amoussou": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.43586",
+    "match_confidence": "exact",
+    "hmf_title": "'Bertrand Amoussou ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Bertrand Amoussou"
+  },
   "best-impression": {
     "id": null,
     "url": "https://www.helpmefind.com/gardening/l.php?l=2.67222",
@@ -948,7 +958,8 @@
     "evidence": [
       "sole-result"
     ],
-    "query": "Buxom Beauty"
+    "query": "Buxom Beauty",
+    "duplicate_of": "parole"
   },
   "cabana": {
     "id": null,
@@ -1304,6 +1315,495 @@
     ],
     "query": "Classic Touch"
   },
+  "classy-carol": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.37448",
+    "match_confidence": "exact",
+    "hmf_title": "'Classy Carol' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Classy Carol"
+  },
+  "claude-monet": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.32396",
+    "match_confidence": "exact",
+    "hmf_title": "Claude Monet ® (Hybrid Tea, Christensen, 1992)",
+    "evidence": [
+      "year:1992",
+      "class:Hybrid Tea"
+    ],
+    "query": "Claude Monet"
+  },
+  "clive-beck": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.32627",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Beach Spire' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Clive Beck"
+  },
+  "cologne": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19817",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Cologne (grandiflora, McGredy, 1988)",
+    "evidence": [
+      "breeder:mcgredy"
+    ],
+    "query": "Cologne"
+  },
+  "colossus": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18235",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Colosus ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Colossus"
+  },
+  "comanche": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1262",
+    "match_confidence": "exact",
+    "hmf_title": "'Comanche' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Comanche"
+  },
+  "comtesse-de-provence": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Comtesse De Provence"
+  },
+  "coral-spire": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.32848",
+    "match_confidence": "exact",
+    "hmf_title": "'Coral Spire' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Coral Spire"
+  },
+  "cordwalles-centenary-rose": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.82202",
+    "match_confidence": "exact",
+    "hmf_title": "'Cordwalles Centenary Rose' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Cordwalles Centenary Rose"
+  },
+  "coreen-krige": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.67637",
+    "match_confidence": "exact",
+    "hmf_title": "'Coreen Krige' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Coreen Krige"
+  },
+  "corpus-christie": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Corpus Christie"
+  },
+  "corrida": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18603",
+    "match_confidence": "exact",
+    "hmf_title": "Corrida® (hybrid tea, Sauvageot, 1995)",
+    "evidence": [
+      "breeder:sauvageot",
+      "class:Hybrid Tea"
+    ],
+    "query": "Corrida"
+  },
+  "courage": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18189",
+    "match_confidence": "exact",
+    "hmf_title": "Courage™ (hybrid tea, Poulsen before 1989)",
+    "evidence": [
+      "breeder:poulsen",
+      "class:Hybrid Tea"
+    ],
+    "query": "Courage"
+  },
+  "crazy-spire": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.71481",
+    "match_confidence": "exact",
+    "hmf_title": "'Crazy Spire' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Crazy Spire"
+  },
+  "crimean-night": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Crimean Night"
+  },
+  "crimson-boquet": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Crimson Boquet"
+  },
+  "crowd-pleaser": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.32124",
+    "match_confidence": "exact",
+    "hmf_title": "'Crowd Pleaser ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Crowd Pleaser"
+  },
+  "cullinan-centenary": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.37061",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'ATHYlight' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Cullinan Centenary"
+  },
+  "dara": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1447",
+    "match_confidence": "exact",
+    "hmf_title": "Dara (hybrid tea, Wambach 1991)",
+    "evidence": [
+      "breeder:wambach",
+      "class:Hybrid Tea"
+    ],
+    "query": "Dara"
+  },
+  "datin-melleney": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Datin Melleney"
+  },
+  "dawning-moment": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.43443",
+    "match_confidence": "exact",
+    "hmf_title": "'Dawning Moment' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Dawning Moment"
+  },
+  "deborah-beggs-moncrief": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Deborah Beggs Moncrief"
+  },
+  "deep-bordeaux": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.69121",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Bordeaux' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Deep Bordeaux"
+  },
+  "delany-sisters": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1492",
+    "match_confidence": "exact",
+    "hmf_title": "'Delany Sisters' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Delany Sisters"
+  },
+  "delicate-beauty": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1494",
+    "match_confidence": "exact",
+    "hmf_title": "'Delicate Beauty' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Delicate Beauty"
+  },
+  "delicia": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2583",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Delicia ® (hybrid tea, Kordes 1982)",
+    "evidence": [
+      "breeder:kordes",
+      "class:Hybrid Tea"
+    ],
+    "query": "Delicia"
+  },
+  "derek-nimmo": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.23164",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'MACwhenu' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Derek Nimmo"
+  },
+  "desert-peace": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1511",
+    "match_confidence": "exact",
+    "hmf_title": "'Desert Peace ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Desert Peace"
+  },
+  "diana-princess-of-wales": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19792",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'JACshaq' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Diana Princess Of Wales"
+  },
+  "diane-de-poitiers": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.34866",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Diane de Poitiers (alba, Vibert, 1818)",
+    "evidence": [],
+    "query": "Diane De Poitiers"
+  },
+  "dick-clark": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.61776",
+    "match_confidence": "exact",
+    "hmf_title": "'Dick Clark ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Dick Clark"
+  },
+  "die-bloemhoffer": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.32629",
+    "match_confidence": "exact",
+    "hmf_title": "'Die Bloemhoffer' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Die Bloemhoffer"
+  },
+  "diletta": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.25841",
+    "match_confidence": "exact",
+    "hmf_title": "Diletta",
+    "evidence": [
+      "breeder:barni",
+      "year:1985",
+      "class:Hybrid Tea"
+    ],
+    "query": "Diletta"
+  },
+  "diplomat": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1535",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Diplomat (hybrid tea, Boerner 1962)",
+    "evidence": [
+      "class:Hybrid Tea"
+    ],
+    "query": "Diplomat"
+  },
+  "disco": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1536",
+    "match_confidence": "exact",
+    "hmf_title": "Disco (hybrid tea, Weeks, 1980)",
+    "evidence": [
+      "breeder:weeks",
+      "year:1980",
+      "class:Hybrid Tea"
+    ],
+    "query": "Disco"
+  },
+  "doctor-goldberg": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.30821",
+    "match_confidence": "exact",
+    "hmf_title": "Doctor Goldberg",
+    "evidence": [
+      "breeder:gandy",
+      "year:1988",
+      "class:Hybrid Tea",
+      "sole-result"
+    ],
+    "query": "Doctor Goldberg"
+  },
+  "dolce-vita": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1561",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Dolce Vita ® (hybrid tea, Delbard, 1971)",
+    "evidence": [
+      "breeder:delbard",
+      "class:Hybrid Tea"
+    ],
+    "query": "Dolce Vita"
+  },
+  "dolly-parton": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1562",
+    "match_confidence": "exact",
+    "hmf_title": "'Dolly Parton' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Dolly Parton"
+  },
+  "donatella": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.61927",
+    "match_confidence": "exact",
+    "hmf_title": "Donatella (hybrid tea, Meilland Richardier 2009)",
+    "evidence": [
+      "breeder:meilland",
+      "year:2009",
+      "class:Hybrid Tea"
+    ],
+    "query": "Donatella"
+  },
+  "dora": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19654",
+    "match_confidence": "exact",
+    "hmf_title": "Dora (hybrid tea, Gaujard 1975)",
+    "evidence": [
+      "breeder:gaujard",
+      "class:Hybrid Tea"
+    ],
+    "query": "Dora"
+  },
+  "doris-tysterman": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1581",
+    "match_confidence": "exact",
+    "hmf_title": "Doris Tysterman",
+    "evidence": [
+      "year:1975",
+      "class:Hybrid Tea"
+    ],
+    "query": "Doris Tysterman"
+  },
+  "double-delight": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1598",
+    "match_confidence": "exact",
+    "hmf_title": "Double Delight ®",
+    "evidence": [
+      "year:1976",
+      "class:Hybrid Tea"
+    ],
+    "query": "Double Delight"
+  },
+  "dr-dick": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1545",
+    "match_confidence": "exact",
+    "hmf_title": "Dr. Dick",
+    "evidence": [
+      "breeder:cocker",
+      "year:1985",
+      "class:Hybrid Tea",
+      "sole-result"
+    ],
+    "query": "Dr.dick"
+  },
+  "dream-come-true": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40131",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Dream Come True (hybrid tea, Clark, 2006)",
+    "evidence": [
+      "year:2006",
+      "class:Hybrid Tea"
+    ],
+    "query": "Dream Come True"
+  },
+  "dream-time": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1618",
+    "match_confidence": "exact",
+    "hmf_title": "Dream Time (hybrid tea, Bees, 1977)",
+    "evidence": [
+      "breeder:bees",
+      "class:Hybrid Tea"
+    ],
+    "query": "Dream Time"
+  },
+  "duet": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1668",
+    "match_confidence": "exact",
+    "hmf_title": "Duet (hybrid tea, Swim, 1960)",
+    "evidence": [
+      "breeder:swim",
+      "year:1960",
+      "class:Hybrid Tea"
+    ],
+    "query": "Duet"
+  },
+  "duett-balconia": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Duett Balconia"
+  },
+  "durbanville-flame": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.32630",
+    "match_confidence": "exact",
+    "hmf_title": "'Durbanville Flame' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Durbanville Flame"
+  },
   "earth-angel": {
     "id": null,
     "url": "https://www.helpmefind.com/gardening/l.php?l=2.69538",
@@ -1315,5 +1815,3827 @@
       "sole-result"
     ],
     "query": "Earth Angel"
+  },
+  "eclat-de-haute-bretagne": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.39447",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'ADAfunhu' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Eclat De Haute Bretagne"
+  },
+  "ecole-d-ecolly": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Ecole D'ecolly"
+  },
+  "eddy-mitchell": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.63293",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Garden Director Bartje Miller' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Eddy Mitchell"
+  },
+  "edward-rose": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Edward Rose"
+  },
+  "egoli": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.82205",
+    "match_confidence": "exact",
+    "hmf_title": "'Egoli' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Egoli"
+  },
+  "eiffel-tower": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2575",
+    "match_confidence": "exact",
+    "hmf_title": "Eiffel Tower",
+    "evidence": [
+      "breeder:armstrong",
+      "year:1963",
+      "class:Hybrid Tea"
+    ],
+    "query": "Eiffel Tower"
+  },
+  "elegance-champagne": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Elegance Champagne"
+  },
+  "elegance-ivory": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.77946",
+    "match_confidence": "exact",
+    "hmf_title": "'Elegance Ivory' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Elegance Ivory"
+  },
+  "elina": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.88226",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Avelina",
+    "evidence": [],
+    "query": "Elina"
+  },
+  "elizabeth-taylor": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2593",
+    "match_confidence": "exact",
+    "hmf_title": "Elizabeth Taylor",
+    "evidence": [
+      "breeder:weddle",
+      "year:1985",
+      "class:Hybrid Tea"
+    ],
+    "query": "Elizabeth Taylor"
+  },
+  "embruixada": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.33682",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Violetera' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Embruixada"
+  },
+  "enchanted": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2622",
+    "match_confidence": "exact",
+    "hmf_title": "Enchanted",
+    "evidence": [
+      "breeder:jackson",
+      "year:1995",
+      "class:Hybrid Tea"
+    ],
+    "query": "Enchanted"
+  },
+  "enric-palau": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.31667",
+    "match_confidence": "exact",
+    "hmf_title": "'Enric Palau' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Enric Palau"
+  },
+  "espresso": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.78302",
+    "match_confidence": "exact",
+    "hmf_title": "Espresso (hybrid tea, Teranishi, 2005)",
+    "evidence": [
+      "breeder:teranishi",
+      "year:2005",
+      "class:Hybrid Tea"
+    ],
+    "query": "Espresso"
+  },
+  "esther-geldenhuys": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2646",
+    "match_confidence": "exact",
+    "hmf_title": "'Esther Geldenhuys' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Esther Geldenhuys"
+  },
+  "eterna": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2650",
+    "match_confidence": "exact",
+    "hmf_title": "Éterna ®",
+    "evidence": [
+      "breeder:delbard",
+      "class:Hybrid Tea"
+    ],
+    "query": "Eterna"
+  },
+  "eternal-flame": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.45269",
+    "match_confidence": "exact",
+    "hmf_title": "Eternal Flame (hybrid tea, Meilland 2007)",
+    "evidence": [
+      "breeder:meilland",
+      "year:2007",
+      "class:Hybrid Tea"
+    ],
+    "query": "Eternal Flame"
+  },
+  "eureka": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.65556",
+    "match_confidence": "exact",
+    "hmf_title": "Eureka ® (hybrid tea, Meilland 2012)",
+    "evidence": [
+      "breeder:meilland",
+      "year:2012",
+      "class:Hybrid Tea"
+    ],
+    "query": "Eureka"
+  },
+  "evenlyne-dheliat": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Evenlyne Dheliat"
+  },
+  "excellence": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.37055",
+    "match_confidence": "exact",
+    "hmf_title": "'Excellence' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Excellence"
+  },
+  "excitement": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2685",
+    "match_confidence": "exact",
+    "hmf_title": "'Excitement ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Excitement"
+  },
+  "fabulous-rita": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.77734",
+    "match_confidence": "exact",
+    "hmf_title": "'Fabulous Rita' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Fabulous Rita"
+  },
+  "falling-in-love": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40970",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'WEKmoomar' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Falling In Love"
+  },
+  "fanny-ardent": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Fanny Ardent"
+  },
+  "fays-folly": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.82210",
+    "match_confidence": "exact",
+    "hmf_title": "'Fay's Folly' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Fays Folly"
+  },
+  "feeling": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.63379",
+    "match_confidence": "exact",
+    "hmf_title": "Feeling (hybrid tea, Meilland, 2010)",
+    "evidence": [
+      "breeder:meilland",
+      "year:2010",
+      "class:Hybrid Tea"
+    ],
+    "query": "Feeling"
+  },
+  "ferry-porsche": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18715",
+    "match_confidence": "exact",
+    "hmf_title": "'Ferry Porsche' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Ferry Porsche"
+  },
+  "fiji": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.67217",
+    "match_confidence": "exact",
+    "hmf_title": "Fiji ™ (hybrid tea, Kordes, 2002)",
+    "evidence": [
+      "breeder:kordes",
+      "class:Hybrid Tea"
+    ],
+    "query": "Fiji"
+  },
+  "fire-fighter": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.36980",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Firefighter ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Fire Fighter"
+  },
+  "fireworks-ruffle": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.77631",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Fireworks Ruffles' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Fireworks Ruffle"
+  },
+  "first-federal-s-rennaissance": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "First Federal's Rennaissance"
+  },
+  "first-flight": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.37002",
+    "match_confidence": "exact",
+    "hmf_title": "First Flight (hybrid tea, Perry 2004)",
+    "evidence": [
+      "breeder:astor perry",
+      "class:Hybrid Tea"
+    ],
+    "query": "First Flight"
+  },
+  "focus": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.32305",
+    "match_confidence": "exact",
+    "hmf_title": "Focus ® (hybrid tea, Noack, 1997)",
+    "evidence": [
+      "breeder:noack",
+      "year:1997",
+      "class:Hybrid Tea"
+    ],
+    "query": "Focus"
+  },
+  "folklore": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2795",
+    "match_confidence": "exact",
+    "hmf_title": "Folklore (Hybrid Tea, Kordes, 1977)",
+    "evidence": [
+      "breeder:kordes",
+      "year:1977",
+      "class:Hybrid Tea"
+    ],
+    "query": "Folklore"
+  },
+  "forever": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.33248",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Forever",
+    "evidence": [
+      "class:Hybrid Tea"
+    ],
+    "query": "Forever"
+  },
+  "fortyniner": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Fortyniner"
+  },
+  "fragrant-apricot": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19786",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'JACgrant' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Fragrant Apricot"
+  },
+  "fragrant-lace": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1786",
+    "match_confidence": "exact",
+    "hmf_title": "'Fragrant Lace ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Fragrant Lace"
+  },
+  "fragrant-lady": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4748",
+    "match_confidence": "exact",
+    "hmf_title": "Fragrant Lady (hybrid tea, Meilland, 1991)",
+    "evidence": [
+      "breeder:meilland",
+      "year:1991",
+      "class:Hybrid Tea"
+    ],
+    "query": "Fragrant Lady"
+  },
+  "fragrant-love": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.28380",
+    "match_confidence": "exact",
+    "hmf_title": "'Fragrant Love ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Fragrant Love"
+  },
+  "fragrant-plum": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2831",
+    "match_confidence": "exact",
+    "hmf_title": "'Fragrant Plum' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Fragrant Plum"
+  },
+  "france-libre": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.17121",
+    "match_confidence": "exact",
+    "hmf_title": "'France Libre ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "France Libre"
+  },
+  "francis-meilland": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40552",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Schloss Ippenburg' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Francis Meilland"
+  },
+  "freddie-mercury": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18576",
+    "match_confidence": "exact",
+    "hmf_title": "'Freddie Mercury' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Freddie Mercury"
+  },
+  "fredric-mistral": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Fredric Mistral"
+  },
+  "french-perfume": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1795",
+    "match_confidence": "exact",
+    "hmf_title": "'French Perfume' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "French Perfume"
+  },
+  "friendship": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2864",
+    "match_confidence": "exact",
+    "hmf_title": "Friendship (hybrid tea, Lindquist, 1978)",
+    "evidence": [
+      "breeder:lindquist",
+      "year:1978",
+      "class:Hybrid Tea"
+    ],
+    "query": "Friendship"
+  },
+  "fulgurante": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.38383",
+    "match_confidence": "exact",
+    "hmf_title": "'Fulgurante ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Fulgurante"
+  },
+  "full-sail": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19811",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'MAClanoflon' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Full Sail"
+  },
+  "galaxy-glow": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.82213",
+    "match_confidence": "exact",
+    "hmf_title": "'Galaxy Glow' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Galaxy Glow"
+  },
+  "garden-party": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2902",
+    "match_confidence": "exact",
+    "hmf_title": "Garden Party (hybrid tea, Swim, 1959)",
+    "evidence": [
+      "breeder:swim",
+      "year:1959",
+      "class:Hybrid Tea"
+    ],
+    "query": "Garden Party"
+  },
+  "gary-player": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.32869",
+    "match_confidence": "exact",
+    "hmf_title": "'Gary Player' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Gary Player"
+  },
+  "gavina": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.43779",
+    "match_confidence": "exact",
+    "hmf_title": "'Gavina' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Gavina"
+  },
+  "gemini": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.24917",
+    "match_confidence": "exact",
+    "hmf_title": "Gemini (hybrid tea, Zary 1999)",
+    "evidence": [
+      "breeder:zary",
+      "year:1999",
+      "class:Hybrid Tea"
+    ],
+    "query": "Gemini"
+  },
+  "gilbert-becaud": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18430",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'MEIridorio' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Gilbert Becaud"
+  },
+  "gitte": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2965",
+    "match_confidence": "exact",
+    "hmf_title": "Gitte",
+    "evidence": [
+      "breeder:kordes",
+      "year:1978",
+      "class:Hybrid Tea"
+    ],
+    "query": "Gitte"
+  },
+  "gladiator": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Gladiator"
+  },
+  "glamorous-ruffle": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.77934",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Glamorous Ruffles ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Glamorous Ruffle"
+  },
+  "glowing-peace": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Glowing Peace"
+  },
+  "goethe-rose": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Goethe Rose"
+  },
+  "gold-dot": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.21212",
+    "match_confidence": "exact",
+    "hmf_title": "'Gold Dot' Rose",
+    "evidence": [
+      "breeder:dot",
+      "sole-result"
+    ],
+    "query": "Gold Dot"
+  },
+  "gold-medal": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2999",
+    "match_confidence": "exact",
+    "hmf_title": "Gold Medal",
+    "evidence": [
+      "breeder:christensen",
+      "year:1982",
+      "class:Hybrid Tea"
+    ],
+    "query": "Gold Medal"
+  },
+  "gold-star": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.16741",
+    "match_confidence": "exact",
+    "hmf_title": "Gold Star (hybrid tea, Cant, 1983)",
+    "evidence": [
+      "breeder:cants",
+      "year:1983",
+      "class:Hybrid Tea"
+    ],
+    "query": "Gold Star"
+  },
+  "golden-age": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Golden Age"
+  },
+  "golden-delicious": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.67477",
+    "match_confidence": "exact",
+    "hmf_title": "Golden Delicious (hybrid tea, Carruth before 2010)",
+    "evidence": [
+      "breeder:carruth",
+      "class:Hybrid Tea"
+    ],
+    "query": "Golden Delicious"
+  },
+  "golden-medallon": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Golden Medallon"
+  },
+  "golden-monica": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.27412",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'TANgolca' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Golden Monica"
+  },
+  "gospel": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.88558",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Gospel (florists rose, Evers Tantau, 1997)",
+    "evidence": [],
+    "query": "Gospel"
+  },
+  "graceful-gisela": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.82216",
+    "match_confidence": "exact",
+    "hmf_title": "'Graceful Gisela' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Graceful Gisela"
+  },
+  "gracious-queen": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.26792",
+    "match_confidence": "exact",
+    "hmf_title": "Gracious Queen (hybrid tea, Meilland before 1997)",
+    "evidence": [
+      "breeder:meilland",
+      "class:Hybrid Tea"
+    ],
+    "query": "Gracious Queen"
+  },
+  "grafin-diana": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.67218",
+    "match_confidence": "exact",
+    "hmf_title": "'Gräfin Diana ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Grafin Diana"
+  },
+  "granada": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3086",
+    "match_confidence": "exact",
+    "hmf_title": "Granada (hybrid tea, Lindquist, 1963)",
+    "evidence": [
+      "breeder:lindquist",
+      "class:Hybrid Tea"
+    ],
+    "query": "Granada"
+  },
+  "grand-amore": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Grand Amore"
+  },
+  "grand-finale": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1845",
+    "match_confidence": "exact",
+    "hmf_title": "Grand Finale",
+    "evidence": [
+      "breeder:zary",
+      "year:1998",
+      "class:Hybrid Tea",
+      "sole-result"
+    ],
+    "query": "Grand Finale"
+  },
+  "grand-impression": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1846",
+    "match_confidence": "exact",
+    "hmf_title": "'Grand Impression' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Grand Impression"
+  },
+  "grand-siecle": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3089",
+    "match_confidence": "exact",
+    "hmf_title": "'Grand Siècle®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Grand Siecle"
+  },
+  "great-days": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Great Days"
+  },
+  "great-scott": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3108",
+    "match_confidence": "exact",
+    "hmf_title": "'Great Scott' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Great Scott"
+  },
+  "green-tea": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.44580",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Green Tea ® (hybrid tea, Tantau 2002)",
+    "evidence": [
+      "class:Hybrid Tea"
+    ],
+    "query": "Green Tea"
+  },
+  "gundis-rose": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Gundis Rose"
+  },
+  "gustave-coubert": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Gustave Coubert"
+  },
+  "gypsy-soul": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.73807",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Bellevue ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Gypsy Soul"
+  },
+  "hanayome": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.77927",
+    "match_confidence": "exact",
+    "hmf_title": "'Hanayome' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Hanayome"
+  },
+  "hanneli-rupert": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.39601",
+    "match_confidence": "exact",
+    "hmf_title": "'Hanneli Rupert' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Hanneli Rupert"
+  },
+  "happy-ruby-wedding": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.62630",
+    "match_confidence": "exact",
+    "hmf_title": "'Happy Ruby Wedding' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Happy Ruby Wedding"
+  },
+  "harmonie": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3182",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Harmonie ® (hybrid tea, Kordes before 1979)",
+    "evidence": [
+      "breeder:kordes",
+      "class:Hybrid Tea"
+    ],
+    "query": "Harmonie"
+  },
+  "harrogate": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.46190",
+    "match_confidence": "exact",
+    "hmf_title": "'Harrogate Rose' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Harrogate"
+  },
+  "harry-g-hastings": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3188",
+    "match_confidence": "exact",
+    "hmf_title": "'Harry G. Hastings' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Harry G.hastings"
+  },
+  "harvest-sun": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3194",
+    "match_confidence": "exact",
+    "hmf_title": "'Harvest Sun' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Harvest Sun"
+  },
+  "heaven": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1880",
+    "match_confidence": "exact",
+    "hmf_title": "Heaven ™",
+    "evidence": [
+      "breeder:warriner",
+      "class:Hybrid Tea"
+    ],
+    "query": "Heaven"
+  },
+  "hector-berlioz": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.28330",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'HARzelt' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Hector Berlioz"
+  },
+  "heidi-jayne": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3232",
+    "match_confidence": "exact",
+    "hmf_title": "'Heidi Jayne' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Heidi Jayne"
+  },
+  "helen-de-waal": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5747",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Shreveport ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Helen De Waal"
+  },
+  "helen-keller": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3240",
+    "match_confidence": "exact",
+    "hmf_title": "Helen Keller ® (hybrid tea, Barni, 1991)",
+    "evidence": [
+      "breeder:barni",
+      "year:1991",
+      "class:Hybrid Tea"
+    ],
+    "query": "Helen Keller"
+  },
+  "helmut-schmidt": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3244",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Goldsmith' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Helmut Schmidt"
+  },
+  "high-magic": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.87597",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'CROhimagi' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "High & Magic"
+  },
+  "hojun": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.34022",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Hoh-Jun' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Hojun"
+  },
+  "hollywood-star": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.33507",
+    "match_confidence": "exact",
+    "hmf_title": "'Hollywood Star' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Hollywood Star"
+  },
+  "holsteinperle": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3295",
+    "match_confidence": "exact",
+    "hmf_title": "'Holsteinperle' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Holsteinperle"
+  },
+  "home-and-family": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.36471",
+    "match_confidence": "exact",
+    "hmf_title": "'Home and Family ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Home And Family"
+  },
+  "home-of-time": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19770",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'COCquamber' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Home Of Time"
+  },
+  "honey-dijon": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.36940",
+    "match_confidence": "exact",
+    "hmf_title": "'Honey Dijon ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Honey Dijon"
+  },
+  "honore-de-balzac": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3317",
+    "match_confidence": "exact",
+    "hmf_title": "Honoré de Balzac ® (floribunda, Meillans, 1996)",
+    "evidence": [
+      "breeder:meilland",
+      "class:Hybrid Tea"
+    ],
+    "query": "Honore De Balzac"
+  },
+  "hopie-girl": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.36954",
+    "match_confidence": "exact",
+    "hmf_title": "'Hopie Girl' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Hopie Girl"
+  },
+  "horticolor": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.32664",
+    "match_confidence": "exact",
+    "hmf_title": "'Horticolor' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Horticolor"
+  },
+  "hot-pewter": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3328",
+    "match_confidence": "exact",
+    "hmf_title": "'Hot Pewter' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Hot Pewter"
+  },
+  "hot-point": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.24672",
+    "match_confidence": "exact",
+    "hmf_title": "Hot Point",
+    "evidence": [
+      "breeder:barni",
+      "year:1999",
+      "class:Hybrid Tea",
+      "sole-result"
+    ],
+    "query": "Hot Point"
+  },
+  "hot-romance": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.35024",
+    "match_confidence": "exact",
+    "hmf_title": "'Hot Romance' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Hot Romance"
+  },
+  "hotel-california": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.31552",
+    "match_confidence": "exact",
+    "hmf_title": "'Hotel California ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Hotel California"
+  },
+  "impertrice-farah": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Impertrice Farah"
+  },
+  "impulse": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3378",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Impulse (miniature, Jolly, 1986)",
+    "evidence": [],
+    "query": "Impulse"
+  },
+  "in-the-mood": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.39883",
+    "match_confidence": "exact",
+    "hmf_title": "In The Mood ™ (hybrid tea, Carruth, 2007)",
+    "evidence": [
+      "breeder:carruth",
+      "year:2007",
+      "class:Hybrid Tea"
+    ],
+    "query": "In The Mood"
+  },
+  "ingrid-bergmann": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Ingrid Bergmann"
+  },
+  "ink-spots": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3390",
+    "match_confidence": "exact",
+    "hmf_title": "Ink Spots (hybrid tea, Weeks 1985)",
+    "evidence": [
+      "breeder:weeks",
+      "year:1985",
+      "class:Hybrid Tea"
+    ],
+    "query": "Ink Spots"
+  },
+  "iris": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40812",
+    "match_confidence": "exact",
+    "hmf_title": "Iris (hybrid tea, Cocker 2006)",
+    "evidence": [
+      "breeder:cocker",
+      "year:2006",
+      "class:Hybrid Tea"
+    ],
+    "query": "Iris"
+  },
+  "irish-creme": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.24153",
+    "match_confidence": "exact",
+    "hmf_title": "'Irish Crème' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Irish Crème"
+  },
+  "isabelle-autissier": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.33864",
+    "match_confidence": "exact",
+    "hmf_title": "'Isabelle Autissier ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Isabelle Autissier"
+  },
+  "isn-t-she-lovely": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.62254",
+    "match_confidence": "exact",
+    "hmf_title": "'Isn't She Lovely' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Isn't She Lovely"
+  },
+  "ivory-tower": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3431",
+    "match_confidence": "exact",
+    "hmf_title": "Ivory Tower (Hybrid Tea, Kordes, 1979)",
+    "evidence": [
+      "breeder:kordes",
+      "year:1979",
+      "class:Hybrid Tea"
+    ],
+    "query": "Ivory Tower"
+  },
+  "jacaranda": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3443",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'JacaKOR' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Jacaranda"
+  },
+  "jadis": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2828",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Fragrant Memory' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Jadis"
+  },
+  "janice-kellog": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.39794",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Janice Kellogg ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Janice Kellog"
+  },
+  "janita-claassen": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41248",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'DORille' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Janita Claassen"
+  },
+  "jardenero-ortiz": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Jardenero Ortiz"
+  },
+  "jazz-festival": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.68916",
+    "match_confidence": "exact",
+    "hmf_title": "'Jazz Festival ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Jazz Festival"
+  },
+  "jenna-clifford": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.66598",
+    "match_confidence": "exact",
+    "hmf_title": "'Jenna Clifford' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Jenna Clifford"
+  },
+  "johann-strauss": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3514",
+    "match_confidence": "exact",
+    "hmf_title": "Johann Strauss ®",
+    "evidence": [
+      "breeder:meilland"
+    ],
+    "query": "Johann Strauss"
+  },
+  "johannesburg-sun": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3515",
+    "match_confidence": "exact",
+    "hmf_title": "'Johannesburg Sun' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Johannesburg Sun"
+  },
+  "joquina-munoz": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Joquina Munoz"
+  },
+  "julia-rose": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Julia Rose"
+  },
+  "julio-iglesias": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41099",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Julio Iglesias ® (floribunda, Meilland, 2004)",
+    "evidence": [
+      "breeder:meilland",
+      "class:Hybrid Tea"
+    ],
+    "query": "Julio Iglesias"
+  },
+  "just-dreamy": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.26497",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'PERjusdream' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Just Dreamy"
+  },
+  "just-joey": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Just Joey"
+  },
+  "kardinal-84": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Kardinal '84"
+  },
+  "kathryn-mcgredy": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18310",
+    "match_confidence": "exact",
+    "hmf_title": "'Kathryn McGredy' Rose",
+    "evidence": [
+      "breeder:mcgredy",
+      "sole-result"
+    ],
+    "query": "Kathryn Mcgredy"
+  },
+  "keep-smiling": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.39790",
+    "match_confidence": "exact",
+    "hmf_title": "'Keep Smiling' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Keep Smiling"
+  },
+  "ken-simmonds": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.44239",
+    "match_confidence": "exact",
+    "hmf_title": "'Ken Simmonds' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Ken Simmonds"
+  },
+  "kinda-blue": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.77826",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Blue PomPom ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Kinda Blue"
+  },
+  "kings-macc": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.39142",
+    "match_confidence": "exact",
+    "hmf_title": "'King's Macc' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Kings Macc"
+  },
+  "kolner-flora": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.71517",
+    "match_confidence": "exact",
+    "hmf_title": "'Kölner Flora ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Kolner Flora"
+  },
+  "konrad-henkel": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3647",
+    "match_confidence": "exact",
+    "hmf_title": "'Konrad Henkel' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Konrad Henkel"
+  },
+  "kordes-jubilee": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.67219",
+    "match_confidence": "exact",
+    "hmf_title": "'Kordes' Jubilee ®' Rose",
+    "evidence": [
+      "breeder:kordes",
+      "sole-result"
+    ],
+    "query": "Kordes Jubilee"
+  },
+  "kupfer-konigin": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Kupfer Konigin"
+  },
+  "la-france": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3669",
+    "match_confidence": "exact",
+    "hmf_title": "La France",
+    "evidence": [
+      "breeder:guillot",
+      "year:1867",
+      "class:Hybrid Tea"
+    ],
+    "query": "La France"
+  },
+  "la-parisienne": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.65415",
+    "match_confidence": "exact",
+    "hmf_title": "La Parisienne ™ (grandiflora, Delbard 2009)",
+    "evidence": [
+      "breeder:delbard"
+    ],
+    "query": "La Parisienne"
+  },
+  "la-rochelle": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.82252",
+    "match_confidence": "exact",
+    "hmf_title": "'La Rochelle' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "La Rochelle"
+  },
+  "la-rose-de-molinard": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.57997",
+    "match_confidence": "exact",
+    "hmf_title": "'La Rose de Molinard ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "La Rose De Molinard"
+  },
+  "la-rose-des-4-vents": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41031",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Rose des 4 vents ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "La Rose Des 4 Vents"
+  },
+  "la-rose-petit-prince": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "La Rose Petit Prince"
+  },
+  "lady": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3684",
+    "match_confidence": "exact",
+    "hmf_title": "Lady",
+    "evidence": [
+      "breeder:weeks",
+      "year:1983",
+      "class:Hybrid Tea"
+    ],
+    "query": "Lady"
+  },
+  "lady-bird": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40950",
+    "match_confidence": "exact",
+    "hmf_title": "Lady Bird (hybrid tea, Zary 2008)",
+    "evidence": [
+      "breeder:zary",
+      "year:2008",
+      "class:Hybrid Tea"
+    ],
+    "query": "Lady Bird"
+  },
+  "lady-mitchel": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3713",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Lady Mitchell' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Lady Mitchel"
+  },
+  "lady-oaksey": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Lady Oaksey"
+  },
+  "lady-x": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3723",
+    "match_confidence": "exact",
+    "hmf_title": "Lady X",
+    "evidence": [
+      "breeder:meilland",
+      "class:Hybrid Tea"
+    ],
+    "query": "Lady X"
+  },
+  "laetitia-casta": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.61614",
+    "match_confidence": "exact",
+    "hmf_title": "'Laetitia Casta ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Laetitia Casta"
+  },
+  "lagerfeld": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3726",
+    "match_confidence": "exact",
+    "hmf_title": "'Lagerfeld' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Lagerfeld"
+  },
+  "landora": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.6030",
+    "match_confidence": "exact",
+    "hmf_title": "Landora ®",
+    "evidence": [
+      "breeder:tantau",
+      "class:Hybrid Tea"
+    ],
+    "query": "Landora"
+  },
+  "las-vegas": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3740",
+    "match_confidence": "exact",
+    "hmf_title": "Las Vegas (hybrid tea, Kordes, 1972)",
+    "evidence": [
+      "breeder:kordes",
+      "class:Hybrid Tea"
+    ],
+    "query": "Las Vegas"
+  },
+  "le-grand-huit": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.23664",
+    "match_confidence": "exact",
+    "hmf_title": "Le Grand Huit ®",
+    "evidence": [
+      "breeder:adam",
+      "class:Hybrid Tea"
+    ],
+    "query": "Le Grand Huit"
+  },
+  "le-rouge-et-le-noir": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19142",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'DELcart' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Le Rouge Et Le Noir"
+  },
+  "leana": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.89404",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Lowleana",
+    "evidence": [],
+    "query": "Leana"
+  },
+  "legend": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3779",
+    "match_confidence": "exact",
+    "hmf_title": "Legend (hybrid tea, Warriner, 1986/92)",
+    "evidence": [
+      "breeder:warriner",
+      "class:Hybrid Tea"
+    ],
+    "query": "Legend"
+  },
+  "lesotho-prince": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.74012",
+    "match_confidence": "exact",
+    "hmf_title": "'Lesotho Prince' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Lesotho Prince"
+  },
+  "lily-the-pink": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3821",
+    "match_confidence": "exact",
+    "hmf_title": "'Lily the Pink' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Lily The Pink"
+  },
+  "lincoln-cathedral": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3824",
+    "match_confidence": "exact",
+    "hmf_title": "'Lincoln Cathedral' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Lincoln Cathedral"
+  },
+  "line-renaud": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.61998",
+    "match_confidence": "exact",
+    "hmf_title": "Line Renaud ®",
+    "evidence": [
+      "breeder:meilland",
+      "class:Hybrid Tea"
+    ],
+    "query": "Line Renaud"
+  },
+  "lions-international": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18163",
+    "match_confidence": "exact",
+    "hmf_title": "Lion's International",
+    "evidence": [
+      "breeder:fryer",
+      "year:1998",
+      "class:Hybrid Tea",
+      "sole-result"
+    ],
+    "query": "Lions International"
+  },
+  "liv-tyler": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.39752",
+    "match_confidence": "exact",
+    "hmf_title": "'Liv Tyler ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Liv Tyler"
+  },
+  "liverpool-remembers": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3872",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Beauty Star' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Liverpool Remembers"
+  },
+  "lois-wilson": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.31596",
+    "match_confidence": "exact",
+    "hmf_title": "\"Lois Wilson\" Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Lois Wilson"
+  },
+  "lolita": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3880",
+    "match_confidence": "exact",
+    "hmf_title": "Lolita ® (hybrid tea, Kordes 1972)",
+    "evidence": [
+      "breeder:kordes",
+      "year:1972",
+      "class:Hybrid Tea"
+    ],
+    "query": "Lolita"
+  },
+  "lolita-lempica": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Lolita Lempica"
+  },
+  "lollypop": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.44069",
+    "match_confidence": "exact",
+    "hmf_title": "Lollypop (florists rose, Kordes, 2001)",
+    "evidence": [
+      "breeder:kordes",
+      "year:2001",
+      "class:Hybrid Tea"
+    ],
+    "query": "Lollypop"
+  },
+  "lord-louis": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18581",
+    "match_confidence": "exact",
+    "hmf_title": "'Lord Louis' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Lord Louis"
+  },
+  "louis-de-funes": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3898",
+    "match_confidence": "exact",
+    "hmf_title": "Louis de Funès ®",
+    "evidence": [
+      "breeder:meilland",
+      "year:1987",
+      "class:Hybrid Tea"
+    ],
+    "query": "Louis De Funes"
+  },
+  "louise-estes": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3905",
+    "match_confidence": "exact",
+    "hmf_title": "'Louise Estes' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Louise Estes"
+  },
+  "love": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3912",
+    "match_confidence": "exact",
+    "hmf_title": "Love (grandiflora, Warriner, 1977)",
+    "evidence": [
+      "breeder:warriner"
+    ],
+    "query": "Love"
+  },
+  "love-and-peace": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Love And Peace"
+  },
+  "love-and-peace-2": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Love And Peace"
+  },
+  "love-at-first-sight": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.83689",
+    "match_confidence": "exact",
+    "hmf_title": "'Love at First Sight' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Love At First Sight"
+  },
+  "love-me-tender": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.35025",
+    "match_confidence": "exact",
+    "hmf_title": "Love Me Tender (hybrid tea, Certified Roses)",
+    "evidence": [
+      "breeder:certified",
+      "class:Hybrid Tea"
+    ],
+    "query": "Love Me Tender"
+  },
+  "love-story": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.27970",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Love Story ® (hybrid tea, Tantau, 1972)",
+    "evidence": [
+      "breeder:tantau",
+      "class:Hybrid Tea"
+    ],
+    "query": "Love Story"
+  },
+  "lover-s-meeting": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3922",
+    "match_confidence": "exact",
+    "hmf_title": "'Lovers' Meeting' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Lover's Meeting"
+  },
+  "loving-memory": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3924",
+    "match_confidence": "exact",
+    "hmf_title": "Loving Memory",
+    "evidence": [
+      "breeder:kordes",
+      "class:Hybrid Tea"
+    ],
+    "query": "Loving Memory"
+  },
+  "lucille-ball": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3929",
+    "match_confidence": "exact",
+    "hmf_title": "'Lucille Ball' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Lucille Ball"
+  },
+  "lynette": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3950",
+    "match_confidence": "exact",
+    "hmf_title": "Lynette",
+    "evidence": [
+      "breeder:kordes",
+      "class:Hybrid Tea"
+    ],
+    "query": "Lynette"
+  },
+  "lynn-anderson": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3951",
+    "match_confidence": "exact",
+    "hmf_title": "'Lynn Anderson' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Lynn Anderson"
+  },
+  "ma-normandie": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.66563",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Gräfin Bettina' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Ma Normandie"
+  },
+  "macha-meryl": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Macha Meryl"
+  },
+  "machoman": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Machoman"
+  },
+  "madame-delbard": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19855",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Madame Delbard ® (hybrid tea, Delbard 1980)",
+    "evidence": [
+      "breeder:delbard",
+      "class:Hybrid Tea"
+    ],
+    "query": "Madame Delbard"
+  },
+  "madame-violet": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4033",
+    "match_confidence": "exact",
+    "hmf_title": "Madame Violet",
+    "evidence": [
+      "breeder:teranishi",
+      "class:Hybrid Tea"
+    ],
+    "query": "Madame Violet"
+  },
+  "magdalena": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.43288",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Magdalena® (florists rose, NIRP, 2007)",
+    "evidence": [
+      "year:2007"
+    ],
+    "query": "Magdalena"
+  },
+  "magianera": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Magianera"
+  },
+  "magic-lantern": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.30463",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'STARqueli' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Magic Lantern"
+  },
+  "maid-of-honor": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4069",
+    "match_confidence": "exact",
+    "hmf_title": "Maid of Honor (hybrid tea, Weddle, 1986)",
+    "evidence": [
+      "breeder:weddle",
+      "class:Hybrid Tea"
+    ],
+    "query": "Maid Of Honor"
+  },
+  "majestic": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.96323",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Majestic (hybrid tea, Hill 1922)",
+    "evidence": [
+      "class:Hybrid Tea"
+    ],
+    "query": "Majestic"
+  },
+  "mamma-mia": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41025",
+    "match_confidence": "exact",
+    "hmf_title": "Mamma Mia! (hybrid tea, Fryer, 2006)",
+    "evidence": [
+      "breeder:fryer",
+      "year:2006",
+      "class:Hybrid Tea"
+    ],
+    "query": "Mamma Mia"
+  },
+  "mango": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4089",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Mango™ (florist rose, J & P)",
+    "evidence": [
+      "class:Hybrid Tea"
+    ],
+    "query": "Mango"
+  },
+  "marcelle-marchand": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.43289",
+    "match_confidence": "exact",
+    "hmf_title": "'Marcelle Marchand ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Marcelle Marchand"
+  },
+  "marchen-konigin": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Marchen Konigin"
+  },
+  "marco-polo": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4099",
+    "match_confidence": "exact",
+    "hmf_title": "Marco Polo (hybrid tea, Meilland, 1992)",
+    "evidence": [
+      "breeder:meilland",
+      "class:Hybrid Tea"
+    ],
+    "query": "Marco Polo"
+  },
+  "maria-mcgredy": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19822",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'MACturang' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Maria Mcgredy"
+  },
+  "maria-shriver": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.37447",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'DORbandina' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Maria Shriver"
+  },
+  "marina-marini": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4135",
+    "match_confidence": "exact",
+    "hmf_title": "'Marina Marini ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Marina Marini"
+  },
+  "marlyn-munroe": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Marlyn Munroe"
+  },
+  "marquis-de-merteuil": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Marquis De Merteuil"
+  },
+  "marvelle": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19818",
+    "match_confidence": "exact",
+    "hmf_title": "Marvelle ® (hybrid tea, McGredy, 1988)",
+    "evidence": [
+      "breeder:mcgredy",
+      "class:Hybrid Tea"
+    ],
+    "query": "Marvelle"
+  },
+  "mary-lou": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.65007",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Mary Lou Whitney",
+    "evidence": [
+      "year:2011",
+      "class:Hybrid Tea"
+    ],
+    "query": "Mary Lou"
+  },
+  "maurice-utrillo": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.37232",
+    "match_confidence": "exact",
+    "hmf_title": "'Maurice Utrillo ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Maurice Utrillo"
+  },
+  "maurice-utrillo-2": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.37232",
+    "match_confidence": "exact",
+    "hmf_title": "'Maurice Utrillo ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Maurice Utrillo",
+    "duplicate_of": "maurice-utrillo"
+  },
+  "mauve-melody": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4197",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Mauve Melodee' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Mauve Melody"
+  },
+  "meduse": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.27565",
+    "match_confidence": "exact",
+    "hmf_title": "Méduse ®",
+    "evidence": [
+      "breeder:gaujard",
+      "year:1981",
+      "class:Hybrid Tea"
+    ],
+    "query": "Meduse"
+  },
+  "megami": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.31206",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Me-Gami' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Megami"
+  },
+  "megastar": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.46314",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Megastar '04",
+    "evidence": [
+      "class:Hybrid Tea"
+    ],
+    "query": "Megastar"
+  },
+  "meli-melo": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.38355",
+    "match_confidence": "exact",
+    "hmf_title": "Méli-mélo ®",
+    "evidence": [
+      "breeder:orard",
+      "year:1999",
+      "class:Hybrid Tea"
+    ],
+    "query": "Meli Melo"
+  },
+  "melissa": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.42006",
+    "match_confidence": "exact",
+    "hmf_title": "Mélissa ® (hybrid tea, Sauvageot, 2000)",
+    "evidence": [
+      "breeder:sauvageot",
+      "class:Hybrid Tea"
+    ],
+    "query": "Melissa"
+  },
+  "mellow-yellow": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.32150",
+    "match_confidence": "exact",
+    "hmf_title": "Mellow Yellow ™ (hybrid tea, Carruth 2000)",
+    "evidence": [
+      "breeder:carruth",
+      "year:2000",
+      "class:Hybrid Tea"
+    ],
+    "query": "Mellow Yellow"
+  },
+  "melodie-perfume": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Melodie Perfume"
+  },
+  "melody": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.22947",
+    "match_confidence": "exact",
+    "hmf_title": "Melody (hybrid tea, Kordes, 1987)",
+    "evidence": [
+      "breeder:kordes",
+      "year:1991",
+      "class:Hybrid Tea"
+    ],
+    "query": "Melody"
+  },
+  "memorial-day": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.36346",
+    "match_confidence": "exact",
+    "hmf_title": "Memorial Day ™",
+    "evidence": [
+      "breeder:carruth",
+      "year:2001",
+      "class:Hybrid Tea"
+    ],
+    "query": "Memorial Day"
+  },
+  "meridiana": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.28370",
+    "match_confidence": "exact",
+    "hmf_title": "'Meridiana ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Meridiana"
+  },
+  "michel-desjoyeaux": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.63363",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'ADAlopac' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Michel Desjoyeaux"
+  },
+  "midas-touch": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2099",
+    "match_confidence": "exact",
+    "hmf_title": "'Midas Touch ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Midas Touch"
+  },
+  "milkyway": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.79318",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Milk 'n' Honey' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Milkyway"
+  },
+  "millennium": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4261",
+    "match_confidence": "exact",
+    "hmf_title": "Millennium (hybrid tea, Perry, 1997)",
+    "evidence": [
+      "breeder:perry",
+      "year:1997",
+      "class:Hybrid Tea"
+    ],
+    "query": "Millennium"
+  },
+  "miranda-lambert": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.71407",
+    "match_confidence": "exact",
+    "hmf_title": "'Miranda Lambert ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Miranda Lambert"
+  },
+  "mister-lincoln": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2104",
+    "match_confidence": "exact",
+    "hmf_title": "Mister Lincoln",
+    "evidence": [
+      "breeder:swim",
+      "year:1964",
+      "class:Hybrid Tea"
+    ],
+    "query": "Mister Lincoln"
+  },
+  "misty-twilight": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.36981",
+    "match_confidence": "exact",
+    "hmf_title": "'Misty Twilight ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Misty Twilight"
+  },
+  "miyabi": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4342",
+    "match_confidence": "exact",
+    "hmf_title": "Miyabi (hybrid tea, Teranishi, 1976)",
+    "evidence": [
+      "year:1976",
+      "class:Hybrid Tea"
+    ],
+    "query": "Miyabi"
+  },
+  "mme-teresa-estabin": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Mme.teresa Estabin"
+  },
+  "modern-art": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4345",
+    "match_confidence": "exact",
+    "hmf_title": "Modern Art ® (hybrid tea, Olesen/Poulsen, 1985)",
+    "evidence": [
+      "breeder:poulsen",
+      "year:1985",
+      "class:Hybrid Tea"
+    ],
+    "query": "Modern Art"
+  },
+  "mohana": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.62337",
+    "match_confidence": "exact",
+    "hmf_title": "Mohana ® (florists rose, Evers/Tantau, 2006)",
+    "evidence": [
+      "breeder:tantau",
+      "year:2006",
+      "class:Hybrid Tea"
+    ],
+    "query": "Mohana"
+  },
+  "moncheri": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Moncheri"
+  },
+  "mondial-spire": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Mondial Spire"
+  },
+  "monica-bellucci": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.63951",
+    "match_confidence": "exact",
+    "hmf_title": "'Monica Bellucci®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Monica Bellucci"
+  },
+  "monna-lisa": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.28387",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Monna Lisa ®",
+    "evidence": [
+      "class:Hybrid Tea"
+    ],
+    "query": "Monna Lisa"
+  },
+  "montezuma": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4366",
+    "match_confidence": "exact",
+    "hmf_title": "Montezuma (grandiflora, Swim 1954)",
+    "evidence": [
+      "breeder:swim",
+      "year:1955",
+      "class:Hybrid Tea"
+    ],
+    "query": "Montezuma"
+  },
+  "moody-blue": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.50770",
+    "match_confidence": "exact",
+    "hmf_title": "Moody Blue (hybrid tea, Fryer, 2008)",
+    "evidence": [
+      "breeder:fryer",
+      "year:2008",
+      "class:Hybrid Tea"
+    ],
+    "query": "Moody Blue"
+  },
+  "moon-drops": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Moon Drops"
+  },
+  "moon-stone": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.86187",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Blue Moon Stone' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Moon Stone"
+  },
+  "moonlight-in-paris": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.32632",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Garden and Home' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Moonlight In Paris"
+  },
+  "morning-star": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.82424",
+    "match_confidence": "exact",
+    "hmf_title": "Morning Star (shrub, Athy 2012)",
+    "evidence": [
+      "year:2012"
+    ],
+    "query": "Morning Star"
+  },
+  "morning-star-2": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.82424",
+    "match_confidence": "exact",
+    "hmf_title": "Morning Star (shrub, Athy 2012)",
+    "evidence": [
+      "year:2012",
+      "class:Shrub"
+    ],
+    "query": "Morning Star",
+    "duplicate_of": "morning-star"
+  },
+  "morning-sun": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.21938",
+    "match_confidence": "exact",
+    "hmf_title": "Morning Sun (hybrid tea, Christensen 1985)",
+    "evidence": [
+      "breeder:christensen",
+      "year:1983",
+      "class:Hybrid Tea"
+    ],
+    "query": "Morning Sun"
+  },
+  "mother-of-pearl": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40978",
+    "match_confidence": "exact",
+    "hmf_title": "Mother of Pearl ™ (grandiflora, Meilland 2006)",
+    "evidence": [
+      "breeder:meilland",
+      "year:2006"
+    ],
+    "query": "Mother Of Pearl"
+  },
+  "mrs-b-r-cant": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4302",
+    "match_confidence": "exact",
+    "hmf_title": "Mrs. B.R. Cant (Tea, Cant, 1901)",
+    "evidence": [
+      "breeder:cant",
+      "year:1901"
+    ],
+    "query": "Mrs.b.r.cant"
+  },
+  "mt-hood": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18679",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Foster's Wellington Cup' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Mt.hood"
+  },
+  "mum-in-a-million": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41768",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Ghita Renaissance' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Mum In A Million"
+  },
+  "mum-in-a-million-2": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41768",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Ghita Renaissance' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Mum In A Million",
+    "duplicate_of": "mum-in-a-million"
+  },
+  "my-girl": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.44533",
+    "match_confidence": "exact",
+    "hmf_title": "My Girl (hybrid tea, Evers/Tantau, 2000/06)",
+    "evidence": [
+      "breeder:tantau",
+      "year:2007",
+      "class:Hybrid Tea"
+    ],
+    "query": "My Girl"
+  },
+  "my-lovely-dad": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.50770",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Moody Blue' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "My Lovely Dad",
+    "duplicate_of": "moody-blue"
+  },
+  "neil-diamond": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.70414",
+    "match_confidence": "exact",
+    "hmf_title": "'Neil Diamond' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Neil Diamond"
+  },
+  "neville-gibson": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4455",
+    "match_confidence": "exact",
+    "hmf_title": "'Neville Gibson' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Neville Gibson"
+  },
+  "new-zealand": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4469",
+    "match_confidence": "fuzzy",
+    "hmf_title": "New Zealand (hybrid tea, McGredy 1988)",
+    "evidence": [
+      "breeder:mcgredy",
+      "class:Hybrid Tea"
+    ],
+    "query": "New Zealand"
+  },
+  "nicolas-hulot": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.38393",
+    "match_confidence": "exact",
+    "hmf_title": "'Nicolas Hulot ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Nicolas Hulot"
+  },
+  "nicole-carol-miller": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.37404",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'MEIskimov' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Nicole Carol Miller"
+  },
+  "night-n-day": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4479",
+    "match_confidence": "exact",
+    "hmf_title": "'Night 'n' Day' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Night 'n Day"
+  },
+  "night-time": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4481",
+    "match_confidence": "exact",
+    "hmf_title": "'Night Time' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Night Time"
+  },
+  "nigrette": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.26431",
+    "match_confidence": "exact",
+    "hmf_title": "'Nigrette' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Nigrette"
+  },
+  "norma": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.24844",
+    "match_confidence": "exact",
+    "hmf_title": "Norma (hybrid tea, Gaujard, 1976)",
+    "evidence": [
+      "breeder:gaujard",
+      "year:1976",
+      "class:Hybrid Tea"
+    ],
+    "query": "Norma"
+  },
+  "nostalgia": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.32401",
+    "match_confidence": "exact",
+    "hmf_title": "Nostalgia (hybrid tea, Evers/Tantau, 1996)",
+    "evidence": [
+      "breeder:tantau",
+      "year:1996",
+      "class:Hybrid Tea"
+    ],
+    "query": "Nostalgia"
+  },
+  "notturno": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.24861",
+    "match_confidence": "exact",
+    "hmf_title": "'Notturno ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Notturno"
+  },
+  "novelty": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.37052",
+    "match_confidence": "exact",
+    "hmf_title": "Novelty ™",
+    "evidence": [
+      "breeder:weeks",
+      "year:2002",
+      "class:Hybrid Tea"
+    ],
+    "query": "Novelty"
+  },
+  "ocho": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.31631",
+    "match_confidence": "exact",
+    "hmf_title": "Ocho",
+    "evidence": [
+      "year:1983",
+      "class:Hybrid Tea"
+    ],
+    "query": "Ocho"
+  },
+  "october-fest": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "October Fest"
+  },
+  "oh-happy-day": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.67232",
+    "match_confidence": "exact",
+    "hmf_title": "Oh Happy Day ®",
+    "evidence": [
+      "breeder:kordes",
+      "class:Hybrid Tea",
+      "sole-result"
+    ],
+    "query": "Oh Happy Day"
+  },
+  "oklahoma": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4528",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Oklahoma (Hybrid Tea, Swim & Weeks, 1963)",
+    "evidence": [
+      "class:Hybrid Tea"
+    ],
+    "query": "Oklahoma"
+  },
+  "olympiad": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4555",
+    "match_confidence": "exact",
+    "hmf_title": "Olympiad ™ (hybrid tea, McGredy 1972)",
+    "evidence": [
+      "breeder:mcgredy",
+      "class:Hybrid Tea"
+    ],
+    "query": "Olympiad"
+  },
+  "omega": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19665",
+    "match_confidence": "exact",
+    "hmf_title": "Omega ®",
+    "evidence": [
+      "breeder:byrum",
+      "year:1974",
+      "class:Hybrid Tea"
+    ],
+    "query": "Omega"
+  },
+  "only-you": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.77814",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Only You (hybrid tea, Vahldiek-Bissingen 1970)",
+    "evidence": [
+      "class:Hybrid Tea"
+    ],
+    "query": "Only You"
+  },
+  "opening-night": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2174",
+    "match_confidence": "exact",
+    "hmf_title": "'Opening Night ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Opening Night"
+  },
+  "otto-de-jager": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.77736",
+    "match_confidence": "exact",
+    "hmf_title": "'Otto de Jager' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Otto De Jager"
+  },
+  "oudtshoorn-joy": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.82284",
+    "match_confidence": "exact",
+    "hmf_title": "'Oudtshoorn Joy' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Oudtshoorn Joy"
+  },
+  "our-anniversary": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.82189",
+    "match_confidence": "exact",
+    "hmf_title": "Our Anniversary (hybrid tea, Kordes, 2011)",
+    "evidence": [
+      "breeder:kordes",
+      "year:2011",
+      "class:Hybrid Tea"
+    ],
+    "query": "Our Anniversary"
+  },
+  "our-love": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.31443",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Our Love (hybrid tea, Anderson's 1984)",
+    "evidence": [
+      "class:Hybrid Tea"
+    ],
+    "query": "Our Love"
+  },
+  "out-of-africa": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4613",
+    "match_confidence": "exact",
+    "hmf_title": "Out of Africa",
+    "evidence": [
+      "breeder:kordes",
+      "class:Hybrid Tea"
+    ],
+    "query": "Out Of Africa"
+  },
+  "oyster-pearl": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4617",
+    "match_confidence": "exact",
+    "hmf_title": "'Oyster Pearl' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Oyster Pearl"
+  },
+  "pacific-sunset": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.61388",
+    "match_confidence": "exact",
+    "hmf_title": "Pacific Sunset ® (hybrid tea, Meilland, 2009)",
+    "evidence": [
+      "breeder:meilland",
+      "year:2009",
+      "class:Hybrid Tea"
+    ],
+    "query": "Pacific Sunset"
+  },
+  "paddy-stephens": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18875",
+    "match_confidence": "exact",
+    "hmf_title": "'Paddy Stephens' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Paddy Stephens"
+  },
+  "papa-meilland": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4639",
+    "match_confidence": "exact",
+    "hmf_title": "Papa Meilland ® (Hybrid Tea, Meilland, 1963)",
+    "evidence": [
+      "breeder:meilland",
+      "class:Hybrid Tea"
+    ],
+    "query": "Papa Meilland"
+  },
+  "papageno": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4640",
+    "match_confidence": "exact",
+    "hmf_title": "'Papageno ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Papageno"
+  },
+  "paradise": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4649",
+    "match_confidence": "exact",
+    "hmf_title": "Paradise ™ (hybrid tea, Weeks 1975)",
+    "evidence": [
+      "breeder:weeks",
+      "class:Hybrid Tea"
+    ],
+    "query": "Paradise"
+  },
+  "paradise-found": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.57989",
+    "match_confidence": "exact",
+    "hmf_title": "'Paradise Found ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Paradise Found"
+  },
+  "parfum-d-orleans": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.43330",
+    "match_confidence": "exact",
+    "hmf_title": "'Parfum d'Orléans ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Parfum D'orleans"
+  },
+  "parole": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.34000",
+    "match_confidence": "exact",
+    "hmf_title": "Parole ®",
+    "evidence": [
+      "breeder:kordes",
+      "class:Hybrid Tea"
+    ],
+    "query": "Parole"
+  },
+  "pascal-sevran": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.38358",
+    "match_confidence": "exact",
+    "hmf_title": "'Pascal Sevran ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Pascal Sevran"
+  },
+  "pat-s-choice": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.33286",
+    "match_confidence": "exact",
+    "hmf_title": "'Pat's Choice' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Pat's Choice"
+  },
+  "patsy-cline": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4679",
+    "match_confidence": "exact",
+    "hmf_title": "'Patsy Cline ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Patsy Cline"
+  },
+  "paul-gauguin": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Paul Gauguin"
+  },
+  "paul-neyron": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4683",
+    "match_confidence": "exact",
+    "hmf_title": "Paul Neyron (Hybrid Perpetual, Levet, 1869)",
+    "evidence": [
+      "breeder:levet",
+      "year:1869"
+    ],
+    "query": "Paul Neyron"
+  },
+  "paul-ricard": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4686",
+    "match_confidence": "exact",
+    "hmf_title": "'Paul Ricard ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Paul Ricard"
+  },
+  "peach-beauty": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4707",
+    "match_confidence": "exact",
+    "hmf_title": "'Peach Beauty' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Peach Beauty"
+  },
+  "peach-spire": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.33288",
+    "match_confidence": "exact",
+    "hmf_title": "'Peach Spire' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Peach Spire"
+  },
+  "peggy-rockefeller": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.20314",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'WILace' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Peggy Rockefeller"
+  },
+  "penguin": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.63728",
+    "match_confidence": "exact",
+    "hmf_title": "Penguin (hybrid tea, Kordes 2007)",
+    "evidence": [
+      "breeder:kordes",
+      "year:2007",
+      "class:Hybrid Tea",
+      "sole-result"
+    ],
+    "query": "Penguin"
+  },
+  "penthouse": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.20294",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Penthouse (hybrid tea, McGredy, 1975)",
+    "evidence": [
+      "breeder:mcgredy",
+      "class:Hybrid Tea"
+    ],
+    "query": "Penthouse"
+  },
+  "people-s-princess": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.6121",
+    "match_confidence": "exact",
+    "hmf_title": "People's Princess",
+    "evidence": [
+      "breeder:schuurman",
+      "class:Hybrid Tea"
+    ],
+    "query": "People's Princess"
+  },
+  "perfect-moment": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4746",
+    "match_confidence": "exact",
+    "hmf_title": "'Perfect Moment ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Perfect Moment"
+  },
+  "perfume-delight": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4749",
+    "match_confidence": "exact",
+    "hmf_title": "'Perfume Delight' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Perfume Delight"
+  },
+  "peter-frankenfeld": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4762",
+    "match_confidence": "exact",
+    "hmf_title": "Peter Frankenfeld ®",
+    "evidence": [
+      "breeder:kordes",
+      "class:Hybrid Tea"
+    ],
+    "query": "Peter Frankenfeld"
+  },
+  "peter-mayle": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.32349",
+    "match_confidence": "exact",
+    "hmf_title": "Peter Mayle ™",
+    "evidence": [
+      "breeder:meilland",
+      "class:Hybrid Tea"
+    ],
+    "query": "Peter Mayle"
+  },
+  "philippe-noiret": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Philippe Noiret"
+  },
+  "pia-nissimo": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4779",
+    "match_confidence": "exact",
+    "hmf_title": "'Pia-Nissimo' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Pia Nissimo"
+  },
+  "pierre-ardit": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.63496",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Pierre Arditi ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Pierre Ardit"
+  },
+  "pierre-cardin": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.60701",
+    "match_confidence": "exact",
+    "hmf_title": "'Pierre Cardin ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Pierre Cardin"
+  },
+  "pierre-tchernia": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.47241",
+    "match_confidence": "exact",
+    "hmf_title": "'Pierre Tchernia ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Pierre Tchernia"
+  },
+  "pine-dream": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Pine Dream"
+  },
+  "pink-intuition": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40586",
+    "match_confidence": "exact",
+    "hmf_title": "'Pink Intuition' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Pink Intuition"
+  },
+  "pink-lady-ruffles": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.79430",
+    "match_confidence": "exact",
+    "hmf_title": "'Pink Lady Ruffles ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Pink Lady Ruffles"
+  },
+  "pink-panther": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4835",
+    "match_confidence": "exact",
+    "hmf_title": "Pink Panther ®",
+    "evidence": [
+      "breeder:meilland",
+      "year:1981",
+      "class:Hybrid Tea"
+    ],
+    "query": "Pink Panther"
+  },
+  "pink-paradise": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.65529",
+    "match_confidence": "exact",
+    "hmf_title": "Pink Paradise (hybrid tea, Delbard, 2004/11)",
+    "evidence": [
+      "breeder:delbard",
+      "class:Hybrid Tea"
+    ],
+    "query": "Pink Paradise"
+  },
+  "pink-promise": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.44282",
+    "match_confidence": "exact",
+    "hmf_title": "Pink Promise (hybrid tea, Coiner, 2005)",
+    "evidence": [
+      "breeder:coiner",
+      "year:2005",
+      "class:Hybrid Tea"
+    ],
+    "query": "Pink Promise"
+  },
+  "pink-traviata": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40252",
+    "match_confidence": "exact",
+    "hmf_title": "'Pink Traviata' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Pink Traviata"
+  },
+  "pinkerbelle": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.82338",
+    "match_confidence": "exact",
+    "hmf_title": "'Pinkerbelle™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Pinkerbelle"
+  },
+  "poblet": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.43780",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Poblet (hybrid tea, Dot, 1985)",
+    "evidence": [
+      "breeder:dot",
+      "class:Hybrid Tea"
+    ],
+    "query": "Poblet"
+  },
+  "poetry-in-motion": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4891",
+    "match_confidence": "exact",
+    "hmf_title": "'Poetry in Motion' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Poetry In Motion"
+  },
+  "polarstern": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4898",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Polar Star' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Polarstern"
+  },
+  "pompon-veranda": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.46473",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Pompon Flower Circus ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Pompon Veranda"
+  },
+  "president-macia": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.20158",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'P.M. Leenders' Rose",
+    "evidence": [
+      "breeder:leenders",
+      "sole-result"
+    ],
+    "query": "President Macia"
+  },
+  "prestige-de-lyon": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18928",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'21 Again!' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Prestige De Lyon"
+  },
+  "pride-of-england": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19235",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'HARencore' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Pride Of England"
+  },
+  "pride-of-scotland": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40342",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Massey University' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Pride Of Scotland"
+  },
+  "primosole": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Primosole"
+  },
+  "prince-claus": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5460",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Rosalynn Carter' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Prince Claus"
+  },
+  "prince-jardinier": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40552",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Schloss Ippenburg' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Prince Jardinier",
+    "duplicate_of": "francis-meilland"
+  },
+  "princess-royal": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18468",
+    "match_confidence": "exact",
+    "hmf_title": "Princess Royal (hybrid tea, Dickson 1992)",
+    "evidence": [
+      "breeder:dickson",
+      "year:1992",
+      "class:Hybrid Tea"
+    ],
+    "query": "Princess Royal"
+  },
+  "pristine": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2264",
+    "match_confidence": "exact",
+    "hmf_title": "Pristine ® (hybrid tea, Warriner 1975)",
+    "evidence": [
+      "breeder:warriner",
+      "class:Hybrid Tea"
+    ],
+    "query": "Pristine"
+  },
+  "puedouce": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Puedouce"
+  },
+  "pulman-orient-express": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Pulman Orient Express"
+  },
+  "pure-delight": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.68740",
+    "match_confidence": "exact",
+    "hmf_title": "'Pure Delight' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Pure Delight"
+  },
+  "purple-beauty": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5022",
+    "match_confidence": "exact",
+    "hmf_title": "'Purple Beauty' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Purple Beauty"
+  },
+  "purple-passion": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.25130",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'JAColpur' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Purple Passion"
+  },
+  "queen-mary": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41720",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Queen Mary (Hybrid Spinosissima)",
+    "evidence": [],
+    "query": "Queen Mary"
+  },
+  "rachel": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.26932",
+    "match_confidence": "exact",
+    "hmf_title": "Rachel (hybrid tea, Evers/Tantau 1999)",
+    "evidence": [
+      "breeder:tantau",
+      "class:Hybrid Tea"
+    ],
+    "query": "Rachel"
+  },
+  "radiant-perfume": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.36962",
+    "match_confidence": "exact",
+    "hmf_title": "'Radiant Perfume ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Radiant Perfume"
+  },
+  "reconciliation": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5098",
+    "match_confidence": "exact",
+    "hmf_title": "'Reconciliation' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Reconciliation"
+  },
+  "red-baron": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.46218",
+    "match_confidence": "exact",
+    "hmf_title": "'Red Baron' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Red Baron"
+  },
+  "red-devil": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5113",
+    "match_confidence": "exact",
+    "hmf_title": "Red Devil (hybrid tea, Dickson 1965)",
+    "evidence": [
+      "breeder:dickson",
+      "class:Hybrid Tea"
+    ],
+    "query": "Red Devil"
+  },
+  "red-intuition": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.36315",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'DELstriro' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Red Intuition"
+  },
+  "red-lady-ruffles": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.79431",
+    "match_confidence": "exact",
+    "hmf_title": "'Red Lady Ruffles ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Red Lady Ruffles"
+  },
+  "red-masterpiece": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5132",
+    "match_confidence": "exact",
+    "hmf_title": "'Red Masterpiece' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Red Masterpiece"
+  },
+  "red-velvet": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5162",
+    "match_confidence": "exact",
+    "hmf_title": "Red Velvet ® (hybrid tea, Evers/Tantau, 1994)",
+    "evidence": [
+      "breeder:tantau",
+      "year:1994",
+      "class:Hybrid Tea"
+    ],
+    "query": "Red Velvet"
+  },
+  "reflets-de-st-malo": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41159",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Fragrant Alizée' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Reflets De St. Malo"
+  },
+  "remember": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.39938",
+    "match_confidence": "exact",
+    "hmf_title": "Remember ™ (hybrid tea, Olesen/Poulsen, 1994/2002)",
+    "evidence": [
+      "breeder:poulsen",
+      "year:2002",
+      "class:Hybrid Tea"
+    ],
+    "query": "Remember"
+  },
+  "remember-me": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5183",
+    "match_confidence": "exact",
+    "hmf_title": "Remember Me ® (hybrid tea, Cocker 1979)",
+    "evidence": [
+      "breeder:cocker",
+      "class:Hybrid Tea"
+    ],
+    "query": "Remember Me"
+  },
+  "renaissance": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5186",
+    "match_confidence": "exact",
+    "hmf_title": "Renaissance (hybrid tea, Harkness, 1994)",
+    "evidence": [
+      "breeder:harkness",
+      "year:1994",
+      "class:Hybrid Tea"
+    ],
+    "query": "Renaissance"
+  },
+  "renata": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.39937",
+    "match_confidence": "exact",
+    "hmf_title": "Renata (hybrid tea, Williams, 2004)",
+    "evidence": [
+      "year:2004",
+      "class:Hybrid Tea"
+    ],
+    "query": "Renata"
+  },
+  "renata-tebaldi": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41435",
+    "match_confidence": "exact",
+    "hmf_title": "'Renata Tebaldi ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Renata Tebaldi"
+  },
+  "rene-goscinny": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.38347",
+    "match_confidence": "exact",
+    "hmf_title": "'René Goscinny ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Rene Goscinny"
+  },
+  "republic-de-montmartre": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.67530",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'République de Montmartre ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Republic De Montmartre"
+  },
+  "revival": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.20017",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Revival (hybrid tea, Barni, 1980)",
+    "evidence": [
+      "class:Hybrid Tea"
+    ],
+    "query": "Revival"
+  },
+  "rina-herholdt": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5211",
+    "match_confidence": "exact",
+    "hmf_title": "Rina Herholdt",
+    "evidence": [
+      "year:1962",
+      "class:Hybrid Tea"
+    ],
+    "query": "Rina Herholdt"
+  },
+  "rio-samba": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2327",
+    "match_confidence": "exact",
+    "hmf_title": "'Rio Samba ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Rio Samba"
+  },
+  "rock-roll": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.44290",
+    "match_confidence": "exact",
+    "hmf_title": "'Rock & Roll™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Rock & Roll"
+  },
+  "roddy-mcmillan": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19948",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Roddy MacMillan' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Roddy Mcmillan"
+  },
+  "ronald-regan-rose": {
+    "id": null,
+    "url": null,
+    "match_confidence": "none",
+    "hmf_title": null,
+    "evidence": [],
+    "query": "Ronald Regan Rose"
+  },
+  "rosanna-jacobs": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.82317",
+    "match_confidence": "exact",
+    "hmf_title": "'Rosanna Jacobs' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Rosanna Jacobs"
+  },
+  "rose-des-cisterciens": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.31538",
+    "match_confidence": "exact",
+    "hmf_title": "'Rose des Cisterciens ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Rose Des Cisterciens"
+  },
+  "rose-rhapsody": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.25138",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'JACsash' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Rose Rhapsody"
+  },
+  "rosemary-harkness": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5485",
+    "match_confidence": "exact",
+    "hmf_title": "'Rosemary Harkness' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Rosemary Harkness"
+  },
+  "rosie-o-donnel": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5495",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Rosie O'Donnell' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Rosie O'donnel"
+  },
+  "rotary-sunrise": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.39174",
+    "match_confidence": "exact",
+    "hmf_title": "'Rotary Sunrise' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Rotary Sunrise"
+  },
+  "rotkappchen": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.44023",
+    "match_confidence": "exact",
+    "hmf_title": "Rotkäppchen (floribunda, Kordes, 2007)",
+    "evidence": [
+      "breeder:kordes",
+      "year:2007"
+    ],
+    "query": "Rotkappchen"
+  },
+  "rouge-meilland": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.16956",
+    "match_confidence": "fuzzy",
+    "hmf_title": "Rouge Meilland (hybrid tea, Meilland, 1949)",
+    "evidence": [
+      "breeder:meilland",
+      "class:Hybrid Tea"
+    ],
+    "query": "Rouge Meilland"
+  },
+  "royal-amethyst": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5523",
+    "match_confidence": "exact",
+    "hmf_title": "'Royal Amethyst ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Royal Amethyst"
+  },
+  "royal-canadian": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5526",
+    "match_confidence": "exact",
+    "hmf_title": "Royal Canadian (hybrid tea, Morey by 1966)",
+    "evidence": [
+      "breeder:morey",
+      "year:1968",
+      "class:Hybrid Tea"
+    ],
+    "query": "Royal Canadian"
+  },
+  "sa-garden-tuin": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.78337",
+    "match_confidence": "exact",
+    "hmf_title": "SA Garden/Tuin",
+    "evidence": [
+      "year:2011",
+      "class:Hybrid Tea",
+      "sole-result"
+    ],
+    "query": "Sa Garden | Tuin"
+  },
+  "sabine-bosman": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.75071",
+    "match_confidence": "exact",
+    "hmf_title": "'Sabine Bosman' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Sabine Bosman"
+  },
+  "sacred-heart": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.33501",
+    "match_confidence": "exact",
+    "hmf_title": "Sacred Heart (hybrid tea, Weeks 2002)",
+    "evidence": [
+      "breeder:weeks",
+      "year:2002",
+      "class:Hybrid Tea"
+    ],
+    "query": "Sacred Heart"
+  },
+  "saiun": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.28023",
+    "match_confidence": "fuzzy",
+    "hmf_title": "'Sai-Un' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Saiun"
+  },
+  "sakuragai": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.64822",
+    "match_confidence": "exact",
+    "hmf_title": "'Sakuragai' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Sakuragai"
+  },
+  "samantha": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5595",
+    "match_confidence": "exact",
+    "hmf_title": "Samantha ® (hybrid tea, Warriner 1974)",
+    "evidence": [
+      "breeder:warriner",
+      "year:1974",
+      "class:Hybrid Tea"
+    ],
+    "query": "Samantha"
+  },
+  "san-antonio": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5599",
+    "match_confidence": "exact",
+    "hmf_title": "'San Antonio ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "San Antonio"
   }
 }
