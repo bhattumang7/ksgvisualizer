@@ -32,7 +32,7 @@ export default async function RosePage({ params }: Readonly<PageProps<"/rose/[id
     ["Section", rose.class],
     ["Breeder", rose.breeder_id ? <Link className="underline" href={`/breeder/${rose.breeder_id}`}>{rose.breeder_name}</Link> : (rose.breeder_name ?? "Not listed")],
     ["Year", rose.year ?? rose.year_raw ?? "Not listed"],
-    ["Colour", hmf?.colour ?? rose.colour_group],
+    ["Colour", hmf?.colour ?? rose.colour_group ?? "Not listed"],
     ["Fragrance", hmf?.fragrance ?? rose.fragrance ?? "Not noted"],
     ...(hmf?.rows.Habit ? ([["Habit", hmf.rows.Habit]] as [string, React.ReactNode][]) : []),
     ...(hmf?.parentage ? ([["Parentage", [hmf.parentage.seed && `seed: ${hmf.parentage.seed}`, hmf.parentage.pollen && `pollen: ${hmf.parentage.pollen}`].filter(Boolean).join("; ")]] as [string, React.ReactNode][]) : []),

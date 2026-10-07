@@ -9,7 +9,7 @@ A searchable, filterable, mobile-friendly catalogue of the roses sold by **K.S.G
 
 ## Status
 
-Planning only. **Nothing has been extracted yet.** Don't start extraction or scraping until the user asks.
+KSG extraction is done: `python -m pipeline.run` (venv in `pipeline/.venv`) writes `data/raw/entries.json`, `data/roses.json`, `data/breeders.json` and `data/review/extraction-report.md` (1,262 entries). HMF matching has not started. Don't start matching or scraping until the user asks.
 
 ## Core rules
 

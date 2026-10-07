@@ -7,8 +7,8 @@ export const BreederSchema = z.object({
   id: z.string(),
   ksg_name: z.string(),
   name: z.string(),
-  country: z.string().length(2),
-  indian: z.boolean(),
+  country: z.string().length(2).nullable(),
+  indian: z.boolean().nullable(),
 });
 
 export const RoseSchema = z.object({
@@ -23,7 +23,7 @@ export const RoseSchema = z.object({
   year: z.number().int().nullable(),
   awards: z.array(z.object({ name: z.string(), year: z.number().int().nullable() })),
   colour_text: z.string(),
-  colour_group: z.enum(COLOUR_GROUPS),
+  colour_group: z.enum(COLOUR_GROUPS).nullable(),
   fragrance: z.string().nullable(),
   description: z.string(),
   price_inr: z.number().int().nullable(),

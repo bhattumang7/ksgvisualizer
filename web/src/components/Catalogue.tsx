@@ -95,7 +95,7 @@ export function Catalogue({ roses, breeders, pageSize: defaultSize }: Readonly<{
       breeders: breeders
         .map((b) => ({ value: b.id, label: b.name, count: brd.get(b.id) ?? 0 }))
         .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label)),
-      countries: [...new Set(breeders.map((b) => b.country))]
+      countries: [...new Set(breeders.map((b) => b.country).filter((c): c is string => c !== null))]
         .map((c) => ({ value: c, label: regionNames.of(c) ?? c, count: countries.get(c) ?? 0 }))
         .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label)),
     };

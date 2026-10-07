@@ -41,3 +41,11 @@ AJATASHATRU KASTURI - Hybrid Teas, M.S. Viraraghavan, Pink, deep pink reverse. .
 ## After extraction
 
 Check the counts per class against the numbers above. Report any entry that is missing a price or a breeder.
+
+## Findings from the first extraction run (2026-10-08)
+
+- Actual counts: HT 785, Floribunda 280, Miniature 61, Climber 58, Shrub 51, Polyantha 27 (1,262 total). The estimates above were low; every entry has a price.
+- Prices are in the right column at x >= 495pt; entry starts need Unicode-aware names (`IRISH CRÈME`) and a class word with an optional comma (`YESAMIN CAVAS - Hybrid Teas`).
+- 30 names appear twice (some across classes, e.g. CHANDRIKA as Miniature and Polyantha); ids get a `-2` suffix.
+- Entries with no year are common (76); 43 have no recognisable breeder (the first sentence is a colour). They are listed in `data/review/extraction-report.md`.
+- No guessing: `colour_group` is set only when the colour text names exactly one colour family (or says bicolour/multicolour), otherwise `null` (385 roses). Breeder `country`/`indian` come only from `data/sample/breeders.json` and the user-confirmed `BREEDER_COUNTRY` map in `pipeline/normalize.py`, otherwise `null`. `canonical_name` is the KSG name verbatim until HMF matching fills it in.
