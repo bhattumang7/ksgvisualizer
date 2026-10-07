@@ -63,6 +63,18 @@ describe("getPhotos", () => {
     expect(fetchMock).toHaveBeenCalledTimes(2);
   });
 
+  it("spaces back-to-back requests apart and skips cells without a thumbnail", async () => {
+    fetchMock.mockResolvedValue(ok(`<table><tr><td>no photo</td>${cell(7)}</tr></table>`));
+    const first = hmf.getPhotos("1");
+    const second = hmf.getPhotos("2");
+    await vi.advanceTimersByTimeAsync(100);
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+    await vi.advanceTimersByTimeAsync(3000);
+    expect(fetchMock).toHaveBeenCalledTimes(2);
+    expect((await first).photos).toHaveLength(1);
+    expect((await second).photos).toHaveLength(1);
+  });
+
   it("refetches ok results after ten minutes", async () => {
     fetchMock.mockResolvedValue(ok(listing(1)));
     await settle(hmf.getPhotos("5"));

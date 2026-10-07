@@ -54,6 +54,32 @@ describe("Catalogue", () => {
     await urlIs(url, "?page=4");
   });
 
+  it("snaps an out-of-range page back to page 1 when one page remains", async () => {
+    const url = setup("?page=3&q=charlene");
+    await urlIs(url, "?q=charlene");
+  });
+
+  it("shows the raw value for a filter chip with no matching option", () => {
+    setup("?class=Mystery");
+    expect(screen.getAllByText(/Mystery/).length).toBeGreaterThan(0);
+  });
+
+  it("lists breeders and countries that have no roses with a zero count", () => {
+    render(
+      <NuqsTestingAdapter searchParams="" hasMemory>
+        <Catalogue roses={roses} breeders={[...breeders, { id: "ghost", ksg_name: "Ghost", name: "Ghost Roses", country: "JP", indian: false }]} pageSize={6} />
+      </NuqsTestingAdapter>,
+    );
+    expect(screen.getAllByText("Ghost Roses").length).toBeGreaterThan(0);
+  });
+
+  it("falls back to the country code when the region has no display name", () => {
+    const of = vi.spyOn(Intl.DisplayNames.prototype, "of").mockReturnValue(undefined);
+    setup();
+    expect(screen.getAllByText("FR").length).toBeGreaterThan(0);
+    of.mockRestore();
+  });
+
   it("searches, resets the page and shows relevance sorting", async () => {
     const url = setup();
     fireEvent.change(screen.getByLabelText("Search roses"), { target: { value: "charlene" } });

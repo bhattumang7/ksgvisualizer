@@ -12,16 +12,16 @@ export function CardPhotos({ photos, name, className = "" }: Readonly<{ photos: 
   const strip = useRef<HTMLUListElement>(null);
   const credit = photos[index]?.credit;
 
-  function onScroll() {
-    const el = strip.current;
-    if (el) setIndex(Math.round(el.scrollLeft / el.clientWidth));
+  function onScroll(e: React.UIEvent<HTMLUListElement>) {
+    const el = e.currentTarget;
+    setIndex(Math.round(el.scrollLeft / el.clientWidth));
   }
 
   function go(e: React.MouseEvent, to: number) {
     e.preventDefault(); // the card is a link
     e.stopPropagation();
     const el = strip.current;
-    if (el) el.scrollTo({ left: to * el.clientWidth, behavior: "smooth" });
+    el?.scrollTo({ left: to * el.clientWidth, behavior: "smooth" });
   }
 
   return (

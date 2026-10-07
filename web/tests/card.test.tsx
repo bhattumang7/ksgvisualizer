@@ -80,6 +80,13 @@ describe("RoseCard", () => {
     expect(screen.getByText(rose.colour_text)).toBeTruthy();
   });
 
+  it("shows swipeable photos in list mode and a swatch in grid mode", () => {
+    const { container, rerender } = render(<RoseCard list rose={{ ...rose, photos: [photo(1)] }} />);
+    expect(container.querySelectorAll("img")).toHaveLength(1);
+    rerender(<RoseCard rose={{ ...rose, photos: undefined }} />);
+    expect(container.querySelector("[aria-hidden]")).not.toBeNull();
+  });
+
   it("falls back to year_raw and uses the swipeable photos when present", () => {
     const { container } = render(<RoseCard rose={{ ...rose, year: null, year_raw: "c.1990", photos: [photo(1), photo(2)] }} />);
     expect(screen.getByText(/c\.1990/)).toBeTruthy();
