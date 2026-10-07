@@ -11,5 +11,15 @@ Fuzzy matches from `pnpm hmf-search` that were checked by hand and could not be 
 | `bellisima`: Laperriere, 1992 | l=2.24825 ('SUNlampo', synonym Bellisima), floribunda, Schuurman (NZ), 1998 | breeder and year differ | none |
 | `best-of-friends`: Poulson, 2002, hybrid tea | l=2.82798, floribunda, Rawlins, before 2018 | breeder, year and class differ | l=2.26791, hybrid tea, Olesen, 1999 (class fits, breeder and year do not) |
 
-For the other 22 fuzzy matches, the name was the plant's name or a listed synonym and the breeder, class or year fit,
+The review of the full run left five more open (their top candidate disagrees on class, breeder or year, or has no data to compare):
+
+| Rose (KSG) | Top candidate |
+|---|---|
+| `mango`: Delbard, 1991, orange blend | l=2.4089, florists rose, J & P (Zary), yellow blend |
+| `merry-go-round`: floribunda, Fischer | l=2.72827, hybrid tea, Fisher, 1950; l=2.82371, floribunda, unknown breeder, green-white (colour fits) |
+| `pink-sensation`: Interplant, miniature | shrub, Kordes, before 1991 (synonym list does not include the KSG name) |
+| `scandia`: Cooper, 1996, hybrid tea | Scandia (hybrid tea), no breeder or year on HMF |
+| `tata-centenary`: Telco Nursery, 1979 | 'Tata Centenary, Cl' (climbing sport, N. Joshi) |
+
+Of the 207 fuzzy matches, 198 were settled by reading each plant page: about 160 linked (`manual`), 31 marked not on HMF, and 7 re-pointed to the same-named plant that fits better by class, colour or year. For the earlier 22 fuzzy matches, the name was the plant's name or a listed synonym and the breeder, class or year fit,
 so they were recorded as `manual` in `data/overrides.json`.

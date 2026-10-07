@@ -1490,7 +1490,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41018",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -2245,8 +2245,8 @@
   "ksg_page": 32,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.20233",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -3470,7 +3470,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41188",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -4068,7 +4068,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1172",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -4292,7 +4292,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19817",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -4320,7 +4320,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18235",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -4834,7 +4834,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.69121",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -4918,7 +4918,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2583",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -4946,7 +4946,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.23164",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -5029,8 +5029,8 @@
   "ksg_page": 36,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.34866",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -5141,8 +5141,8 @@
   "ksg_page": 36,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.1535",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -5226,7 +5226,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1561",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -5404,7 +5404,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40131",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -5520,8 +5520,8 @@
   "ksg_page": 36,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.40960",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -5660,8 +5660,8 @@
   "ksg_page": 36,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.31826",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -5744,8 +5744,8 @@
   "ksg_page": 36,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.1059",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -5800,8 +5800,8 @@
   "ksg_page": 36,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.88226",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -5857,7 +5857,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.33682",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -6193,7 +6193,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40970",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -6220,8 +6220,8 @@
   "ksg_page": 37,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.27128",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -6361,7 +6361,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.36980",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -6389,7 +6389,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.77631",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -6528,8 +6528,8 @@
   "ksg_page": 37,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.33248",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -6590,7 +6590,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19786",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -6813,8 +6813,8 @@
   "ksg_page": 38,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.37950",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -7193,7 +7193,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.77934",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -7478,7 +7478,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.88558",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -7623,7 +7623,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40064",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -7734,8 +7734,8 @@
   "ksg_page": 39,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.20921",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -7791,7 +7791,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.44580",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -7847,7 +7847,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.32485",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -7987,7 +7987,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3182",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -8127,7 +8127,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.28330",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -8267,7 +8267,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.87597",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -8295,7 +8295,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.34022",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -8407,7 +8407,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19770",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -8686,8 +8686,8 @@
   "ksg_page": 40,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.3378",
-   "match_confidence": "fuzzy"
+   "url": "https://www.helpmefind.com/gardening/l.php?l=2.28376",
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -8939,7 +8939,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3443",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -8967,7 +8967,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.2828",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -8995,7 +8995,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.39794",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -9023,7 +9023,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41248",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -9218,8 +9218,8 @@
   "ksg_page": 40,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.35252",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -9247,7 +9247,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41099",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -9331,7 +9331,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3656",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -9723,7 +9723,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41031",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -9863,7 +9863,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3713",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -10086,8 +10086,8 @@
   "ksg_page": 42,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.89404",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -10680,7 +10680,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.27970",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -10848,7 +10848,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.43286",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -10904,7 +10904,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19855",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -10960,7 +10960,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.43288",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -11071,8 +11071,8 @@
   "ksg_page": 43,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.96323",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -11267,8 +11267,8 @@
   "ksg_page": 43,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.41766",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -11296,7 +11296,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.37447",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -11380,7 +11380,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.77754",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -11435,8 +11435,8 @@
   "ksg_page": 43,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.65007",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -11492,7 +11492,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4197",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -11548,7 +11548,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.31206",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -11576,7 +11576,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.46314",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -11805,7 +11805,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.63363",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -11865,8 +11865,8 @@
   "ksg_page": 44,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.79318",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -12212,7 +12212,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.28387",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -12497,7 +12497,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18679",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -12665,7 +12665,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4469",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -13001,7 +13001,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4528",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -13090,7 +13090,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.77814",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -13263,7 +13263,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.31443",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -13828,7 +13828,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.20294",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -14118,7 +14118,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.63496",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -14431,7 +14431,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.43780",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -14487,7 +14487,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.4898",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -14515,7 +14515,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.46473",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -14543,7 +14543,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.20158",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -14822,8 +14822,8 @@
   "ksg_page": 47,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.45948",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -14934,8 +14934,8 @@
   "ksg_page": 47,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.41720",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -15411,7 +15411,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.67530",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -15439,7 +15439,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.20017",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -15556,7 +15556,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19948",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -15584,7 +15584,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.36728",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -15724,7 +15724,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5495",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -15808,7 +15808,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.16956",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -16004,7 +16004,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.28023",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -16171,8 +16171,8 @@
   "ksg_page": 49,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.24145",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -16256,7 +16256,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.42501",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -16541,7 +16541,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1671",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -16691,7 +16691,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.80975",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -16891,8 +16891,8 @@
   "ksg_page": 50,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.20223",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -17261,7 +17261,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41022",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -17831,7 +17831,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.28316",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -17970,8 +17970,8 @@
   "ksg_page": 51,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.18558",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -18055,7 +18055,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.61623",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -18139,7 +18139,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.37390",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -18467,7 +18467,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.42560",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -18495,7 +18495,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.6203",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -18635,7 +18635,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18927",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -18747,7 +18747,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.6245",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -19205,7 +19205,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.6368",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -19238,7 +19238,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.6071",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -19663,7 +19663,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.64239",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -19747,7 +19747,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.20712",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -20111,7 +20111,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.6482",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -20223,7 +20223,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.24333",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -20480,7 +20480,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.32740",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -20541,7 +20541,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.37386",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -20681,7 +20681,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.30429",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -21274,7 +21274,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.70424",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -21330,7 +21330,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.72003",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -21497,8 +21497,8 @@
   "ksg_page": 55,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.96824",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -21582,7 +21582,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40899",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -21666,7 +21666,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5148",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -21722,7 +21722,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.39068",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -21750,7 +21750,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.71995",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -22058,7 +22058,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.81337",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -22114,7 +22114,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.72280",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -22253,8 +22253,8 @@
   "ksg_page": 60,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.63346",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -22338,7 +22338,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.65355",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -22422,7 +22422,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.66469",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -22505,8 +22505,8 @@
   "ksg_page": 60,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.213",
-   "match_confidence": "fuzzy"
+   "url": "https://www.helpmefind.com/gardening/l.php?l=2.33928",
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -22926,7 +22926,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19086",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -23043,7 +23043,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.66359",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -23155,7 +23155,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.72936",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -23468,7 +23468,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.17719",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -23529,7 +23529,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.30388",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -23725,7 +23725,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18107",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -23753,7 +23753,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.6427",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -23781,7 +23781,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19700",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -23865,7 +23865,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19785",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -23920,8 +23920,8 @@
   "ksg_page": 62,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.3536",
-   "match_confidence": "fuzzy"
+   "url": "https://www.helpmefind.com/gardening/l.php?l=2.41061",
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -23977,7 +23977,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41024",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -24284,8 +24284,8 @@
   "ksg_page": 62,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.51180",
-   "match_confidence": "fuzzy"
+   "url": "https://www.helpmefind.com/gardening/l.php?l=2.30389",
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -24738,7 +24738,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40951",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -25242,7 +25242,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.32719",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -25559,8 +25559,8 @@
   "ksg_page": 64,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.21895",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -25700,7 +25700,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.19803",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -25878,7 +25878,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.37391",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -25906,7 +25906,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40780",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -26074,7 +26074,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.63673",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -26130,7 +26130,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40952",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -26214,7 +26214,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.31692",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -26270,7 +26270,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3790",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -26354,7 +26354,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.17071",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -26382,7 +26382,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.38935",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -26522,7 +26522,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.64234",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -26606,7 +26606,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3942",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -26634,7 +26634,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.32214",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -26830,7 +26830,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.51752",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -26858,7 +26858,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.64235",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -27054,7 +27054,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.24974",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -27446,7 +27446,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.22513",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -27474,7 +27474,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.39448",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -27642,7 +27642,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.37542",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -27754,7 +27754,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.63414",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -27782,7 +27782,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.67148",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -27978,7 +27978,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41581",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -28095,7 +28095,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.71679",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -28123,7 +28123,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.39729",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -28206,8 +28206,8 @@
   "ksg_page": 68,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.17322",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -28459,7 +28459,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.24160",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -28543,7 +28543,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.39728",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -28833,7 +28833,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.27581",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -28917,7 +28917,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18636",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -29001,7 +29001,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5985",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -29113,7 +29113,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.62266",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -29393,7 +29393,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18232",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -29533,7 +29533,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.71518",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -29645,7 +29645,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40846",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -29757,7 +29757,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.23751",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -29785,7 +29785,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1154",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -29981,7 +29981,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.65629",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -30317,7 +30317,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1105",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -30568,8 +30568,8 @@
   "ksg_page": 74,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.64737",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -30624,8 +30624,8 @@
   "ksg_page": 74,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.46343",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -30821,7 +30821,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.21834",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -31044,8 +31044,8 @@
   "ksg_page": 75,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.26440",
-   "match_confidence": "fuzzy"
+   "url": "https://www.helpmefind.com/gardening/l.php?l=2.62036",
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -31185,7 +31185,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41262",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -31352,8 +31352,8 @@
   "ksg_page": 75,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.58734",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -31689,7 +31689,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40968",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -31801,7 +31801,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.41056",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -31912,8 +31912,8 @@
   "ksg_page": 76,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.40670",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -31969,7 +31969,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.658",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -31997,7 +31997,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.22452",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -32137,7 +32137,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1380",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -32254,7 +32254,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.18450",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -32338,7 +32338,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.3703",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -32926,7 +32926,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.72027",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -33458,7 +33458,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.72027",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -33542,7 +33542,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.1702",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -33570,7 +33570,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.78323",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -34017,8 +34017,8 @@
   "ksg_page": 78,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.46343",
-   "match_confidence": "fuzzy"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,
@@ -34326,7 +34326,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.20691",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -34494,7 +34494,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.24379",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -34577,8 +34577,8 @@
   "ksg_page": 79,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.3536",
-   "match_confidence": "fuzzy"
+   "url": "https://www.helpmefind.com/gardening/l.php?l=2.41061",
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -34606,7 +34606,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.37313",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -34774,7 +34774,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.39730",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -34970,7 +34970,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.40780",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -35367,7 +35367,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.66898",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -35535,7 +35535,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.39388",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -35596,7 +35596,7 @@
   "hmf": {
    "id": null,
    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5985",
-   "match_confidence": "fuzzy"
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,

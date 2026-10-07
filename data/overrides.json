@@ -159,5 +159,1391 @@
       "url": "https://www.helpmefind.com/gardening/l.php?l=2.38980",
       "match_confidence": "manual"
     }
+  },
+  "a-white-shade-of-pale": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.41018",
+      "match_confidence": "manual"
+    }
+  },
+  "abigail": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "agrocampus": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.65355",
+      "match_confidence": "manual"
+    }
+  },
+  "amarula-profusion": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.66469",
+      "match_confidence": "manual"
+    }
+  },
+  "amy-s-delight": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.33928",
+      "match_confidence": "manual"
+    }
+  },
+  "apricot-midinette": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.20691",
+      "match_confidence": "manual"
+    }
+  },
+  "black-berry": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "bordure-nacree": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.19086",
+      "match_confidence": "manual"
+    }
+  },
+  "bright-and-breezy": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.66359",
+      "match_confidence": "manual"
+    }
+  },
+  "canyon-road": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.72936",
+      "match_confidence": "manual"
+    }
+  },
+  "carole-boquet": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.41188",
+      "match_confidence": "manual"
+    }
+  },
+  "charleston": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.17719",
+      "match_confidence": "manual"
+    }
+  },
+  "chartreuse-de-parme": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.24379",
+      "match_confidence": "manual"
+    }
+  },
+  "chasin-rainbow": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.1105",
+      "match_confidence": "manual"
+    }
+  },
+  "christopher-colomb": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.1172",
+      "match_confidence": "manual"
+    }
+  },
+  "citrus-tease": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.30388",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-apricot-midinette": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "clg-berries-n-cream": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.658",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-blessings": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.22452",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-crimson-glory": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.1380",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-fourth-of-july": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.18450",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-lady-hillingdon": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.3703",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-sadabahar": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.72027",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-sadabahar-2": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.72027",
+      "match_confidence": "manual"
+    }
+  },
+  "cologne": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.19817",
+      "match_confidence": "manual"
+    }
+  },
+  "colossus": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.18235",
+      "match_confidence": "manual"
+    }
+  },
+  "compostelle": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.18107",
+      "match_confidence": "manual"
+    }
+  },
+  "coral-palace": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.6427",
+      "match_confidence": "manual"
+    }
+  },
+  "cordula": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.19700",
+      "match_confidence": "manual"
+    }
+  },
+  "crimson-lace": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.19785",
+      "match_confidence": "manual"
+    }
+  },
+  "cubana": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.41061",
+      "match_confidence": "manual"
+    }
+  },
+  "cubana-2": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.41061",
+      "match_confidence": "manual"
+    }
+  },
+  "dancing-in-the-dark": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.37313",
+      "match_confidence": "manual"
+    }
+  },
+  "deep-bordeaux": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.69121",
+      "match_confidence": "manual"
+    }
+  },
+  "delicia": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.2583",
+      "match_confidence": "manual"
+    }
+  },
+  "derek-nimmo": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.23164",
+      "match_confidence": "manual"
+    }
+  },
+  "diamond-days-forever": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.41024",
+      "match_confidence": "manual"
+    }
+  },
+  "diane-de-poitiers": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "diplomat": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "dolce-vita": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.1561",
+      "match_confidence": "manual"
+    }
+  },
+  "dr-n-c-sen": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.70424",
+      "match_confidence": "manual"
+    }
+  },
+  "dream-come-true": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.40131",
+      "match_confidence": "manual"
+    }
+  },
+  "duett-balconia": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "eblouissant": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.1702",
+      "match_confidence": "manual"
+    }
+  },
+  "eclair": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.78323",
+      "match_confidence": "manual"
+    }
+  },
+  "edward-rose": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "elegance-champagne": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "elina": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "embruixada": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.33682",
+      "match_confidence": "manual"
+    }
+  },
+  "fabulous": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.30389",
+      "match_confidence": "manual"
+    }
+  },
+  "fairest-cape": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.39730",
+      "match_confidence": "manual"
+    }
+  },
+  "falling-in-love": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.40970",
+      "match_confidence": "manual"
+    }
+  },
+  "fancy": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "fanny-ardent": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "fire-fighter": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.36980",
+      "match_confidence": "manual"
+    }
+  },
+  "fire-glo": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "fire-glo-2": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "fireworks-ruffle": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.77631",
+      "match_confidence": "manual"
+    }
+  },
+  "forever": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "fragrant-apricot": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.19786",
+      "match_confidence": "manual"
+    }
+  },
+  "frankly-scarlet": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.40951",
+      "match_confidence": "manual"
+    }
+  },
+  "fredric-mistral": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "gavilgarh": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.72003",
+      "match_confidence": "manual"
+    }
+  },
+  "glamorous-ruffle": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.77934",
+      "match_confidence": "manual"
+    }
+  },
+  "gospel": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.88558",
+      "match_confidence": "manual"
+    }
+  },
+  "grand-amore": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.40064",
+      "match_confidence": "manual"
+    }
+  },
+  "great-days": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "green-tea": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.44580",
+      "match_confidence": "manual"
+    }
+  },
+  "gustave-coubert": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.32485",
+      "match_confidence": "manual"
+    }
+  },
+  "happy-retirement": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.32719",
+      "match_confidence": "manual"
+    }
+  },
+  "harmonie": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.3182",
+      "match_confidence": "manual"
+    }
+  },
+  "hector-berlioz": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.28330",
+      "match_confidence": "manual"
+    }
+  },
+  "high-magic": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.87597",
+      "match_confidence": "manual"
+    }
+  },
+  "hojun": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.34022",
+      "match_confidence": "manual"
+    }
+  },
+  "home-of-time": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.19770",
+      "match_confidence": "manual"
+    }
+  },
+  "ice-fairy": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.21834",
+      "match_confidence": "manual"
+    }
+  },
+  "impulse": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.28376",
+      "match_confidence": "manual"
+    }
+  },
+  "inferno": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "j-p-agarwal": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "jacaranda": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.3443",
+      "match_confidence": "manual"
+    }
+  },
+  "jadis": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.2828",
+      "match_confidence": "manual"
+    }
+  },
+  "janice-kellog": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.39794",
+      "match_confidence": "manual"
+    }
+  },
+  "janita-claassen": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.41248",
+      "match_confidence": "manual"
+    }
+  },
+  "jillian-mcgredy": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.19803",
+      "match_confidence": "manual"
+    }
+  },
+  "julia-child": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.37391",
+      "match_confidence": "manual"
+    }
+  },
+  "julia-rose": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "julio-iglesias": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.41099",
+      "match_confidence": "manual"
+    }
+  },
+  "just-imagine": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.40780",
+      "match_confidence": "manual"
+    }
+  },
+  "just-imagine-2": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.40780",
+      "match_confidence": "manual"
+    }
+  },
+  "kardinal-84": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.3656",
+      "match_confidence": "manual"
+    }
+  },
+  "koko-loko": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.63673",
+      "match_confidence": "manual"
+    }
+  },
+  "la-rose-des-4-vents": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.41031",
+      "match_confidence": "manual"
+    }
+  },
+  "lady-mitchel": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.3713",
+      "match_confidence": "manual"
+    }
+  },
+  "laura-bush": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.40952",
+      "match_confidence": "manual"
+    }
+  },
+  "lazy-days": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.31692",
+      "match_confidence": "manual"
+    }
+  },
+  "leana": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "len-turner": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.3790",
+      "match_confidence": "manual"
+    }
+  },
+  "lili-marlene": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.17071",
+      "match_confidence": "manual"
+    }
+  },
+  "lions-rose": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.38935",
+      "match_confidence": "manual"
+    }
+  },
+  "living-daylights": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.64234",
+      "match_confidence": "manual"
+    }
+  },
+  "love-story": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.27970",
+      "match_confidence": "manual"
+    }
+  },
+  "lutin": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.3942",
+      "match_confidence": "manual"
+    }
+  },
+  "lyndal-dawn": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.32214",
+      "match_confidence": "manual"
+    }
+  },
+  "macha-meryl": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.43286",
+      "match_confidence": "manual"
+    }
+  },
+  "madame-delbard": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.19855",
+      "match_confidence": "manual"
+    }
+  },
+  "magdalena": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.43288",
+      "match_confidence": "manual"
+    }
+  },
+  "majestic": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "maria-mcgredy": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "maria-shriver": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.37447",
+      "match_confidence": "manual"
+    }
+  },
+  "marquis-de-merteuil": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.77754",
+      "match_confidence": "manual"
+    }
+  },
+  "mary-lou": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "mauve-melody": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.4197",
+      "match_confidence": "manual"
+    }
+  },
+  "megami": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.31206",
+      "match_confidence": "manual"
+    }
+  },
+  "megastar": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.46314",
+      "match_confidence": "manual"
+    }
+  },
+  "michel-desjoyeaux": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.63363",
+      "match_confidence": "manual"
+    }
+  },
+  "midsummer-snow": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.51752",
+      "match_confidence": "manual"
+    }
+  },
+  "milkyway": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "mind-games": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.64235",
+      "match_confidence": "manual"
+    }
+  },
+  "monna-lisa": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.28387",
+      "match_confidence": "manual"
+    }
+  },
+  "mt-hood": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.18679",
+      "match_confidence": "manual"
+    }
+  },
+  "nagabelle": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.40899",
+      "match_confidence": "manual"
+    }
+  },
+  "neon": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.24974",
+      "match_confidence": "manual"
+    }
+  },
+  "new-zealand": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.4469",
+      "match_confidence": "manual"
+    }
+  },
+  "ninetta": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.62036",
+      "match_confidence": "manual"
+    }
+  },
+  "oklahoma": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.4528",
+      "match_confidence": "manual"
+    }
+  },
+  "only-you": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.77814",
+      "match_confidence": "manual"
+    }
+  },
+  "our-love": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.31443",
+      "match_confidence": "manual"
+    }
+  },
+  "passionate-kisses": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.22513",
+      "match_confidence": "manual"
+    }
+  },
+  "pays-d-iroise": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.39448",
+      "match_confidence": "manual"
+    }
+  },
+  "penthouse": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.20294",
+      "match_confidence": "manual"
+    }
+  },
+  "picaninni": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.41262",
+      "match_confidence": "manual"
+    }
+  },
+  "pierre-ardit": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.63496",
+      "match_confidence": "manual"
+    }
+  },
+  "pink-tourmaline-babylon": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.66898",
+      "match_confidence": "manual"
+    }
+  },
+  "pinnacle": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.37542",
+      "match_confidence": "manual"
+    }
+  },
+  "poblet": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.43780",
+      "match_confidence": "manual"
+    }
+  },
+  "polarstern": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.4898",
+      "match_confidence": "manual"
+    }
+  },
+  "pompon-veranda": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.46473",
+      "match_confidence": "manual"
+    }
+  },
+  "poseidon": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.63414",
+      "match_confidence": "manual"
+    }
+  },
+  "precious-love": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.67148",
+      "match_confidence": "manual"
+    }
+  },
+  "president-macia": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.20158",
+      "match_confidence": "manual"
+    }
+  },
+  "pulman-orient-express": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "queen-mary": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "queen-of-hearts": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.41581",
+      "match_confidence": "manual"
+    }
+  },
+  "red-ayoba": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.71679",
+      "match_confidence": "manual"
+    }
+  },
+  "red-finesse": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.39729",
+      "match_confidence": "manual"
+    }
+  },
+  "red-recker": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.5148",
+      "match_confidence": "manual"
+    }
+  },
+  "regensburg": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "republic-de-montmartre": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.67530",
+      "match_confidence": "manual"
+    }
+  },
+  "revival": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.20017",
+      "match_confidence": "manual"
+    }
+  },
+  "roddy-mcmillan": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.19948",
+      "match_confidence": "manual"
+    }
+  },
+  "ronald-regan-rose": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.36728",
+      "match_confidence": "manual"
+    }
+  },
+  "rose-anil": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.39068",
+      "match_confidence": "manual"
+    }
+  },
+  "rose-ksg-centenary": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.71995",
+      "match_confidence": "manual"
+    }
+  },
+  "rosie-o-donnel": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.5495",
+      "match_confidence": "manual"
+    }
+  },
+  "rouge-meilland": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.16956",
+      "match_confidence": "manual"
+    }
+  },
+  "rubicon": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "ryokkoh": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.24160",
+      "match_confidence": "manual"
+    }
+  },
+  "saiun": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.28023",
+      "match_confidence": "manual"
+    }
+  },
+  "sangerhausen-jubilee": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.39728",
+      "match_confidence": "manual"
+    }
+  },
+  "sao-hime": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "savlu": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.42501",
+      "match_confidence": "manual"
+    }
+  },
+  "schloss-eutin": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.39388",
+      "match_confidence": "manual"
+    }
+  },
+  "senteur-royal": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.1671",
+      "match_confidence": "manual"
+    }
+  },
+  "shirley-s-bouquet": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.80975",
+      "match_confidence": "manual"
+    }
+  },
+  "silver-anniversary": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "solero": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.27581",
+      "match_confidence": "manual"
+    }
+  },
+  "song-dance": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.41022",
+      "match_confidence": "manual"
+    }
+  },
+  "springs-75": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.18636",
+      "match_confidence": "manual"
+    }
+  },
+  "stretch-johnson": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.5985",
+      "match_confidence": "manual"
+    }
+  },
+  "stretch-johnson-2": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.5985",
+      "match_confidence": "manual"
+    }
+  },
+  "sue-hipkin": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.28316",
+      "match_confidence": "manual"
+    }
+  },
+  "summer-time": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "sunny-sky": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.61623",
+      "match_confidence": "manual"
+    }
+  },
+  "sunstruck": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.37390",
+      "match_confidence": "manual"
+    }
+  },
+  "super-trooper": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.62266",
+      "match_confidence": "manual"
+    }
+  },
+  "tanned-beauty": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.42560",
+      "match_confidence": "manual"
+    }
+  },
+  "tanya": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.6203",
+      "match_confidence": "manual"
+    }
+  },
+  "tequila": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.18232",
+      "match_confidence": "manual"
+    }
+  },
+  "terracotta": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.18927",
+      "match_confidence": "manual"
+    }
+  },
+  "the-manju-rose-virvalencia": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.81337",
+      "match_confidence": "manual"
+    }
+  },
+  "the-mccartney-rose": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.6245",
+      "match_confidence": "manual"
+    }
+  },
+  "thungabhadra": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.72280",
+      "match_confidence": "manual"
+    }
+  },
+  "tiddly-winks": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.40968",
+      "match_confidence": "manual"
+    }
+  },
+  "toi-toi-toi": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.71518",
+      "match_confidence": "manual"
+    }
+  },
+  "toro": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.6368",
+      "match_confidence": "manual"
+    }
+  },
+  "touch-of-class": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.6071",
+      "match_confidence": "manual"
+    }
+  },
+  "valiant-heart": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.40846",
+      "match_confidence": "manual"
+    }
+  },
+  "velasquez": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.64239",
+      "match_confidence": "manual"
+    }
+  },
+  "veteran-s-honor": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.20712",
+      "match_confidence": "manual"
+    }
+  },
+  "warm-wishes": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.6482",
+      "match_confidence": "manual"
+    }
+  },
+  "weeping-china-doll": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.1154",
+      "match_confidence": "manual"
+    }
+  },
+  "welwyn-garden-glory": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.24333",
+      "match_confidence": "manual"
+    }
+  },
+  "wheel-horse-classic": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.23751",
+      "match_confidence": "manual"
+    }
+  },
+  "white-spire": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.32740",
+      "match_confidence": "manual"
+    }
+  },
+  "wild-blue-yonder": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.37386",
+      "match_confidence": "manual"
+    }
+  },
+  "wonderful-news": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.41056",
+      "match_confidence": "manual"
+    }
+  },
+  "world-war-ii-memorial-rose": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.30429",
+      "match_confidence": "manual"
+    }
+  },
+  "you-re-beautiful": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.65629",
+      "match_confidence": "manual"
+    }
   }
 }
