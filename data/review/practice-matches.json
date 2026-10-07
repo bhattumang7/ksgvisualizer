@@ -2,7 +2,10 @@
   {
     "ksg_entry": "EARTH ANGEL - Floribundas, Kor '15",
     "ksg_page_line": "Floribundas list",
-    "hmf": { "id": "97659", "url": "https://www.helpmefind.com/rose/pl.php?n=97659" },
+    "hmf": {
+      "id": "97659",
+      "url": "https://www.helpmefind.com/rose/pl.php?n=97659"
+    },
     "match_confidence": "exact",
     "checks": {
       "name": "same",
@@ -13,8 +16,26 @@
   },
   {
     "ksg_entry": "(Princess Charlene de Monaco, Meilland) - not found in KSG catalogue",
-    "hmf": { "id": "96406", "url": "https://www.helpmefind.com/rose/pl.php?n=96406" },
+    "hmf": {
+      "id": "96406",
+      "url": "https://www.helpmefind.com/rose/pl.php?n=96406"
+    },
     "match_confidence": "none",
-    "note": "HMF has the rose, but KSG has no entry for it. Closest KSG entries: PRINCESS DE MONACO (Meilland '82), CAROLINE DE MONACO (Meilland '98), JUBILE DU PRINCE DE MONACO (Meilland '02). Do not map to any of these without confirming."
+    "note": "HMF has this rose, but I could not find it in the KSG catalogue: not in the text of the list pages and not among the photo-grid captions (checked 2026-10-07). User believes KSG carries it, so confirm the source (another edition or a price list?). Do not map it to PRINCESS DE MONACO, which is a different rose."
+  },
+  {
+    "ksg_entry": "PRINCESS DE MONACO - Hybrid Teas, Meilland '82",
+    "hmf": {
+      "id": "18083",
+      "url": "https://www.helpmefind.com/rose/pl.php?n=18083"
+    },
+    "match_confidence": "fuzzy",
+    "checks": {
+      "name": "KSG 'Princess De Monaco' vs HMF 'Princesse de Monaco'; HMF synonyms include Princess of Monaco and Princess Grace",
+      "breeder": "Meilland = Meilland (HMF breeder is Louisette Meilland, introduced by Meilland et Cie)",
+      "class": "Hybrid Tea = Hybrid Tea",
+      "year": "KSG '82 vs HMF introduced 1981 (bred 1971): off by one, so not exact"
+    },
+    "note": "Page 23 photo shows a cream-pink rose, consistent with this rose and not with the apricot Charlene. Goes to data/review for a person to confirm."
   }
 ]
