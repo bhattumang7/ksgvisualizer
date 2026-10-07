@@ -2,13 +2,14 @@
 
 import { useCallback, useEffect, useState } from "react";
 import type { HmfPhoto, HmfPhotos } from "@/lib/hmf";
+import type { StoredPhoto } from "@/lib/photos";
 
 type Status = "loading" | "loading-more" | "idle" | "error";
 
-export function HmfGallery({ hmfId, hmfUrl, name }: { hmfId: string | null; hmfUrl: string | null; name: string }) {
-  const [photos, setPhotos] = useState<HmfPhoto[]>([]);
+export function HmfGallery({ hmfId, hmfUrl, name, stored }: { hmfId: string | null; hmfUrl: string | null; name: string; stored: StoredPhoto[] | null }) {
+  const [photos, setPhotos] = useState<HmfPhoto[]>(stored ?? []);
   const [next, setNext] = useState<string | null>(null);
-  const [status, setStatus] = useState<Status>("loading");
+  const [status, setStatus] = useState<Status>(stored ? "idle" : "loading");
   const [unavailable, setUnavailable] = useState(false);
 
   const load = useCallback(
@@ -36,11 +37,11 @@ export function HmfGallery({ hmfId, hmfUrl, name }: { hmfId: string | null; hmfU
   );
 
   useEffect(() => {
-    if (!hmfId) return;
+    if (!hmfId || stored) return;
     const controller = new AbortController();
     load(null, controller.signal);
     return () => controller.abort();
-  }, [hmfId, load]);
+  }, [hmfId, stored, load]);
 
   if (!hmfId) {
     return <Placeholder text="This rose hasn't been matched to HelpMeFind yet." />;
@@ -56,7 +57,7 @@ export function HmfGallery({ hmfId, hmfUrl, name }: { hmfId: string | null; hmfU
           {photos.map((p) => (
             <li key={p.src} className="shrink-0 snap-start">
               <a href={p.pageUrl} target="_blank" rel="noopener noreferrer">
-                {/* eslint-disable-next-line @next/next/no-img-element -- live HMF thumbnail, never re-hosted */}
+                {/* eslint-disable-next-line @next/next/no-img-element -- snapshot or live HMF thumbnail */}
                 <img src={p.src} width={p.width} height={p.height} loading="lazy" alt={`${name}, photo from HelpMeFind`} className="h-24 w-auto rounded-lg border border-border" />
               </a>
               {p.credit && (
@@ -67,7 +68,7 @@ export function HmfGallery({ hmfId, hmfUrl, name }: { hmfId: string | null; hmfU
               )}
             </li>
           ))}
-          {next && (
+          {next && !stored && (
             <li className="flex shrink-0 snap-start items-center">
               <button
                 type="button"

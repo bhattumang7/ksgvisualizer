@@ -9,7 +9,8 @@
     "lint": "eslint",
     "test": "vitest run",
     "typecheck": "next typegen && tsc --noEmit",
-    "e2e": "playwright test"
+    "e2e": "playwright test",
+    "photos": "tsx scripts/fetch-photos.mts"
   },
   "dependencies": {
     "minisearch": "^7.2.0",
@@ -31,6 +32,7 @@
     "eslint-config-next": "16.4.0",
     "server-only": "^0.0.1",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5",
     "vitest": "^5.0.3"
   },

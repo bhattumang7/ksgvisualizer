@@ -25,7 +25,7 @@
 
 ## Live HMF photos
 
-**Decision (2026-10-07):** we store only the HMF rose URL/ID per rose. Photo URLs are never stored; they are discovered on the fly by the server route when a client opens a rose, and rendered in the UI with credit and a link back to HMF.
+**Decision (2026-10-07, revised):** HMF throttles frequent live requests, so photos are snapshotted. `web/scripts/fetch-photos.mts` (`pnpm photos [--limit N] [--id HMF_ID] [--refresh]`) fetches up to 12 thumbnails per matched rose, 4-5.5 s apart, into `web/public/photos/<hmfId>/` plus an `index.json` with credits and HMF photo-page links. It skips roses already done, so it is resumable, and it stops at the first 403/429/5xx. The rose page serves the snapshot; roses without one fall back to the live route below. Credit and an HMF link are always shown. The earlier 'links only, never store photos' rule no longer applies to these thumbnails.
 
 **Confirmed (2026-10-07):** with `web/hotlink-test.html` served from the custom domain, one HMF image (896x672) loaded in a plain `<img>` under the default referrer policy. The other policies were not reported. Only one image was tested.
 

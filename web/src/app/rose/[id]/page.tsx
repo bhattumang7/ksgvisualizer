@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { joinBreeders } from "@/lib/catalogue";
 import { loadDataset } from "@/lib/data";
+import { loadStoredPhotos } from "@/lib/photos";
 import { HmfGallery } from "@/components/HmfGallery";
 
 const all = () => {
@@ -45,7 +46,7 @@ export default async function RosePage({ params }: PageProps<"/rose/[id]">) {
       <p className="mt-1 text-muted">{rose.ksg_name !== rose.canonical_name.toUpperCase() && <>Listed by KSG as {rose.ksg_name}. </>}</p>
 
       <div className="mt-5">
-        <HmfGallery hmfId={rose.hmf.id} hmfUrl={rose.hmf.url} name={rose.canonical_name} />
+        <HmfGallery hmfId={rose.hmf.id} hmfUrl={rose.hmf.url} name={rose.canonical_name} stored={rose.hmf.id ? loadStoredPhotos(rose.hmf.id) : null} />
       </div>
 
       <p className="mt-6 text-lg leading-relaxed">{rose.description}</p>

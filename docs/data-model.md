@@ -24,7 +24,7 @@
 }
 ```
 
-Every field except `hmf` and `links` comes from the KSG catalogue. There are no image fields, because photos are fetched live using `hmf.id`.
+Every field except `hmf` and `links` comes from the KSG catalogue. There are no image fields in `roses.json`: photos are looked up by `hmf.id`, from the snapshot in `web/public/photos/<id>/index.json` or, failing that, live.
 
 ## Files
 

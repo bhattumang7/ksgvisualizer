@@ -15,7 +15,7 @@ Planning only. **Nothing has been extracted yet.** Don't start extraction or scr
 
 - **The PDF is read-only.** Never modify it.
 - **Links only:** for HMF and other sites, store only IDs and URLs. Never copy their descriptions, attributes or other content.
-- **No photos are stored or re-hosted**, including the KSG PDF images. Photos are fetched live from HMF, with credit and a link back to HMF.
+- **Photos (changed 2026-10-07):** HMF rate-limits live requests, so small HMF thumbnails are snapshotted into `web/public/photos/<hmfId>/` (with `index.json` holding credits and photo-page links) by `pnpm photos` in `web/`. Always show the photographer credit and link back to HMF. The KSG PDF images are still never stored. Roses without a snapshot fall back to the live route.
 - Be polite when scraping: rate-limit requests, respect robots.txt, and keep any cache temporary and gitignored.
 - Keep manual corrections in `data/overrides.json`, apply them last, and never overwrite them.
 
