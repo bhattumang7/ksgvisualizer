@@ -31,3 +31,13 @@ HelpMeFind (helpmefind.com/roses) has **no public API**.
 ## Secondary sources
 
 Breeder sites (kordes-rosen.com, meilland.com, tantau.com, etc.), the American Rose Society / Modern Roses database, Wikipedia/Wikidata, and Indian rose society sources for Indian cultivars. Store only the URL or ID for each one.
+
+## Resolving what the matcher could not
+
+Every non-exact rose is listed in `data/review/hmf-matches.csv` with its top 3 candidates; the raw search pages stay in `cache/hmf-search/`. Decide each one by hand (from `web/`):
+
+- `pnpm hmf-decide ROSE_ID <hmf plant url>` links the rose (`match_confidence: "manual"`).
+- `pnpm hmf-decide ROSE_ID --none` records that it was checked and is not on HMF.
+- `pnpm hmf-decide ROSE_ID --undo` removes the decision.
+
+Decisions are written to `data/overrides.json` (applied last by `python -m pipeline.run`, never overwritten), and decided roses drop out of the review CSV.

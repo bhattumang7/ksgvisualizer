@@ -30,6 +30,17 @@ export const roses: Rose[] = JSON.parse(fs.readFileSync(path.join(DATA, "roses.j
 const breeders: { id: string; name: string }[] = JSON.parse(fs.readFileSync(path.join(DATA, "breeders.json"), "utf8"));
 const breederName = new Map(breeders.map((b) => [b.id, b.name]));
 
+/** Roses a person has already decided (data/overrides.json has an hmf entry): they are left out of the review list. */
+const overridesFile = path.join(DATA, "overrides.json");
+const decided = (): Set<string> => {
+  try {
+    const o = JSON.parse(fs.readFileSync(overridesFile, "utf8")) as Record<string, { hmf?: unknown }>;
+    return new Set(Object.keys(o).filter((id) => o[id]?.hmf));
+  } catch {
+    return new Set();
+  }
+};
+
 export const breederTermsFor = (r: Rose) => breederTerms(r.breeder_raw, r.breeder_id ? (breederName.get(r.breeder_id) ?? null) : null);
 
 export const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
@@ -154,7 +165,13 @@ export function score(dir: string) {
   const matches: Record<string, unknown> = {};
   const review: string[] = [["rose_id", "ksg_name", "breeder", "year", "confidence", "note", "rank", "url", "title", "score", "evidence", "snippet"].join(",")];
   const counts = { exact: 0, fuzzy: 0, none: 0 };
+  const done = decided();
+  let reviewed = 0;
   for (const { rose: r, m, cached, duplicateOf } of rows) {
+    if (done.has(r.id)) {
+      reviewed++;
+      continue;
+    }
     counts[m.match_confidence]++;
     matches[r.id] = { id: m.id, url: m.url, match_confidence: m.match_confidence, hmf_title: m.hmf_title, evidence: m.evidence, query: cached.query, ...(duplicateOf && { duplicate_of: duplicateOf }) };
     if (m.match_confidence === "exact") continue;
@@ -169,6 +186,6 @@ export function score(dir: string) {
   writeJson(path.join(DATA, "hmf-matches.json"), matches);
   fs.mkdirSync(path.join(DATA, "review"), { recursive: true });
   fs.writeFileSync(path.join(DATA, "review", "hmf-matches.csv"), review.join("\n") + "\n");
-  console.log(`Matches: ${counts.exact} exact, ${counts.fuzzy} fuzzy, ${counts.none} none (probably not on HMF or needs review), ${unsearched} not searched yet`);
+  console.log(`Matches: ${counts.exact} exact, ${counts.fuzzy} fuzzy, ${counts.none} none (probably not on HMF or needs review), ${reviewed} decided by hand (data/overrides.json), ${unsearched} not searched yet`);
 }
 

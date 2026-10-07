@@ -13,6 +13,7 @@
     "photos": "tsx scripts/fetch-photos.mts",
     "hmf-data": "tsx scripts/fetch-hmf-data.mts",
     "hmf-match": "tsx scripts/match-hmf.mts",
+    "hmf-decide": "tsx scripts/hmf-decide.mts",
     "hmf-search": "tsx scripts/hmf-search.mts"
   },
   "dependencies": {
