@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HMF hotlink test</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 720px; margin: 0 auto; padding: 16px; line-height: 1.4; }
+  input[type=text] { width: 100%; padding: 8px; box-sizing: border-box; }
+  button { padding: 8px 14px; margin-top: 8px; }
+  .row { margin: 16px 0; padding: 12px; border: 1px solid #ccc; border-radius: 8px; }
+  .row img { max-width: 100%; max-height: 260px; display: block; margin-top: 8px; }
+  .ok { color: #0a7a2f; font-weight: 600; }
+  .fail { color: #b3261e; font-weight: 600; }
+  code { background: #eee; padding: 1px 4px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<h1>HMF hotlink test</h1>
+<p>Serve this file from your custom domain, open it in your browser and paste a HelpMeFind photo URL
+(right-click a photo on HMF, then "Copy image address"). The page shows the image under each referrer policy.</p>
+<p>Page origin (what HMF sees as the Referer): <code id="origin"></code></p>
+
+<label for="url">Image URL</label>
+<input type="text" id="url" placeholder="https://...helpmefind.com/.../photo.jpg">
+<button id="go">Test</button>
+
+<div id="results"></div>
+
+<script>
+document.getElementById('origin').textContent = location.origin + '/';
+
+// Each policy changes what Referer the browser sends with the image request.
+const POLICIES = [
+  ['default (browser default, usually origin only cross-site)', ''],
+  ['no-referrer (sends no Referer)', 'no-referrer'],
+  ['origin (sends your domain only)', 'origin'],
+  ['unsafe-url (sends full page URL)', 'unsafe-url'],
+];
+
+document.getElementById('go').addEventListener('click', () => {
+  const url = document.getElementById('url').value.trim();
+  const out = document.getElementById('results');
+  out.innerHTML = '';
+  if (!url) return;
+
+  for (const [label, policy] of POLICIES) {
+    const row = document.createElement('div');
+    row.className = 'row';
+    const status = document.createElement('div');
+    status.textContent = label + ': loading...';
+    row.appendChild(status);
+
+    const img = new Image();
+    if (policy) img.referrerPolicy = policy;
+    img.alt = 'HMF test image';
+    img.onload = () => {
+      status.innerHTML = label + ': <span class="ok">SHOWN (' + img.naturalWidth + 'x' + img.naturalHeight + ')</span>';
+    };
+    img.onerror = () => {
+      status.innerHTML = label + ': <span class="fail">FAILED to load (blocked, bad URL or not an image)</span>';
+    };
+    row.appendChild(img);
+    img.src = url;
+    out.appendChild(row);
+  }
+});
+</script>
+</body>
+</html>
