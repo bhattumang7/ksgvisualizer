@@ -1,16 +1,20 @@
 # Web platform
 
-## Stack (proposed, not final; confirm with the user before scaffolding)
+## Stack
 
-- **Next.js (App Router) + TypeScript + Tailwind CSS + shadcn/ui**, built as a static site from `data/roses.json`.
-- About 1,200 roses is small enough to filter and search on the client. Use Fuse.js or MiniSearch for fuzzy search.
-- The only server piece is the stateless HMF photo route (see below).
-- Deploy to Vercel, Netlify or GitHub Pages.
+**Decided (2026-10-07):** Next.js, self-hosted on a VPS with Docker. Not yet scaffolded.
+
+- **Next.js (App Router) + TypeScript + Tailwind CSS + shadcn/ui (Radix)**, pages statically generated from `data/roses.json`. pnpm as package manager.
+- About 1,200 roses is small enough to filter and search on the client. Use **MiniSearch** (field boosting, prefix match) for fuzzy search.
+- Filter state in the URL via `nuqs`. **Pagination (decided 2026-10-07)**, with the page number in the URL. No infinite scroll or virtualisation.
+- The only server piece is the stateless HMF photo route (see below). It rules out GitHub Pages and `output: 'export'`.
+- **Deploy:** `output: 'standalone'` in a Docker image behind a reverse proxy (Caddy or nginx) that handles TLS. The photo route needs a per-IP rate limit and a small throttle towards HMF, both in memory.
+- **Tests:** Vitest for data helpers, Playwright at 360, 414 and 1280 px widths.
 
 ## Features
 
-- Grid and list views with image cards, lazy-loaded images and infinite scroll.
-- **Filters** (from KSG data plus the breeder map): class, colour group, breeder, breeder country, Indian-bred, year range, decade, fragrance, price range, new this season, has awards, and HMF match status.
+- Grid and list views with image cards, lazy-loaded images and pagination. Changing a filter resets to page 1.
+- **Filters** (from KSG data plus the breeder map): section/class (Hybrid Tea, Floribunda, Miniature, Climber, Shrub, Polyantha), colour group, breeder, breeder country, Indian-bred, year range, decade, fragrance, price range, new this season, has awards, and HMF match status.
 - Full-text fuzzy search across names, breeders and descriptions.
 - Sorting by name, year, price and breeder.
 - Filter state stored in the URL, so views can be shared.
