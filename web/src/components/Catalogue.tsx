@@ -51,7 +51,7 @@ const KEYS: Record<keyof Filters, keyof typeof params> = {
 const regionNames = new Intl.DisplayNames(["en"], { type: "region" });
 const cap = (s: string) => s[0].toUpperCase() + s.slice(1);
 
-export function Catalogue({ roses, breeders, pageSize }: { roses: CatalogueRose[]; breeders: Breeder[]; pageSize: number }) {
+export function Catalogue({ roses, breeders, pageSize }: Readonly<{ roses: CatalogueRose[]; breeders: Breeder[]; pageSize: number }>) {
   const [p, setP] = useQueryStates(params);
   const [sheetOpen, setSheetOpen] = useState(false);
 
@@ -112,7 +112,7 @@ export function Catalogue({ roses, breeders, pageSize }: { roses: CatalogueRose[
     ...(filters.fragrant ? [{ key: "fragrant", label: "Fragrant", clear: () => change({ fragrant: false }) }] : []),
     ...(filters.isNew ? [{ key: "new", label: "New", clear: () => change({ isNew: false }) }] : []),
     ...(filters.awards ? [{ key: "awards", label: "Has awards", clear: () => change({ awards: false }) }] : []),
-    ...(filters.hmf !== "all" ? [{ key: "hmf", label: filters.hmf === "matched" ? "On HelpMeFind" : "Not on HelpMeFind", clear: () => change({ hmf: "all" }) }] : []),
+    ...(filters.hmf === "all" ? [] : [{ key: "hmf", label: filters.hmf === "matched" ? "On HelpMeFind" : "Not on HelpMeFind", clear: () => change({ hmf: "all" }) }]),
     ...(filters.yearFrom !== null || filters.yearTo !== null ? [{ key: "year", label: `Year ${filters.yearFrom ?? "…"}–${filters.yearTo ?? "…"}`, clear: () => change({ yearFrom: null, yearTo: null }) }] : []),
     ...(filters.priceMin !== null || filters.priceMax !== null ? [{ key: "price", label: `₹${filters.priceMin ?? "…"}–${filters.priceMax ?? "…"}`, clear: () => change({ priceMin: null, priceMax: null }) }] : []),
   ];
@@ -172,7 +172,7 @@ export function Catalogue({ roses, breeders, pageSize }: { roses: CatalogueRose[
                   <option key={s} value={s}>{SORT_LABELS[s]}</option>
                 ))}
               </select>
-              <div role="group" aria-label="View" className="flex overflow-hidden rounded-lg border border-border text-sm">
+              <fieldset aria-label="View" className="m-0 flex min-w-0 overflow-hidden rounded-lg border border-border p-0 text-sm">
                 {(["grid", "list"] as const).map((v) => (
                   <button
                     key={v}
@@ -184,7 +184,7 @@ export function Catalogue({ roses, breeders, pageSize }: { roses: CatalogueRose[
                     {cap(v)}
                   </button>
                 ))}
-              </div>
+              </fieldset>
             </div>
           </div>
 
@@ -243,7 +243,7 @@ export function Catalogue({ roses, breeders, pageSize }: { roses: CatalogueRose[
       </div>
 
       {sheetOpen && (
-        <div className="fixed inset-0 z-30 lg:hidden" role="dialog" aria-modal="true" aria-label="Filters">
+        <dialog open aria-modal="true" aria-label="Filters" className="fixed inset-0 z-30 m-0 h-full max-h-none w-full max-w-none bg-transparent p-0 text-foreground lg:hidden">
           <button type="button" aria-label="Close filters" className="absolute inset-0 bg-black/50" onClick={() => setSheetOpen(false)} />
           <div className="absolute inset-x-0 bottom-0 flex max-h-[85vh] flex-col rounded-t-2xl bg-background">
             <div className="flex items-center justify-between border-b border-border px-4 py-3">
@@ -257,7 +257,7 @@ export function Catalogue({ roses, breeders, pageSize }: { roses: CatalogueRose[
               </button>
             </div>
           </div>
-        </div>
+        </dialog>
       )}
     </div>
   );

@@ -34,7 +34,7 @@ export const isValidHmfId = (id: string) => /^\d{1,8}$/.test(id);
 export const isValidCursor = (c: string) => /^\d{1,3}\.\d{1,3}$/.test(c);
 
 const decode = (s: string) =>
-  s.replace(/&amp;/g, "&").replace(/&#0?39;|&apos;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">");
+  s.replaceAll("&amp;", "&").replaceAll(/&#0?39;|&apos;/g, "'").replaceAll("&quot;", '"').replaceAll("&lt;", "<").replaceAll("&gt;", ">");
 
 /** Pulls thumbnails and photographer credits out of the photos-tab markup. */
 export function parsePhotos(html: string): HmfPhoto[] {

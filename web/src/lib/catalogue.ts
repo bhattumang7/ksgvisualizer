@@ -82,20 +82,36 @@ function inRange(v: number | null, min: number | null, max: number | null): bool
   return (min === null || v >= min) && (max === null || v <= max);
 }
 
-function matches(r: CatalogueRose, f: Filters, skip?: FacetKey): boolean {
-  if (skip !== "classes" && f.classes.length && !f.classes.includes(r.class)) return false;
-  if (skip !== "colours" && f.colours.length && !f.colours.includes(r.colour_group)) return false;
-  if (skip !== "breeders" && f.breeders.length && !(r.breeder_id && f.breeders.includes(r.breeder_id))) return false;
-  if (skip !== "countries" && f.countries.length && !(r.breeder_country && f.countries.includes(r.breeder_country))) return false;
+/** True when nothing is selected for a facet, or the rose's value is one of the selections. */
+function inSelection(selected: string[], value: string | null): boolean {
+  return selected.length === 0 || (value !== null && selected.includes(value));
+}
+
+function matchesFacets(r: CatalogueRose, f: Filters, skip?: FacetKey): boolean {
+  return (
+    (skip === "classes" || inSelection(f.classes, r.class)) &&
+    (skip === "colours" || inSelection(f.colours, r.colour_group)) &&
+    (skip === "breeders" || inSelection(f.breeders, r.breeder_id)) &&
+    (skip === "countries" || inSelection(f.countries, r.breeder_country))
+  );
+}
+
+function matchesFlags(r: CatalogueRose, f: Filters): boolean {
   if (f.indian && !r.breeder_indian) return false;
   if (f.fragrant && !r.fragrance) return false;
   if (f.isNew && !r.is_new) return false;
   if (f.awards && r.awards.length === 0) return false;
   if (f.hmf === "matched" && !r.hmf.id) return false;
-  if (f.hmf === "unmatched" && r.hmf.id) return false;
-  if (!inRange(r.year, f.yearFrom, f.yearTo)) return false;
-  if (!inRange(r.price_inr, f.priceMin, f.priceMax)) return false;
-  return true;
+  return !(f.hmf === "unmatched" && r.hmf.id);
+}
+
+function matches(r: CatalogueRose, f: Filters, skip?: FacetKey): boolean {
+  return (
+    matchesFacets(r, f, skip) &&
+    matchesFlags(r, f) &&
+    inRange(r.year, f.yearFrom, f.yearTo) &&
+    inRange(r.price_inr, f.priceMin, f.priceMax)
+  );
 }
 
 /** Rose id to rank (0 = best hit), or null when there is no query. */
@@ -116,6 +132,14 @@ export function applyFilters(
   return ranks ? hits.sort((a, b) => ranks.get(a.id)! - ranks.get(b.id)!) : hits;
 }
 
+const FACET_VALUE: Record<FacetKey, (r: CatalogueRose) => string | null> = {
+  classes: (r) => r.class,
+  colours: (r) => r.colour_group,
+  breeders: (r) => r.breeder_id,
+  countries: (r) => r.breeder_country,
+};
+const facetValue = (r: CatalogueRose, key: FacetKey) => FACET_VALUE[key](r);
+
 /** Counts per option, ignoring the facet's own selection so other options stay visible. */
 export function facetCounts(
   roses: CatalogueRose[],
@@ -125,8 +149,7 @@ export function facetCounts(
 ): Map<string, number> {
   const counts = new Map<string, number>();
   for (const r of applyFilters(roses, index, f, key)) {
-    const value =
-      key === "classes" ? r.class : key === "colours" ? r.colour_group : key === "breeders" ? r.breeder_id : r.breeder_country;
+    const value = facetValue(r, key);
     if (value) counts.set(value, (counts.get(value) ?? 0) + 1);
   }
   return counts;

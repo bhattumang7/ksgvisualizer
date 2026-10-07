@@ -24,26 +24,26 @@ export interface HmfDetails {
 
 const decode = (s: string) =>
   s
-    .replace(/&nbsp;/g, " ")
-    .replace(/&#0?39;|&#039;|&apos;/g, "'")
-    .replace(/&#(\d+);?/g, (_, n) => String.fromCodePoint(Number(n)))
-    .replace(/&quot;/g, '"')
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&times;/g, "×")
-    .replace(/&bull;/g, "•")
-    .replace(/&amp;/g, "&");
+    .replaceAll("&nbsp;", " ")
+    .replaceAll(/&#0?39;|&#039;|&apos;/g, "'")
+    .replaceAll(/&#(\d+);?/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replaceAll("&quot;", '"')
+    .replaceAll("&lt;", "<")
+    .replaceAll("&gt;", ">")
+    .replaceAll("&times;", "×")
+    .replaceAll("&bull;", "•")
+    .replaceAll("&amp;", "&");
 
 function text(html: string): string {
   return decode(
     html
-      .replace(/<br\s*\/?>/gi, "\n")
-      .replace(/<(script|style)[\s\S]*?<\/\1>/gi, "")
-      .replace(/<[^>]+>/g, ""),
+      .replaceAll(/<br\s*\/?>/gi, "\n")
+      .replaceAll(/<(script|style)[\s\S]*?<\/\1>/gi, "")
+      .replaceAll(/<[^<>]+>/g, ""),
   )
-    .replace(/[ \t]+/g, " ")
-    .replace(/ ?\n ?/g, "\n")
-    .replace(/\n{3,}/g, "\n\n")
+    .replaceAll(/[ \t]+/g, " ")
+    .replaceAll(/ ?\n ?/g, "\n")
+    .replaceAll(/\n{3,}/g, "\n\n")
     .trim();
 }
 
@@ -73,8 +73,8 @@ export function parseDetails(html: string, hmfId: string, fetchedAt = new Date()
   const par = rowHtml.Parentage;
   if (par) {
     const grab = (label: string) => {
-      const m = new RegExp(`<th>${label}:</th><td>([\\s\\S]*?)</td>`, "i").exec(par);
-      return m ? text(m[1]).replace(/\s+/g, " ") : null;
+      const m = new RegExp(String.raw`<th>${label}:</th><td>([\s\S]*?)</td>`, "i").exec(par);
+      return m ? text(m[1]).replaceAll(/\s+/g, " ") : null;
     };
     parentage = { seed: grab("seed"), pollen: grab("pollen") };
   }

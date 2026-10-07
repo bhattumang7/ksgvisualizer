@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { CatalogueRose } from "@/lib/catalogue";
 import { ColourSwatch } from "./ColourSwatch";
 
-export function RoseCard({ rose, list = false }: { rose: CatalogueRose; list?: boolean }) {
+export function RoseCard({ rose, list = false }: Readonly<{ rose: CatalogueRose; list?: boolean }>) {
   const meta = [rose.breeder_name, rose.year ?? rose.year_raw].filter(Boolean).join(" · ");
   return (
     <Link
@@ -23,7 +23,7 @@ export function RoseCard({ rose, list = false }: { rose: CatalogueRose; list?: b
         <h3 className="font-serif text-lg font-semibold leading-tight group-hover:text-accent">{rose.canonical_name}</h3>
         {meta && <p className="truncate text-sm text-muted">{meta}</p>}
         {list && <p className="line-clamp-2 text-sm">{rose.colour_text}</p>}
-        <p className="mt-auto pt-1 text-sm font-medium">{rose.price_inr !== null ? `₹${rose.price_inr}` : <span className="font-normal text-muted">Price on request</span>}</p>
+        <p className="mt-auto pt-1 text-sm font-medium">{rose.price_inr === null ? <span className="font-normal text-muted">Price on request</span> : `₹${rose.price_inr}`}</p>
       </div>
     </Link>
   );

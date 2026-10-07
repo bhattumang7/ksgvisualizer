@@ -6,33 +6,40 @@ import type { StoredPhoto } from "@/lib/photos";
 
 type Status = "loading" | "loading-more" | "idle" | "error";
 
-export function HmfGallery({ hmfId, hmfUrl, name, stored }: { hmfId: string | null; hmfUrl: string | null; name: string; stored: StoredPhoto[] | null }) {
+async function fetchPhotoPage(hmfId: string, cursor: string | null, signal?: AbortSignal): Promise<HmfPhotos> {
+  const query = cursor ? `?cursor=${cursor}` : "";
+  const res = await fetch(`/api/hmf/${hmfId}/photos${query}`, { signal });
+  if (!res.ok) throw new Error(String(res.status));
+  return res.json();
+}
+
+/** Appends incoming photos, skipping any already shown. */
+function mergePhotos(prev: HmfPhoto[], incoming: HmfPhoto[]): HmfPhoto[] {
+  const seen = new Set(prev.map((p) => p.src));
+  return [...prev, ...incoming.filter((p) => !seen.has(p.src))];
+}
+
+export function HmfGallery({ hmfId, hmfUrl, name, stored }: Readonly<{ hmfId: string | null; hmfUrl: string | null; name: string; stored: StoredPhoto[] | null }>) {
   const [photos, setPhotos] = useState<HmfPhoto[]>(stored ?? []);
   const [next, setNext] = useState<string | null>(null);
   const [status, setStatus] = useState<Status>(stored ? "idle" : "loading");
   const [unavailable, setUnavailable] = useState(false);
 
   const load = useCallback(
-    (cursor: string | null, signal?: AbortSignal) => {
-      const query = cursor ? `?cursor=${cursor}` : "";
-      return fetch(`/api/hmf/${hmfId}/photos${query}`, { signal })
-        .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
-        .then((data: HmfPhotos) => {
-          setPhotos((prev) => {
-            const seen = new Set(prev.map((p) => p.src));
-            return [...prev, ...data.photos.filter((p) => !seen.has(p.src))];
-          });
+    (cursor: string | null, signal?: AbortSignal) =>
+      fetchPhotoPage(hmfId as string, cursor, signal)
+        .then((data) => {
+          setPhotos((prev) => mergePhotos(prev, data.photos));
           setNext(data.next);
           setUnavailable(data.status === "unavailable");
           setStatus("idle");
         })
-        .catch((e) => {
+        .catch((e: Error) => {
           if (e.name !== "AbortError") {
             setUnavailable(true);
             setStatus("error");
           }
-        });
-    },
+        }),
     [hmfId],
   );
 
@@ -58,7 +65,7 @@ export function HmfGallery({ hmfId, hmfUrl, name, stored }: { hmfId: string | nu
             <li key={p.src} className="shrink-0 snap-start">
               <a href={p.pageUrl} target="_blank" rel="noopener noreferrer">
                 {/* eslint-disable-next-line @next/next/no-img-element -- snapshot or live HMF thumbnail */}
-                <img src={p.src} width={p.width} height={p.height} loading="lazy" alt={`${name}, photo from HelpMeFind`} className="h-24 w-auto rounded-lg border border-border" />
+                <img src={p.src} width={p.width} height={p.height} loading="lazy" alt={`${name}, from HelpMeFind`} className="h-24 w-auto rounded-lg border border-border" />
               </a>
               {p.credit && (
                 <p className="mt-1 max-w-[9rem] truncate text-xs text-muted">
@@ -108,7 +115,7 @@ export function HmfGallery({ hmfId, hmfUrl, name, stored }: { hmfId: string | nu
   );
 }
 
-function Placeholder({ text }: { text: string }) {
+function Placeholder({ text }: Readonly<{ text: string }>) {
   return (
     <div className="flex h-24 items-center rounded-lg border border-dashed border-border px-4 text-sm text-muted">{text}</div>
   );

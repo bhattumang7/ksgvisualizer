@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: PageProps<"/breeder/[id]">): 
   return { title: loadDataset().breeders.find((b) => b.id === id)?.name ?? "Breeder not found" };
 }
 
-export default async function BreederPage({ params }: PageProps<"/breeder/[id]">) {
+export default async function BreederPage({ params }: Readonly<PageProps<"/breeder/[id]">>) {
   const { id } = await params;
   const { roses, breeders } = loadDataset();
   const breeder = breeders.find((b) => b.id === id);

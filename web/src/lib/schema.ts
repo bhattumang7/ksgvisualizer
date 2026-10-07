@@ -30,12 +30,12 @@ export const RoseSchema = z.object({
   ksg_page: z.number().int().nullable(),
   hmf: z.object({
     id: z.string().nullable(),
-    url: z.string().url().nullable(),
+    url: z.url().nullable(),
     match_confidence: z.enum(["exact", "fuzzy", "manual", "none"]),
   }),
   links: z.object({
     wikidata: z.string().nullable(),
-    breeder_url: z.string().url().nullable(),
+    breeder_url: z.url().nullable(),
     ars: z.string().nullable(),
   }),
 });

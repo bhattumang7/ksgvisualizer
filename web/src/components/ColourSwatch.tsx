@@ -10,6 +10,6 @@ const BACKGROUNDS: Record<string, string> = {
 };
 
 /** A flat colour block standing in for a photo. Photos are only loaded on a rose's own page. */
-export function ColourSwatch({ group, className = "" }: { group: string; className?: string }) {
+export function ColourSwatch({ group, className = "" }: Readonly<{ group: string; className?: string }>) {
   return <div aria-hidden className={className} style={{ background: BACKGROUNDS[group] ?? "#ccc" }} />;
 }

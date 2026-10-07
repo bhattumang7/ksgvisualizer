@@ -19,13 +19,13 @@ function toggle(list: string[], value: string) {
   return list.includes(value) ? list.filter((v) => v !== value) : [...list, value];
 }
 
-function Group({ title, options, selected, onToggle, searchable = false }: {
+function Group({ title, options, selected, onToggle, searchable = false }: Readonly<{
   title: string;
   options: Option[];
   selected: string[];
   onToggle: (value: string) => void;
   searchable?: boolean;
-}) {
+}>) {
   const [term, setTerm] = useState("");
   const shown = options.filter((o) => !term || o.label.toLowerCase().includes(term.toLowerCase()));
   return (
@@ -60,7 +60,7 @@ function Group({ title, options, selected, onToggle, searchable = false }: {
   );
 }
 
-function Check({ label, checked, onChange }: { label: string; checked: boolean; onChange: (v: boolean) => void }) {
+function Check({ label, checked, onChange }: Readonly<{ label: string; checked: boolean; onChange: (v: boolean) => void }>) {
   return (
     <label className="flex cursor-pointer items-center gap-2 py-1.5 text-sm">
       <input type="checkbox" checked={checked} onChange={(e) => onChange(e.target.checked)} className="size-4 accent-[var(--accent)]" />
@@ -69,7 +69,7 @@ function Check({ label, checked, onChange }: { label: string; checked: boolean; 
   );
 }
 
-function NumberField({ label, value, onChange, placeholder }: { label: string; value: number | null; onChange: (v: number | null) => void; placeholder: string }) {
+function NumberField({ label, value, onChange, placeholder }: Readonly<{ label: string; value: number | null; onChange: (v: number | null) => void; placeholder: string }>) {
   return (
     <label className="block text-xs text-muted">
       {label}
@@ -86,7 +86,7 @@ function NumberField({ label, value, onChange, placeholder }: { label: string; v
   );
 }
 
-export function FilterPanel({ filters, options, onChange }: FilterPanelProps) {
+export function FilterPanel({ filters, options, onChange }: Readonly<FilterPanelProps>) {
   return (
     <div className="space-y-5">
       <Group title="Section" options={options.classes} selected={filters.classes} onToggle={(v) => onChange({ classes: toggle(filters.classes, v) })} />
@@ -109,7 +109,7 @@ export function FilterPanel({ filters, options, onChange }: FilterPanelProps) {
             <NumberField label="Price to (₹)" value={filters.priceMax} onChange={(v) => onChange({ priceMax: v })} placeholder="300" />
           </div>
           <label className="block text-sm font-semibold">
-            HelpMeFind match
+            <span>HelpMeFind match</span>
             <select
               value={filters.hmf}
               onChange={(e) => onChange({ hmf: e.target.value as HmfFilter })}

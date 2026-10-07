@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: PageProps<"/rose/[id]">): Pro
   return { title: rose?.canonical_name ?? "Rose not found" };
 }
 
-export default async function RosePage({ params }: PageProps<"/rose/[id]">) {
+export default async function RosePage({ params }: Readonly<PageProps<"/rose/[id]">>) {
   const { id } = await params;
   const rose = all().find((r) => r.id === id);
   if (!rose) notFound();
@@ -37,7 +37,7 @@ export default async function RosePage({ params }: PageProps<"/rose/[id]">) {
     ...(hmf?.rows.Habit ? ([["Habit", hmf.rows.Habit]] as [string, React.ReactNode][]) : []),
     ...(hmf?.parentage ? ([["Parentage", [hmf.parentage.seed && `seed: ${hmf.parentage.seed}`, hmf.parentage.pollen && `pollen: ${hmf.parentage.pollen}`].filter(Boolean).join("; ")]] as [string, React.ReactNode][]) : []),
     ["Awards", rose.awards.length ? rose.awards.map((a) => (a.year ? `${a.name} ${a.year}` : a.name)).join(", ") : "None listed"],
-    ["Price", rose.price_inr !== null ? `₹${rose.price_inr}` : "On request"],
+    ["Price", rose.price_inr === null ? "On request" : `₹${rose.price_inr}`],
   ];
 
   return (
