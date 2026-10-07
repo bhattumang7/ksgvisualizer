@@ -112,6 +112,13 @@ def build():
             "links": {"wikidata": None, "breeder_url": None, "ars": None},
         })
 
+    hm_path = DATA / "hmf-matches.json"
+    hmf_matches = json.loads(hm_path.read_text()) if hm_path.exists() else {}
+    for r in roses:
+        m = hmf_matches.get(r["id"])
+        if m and m["url"]:
+            r["hmf"] = {"id": m["id"], "url": m["url"], "match_confidence": m["match_confidence"]}
+
     ov_path = DATA / "overrides.json"
     if not ov_path.exists():
         ov_path.write_text("{}\n")

@@ -11,7 +11,9 @@
     "typecheck": "next typegen && tsc --noEmit",
     "e2e": "playwright test",
     "photos": "tsx scripts/fetch-photos.mts",
-    "hmf-data": "tsx scripts/fetch-hmf-data.mts"
+    "hmf-data": "tsx scripts/fetch-hmf-data.mts",
+    "hmf-match": "tsx scripts/match-hmf.mts",
+    "hmf-search": "tsx scripts/hmf-search.mts"
   },
   "dependencies": {
     "minisearch": "^7.2.0",
