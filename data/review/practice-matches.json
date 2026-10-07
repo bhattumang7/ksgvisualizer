@@ -1,0 +1,20 @@
+[
+  {
+    "ksg_entry": "EARTH ANGEL - Floribundas, Kor '15",
+    "ksg_page_line": "Floribundas list",
+    "hmf": { "id": "97659", "url": "https://www.helpmefind.com/rose/pl.php?n=97659" },
+    "match_confidence": "exact",
+    "checks": {
+      "name": "same",
+      "breeder": "KSG 'Kor' = Kordes (HMF: Tim Hermann Kordes)",
+      "class": "Floribunda = Floribunda",
+      "year": "KSG '15 = HMF US introduction 2015 (breeding year is 2003), so KSG years can be introduction years"
+    }
+  },
+  {
+    "ksg_entry": "(Princess Charlene de Monaco, Meilland) - not found in KSG catalogue",
+    "hmf": { "id": "96406", "url": "https://www.helpmefind.com/rose/pl.php?n=96406" },
+    "match_confidence": "none",
+    "note": "HMF has the rose, but KSG has no entry for it. Closest KSG entries: PRINCESS DE MONACO (Meilland '82), CAROLINE DE MONACO (Meilland '98), JUBILE DU PRINCE DE MONACO (Meilland '02). Do not map to any of these without confirming."
+  }
+]
