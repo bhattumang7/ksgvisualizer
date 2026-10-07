@@ -1,3 +1,4 @@
+import path from "node:path";
 import { defineConfig } from "@playwright/test";
 
 const port = Number(process.env.PORT ?? 3100);
@@ -13,6 +14,7 @@ export default defineConfig({
   webServer: {
     command: `pnpm build && pnpm start -p ${port}`,
     url: `http://localhost:${port}`,
+    env: { KSG_DATA_DIR: path.join(__dirname, "..", "data", "sample") },
     reuseExistingServer: true,
     timeout: 180_000,
   },

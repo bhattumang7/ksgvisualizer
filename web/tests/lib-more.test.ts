@@ -88,8 +88,9 @@ describe("hmf-store", () => {
 });
 
 describe("loadDataset", () => {
+  const sampleDir = process.env.KSG_DATA_DIR;
   afterEach(() => {
-    delete process.env.KSG_DATA_DIR;
+    process.env.KSG_DATA_DIR = sampleDir;
     vi.resetModules();
   });
   const write = (rosesJson: unknown[], breedersJson: unknown[]) => {

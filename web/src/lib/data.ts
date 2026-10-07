@@ -11,9 +11,9 @@ export interface Dataset {
 
 let cached: Dataset | null = null;
 
-/** Directory holding roses.json and breeders.json. Defaults to the sample set. */
+/** Directory holding roses.json and breeders.json. Defaults to the full catalogue in data/; tests point it at data/sample. */
 function dataDir(): string {
-  return process.env.KSG_DATA_DIR ?? path.join(process.cwd(), "..", "data", "sample");
+  return process.env.KSG_DATA_DIR ?? path.join(process.cwd(), "..", "data");
 }
 
 function readJson<T>(file: string, schema: z.ZodType<T>): T {

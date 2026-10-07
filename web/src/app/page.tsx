@@ -6,7 +6,7 @@ import { withCardPhotos } from "@/lib/photos";
 
 export default function Home() {
   const { roses, breeders } = loadDataset();
-  // The sample set is tiny, so use a small page size to make pagination visible.
+  // A tiny set (like the test sample), so use a small page size to make pagination visible.
   const pageSize = roses.length < 100 ? 6 : 24;
   return (
     <main>
