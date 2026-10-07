@@ -10,7 +10,8 @@
     "test": "vitest run",
     "typecheck": "next typegen && tsc --noEmit",
     "e2e": "playwright test",
-    "photos": "tsx scripts/fetch-photos.mts"
+    "photos": "tsx scripts/fetch-photos.mts",
+    "hmf-data": "tsx scripts/fetch-hmf-data.mts"
   },
   "dependencies": {
     "minisearch": "^7.2.0",

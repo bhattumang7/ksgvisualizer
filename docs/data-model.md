@@ -31,6 +31,7 @@ Every field except `hmf` and `links` comes from the KSG catalogue. There are no 
 ```
 data/
   raw/            # direct extraction output (entries.json)
+  hmf/<hmfId>.json # local snapshot of HMF plant-page details (pnpm hmf-data), refreshed manually
   breeders.json   # curated breeder map
   overrides.json  # manual corrections, applied last
   roses.json      # final: KSG data + external links/IDs

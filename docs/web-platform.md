@@ -25,7 +25,7 @@
 
 ## Live HMF photos
 
-**Decision (2026-10-07, revised):** HMF throttles frequent live requests, so photos are snapshotted. `web/scripts/fetch-photos.mts` (`pnpm photos [--limit N] [--id HMF_ID] [--refresh]`) fetches up to 12 thumbnails per matched rose, 4-5.5 s apart, into `web/public/photos/<hmfId>/` plus an `index.json` with credits and HMF photo-page links. It skips roses already done, so it is resumable, and it stops at the first 403/429/5xx. The rose page serves the snapshot; roses without one fall back to the live route below. Credit and an HMF link are always shown. The earlier 'links only, never store photos' rule no longer applies to these thumbnails.
+**Decision (2026-10-07, revised):** HMF throttles frequent live requests, so photos are snapshotted. `web/scripts/fetch-photos.mts` (`pnpm photos [--limit N] [--id HMF_ID] [--refresh]`) fetches up to 12 thumbnails per matched rose, 4-5.5 s apart, into `web/public/photos/<hmfId>/` plus an `index.json` with credits and HMF photo-page links. It skips roses already done, so it is resumable, and it stops at the first 403/429/5xx. The rose page serves the snapshot; roses without one fall back to the live route below. Credit and an HMF link are always shown. The earlier 'links only, never store photos' rule no longer applies to these thumbnails, and (2026-10-08) the 'links only' rule is gone for plant-page details too: see `data/hmf/` and `pnpm hmf-data`.
 
 **Confirmed (2026-10-07):** with `web/hotlink-test.html` served from the custom domain, one HMF image (896x672) loaded in a plain `<img>` under the default referrer policy. The other policies were not reported. Only one image was tested.
 

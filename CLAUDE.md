@@ -14,7 +14,7 @@ Planning only. **Nothing has been extracted yet.** Don't start extraction or scr
 ## Core rules
 
 - **The PDF is read-only.** Never modify it.
-- **Links only:** for HMF and other sites, store only IDs and URLs. Never copy their descriptions, attributes or other content.
+- **HMF data is stored locally (changed 2026-10-08):** the plant-page details (colour, fragrance, class, bloom, habit, parentage and so on) are snapshotted into `data/hmf/<hmfId>.json` by `pnpm hmf-data` in `web/`, so we never need to read them from HMF again. Refreshing is manual only (`--refresh`, `--id`, `--older-than`). Always link back to HMF.
 - **Photos (changed 2026-10-07):** HMF rate-limits live requests, so small HMF thumbnails are snapshotted into `web/public/photos/<hmfId>/` (with `index.json` holding credits and photo-page links) by `pnpm photos` in `web/`. Always show the photographer credit and link back to HMF. The KSG PDF images are still never stored. Roses without a snapshot fall back to the live route.
 - Be polite when scraping: rate-limit requests, respect robots.txt, and keep any cache temporary and gitignored.
 - Keep manual corrections in `data/overrides.json`, apply them last, and never overwrite them.

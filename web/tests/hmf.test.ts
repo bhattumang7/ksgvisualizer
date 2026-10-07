@@ -59,3 +59,29 @@ describe("guards", () => {
     expect(allowRequest("a", now + 61_000)).toBe(true);
   });
 });
+
+import { parseDetails } from "@/lib/hmf-details";
+
+describe("parseDetails", () => {
+  const page = `<div class="row">
+<div class="hdg">Bloom:</div>
+<div class="grp"><div class="dsc">Light pink, peach shading. &nbsp;Strong fragrance. &nbsp;66 to 71 petals. &nbsp;</div></div>
+</div><div class="row">
+<div class="hdg">Class:</div>
+<div class="grp"><div class="dsc">Grandiflora, Hybrid Tea. &nbsp;</div></div>
+</div><div class="row">
+<div class="hdg">Parentage:</div>
+<div class="grp"><div class="dsc"><table id="parentage"><tr><th>seed:</th><td><a><span>Louis de Fun&#232;s</span></a></td></tr><tr><th>pollen:</th><td><span>A</span> &times; <span>B</span></td></tr></table></div></div>
+</div>`;
+  const d = parseDetails(page, "1", "2026-01-01T00:00:00Z");
+  it("reads rows, colour and fragrance", () => {
+    expect(d.colour).toBe("Light pink, peach shading.");
+    expect(d.fragrance).toBe("Strong fragrance.");
+    expect(parseDetails(page.replace("peach shading.", "peach shading. [Light apricot.]"), "1").fragrance).toBe("Strong fragrance.");
+    expect(d.classes).toEqual(["Grandiflora", "Hybrid Tea"]);
+    expect(d.parentage).toEqual({ seed: "Louis de Funès", pollen: "A × B" });
+  });
+  it("returns no rows for unrelated markup", () => {
+    expect(parseDetails("<html></html>", "1").rows).toEqual({});
+  });
+});

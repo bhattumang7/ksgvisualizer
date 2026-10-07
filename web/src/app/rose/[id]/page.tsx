@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { joinBreeders } from "@/lib/catalogue";
 import { loadDataset } from "@/lib/data";
+import { loadHmfDetails } from "@/lib/hmf-store";
 import { loadStoredPhotos } from "@/lib/photos";
 import { HmfGallery } from "@/components/HmfGallery";
 
@@ -26,12 +27,15 @@ export default async function RosePage({ params }: PageProps<"/rose/[id]">) {
   const rose = all().find((r) => r.id === id);
   if (!rose) notFound();
 
+  const hmf = rose.hmf.id ? loadHmfDetails(rose.hmf.id) : null;
   const facts: [string, React.ReactNode][] = [
     ["Section", rose.class],
     ["Breeder", rose.breeder_id ? <Link className="underline" href={`/breeder/${rose.breeder_id}`}>{rose.breeder_name}</Link> : (rose.breeder_name ?? "Not listed")],
     ["Year", rose.year ?? rose.year_raw ?? "Not listed"],
-    ["Colour", rose.colour_group],
-    ["Fragrance", rose.fragrance ?? "Not noted"],
+    ["Colour", hmf?.colour ?? rose.colour_group],
+    ["Fragrance", hmf?.fragrance ?? rose.fragrance ?? "Not noted"],
+    ...(hmf?.rows.Habit ? ([["Habit", hmf.rows.Habit]] as [string, React.ReactNode][]) : []),
+    ...(hmf?.parentage ? ([["Parentage", [hmf.parentage.seed && `seed: ${hmf.parentage.seed}`, hmf.parentage.pollen && `pollen: ${hmf.parentage.pollen}`].filter(Boolean).join("; ")]] as [string, React.ReactNode][]) : []),
     ["Awards", rose.awards.length ? rose.awards.map((a) => (a.year ? `${a.name} ${a.year}` : a.name)).join(", ") : "None listed"],
     ["Price", rose.price_inr !== null ? `₹${rose.price_inr}` : "On request"],
   ];
