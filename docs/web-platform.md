@@ -25,8 +25,6 @@
 
 **Confirmed (2026-10-07):** with `web/hotlink-test.html` served from the custom domain, one HMF image (896x672) loaded in a plain `<img>` under the default referrer policy. The other policies were not reported. Only one image was tested.
 
-**Still unchecked:** HMF's `robots.txt` disallows AI crawlers (ClaudeBot, anthropic-ai, GPTBot, CCBot and others). We haven't read its `User-agent: *` rules or its terms of use. Check both before building the server route.
-
 - The browser can't read HMF pages directly (CORS). A thin server-side route (a Next.js route handler or edge function) takes an HMF plant ID, fetches that plant's photo listing, and returns the image URLs and photographer credits.
 - The route **must not write anything to disk or a database**. Short in-memory/HTTP cache headers are the most it may keep.
 - Images load straight from HMF's URLs. Always show the photographer credit and a link back to the HMF page.
