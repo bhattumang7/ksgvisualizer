@@ -5,6 +5,11 @@ cache/
 pipeline/.venv/
 __pycache__/
 
+# SonarQube: the scan script holds a default admin password, so it stays local
+sonar-scan.ps1
+.scannerwork/
+
 # Web
+web/coverage/
 web/test-results/
 web/playwright-report/
