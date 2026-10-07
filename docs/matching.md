@@ -40,4 +40,6 @@ Every non-exact rose is listed in `data/review/hmf-matches.csv` with its top 3 c
 - `pnpm hmf-decide ROSE_ID --none` records that it was checked and is not on HMF.
 - `pnpm hmf-decide ROSE_ID --undo` removes the decision.
 
+Cases checked and still open are listed in `data/review/hmf-open-cases.md`.
+
 Decisions are written to `data/overrides.json` (applied last by `python -m pipeline.run`, never overwritten), and decided roses drop out of the review CSV.
