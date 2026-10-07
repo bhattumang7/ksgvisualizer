@@ -22,14 +22,14 @@ describe("HmfGallery", () => {
     vi.stubGlobal("fetch", fetchMock);
     render(<HmfGallery hmfId="5" hmfUrl="https://hmf.test/5" name="Rosa" stored={[hp(1), hp(2, null, null)]} />);
     expect(fetchMock).not.toHaveBeenCalled();
-    expect(screen.getByText("Zed").getAttribute("href")).toBe("https://c.test/z");
+    expect(screen.getByText("Photo: Zed")).toBeTruthy();
     expect(screen.queryByText("More photos")).toBeNull();
     expect(screen.getByText("View on HelpMeFind").getAttribute("href")).toBe("https://hmf.test/5");
   });
 
-  it("falls back to a constructed link and credit link", () => {
+  it("links photos to the plant's photos tab and builds the HMF link when none is given", () => {
     render(<HmfGallery hmfId="5" hmfUrl={null} name="Rosa" stored={[hp(1, "Q", null)]} />);
-    expect(screen.getByText("Q").getAttribute("href")).toContain("pl.php?n=5");
+    expect(screen.getAllByRole("link")[0].getAttribute("href")).toBe("https://www.helpmefind.com/rose/pl.php?n=5&tab=36");
     expect(screen.getByText("View on HelpMeFind").getAttribute("href")).toContain("pl.php?n=5");
   });
 

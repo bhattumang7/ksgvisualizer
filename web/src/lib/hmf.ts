@@ -56,14 +56,31 @@ export function parsePhotos(html: string): HmfPhoto[] {
   return photos;
 }
 
+/** HMF serves the full-size image next to the thumbnail: same path, "fs" instead of "tn". */
+export const fullSizeUrl = (thumbSrc: string) => thumbSrc.replace("/gardening/tn/", "/gardening/fs/");
+
+/** Width and height from a JPEG's first start-of-frame marker, or null if it isn't a readable JPEG. */
+export function jpegSize(buf: Uint8Array): { width: number; height: number } | null {
+  if (buf[0] !== 0xff || buf[1] !== 0xd8) return null;
+  let i = 2;
+  while (i + 9 < buf.length) {
+    if (buf[i] !== 0xff) return null;
+    const marker = buf[i + 1];
+    if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker))
+      return { height: (buf[i + 5] << 8) | buf[i + 6], width: (buf[i + 7] << 8) | buf[i + 8] };
+    i += 2 + ((buf[i + 2] << 8) | buf[i + 3]);
+  }
+  return null;
+}
+
 /** Reads the "OLDER" link of the photo list and turns its paging numbers into a cursor. */
 export function parseNext(html: string): string | null {
   for (const m of html.matchAll(/<a\s[^>]*>/gi)) {
     const tag = m[0];
     if (!/title="\s*View older\s*"/i.test(tag)) continue;
     const href = /href="([^"]*)"/i.exec(tag)?.[1] ?? "";
-    const qn = /[?&]qn=(\d+)/.exec(href)?.[1];
-    const qc = /[?&]qc=(\d+)/.exec(href)?.[1];
+    const qn = /[?&;]qn=(\d+)/.exec(href)?.[1];
+    const qc = /[?&;]qc=(\d+)/.exec(href)?.[1];
     if (qn !== undefined && qc !== undefined) return `${qn}.${qc}`;
   }
   return null;

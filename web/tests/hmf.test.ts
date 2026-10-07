@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { allowRequest, isValidCursor, isValidHmfId, parseNext, parsePhotos } from "@/lib/hmf";
+import { allowRequest, fullSizeUrl, jpegSize, isValidCursor, isValidHmfId, parseNext, parsePhotos } from "@/lib/hmf";
 
 const html = `<table id="imgLst"><tr>
  <td width="50%" class="c1 o">
@@ -84,4 +84,19 @@ describe("parseDetails", () => {
   it("returns no rows for unrelated markup", () => {
     expect(parseDetails("<html></html>", "1").rows).toEqual({});
   });
+});
+
+describe("full-size helpers", () => {
+  it("swaps the thumbnail path for the full-size one", () => {
+    expect(fullSizeUrl("https://www.helpmefind.com/gardening/tn/897/459393.jpg")).toBe("https://www.helpmefind.com/gardening/fs/897/459393.jpg");
+  });
+  it("reads JPEG dimensions and rejects non-JPEGs", () => {
+    const jpg = Uint8Array.from([0xff, 0xd8, 0xff, 0xe0, 0, 4, 0, 0, 0xff, 0xc0, 0, 11, 8, 0x03, 0x20, 0x02, 0x58, 3, 0, 0, 0]);
+    expect(jpegSize(jpg)).toEqual({ width: 600, height: 800 });
+    expect(jpegSize(Uint8Array.from([1, 2, 3]))).toBeNull();
+  });
+});
+
+it("parseNext copes with HTML-escaped ampersands in the paging link", () => {
+  expect(parseNext('<a title="View older" href="/rose/pl.php?n=1&amp;tab=36&amp;qn=5&amp;qc=7">')).toBe("5.7");
 });

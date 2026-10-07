@@ -55,6 +55,9 @@ export function HmfGallery({ hmfId, hmfUrl, name, stored }: Readonly<{ hmfId: st
   }
 
   const link = hmfUrl ?? `https://www.helpmefind.com/rose/pl.php?n=${hmfId}`;
+  // HMF only serves its /gardening/l.php photo and photographer pages to visitors clicking within HMF
+  // itself (a link from another site gets "Forbidden"), so photos link to the plant's photos tab instead.
+  const photosLink = `${link}${link.includes("?") ? "&" : "?"}tab=36`;
   const busy = status === "loading" || status === "loading-more";
 
   return (
@@ -63,14 +66,13 @@ export function HmfGallery({ hmfId, hmfUrl, name, stored }: Readonly<{ hmfId: st
         <ul className="-mx-4 flex snap-x scroll-pl-4 gap-3 overflow-x-auto px-4 pb-2">
           {photos.map((p) => (
             <li key={p.src} className="shrink-0 snap-start">
-              <a href={p.pageUrl} target="_blank" rel="noopener noreferrer">
+              <a href={photosLink} target="_blank" rel="noopener noreferrer">
                 {/* eslint-disable-next-line @next/next/no-img-element -- snapshot or live HMF thumbnail */}
                 <img src={p.src} width={p.width} height={p.height} loading="lazy" alt={`${name}, from HelpMeFind`} className="h-24 w-auto rounded-lg border border-border" />
               </a>
               {p.credit && (
                 <p className="mt-1 max-w-[9rem] truncate text-xs text-muted">
-                  Photo:{" "}
-                  <a className="underline" href={p.creditUrl ?? link} target="_blank" rel="noopener noreferrer">{p.credit}</a>
+                  Photo: {p.credit}
                 </p>
               )}
             </li>
