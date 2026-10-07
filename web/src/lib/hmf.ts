@@ -3,8 +3,8 @@
  * a small in-memory cache, requests to HMF are spaced out, and visitors are rate-limited.
  */
 
-const HMF = "https://www.helpmefind.com";
-const USER_AGENT = "KSGVisualizer/0.1 (personal catalogue project)";
+import { HMF_ORIGIN as HMF, hmfFetch } from "./hmf-client.ts";
+
 const MIN_GAP_MS = 2500;
 const OK_TTL_MS = 10 * 60_000;
 const EMPTY_TTL_MS = 60_000;
@@ -92,11 +92,7 @@ async function fetchPhotos(id: string, cursor: string | null): Promise<HmfPhotos
   const paging = cursor ? `&qn=${qn}&qc=${qc}` : "";
   try {
     const res = await throttled(() =>
-      fetch(`${hmfUrl}&tab=36${paging}`, {
-        headers: { "user-agent": USER_AGENT, accept: "text/html" },
-        signal: AbortSignal.timeout(8000),
-        cache: "no-store",
-      }),
+      hmfFetch(`${hmfUrl}&tab=36${paging}`, { referer: hmfUrl, signal: AbortSignal.timeout(8000), cache: "no-store" }),
     );
     if (!res.ok) return { hmfUrl, photos: [], next: null, status: "unavailable" };
     const html = await res.text();

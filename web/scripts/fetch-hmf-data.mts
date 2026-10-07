@@ -10,13 +10,15 @@
 import fs from "node:fs";
 import path from "node:path";
 import { hmfPlantUrl } from "../src/lib/hmf.ts";
+import { hmfFetch, persistCookies } from "../src/lib/hmf-client.ts";
 import { parseDetails } from "../src/lib/hmf-details.ts";
 
-const USER_AGENT = "KSGVisualizer/0.1 (personal catalogue project)";
 const GAP_MS = 4000;
 const ROOT = path.join(import.meta.dirname, "..", "..");
 const OUT = process.env.KSG_HMF_DIR ?? path.join(ROOT, "data", "hmf");
 const DATA = process.env.KSG_DATA_DIR ?? path.join(ROOT, "data", "sample");
+
+persistCookies(path.join(import.meta.dirname, "..", "..", "cache", "hmf-cookies.json"));
 
 class Blocked extends Error {}
 
@@ -26,11 +28,11 @@ const value = (name: string) => args[args.indexOf(`--${name}`) + 1];
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 let last = 0;
-async function polite(url: string): Promise<Response> {
+async function polite(url: string, referer?: string): Promise<Response> {
   const wait = last + GAP_MS + Math.random() * 1500 - Date.now();
   if (wait > 0) await sleep(wait);
   last = Date.now();
-  const res = await fetch(url, { headers: { "user-agent": USER_AGENT }, signal: AbortSignal.timeout(15000) });
+  const res = await hmfFetch(url, { referer, signal: AbortSignal.timeout(15000) });
   if (res.status === 403 || res.status === 429 || res.status >= 500) throw new Blocked(`HTTP ${res.status} from ${url}`);
   return res;
 }

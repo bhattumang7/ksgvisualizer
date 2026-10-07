@@ -8,14 +8,16 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { hmfFetch, persistCookies } from "../src/lib/hmf-client.ts";
 import { hmfPlantUrl, parseNext, parsePhotos, type HmfPhoto } from "../src/lib/hmf.ts";
 
-const USER_AGENT = "KSGVisualizer/0.1 (personal catalogue project)";
 const MAX_PAGES = 2;
 const MAX_PHOTOS = 12;
 const GAP_MS = 4000;
 const OUT = path.join(import.meta.dirname, "..", "public", "photos");
 const DATA = process.env.KSG_DATA_DIR ?? path.join(import.meta.dirname, "..", "..", "data", "sample");
+
+persistCookies(path.join(import.meta.dirname, "..", "..", "cache", "hmf-cookies.json"));
 
 class Blocked extends Error {}
 
@@ -25,11 +27,11 @@ const value = (name: string) => args[args.indexOf(`--${name}`) + 1];
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 let last = 0;
-async function polite(url: string): Promise<Response> {
+async function polite(url: string, referer: string, image = false): Promise<Response> {
   const wait = last + GAP_MS + Math.random() * 1500 - Date.now();
   if (wait > 0) await sleep(wait);
   last = Date.now();
-  const res = await fetch(url, { headers: { "user-agent": USER_AGENT }, signal: AbortSignal.timeout(15000) });
+  const res = await hmfFetch(url, { kind: image ? "image" : "document", referer, signal: AbortSignal.timeout(15000) });
   if (res.status === 403 || res.status === 429 || res.status >= 500) throw new Blocked(`HTTP ${res.status} from ${url}`);
   return res;
 }
@@ -39,7 +41,7 @@ async function snapshot(id: string) {
   let cursor: string | null = null;
   for (let page = 0; page < MAX_PAGES && found.length < MAX_PHOTOS; page++) {
     const paging = cursor ? `&qn=${cursor.split(".")[0]}&qc=${cursor.split(".")[1]}` : "";
-    const res = await polite(`${hmfPlantUrl(id)}&tab=36${paging}`);
+    const res = await polite(`${hmfPlantUrl(id)}&tab=36${paging}`, hmfPlantUrl(id));
     if (!res.ok) break;
     const html = await res.text();
     found.push(...parsePhotos(html));
@@ -51,7 +53,7 @@ async function snapshot(id: string) {
   fs.mkdirSync(dir, { recursive: true });
   const photos: { file: string; width: number; height: number; pageUrl: string; credit: string | null; creditUrl: string | null }[] = [];
   for (const p of found.slice(0, MAX_PHOTOS)) {
-    const res = await polite(p.src);
+    const res = await polite(p.src, p.pageUrl, true);
     if (!res.ok) continue;
     const file: string = `${photos.length + 1}.jpg`;
     fs.writeFileSync(path.join(dir, file), Buffer.from(await res.arrayBuffer()));
