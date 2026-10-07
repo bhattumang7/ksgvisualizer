@@ -30,7 +30,7 @@ export function CardPhotos({ photos, name, className = "" }: Readonly<{ photos: 
         {photos.map((p, i) => (
           <li key={p.src} className="h-full w-full shrink-0 snap-center">
             {/* eslint-disable-next-line @next/next/no-img-element -- stored HMF thumbnail */}
-            <img src={p.src} alt={`${name}, photo ${i + 1} of ${photos.length}, from HelpMeFind`} loading={i === 0 ? "eager" : "lazy"} draggable={false} className="h-full w-full object-cover" />
+            <img src={p.src} alt={`${name} (${i + 1} of ${photos.length}), from HelpMeFind`} loading={i === 0 ? "eager" : "lazy"} draggable={false} className="h-full w-full object-cover" />
           </li>
         ))}
       </ul>
