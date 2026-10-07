@@ -40,7 +40,10 @@ const params = {
   sort: parseAsStringLiteral(SORTS),
   view: parseAsStringLiteral(["grid", "list"] as const).withDefault("grid"),
   page: parseAsInteger.withDefault(1),
+  size: parseAsInteger,
 };
+
+const PAGE_SIZES = [12, 24, 48, 96];
 
 // Filter field -> URL key.
 const KEYS: Record<keyof Filters, keyof typeof params> = {
@@ -48,10 +51,14 @@ const KEYS: Record<keyof Filters, keyof typeof params> = {
   fragrant: "fragrant", isNew: "new", awards: "awards", hmf: "hmf", yearFrom: "from", yearTo: "to", priceMin: "pmin", priceMax: "pmax",
 };
 
+const pageSizeOptions = (defaultSize: number) => [...new Set([defaultSize, ...PAGE_SIZES])].sort((a, b) => a - b);
+const resolvePageSize = (size: number | null, options: number[], fallback: number) =>
+  size !== null && options.includes(size) ? size : fallback;
+
 const regionNames = new Intl.DisplayNames(["en"], { type: "region" });
 const cap = (s: string) => s[0].toUpperCase() + s.slice(1);
 
-export function Catalogue({ roses, breeders, pageSize }: Readonly<{ roses: CatalogueRose[]; breeders: Breeder[]; pageSize: number }>) {
+export function Catalogue({ roses, breeders, pageSize: defaultSize }: Readonly<{ roses: CatalogueRose[]; breeders: Breeder[]; pageSize: number }>) {
   const [p, setP] = useQueryStates(params);
   const [sheetOpen, setSheetOpen] = useState(false);
 
@@ -67,6 +74,8 @@ export function Catalogue({ roses, breeders, pageSize }: Readonly<{ roses: Catal
     // eslint-disable-next-line react-hooks/exhaustive-deps -- `filters` is rebuilt from `p` each render
     [roses, index, p, sort],
   );
+  const sizeOptions = useMemo(() => pageSizeOptions(defaultSize), [defaultSize]);
+  const pageSize = resolvePageSize(p.size, sizeOptions, defaultSize);
   const page = paginate(results, p.page, pageSize);
 
   // Out-of-range page numbers in a shared URL snap back to the last page.
@@ -170,6 +179,20 @@ export function Catalogue({ roses, breeders, pageSize }: Readonly<{ roses: Catal
               >
                 {SORTS.filter((s) => s !== "relevance" || p.q.trim()).map((s) => (
                   <option key={s} value={s}>{SORT_LABELS[s]}</option>
+                ))}
+              </select>
+              <label className="sr-only" htmlFor="page-size">Roses per page</label>
+              <select
+                id="page-size"
+                value={pageSize}
+                onChange={(e) => {
+                  const n = Number(e.target.value);
+                  setP({ size: n === defaultSize ? null : n, page: null });
+                }}
+                className="rounded-lg border border-border bg-card px-2 py-1.5 text-sm"
+              >
+                {sizeOptions.map((n) => (
+                  <option key={n} value={n}>{n} per page</option>
                 ))}
               </select>
               <fieldset aria-label="View" className="m-0 flex min-w-0 overflow-hidden rounded-lg border border-border p-0 text-sm">

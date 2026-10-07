@@ -38,6 +38,21 @@ describe("Catalogue", () => {
     await urlIs(url, "");
   });
 
+  it("lets the user change the page size and resets to page 1", async () => {
+    const url = setup("?page=2");
+    const select = screen.getByLabelText("Roses per page");
+    fireEvent.change(select, { target: { value: "12" } });
+    await urlIs(url, "?size=12");
+    expect(screen.getByText("Page 1 of 2")).toBeTruthy();
+    fireEvent.change(select, { target: { value: "6" } });
+    await urlIs(url, "");
+  });
+
+  it("ignores an unsupported size in the URL", () => {
+    setup("?size=7");
+    expect(screen.getByText("Page 1 of 4")).toBeTruthy();
+  });
+
   it("goes back from page 3 to page 2 and disables Next on the last page", async () => {
     const url = setup("?page=3");
     fireEvent.click(screen.getByRole("button", { name: /Previous/ }));
