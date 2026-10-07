@@ -43,3 +43,5 @@ Every non-exact rose is listed in `data/review/hmf-matches.csv` with its top 3 c
 Cases checked and still open are listed in `data/review/hmf-open-cases.md`.
 
 Decisions are written to `data/overrides.json` (applied last by `python -m pipeline.run`, never overwritten), and decided roses drop out of the review CSV.
+
+**Decision log.** `data/review/hmf-decisions.md` records, for every hand decision in `data/overrides.json`, the KSG entry, the HMF plant and the reason (synonym, breeder, year, class or colour; or why the HMF plant is a different rose). Add a line there when you run `pnpm hmf-decide`.

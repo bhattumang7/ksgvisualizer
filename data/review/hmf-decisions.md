@@ -1,0 +1,234 @@
+# HMF decisions made by hand
+
+Every rose in `data/overrides.json` with an `hmf` entry, with the reason. Facts were read from each HMF plant page (saved temporarily in `cache/hmf-verify/`, gitignored). Undo with `pnpm hmf-decide ROSE_ID --undo`.
+
+## Linked to an HMF plant (190)
+
+| Rose | KSG entry | HMF plant | Reason |
+|---|---|---|---|
+| `a-white-shade-of-pale` | A WHITE SHADE OF PALE (Pearce, 2004, Hybrid Tea) | 2.41018 | name matches or is a spelling variant. KSG: Pearce 2004 Hybrid Tea. HMF: Colin A. Pearce (United Kingdom, 2006), Hybrid Tea. |
+| `agrocampus` | AGROCAMPUS (Adam, 2011, Floribunda) | 2.65355 | name matches or is a spelling variant. KSG: Adam 2011 Floribunda. HMF: Michel Adam (France, before 2011), Hybrid Tea. |
+| `all-yours` | ALL YOURS (Carruth/hay, 2001, Hybrid Tea) | 2.45685 | KSG name is a listed synonym. KSG: Carruth/hay 2001 Hybrid Tea. HMF: Tom Carruth (United States, 2007), Hybrid Tea. |
+| `alphonse-daudet` | ALPHONSE DAUDET (Meilland, 1997, Hybrid Tea) | 2.24038 | KSG name is a listed synonym. KSG: Meilland 1997 Hybrid Tea. HMF: Alain Meilland (1940-....) (France, 1997), Hybrid Tea. |
+| `always-remember-me` | ALWAYS REMEMBER ME (McGredy, 2011, Hybrid Tea) | 2.58292 | KSG name is a listed synonym. KSG: McGredy 2011 Hybrid Tea. HMF: Samuel Darragh (1932-2019) McGredy IV (2007), Hybrid Tea. |
+| `amarula-profusion` | AMARULA PROFUSION (Kordes, 1999, Floribunda) | 2.66469 | KSG name is a listed synonym. KSG: Kordes 1999 Floribunda. HMF: W. Kordes & Sons (Germany, 1999), Floribunda. |
+| `amy-s-delight` | AMY'S DELIGHT (Williams, 1999, Floribunda) | 2.33928 | two HMF "Amy's Delight": miniature (Williams 1980) and floribunda (J. Benjamin Williams 2001); KSG is a floribunda, 1999, so the floribunda fits |
+| `andre-grandier` | ANDRE GRANDIER (no breeder, no year, Hybrid Tea) | 2.51190 | name matches or is a spelling variant. KSG: -  Hybrid Tea. HMF: Michèle Meilland Richardier (France, before 2006), Grandiflora, Hybrid Tea. |
+| `apricot-midinette` | APRICOT MIDINETTE (no breeder, no year, Shrub) | 2.20691 | KSG name is a listed synonym. KSG: -  Shrub. HMF: L. Pernille Olesen (Denmark, before 1983), Miniature. |
+| `arctic-ice` | ARCTIC ICE (Delbard, 2009, Hybrid Tea) | 2.47328 | KSG name is a listed synonym. KSG: Delbard 2009 Hybrid Tea. HMF: G. Delbard (France, 1999), Floribunda, Hybrid Tea.   ( |
+| `arianna` | ARIANNA (Meilland, 1968, Hybrid Tea) | 2.348 | name matches or is a spelling variant. KSG: Meilland 1968 Hybrid Tea. HMF: Marie-Louise (Louisette) Meilland (Paolino) (1920-1987) (France, before 1965), Florists Rose, Hybrid Tea. |
+| `aromatherapy` | AROMATHERAPY (Zary, 2005, Hybrid Tea) | 2.37529 | KSG name is a listed synonym. KSG: Zary 2005 Hybrid Tea. HMF: Dr. Keith W. Zary (United States, before 2000), Hybrid Tea.   ( |
+| `athena` | ATHENA (Kordes, 1982, Hybrid Tea) | 2.379 | name matches or is a spelling variant. KSG: Kordes 1982 Hybrid Tea. HMF:  (), Florists Rose, Grandiflora, Hybrid Tea. |
+| `audrey-wilcox` | AUDREY WILCOX (Fryer, 1987, Hybrid Tea) | 2.24529 | KSG name is a listed synonym. KSG: Fryer 1987 Hybrid Tea. HMF: John Wilcox (Unknown), Hybrid Tea. |
+| `bajazzo` | BAJAZZO (Kordes, no year, Hybrid Tea) | 2.506 | name matches or is a spelling variant. KSG: Kordes  Hybrid Tea. HMF: Reimer Kordes (1922-1997) (Germany, 1961), Hybrid Tea. |
+| `barbra-streisand` | BARBRA STREISAND (Carruth, 1999, Hybrid Tea) | 2.21108 | KSG name is a listed synonym. KSG: Carruth 1999 Hybrid Tea. HMF: Tom Carruth (United States, 1999), Hybrid Tea. |
+| `beautiful-day` | BEAUTIFUL DAY (Fryer, 2019, Hybrid Tea) | 2.69151 | KSG name is a listed synonym. KSG: Fryer 2019 Hybrid Tea. HMF: Gareth Fryer (1948-....) (United Kingdom, before 2012), Hybrid Tea. |
+| `big-momma` | BIG MOMMA (no breeder, no year, Hybrid Tea) | 2.65876 | name matches or is a spelling variant. KSG: -  Hybrid Tea. HMF: Alain Meilland (1940-....) (France, before 2010), Grandiflora, Hybrid Tea. |
+| `bliss-parfuma` | BLISS PARFUMA (Star Roses, 2019, Hybrid Tea) | 2.73809 | KSG name is a listed synonym. KSG: Star Roses 2019 Hybrid Tea. HMF: Tim Hermann Kordes (Germany, 2003), Floribunda.   ( |
+| `blue-storm` | BLUE STORM (Keisei, 2018, Hybrid Tea) | 2.70515 | KSG name is a listed synonym. KSG: Keisei 2018 Hybrid Tea. HMF: Keisei Rose Nursery (Japan, 2006), Hybrid Tea. |
+| `bolchoi` | BOLCHOI (Meilland, 1998, Hybrid Tea) | 2.18388 | name matches or is a spelling variant. KSG: Meilland 1998 Hybrid Tea. HMF: Alain Meilland (1940-....) (France, before 1996), Hybrid Tea. |
+| `bora-bora` | BORA BORA (Tantau, 2002, Hybrid Tea) | 2.27222 | KSG name is a listed synonym. KSG: Tantau 2002 Hybrid Tea. HMF: Hans Jürgen Evers (1940-2007) (Germany, 1998), Hybrid Tea. |
+| `bordure-nacree` | BORDURE NACREE (Delbard, no year, Floribunda) | 2.19086 | name matches or is a spelling variant. KSG: Delbard  Floribunda. HMF: G. Delbard (France, 1973), Miniature, Patio.   ( |
+| `bright-and-breezy` | BRIGHT AND BREEZY (Dickson, 2012, Floribunda) | 2.66359 | KSG name is a listed synonym. KSG: Dickson 2012 Floribunda. HMF: Colin Dickson (1956-....) (United Kingdom, before 2011), Floribunda. |
+| `canary-diamond` | CANARY DIAMOND (Weeks, 2003, Hybrid Tea) | 2.39081 | KSG name is a listed synonym. KSG: Weeks 2003 Hybrid Tea. HMF: O.L. Weeks (1912-2002) (United States, 2002), Hybrid Tea. |
+| `canyon-road` | CANYON ROAD (Meilland, 2017, Floribunda) | 2.72936 | KSG name is a listed synonym. KSG: Meilland 2017 Floribunda. HMF: Alain Meilland (1940-....) (France, before 2014), Floribunda, Shrub. |
+| `carole-boquet` | CAROLE BOQUET (Adam, 2002, Hybrid Tea) | 2.41188 | name matches or is a spelling variant. KSG: Adam 2002 Hybrid Tea. HMF: Michel Adam (France, 2000), Hybrid Tea. |
+| `catalonia` | CATALONIA (Dot, 1980, Hybrid Tea) | 2.1017 | name matches or is a spelling variant. KSG: Dot 1980 Hybrid Tea. HMF: Pedro (Pere) Dot (Spain, 1931), Pernetiana. |
+| `celebrate-america` | CELEBRATE AMERICA (Tantau, 1991, Hybrid Tea) | 2.21665 | KSG name is a listed synonym. KSG: Tantau 1991 Hybrid Tea. HMF: Hans Jürgen Evers (1940-2007) (Germany, 1990), Hybrid Tea. |
+| `charleston` | CHARLESTON (Meilland, no year, Floribunda) | 2.17719 | two Meilland floribundas: 1963 (yellow to crimson) and 2007 (orange-pink). KSG: "golden yellow to crimson", so the 1963 one |
+| `chartreuse-de-parme` | CHARTREUSE DE PARME (Meilland, 1996, Shrub) | 2.24379 | KSG name is a listed synonym. KSG: Meilland 1996 Shrub. HMF: G. Delbard (France, 1996), Hybrid Tea, Shrub.   ( |
+| `chasin-rainbow` | CHASIN' RAINBOW (Saville, 1998, Miniature) | 2.1105 | name matches or is a spelling variant. KSG: Saville 1998 Miniature. HMF: F. Harmon Saville (1924-1997) (United States, before 1988), Miniature. |
+| `cherry-parfait` | CHERRY PARFAIT (Meilland, 2002, Hybrid Tea) | 2.33059 | KSG name is a listed synonym. KSG: Meilland 2002 Hybrid Tea. HMF: Alain Meilland (1940-....) (France, 2000), Floribunda, Grandiflora. |
+| `chris-beardshaw` | CHRIS BEARDSHAW (Carruth, 2008, Hybrid Tea) | 2.38980 | KSG name is a listed synonym. KSG: Carruth 2008 Hybrid Tea. HMF: Tom Carruth (United States, 2002), Hybrid Tea. |
+| `christopher-colomb` | CHRISTOPHER COLOMB (Meilland, 1991, Hybrid Tea) | 2.1172 | name matches or is a spelling variant. KSG: Meilland 1991 Hybrid Tea. HMF: Alain Meilland (1940-....) (France, before 1992), Hybrid Tea. |
+| `citrus-tease` | CITRUS TEASE (Zary, 2002, Floribunda) | 2.30388 | KSG name is a listed synonym. KSG: Zary 2002 Floribunda. HMF: Dr. Keith W. Zary (United States, 1998), Floribunda. |
+| `clg-berries-n-cream` | CLG.BERRIES 'N CREAM (Oleson, 1988, Climber) | 2.658 | name matches or is a spelling variant. KSG: Oleson 1988 Climber. HMF: L. Pernille Olesen (Denmark, 1997), Climber, Large-Flowered Climber. |
+| `clg-blessings` | CLG.BLESSINGS (Gregory, no year, Climber) | 2.22452 | name matches or is a spelling variant. KSG: Gregory  Climber. HMF: Charles Walter Gregory (United Kingdom, 1967), Climber, Hybrid Tea, Cl.. |
+| `clg-crimson-glory` | CLG.CRIMSON GLORY (J & P, 1946, Climber) | 2.1380 | name matches or is a spelling variant. KSG: J & P 1946 Climber. HMF: Millar Bros. (South Africa, 1941), Climber, Hybrid Tea, Cl.. |
+| `clg-fourth-of-july` | CLG.FOURTH OF JULY (Carruth, 1999, Climber) | 2.18450 | name matches or is a spelling variant. KSG: Carruth 1999 Climber. HMF: Tom Carruth (United States, 1999), Floribunda, Cl., Large-Flowered Climber. |
+| `clg-lady-hillingdon` | CLG.LADY HILLINGDON (Hicks, 2017, Climber) | 2.3703 | name matches or is a spelling variant. KSG: Hicks 2017 Climber. HMF: Elisha J. Hicks (United Kingdom, 1917), Climber, Tea, Cl.. |
+| `clg-sadabahar` | CLG.SADABAHAR (IARI, 1991, Climber) | 2.72027 | name matches or is a spelling variant. KSG: IARI 1991 Climber. HMF: Indian Agric. Research Inst. IARI (India, 1991), Floribunda, Cl.. |
+| `clg-sadabahar-2` | CLG.SADABAHAR (IARI, 1991, Climber) | 2.72027 | name matches or is a spelling variant. KSG: IARI 1991 Climber. HMF: Indian Agric. Research Inst. IARI (India, 1991), Floribunda, Cl.. |
+| `cologne` | COLOGNE (McGredy, 1998, Hybrid Tea) | 2.19817 | KSG name is a listed synonym. KSG: McGredy 1998 Hybrid Tea. HMF: Samuel Darragh (1932-2019) McGredy IV (1988), Grandiflora. |
+| `colossus` | COLOSSUS (Astor Perry, 1998, Hybrid Tea) | 2.18235 | KSG name is a listed synonym. KSG: Astor Perry 1998 Hybrid Tea. HMF: Astor Perry (United States, 1998), Hybrid Tea. |
+| `compostelle` | COMPOSTELLE (Harkness, 2009, Floribunda) | 2.18107 | KSG name is a listed synonym. KSG: Harkness 2009 Floribunda. HMF: Harkness & Co. (United Kingdom, before 1978), Floribunda. |
+| `coral-palace` | CORAL PALACE (Poulsen, 1999, Floribunda) | 2.6427 | KSG name is a listed synonym. KSG: Poulsen 1999 Floribunda. HMF: L. Pernille Olesen (Denmark, before 1997), Floribunda, Mini-Flora.   ( |
+| `cordula` | CORDULA (Kordes, 1972, Floribunda) | 2.19700 | KSG name is a listed synonym. KSG: Kordes 1972 Floribunda. HMF: Reimer Kordes (1922-1997) (Germany, 1972), Floribunda. |
+| `crimson-lace` | CRIMSON LACE (Zary, 1997, Floribunda) | 2.19785 | KSG name is a listed synonym. KSG: Zary 1997 Floribunda. HMF: Dr. Keith W. Zary (United States, before 1996), Floribunda. |
+| `cubana` | CUBANA (Kordes, 2006, Floribunda) | 2.41061 | three HMF "Cubana"; KSG: Kordes, apricot, in clusters, floribunda. The 2001 Kordes shrub (apricot fading pink, cluster-flowered) fits, not the 1988 hybrid tea |
+| `cubana-2` | CUBANA (Kordes, 2006, Shrub) | 2.41061 | same as cubana (KSG lists it twice, once as a shrub) |
+| `dancing-in-the-dark` | DANCING IN THE DARK (Delbard, 2005, Shrub) | 2.37313 | KSG name is a listed synonym. KSG: Delbard 2005 Shrub. HMF: Georges Delbard (1905-1999) (France, 1997), Hybrid Tea, Shrub.   ( |
+| `deep-bordeaux` | DEEP BORDEAUX (Kordes, 2015, Hybrid Tea) | 2.69121 | KSG name is a listed synonym. KSG: Kordes 2015 Hybrid Tea. HMF: Tim Hermann Kordes (Germany, 2004), Floribunda.   ( |
+| `delicia` | DELICIA (Kordes, 1985, Hybrid Tea) | 2.2583 | name matches or is a spelling variant. KSG: Kordes 1985 Hybrid Tea. HMF: Reimer Kordes (1922-1997) (Germany, 1982), Hybrid Tea. |
+| `derek-nimmo` | DEREK NIMMO (McGredy, 1981, Hybrid Tea) | 2.23164 | KSG name is a listed synonym. KSG: McGredy 1981 Hybrid Tea. HMF: Samuel Darragh (1932-2019) McGredy IV (1975), Hybrid Tea. |
+| `diamond-days-forever` | DIAMOND DAYS FOREVER (Fryer, 2006, Floribunda) | 2.41024 | KSG name is a listed synonym. KSG: Fryer 2006 Floribunda. HMF: Gareth Fryer (1948-....) (United Kingdom, 2006), Floribunda. |
+| `dolce-vita` | DOLCE VITA (Delbard, 1977, Hybrid Tea) | 2.1561 | name matches or is a spelling variant. KSG: Delbard 1977 Hybrid Tea. HMF: G. Delbard (France, 1971), Hybrid Tea. |
+| `dr-n-c-sen` | DR.N.C.SEN ((Maria Cecilia Freeman)- M.S.Viraraghavan, 2013, Hybrid Tea) | 2.70424 | KSG name is a listed synonym. KSG: (Maria Cecilia Freeman)- M.S.Viraraghavan 2013 Hybrid Tea. HMF: M.S. Viraraghavan (India, before 2013), Hybrid Gigantea, Hybrid Tea. |
+| `dream-come-true` | DREAM COME TRUE (Poltschmidt, 2006, Hybrid Tea) | 2.40131 | name matches or is a spelling variant. KSG: Poltschmidt 2006 Hybrid Tea. HMF: Linda Clark (United States, 2006), Hybrid Tea. |
+| `eblouissant` | EBLOUISSANT (no breeder, no year, Polyantha) | 2.1702 | name matches or is a spelling variant. KSG: -  Polyantha. HMF: Eugène Turbat & Compagnie (France, 1918), Polyantha. |
+| `eclair` | ECLAIR (Kirin Agri Bio, 2006, Polyantha) | 2.78323 | name matches or is a spelling variant. KSG: Kirin Agri Bio 2006 Polyantha. HMF: Kirin Agri Bio (Japan, 2006), Floribunda, Florists Rose, Polyantha. |
+| `embruixada` | EMBRUIXADA (Dot, 1980, Hybrid Tea) | 2.33682 | KSG name is a listed synonym. KSG: Dot 1980 Hybrid Tea. HMF: Simon (Simó) Dot (Spain, 1980), Hybrid Tea. |
+| `fabulous` | FABULOUS (Zary, 2000, Floribunda) | 2.30389 | HMF has Fabulous (Olesen 2000, orange hybrid tea) and Fabulous! (Zary 1998, white floribunda). KSG: Zary, white, floribunda, so the Zary one |
+| `fairest-cape` | FAIREST CAPE (Kordes, 2003, Shrub) | 2.39730 | name matches or is a spelling variant. KSG: Kordes 2003 Shrub. HMF: Tim Hermann Kordes (Germany, 1994), Hybrid Tea. |
+| `falling-in-love` | FALLING IN LOVE (Carruth, 2006, Hybrid Tea) | 2.40970 | KSG name is a listed synonym. KSG: Carruth 2006 Hybrid Tea. HMF: Tom Carruth (United States, before 2004), Hybrid Tea. |
+| `fire-fighter` | FIRE FIGHTER (Orard, 2003, Hybrid Tea) | 2.36980 | name matches or is a spelling variant. KSG: Orard 2003 Hybrid Tea. HMF: Joseph Orard (France, before 1998), Hybrid Tea. |
+| `fireworks-ruffle` | FIREWORKS RUFFLE (Interplant, 2014, Hybrid Tea) | 2.77631 | name matches or is a spelling variant. KSG: Interplant 2014 Hybrid Tea. HMF: Interplant (Netherlands, 2014), Floribunda. |
+| `fragrant-apricot` | FRAGRANT APRICOT (no breeder, no year, Hybrid Tea) | 2.19786 | KSG name is a listed synonym. KSG: -  Hybrid Tea. HMF: Dr. Keith W. Zary (United States, before 1998), Floribunda. |
+| `frankly-scarlet` | FRANKLY SCARLET (J & P, 2007, Floribunda) | 2.40951 | KSG name is a listed synonym. KSG: J & P 2007 Floribunda. HMF: Dr. Keith W. Zary (United States, before 2004), Floribunda. |
+| `gavilgarh` | GAVILGARH (Dr.N.V.Shastri, 2015, Hybrid Tea) | 2.72003 | name matches or is a spelling variant. KSG: Dr.N.V.Shastri 2015 Hybrid Tea. HMF: N.V. Shastri (India, 2015), Hybrid Tea. |
+| `glamorous-ruffle` | GLAMOROUS RUFFLE (Interplant, 2015, Hybrid Tea) | 2.77934 | name matches or is a spelling variant. KSG: Interplant 2015 Hybrid Tea. HMF: Interplant (Netherlands, 2014), Floribunda. |
+| `gospel` | GOSPEL (Tan, 2013, Hybrid Tea) | 2.88558 | name matches or is a spelling variant. KSG: Tan 2013 Hybrid Tea. HMF: Hans Jürgen Evers (1940-2007) (Germany, before 1997), Florists Rose. |
+| `grand-amore` | GRAND AMORE (Kordes, 2005, Hybrid Tea) | 2.40064 | name matches or is a spelling variant. KSG: Kordes 2005 Hybrid Tea. HMF: Tim Hermann Kordes (Germany, 1994), Hybrid Tea.   ( |
+| `green-tea` | GREEN TEA (no breeder, no year, Hybrid Tea) | 2.44580 | name matches or is a spelling variant. KSG: -  Hybrid Tea. HMF: Rosen-Tantau (Germany, 2002), Florists Rose, Hybrid Tea. |
+| `gustave-coubert` | GUSTAVE COUBERT (Sauvageot, 1992, Hybrid Tea) | 2.32485 | name matches or is a spelling variant. KSG: Sauvageot 1992 Hybrid Tea. HMF: Bernard Sauvageot (France, 1992), Hybrid Tea. |
+| `happy-retirement` | HAPPY RETIREMENT (Tantau, 2002, Floribunda) | 2.32719 | KSG name is a listed synonym. KSG: Tantau 2002 Floribunda. HMF: Hans Jürgen Evers (1940-2007) (Germany, 2000), Floribunda. |
+| `harmonie` | HARMONIE (Kordes, 1981, Hybrid Tea) | 2.3182 | name matches or is a spelling variant. KSG: Kordes 1981 Hybrid Tea. HMF: Reimer Kordes (1922-1997) (Germany, before 1979), Hybrid Tea. |
+| `hector-berlioz` | HECTOR BERLIOZ (Harkness, 1999, Hybrid Tea) | 2.28330 | KSG name is a listed synonym. KSG: Harkness 1999 Hybrid Tea. HMF:  (), Hybrid Tea. |
+| `high-magic` | HIGH & MAGIC (no breeder, no year, Hybrid Tea) | 2.87597 | KSG name is a listed synonym. KSG: -  Hybrid Tea. HMF: Theodorus Adrianus Segers (Netherlands, 1999), Florists Rose, Hybrid Tea. |
+| `hojun` | HOJUN (Keisei, 1985, Hybrid Tea) | 2.34022 | KSG name is a listed synonym. KSG: Keisei 1985 Hybrid Tea. HMF: Seizo Suzuki (Japan, before 1981), Hybrid Tea. |
+| `home-of-time` | HOME OF TIME (Cockers, 1999, Hybrid Tea) | 2.19770 | KSG name is a listed synonym. KSG: Cockers 1999 Hybrid Tea. HMF: Anne G. Cocker (1920-2014) (Scotland, 1998), Hybrid Tea. |
+| `ice-fairy` | ICE FAIRY (Sanday, 1984, Miniature) | 2.21834 | KSG name is a listed synonym. KSG: Sanday 1984 Miniature. HMF: John W. Sanday (United Kingdom, before 1984), Shrub. |
+| `impulse` | IMPULSE (no breeder, no year, Hybrid Tea) | 2.28376 | KSG: "Barni 90, deep red", hybrid tea. HMF has Impulse (hybrid tea, Barni, 1990, red); the Jolly miniature (1986) is a different rose |
+| `jacaranda` | JACARANDA (Kordes, 1985, Hybrid Tea) | 2.3443 | KSG name is a listed synonym. KSG: Kordes 1985 Hybrid Tea. HMF: Reimer Kordes (1922-1997) (Germany, 1985), Florists Rose, Hybrid Tea. |
+| `jadis` | JADIS (Warriner, 1974, Hybrid Tea) | 2.2828 | KSG name is a listed synonym. KSG: Warriner 1974 Hybrid Tea. HMF: William A. Warriner (United States, before 1971), Hybrid Tea. |
+| `janice-kellog` | JANICE KELLOG (Meilland, 2006, Hybrid Tea) | 2.39794 | name matches or is a spelling variant. KSG: Meilland 2006 Hybrid Tea. HMF: Meilland International (France), Floribunda. |
+| `janita-claassen` | JANITA CLAASSEN (Dorieux, 2002, Hybrid Tea) | 2.41248 | KSG name is a listed synonym. KSG: Dorieux 2002 Hybrid Tea. HMF: Francois Dorieux II (1955-2015) (France, before 2001), Hybrid Tea. |
+| `jillian-mcgredy` | JILLIAN MCGREDY (Mcgredy, 1998, Floribunda) | 2.19803 | KSG name is a listed synonym. KSG: Mcgredy 1998 Floribunda. HMF: Samuel Darragh (1932-2019) McGredy IV (1990), Floribunda. |
+| `julia-child` | JULIA CHILD (Carruth, 2005, Floribunda) | 2.37391 | KSG name is a listed synonym. KSG: Carruth 2005 Floribunda. HMF: Tom Carruth (United States, before 2003), Floribunda. |
+| `julio-iglesias` | JULIO IGLESIAS (Meilland, 2008, Hybrid Tea) | 2.41099 | name matches or is a spelling variant. KSG: Meilland 2008 Hybrid Tea. HMF: Meilland International (France, before 2004), Floribunda, Hybrid Tea. |
+| `just-imagine` | JUST IMAGINE (Dorieux, 2005, Floribunda) | 2.40780 | KSG name is a listed synonym. KSG: Dorieux 2005 Floribunda. HMF: Francois Dorieux II (1955-2015) (France, 2004), Floribunda. |
+| `just-imagine-2` | JUST IMAGINE (Dorieux, 2005, Shrub) | 2.40780 | KSG name is a listed synonym. KSG: Dorieux 2005 Shrub. HMF: Francois Dorieux II (1955-2015) (France, 2004), Floribunda. |
+| `kardinal-84` | KARDINAL '84 (Kordes, 1985, Hybrid Tea) | 2.3656 | name matches or is a spelling variant. KSG: Kordes 1985 Hybrid Tea. HMF: Reimer Kordes (1922-1997) (Germany, 1985), Florists Rose, Hybrid Tea. |
+| `koko-loko` | KOKO LOKO (no breeder, no year, Floribunda) | 2.63673 | KSG name is a listed synonym. KSG: -  Floribunda. HMF: Christian Bédard (United States, 2008), Floribunda. |
+| `la-rose-des-4-vents` | LA ROSE DES 4 VENTS (Delbard, 2008, Hybrid Tea) | 2.41031 | KSG name is a listed synonym. KSG: Delbard 2008 Hybrid Tea. HMF: G. Delbard (France, 2005), Hybrid Tea, Shrub. |
+| `lady-mitchel` | LADY MITCHEL (Harkness, 1991, Hybrid Tea) | 2.3713 | name matches or is a spelling variant. KSG: Harkness 1991 Hybrid Tea. HMF: Harkness & Co. (United Kingdom, 1991), Hybrid Tea. |
+| `laura-bush` | LAURA BUSH (Zary, 2007, Floribunda) | 2.40952 | KSG name is a listed synonym. KSG: Zary 2007 Floribunda. HMF: Dr. Keith W. Zary (United States, before 2004), Floribunda. |
+| `lazy-days` | LAZY DAYS (Poulsen, 2002, Floribunda) | 2.31692 | KSG name is a listed synonym. KSG: Poulsen 2002 Floribunda. HMF: L. Pernille Olesen (Denmark, 1999), Floribunda.   ( |
+| `len-turner` | LEN TURNER (Dickson, 1984, Floribunda) | 2.3790 | KSG name is a listed synonym. KSG: Dickson 1984 Floribunda. HMF: Colin Dickson (1956-....) (United Kingdom), Floribunda. |
+| `lili-marlene` | LILI MARLENE (Kordes, 1959, Floribunda) | 2.17071 | name matches or is a spelling variant. KSG: Kordes 1959 Floribunda. HMF: Reimer Kordes (1922-1997) (Germany, before 1956), Floribunda. |
+| `lions-rose` | LIONS ROSE (no breeder, no year, Floribunda) | 2.38935 | name matches or is a spelling variant. KSG: -  Floribunda. HMF: Tim Hermann Kordes (Germany, before 1999), Floribunda. |
+| `living-daylights` | LIVING DAYLIGHTS (Fryer, 2011, Floribunda) | 2.64234 | KSG name is a listed synonym. KSG: Fryer 2011 Floribunda. HMF: Gareth Fryer (1948-....) (United Kingdom, before 2010), Floribunda. |
+| `love-story` | LOVE STORY (Tantau, no year, Hybrid Tea) | 2.27970 | KSG name is a listed synonym. KSG: Tantau  Hybrid Tea. HMF: Mathias Tantau, Jr. (1912 - 2006) (Germany, 1972), Hybrid Tea. |
+| `lutin` | LUTIN (Meilland, 1983, Floribunda) | 2.3942 | name matches or is a spelling variant. KSG: Meilland 1983 Floribunda. HMF: Marie-Louise (Louisette) Meilland (Paolino) (1920-1987) (France, 1980), Shrub. |
+| `lyndal-dawn` | LYNDAL DAWN (Horner, 2000, Floribunda) | 2.32214 | KSG name is a listed synonym. KSG: Horner 2000 Floribunda. HMF: Colin P. Horner (1933-2005) (United Kingdom, 2000), Floribunda. |
+| `macha-meryl` | MACHA MERYL (Adam, 2004, Hybrid Tea) | 2.43286 | name matches or is a spelling variant. KSG: Adam 2004 Hybrid Tea. HMF: Michel Adam (France, 2004), Hybrid Tea. |
+| `madame-delbard` | MADAME DELBARD (Delbard, 1982, Hybrid Tea) | 2.19855 | name matches or is a spelling variant. KSG: Delbard 1982 Hybrid Tea. HMF: Georges Delbard (1905-1999) (France, 1980), Florists Rose, Hybrid Tea. |
+| `magdalena` | MAGDALENA (Adam, 2007, Hybrid Tea) | 2.43288 | name matches or is a spelling variant. KSG: Adam 2007 Hybrid Tea. HMF:  (),  |
+| `maria-shriver` | MARIA SHRIVER (no breeder, no year, Hybrid Tea) | 2.37447 | KSG name is a listed synonym. KSG: -  Hybrid Tea. HMF: Francois Dorieux II (1955-2015) (France, 2004), Grandiflora. |
+| `marquis-de-merteuil` | MARQUIS DE MERTEUIL (Atsuya Iwashita, 2011, Hybrid Tea) | 2.77754 | name matches or is a spelling variant. KSG: Atsuya Iwashita 2011 Hybrid Tea. HMF: Atsuya Iwashita (Japan, 2011), Shrub. |
+| `mauve-melody` | MAUVE MELODY (Raffel, 1962, Hybrid Tea) | 2.4197 | name matches or is a spelling variant. KSG: Raffel 1962 Hybrid Tea. HMF: Frank C. Raffel (United States, 1962), Hybrid Tea. |
+| `megami` | MEGAMI (Suzuki, 1980, Hybrid Tea) | 2.31206 | KSG name is a listed synonym. KSG: Suzuki 1980 Hybrid Tea. HMF: Seizo Suzuki (Japan, before 1970), Hybrid Tea. |
+| `megastar` | MEGASTAR (J & P, 2004, Hybrid Tea) | 2.46314 | name matches or is a spelling variant. KSG: J & P 2004 Hybrid Tea. HMF:  (), Hybrid Tea. |
+| `michel-desjoyeaux` | MICHEL DESJOYEAUX (Adam, 2012, Hybrid Tea) | 2.63363 | KSG name is a listed synonym. KSG: Adam 2012 Hybrid Tea. HMF: Michel Adam (France, 2010), Hybrid Tea. |
+| `midsummer-snow` | MIDSUMMER SNOW (Vissers, 2014, Floribunda) | 2.51752 | name matches or is a spelling variant. KSG: Vissers 2014 Floribunda. HMF: Martin Vissers (Belgium, 2001), Floribunda. |
+| `mind-games` | MIND GAMES (Dickson, 2012, Floribunda) | 2.64235 | KSG name is a listed synonym. KSG: Dickson 2012 Floribunda. HMF: Colin Dickson (1956-....) (United Kingdom, before 2010), Floribunda. |
+| `monna-lisa` | MONNA LISA (Barni, no year, Hybrid Tea) | 2.28387 | name matches or is a spelling variant. KSG: Barni  Hybrid Tea. HMF: Unknown (before 1990), Hybrid Tea. |
+| `mt-hood` | MT.HOOD (McGredy, 1991, Hybrid Tea) | 2.18679 | name matches or is a spelling variant. KSG: McGredy 1991 Hybrid Tea. HMF: Samuel Darragh (1932-2019) McGredy IV (1984), Floribunda, Grandiflora, Hybrid Tea. |
+| `nagabelle` | NAGABELLE (M.S.Viraraghavan, 2006, Hybrid Tea) | 2.40899 | name matches or is a spelling variant. KSG: M.S.Viraraghavan 2006 Hybrid Tea. HMF: M.S. Viraraghavan (India, 2006), Shrub. |
+| `neon` | NEON (Kordes, 2002, Floribunda) | 2.24974 | KSG name is a listed synonym. KSG: Kordes 2002 Floribunda. HMF: Wilhelm Kordes III (1953 - 2016) (Germany, 1996), Floribunda, Florists Rose. |
+| `new-zealand` | NEW ZEALAND (McGredy, 1991, Hybrid Tea) | 2.4469 | name matches or is a spelling variant. KSG: McGredy 1991 Hybrid Tea. HMF:  (),  |
+| `ninetta` | NINETTA (Tantau, 2006, Miniature) | 2.62036 | three Tantau "Ninetta": 1985 floribunda (deep pink), 2005 patio (orange to salmon, rosette, clusters), 2003 florists rose (white). KSG: salmon orange, rosette, clusters, so the 2005 patio |
+| `oklahoma` | OKLAHOMA (no breeder, no year, Hybrid Tea) | 2.4528 | name matches or is a spelling variant. KSG: -  Hybrid Tea. HMF: Swim & Weeks (United States, before 1963), Hybrid Tea. |
+| `only-you` | ONLY YOU (Meilland, 1975, Hybrid Tea) | 2.77814 | name matches or is a spelling variant. KSG: Meilland 1975 Hybrid Tea. HMF:  (), Hybrid Tea. |
+| `our-love` | OUR LOVE (no breeder, no year, Hybrid Tea) | 2.31443 | name matches or is a spelling variant. KSG: -  Hybrid Tea. HMF: Anderson's Rose Nursery (Scotland, 1984), Hybrid Tea. |
+| `passionate-kisses` | PASSIONATE KISSES (Meilland, 2002, Floribunda) | 2.22513 | KSG name is a listed synonym. KSG: Meilland 2002 Floribunda. HMF: Michèle Meilland Richardier (France, before 1998), Floribunda. |
+| `pays-d-iroise` | PAYS D'IROISE (Adam, 2003, Floribunda) | 2.39448 | KSG name is a listed synonym. KSG: Adam 2003 Floribunda. HMF: Michel Adam (France, 2004), Floribunda. |
+| `penthouse` | PENTHOUSE (McGredy, 1988, Hybrid Tea) | 2.20294 | name matches or is a spelling variant. KSG: McGredy 1988 Hybrid Tea. HMF: Samuel Darragh (1932-2019) McGredy IV (1975), Hybrid Tea. |
+| `picaninni` | PICANINNI (Wright, 1991, Miniature) | 2.41262 | KSG name is a listed synonym. KSG: Wright 1991 Miniature. HMF: Des Wright (South Africa, 1991), Miniature. |
+| `pierre-ardit` | PIERRE ARDIT (Meilland, 2011, Hybrid Tea) | 2.63496 | name matches or is a spelling variant. KSG: Meilland 2011 Hybrid Tea. HMF: Alain Meilland (1940-....) (France, before 2005), Hybrid Tea. |
+| `pink-tourmaline-babylon` | PINK TOURMALINE BABYLON (Interplant, 2012, Shrub) | 2.66898 | KSG name is a listed synonym. KSG: Interplant 2012 Shrub. HMF: Interplant (Netherlands, before 2012), Hybrid Hulthemia persica. |
+| `pinnacle` | PINNACLE (Bernadella, 2004, Floribunda) | 2.37542 | KSG name is a listed synonym. KSG: Bernadella 2004 Floribunda. HMF: Frank A. Benardella (United States, 2001), Floribunda. |
+| `poblet` | POBLET (Dot, no year, Hybrid Tea) | 2.43780 | name matches or is a spelling variant. KSG: Dot  Hybrid Tea. HMF: Albert Dot (Spain, 1985), Hybrid Tea. |
+| `polarstern` | POLARSTERN (Tantau, 1982, Hybrid Tea) | 2.4898 | KSG name is a listed synonym. KSG: Tantau 1982 Hybrid Tea. HMF: Mathias Tantau, Jr. (1912 - 2006) (Germany, 1982), Hybrid Tea. |
+| `pompon-veranda` | POMPON VERANDA (Kordes, 2010, Hybrid Tea) | 2.46473 | KSG name is a listed synonym. KSG: Kordes 2010 Hybrid Tea. HMF: W. Kordes & Sons (Germany, 1999), Florists Rose, Hybrid Tea, Patio.   ( |
+| `poseidon` | POSEIDON (Kor, 2014, Floribunda) | 2.63414 | KSG name is a listed synonym. KSG: Kor 2014 Floribunda. HMF: Tim Hermann Kordes (Germany, 2004), Floribunda. |
+| `precious-love` | PRECIOUS LOVE (Kirkham, 2010, Floribunda) | 2.67148 | KSG name is a listed synonym. KSG: Kirkham 2010 Floribunda. HMF: Reinhard Noack (Germany, before 2011), Floribunda. |
+| `president-macia` | PRESIDENT MACIA (Leenders, 1933, Hybrid Tea) | 2.20158 | KSG name is a listed synonym. KSG: Leenders 1933 Hybrid Tea. HMF: Mathias Leenders (1883 - 1958) (Netherlands, before 1931), Hybrid Tea. |
+| `princess-de-monaco` | PRINCESS DE MONACO (Meilland, 1982, Hybrid Tea) | n=18083 | checked against the plant page (read in the first round of hand checks) |
+| `queen-of-hearts` | QUEEN OF HEARTS (Kordes, 2009, Floribunda) | 2.41581 | name matches or is a spelling variant. KSG: Kordes 2009 Floribunda. HMF: Wilhelm Kordes III (1953 - 2016) (Germany, 1997), Florists Rose, Hybrid Tea.   ( |
+| `red-ayoba` | RED AYOBA (Kordes, 2001, Floribunda) | 2.71679 | KSG name is a listed synonym. KSG: Kordes 2001 Floribunda. HMF: Tim Hermann Kordes (Germany, 2001), Floribunda, Shrub.   ( |
+| `red-finesse` | RED FINESSE (Kordes, 2003, Floribunda) | 2.39729 | KSG name is a listed synonym. KSG: Kordes 2003 Floribunda. HMF: Wilhelm Kordes III (1953 - 2016) (Germany, 1992), Floribunda.   ( |
+| `red-recker` | RED RECKER (G.Kasturi Rangan(KSG Son), 1988, Hybrid Tea) | 2.5148 | KSG name is a listed synonym. KSG: G.Kasturi Rangan(KSG Son) 1988 Hybrid Tea. HMF: G. Kasturi Rangan (India, 1986), Hybrid Tea. |
+| `republic-de-montmartre` | REPUBLIC DE MONTMARTRE (Delbard, 2011, Hybrid Tea) | 2.67530 | KSG name is a listed synonym. KSG: Delbard 2011 Hybrid Tea. HMF: G. Delbard (France, 2011), Shrub. |
+| `revival` | REVIVAL (no breeder, no year, Hybrid Tea) | 2.20017 | name matches or is a spelling variant. KSG: -  Hybrid Tea. HMF: Anna Medici Barni (Italy, 1979), Hybrid Tea. |
+| `roddy-mcmillan` | RODDY MCMILLAN (Cocker, 1961, Hybrid Tea) | 2.19948 | KSG name is a listed synonym. KSG: Cocker 1961 Hybrid Tea. HMF: Anne G. Cocker (1920-2014) (Scotland, 1982), Hybrid Tea. |
+| `ronald-regan-rose` | RONALD REGAN ROSE (Zary, 2003, Hybrid Tea) | 2.36728 | name matches or is a spelling variant. KSG: Zary 2003 Hybrid Tea. HMF: Dr. Keith W. Zary (United States, before 2003), Hybrid Tea. |
+| `rose-anil` | ROSE ANIL (M.S.Viraraghavan, 1998, Hybrid Tea) | 2.39068 | KSG name is a listed synonym. KSG: M.S.Viraraghavan 1998 Hybrid Tea. HMF: M.S. Viraraghavan (India, 2005), Floribunda, Grandiflora, Hybrid Tea. |
+| `rose-ksg-centenary` | ROSE KSG CENTENARY (Kasturi & Sriram(KSG Son), 1995, Hybrid Tea) | 2.71995 | name matches or is a spelling variant. KSG: Kasturi & Sriram(KSG Son) 1995 Hybrid Tea. HMF: Kasturi & Sriram (India, 1995), Hybrid Tea. |
+| `rosie-o-donnel` | ROSIE O'DONNEL (Winchell, 1999, Hybrid Tea) | 2.5495 | name matches or is a spelling variant. KSG: Winchell 1999 Hybrid Tea. HMF: Joseph F. Winchel (United States, 1998), Hybrid Tea. |
+| `rouge-meilland` | ROUGE MEILLAND (Meilland, 1984, Hybrid Tea) | 2.16956 | KSG name is a listed synonym. KSG: Meilland 1984 Hybrid Tea. HMF: Francis Meilland (1912-1958) (France, before 1946), Florists Rose, Hybrid Tea. |
+| `ryokkoh` | RYOKKOH (Keisei, 1991, Floribunda) | 2.24160 | KSG name is a listed synonym. KSG: Keisei 1991 Floribunda. HMF: Seizo Suzuki (Japan, before 1989), Floribunda. |
+| `saiun` | SAIUN (Suzuki, 1980, Hybrid Tea) | 2.28023 | KSG name is a listed synonym. KSG: Suzuki 1980 Hybrid Tea. HMF: Seizo Suzuki (Japan, before 1980), Hybrid Tea. |
+| `sangerhausen-jubilee` | SANGERHAUSEN JUBILEE (Kordes, 2006, Floribunda) | 2.39728 | KSG name is a listed synonym. KSG: Kordes 2006 Floribunda. HMF: W. Kordes & Sons (Germany, 1993), Floribunda. |
+| `savlu` | SAVLU (Spek, 2009, Hybrid Tea) | 2.42501 | KSG name is a listed synonym. KSG: Spek 2009 Hybrid Tea. HMF: Jan Spek Nurseries (Netherlands, before 2006), Florists Rose, Hybrid Tea. |
+| `schloss-eutin` | SCHLOSS EUTIN (Kordes, 2006, Shrub) | 2.39388 | name matches or is a spelling variant. KSG: Kordes 2006 Shrub. HMF: W. Kordes & Sons (Germany, 2005), Shrub. |
+| `senteur-royal` | SENTEUR ROYAL (Tantau, 1989, Hybrid Tea) | 2.1671 | name matches or is a spelling variant. KSG: Tantau 1989 Hybrid Tea. HMF: Hans Jürgen Evers (1940-2007) (Germany, before 1985), Hybrid Tea. |
+| `shirley-s-bouquet` | SHIRLEY'S BOUQUET (no breeder, no year, Hybrid Tea) | 2.80975 | KSG name is a listed synonym. KSG: -  Hybrid Tea. HMF: Pierre Orard (France, before 2015), Hybrid Tea. |
+| `solero` | SOLERO (Kordes, 2009, Floribunda) | 2.27581 | KSG name is a listed synonym. KSG: Kordes 2009 Floribunda. HMF: W. Kordes & Sons (Germany, 2000), Florists Rose. |
+| `song-dance` | SONG & DANCE (Fryer, 2005, Hybrid Tea) | 2.41022 | name matches or is a spelling variant. KSG: Fryer 2005 Hybrid Tea. HMF: Gareth Fryer (1948-....) (United Kingdom, 2005), Hybrid Tea. |
+| `springs-75` | SPRINGS 75 (Poulsen, no year, Floribunda) | 2.18636 | KSG name is a listed synonym. KSG: Poulsen  Floribunda. HMF: Niels Dines Poulsen (1919-2003) (Denmark, 1973), Floribunda. |
+| `stretch-johnson` | STRETCH JOHNSON (McGredy, 1983, Floribunda) | 2.5985 | KSG name is a listed synonym. KSG: McGredy 1983 Floribunda. HMF: Samuel Darragh (1932-2019) McGredy IV (1983), Floribunda, Shrub. |
+| `stretch-johnson-2` | STRETCH JOHNSON (McGredy, 1983, Shrub) | 2.5985 | KSG name is a listed synonym. KSG: McGredy 1983 Shrub. HMF: Samuel Darragh (1932-2019) McGredy IV (1983), Floribunda, Shrub. |
+| `sue-hipkin` | SUE HIPKIN (Harkness, 1997, Hybrid Tea) | 2.28316 | KSG name is a listed synonym. KSG: Harkness 1997 Hybrid Tea. HMF: Harkness & Co. (United Kingdom, 1998), Hybrid Tea. |
+| `sunny-sky` | SUNNY SKY (Kordes, 2009, Hybrid Tea) | 2.61623 | name matches or is a spelling variant. KSG: Kordes 2009 Hybrid Tea. HMF: Tim Hermann Kordes (Germany, 1999), Hybrid Tea.   ( |
+| `sunstruck` | SUNSTRUCK (Carruth, 2004, Hybrid Tea) | 2.37390 | KSG name is a listed synonym. KSG: Carruth 2004 Hybrid Tea. HMF: Tom Carruth (United States, before 2002), Hybrid Tea. |
+| `super-trooper` | SUPER TROOPER (Fryer, 2010, Floribunda) | 2.62266 | name matches or is a spelling variant. KSG: Fryer 2010 Floribunda. HMF: Gareth Fryer (1948-....) (United Kingdom, before 2008), Floribunda. |
+| `tanned-beauty` | TANNED BEAUTY (Orard, 1998, Hybrid Tea) | 2.42560 | KSG name is a listed synonym. KSG: Orard 1998 Hybrid Tea. HMF: Joseph Orard (France, 1995), Hybrid Tea. |
+| `tanya` | TANYA (no breeder, no year, Hybrid Tea) | 2.6203 | name matches or is a spelling variant. KSG: -  Hybrid Tea. HMF: Maurice Combe (France, before 1959), Hybrid Tea. |
+| `tequila` | TEQUILA (Meilland, 2005, Floribunda) | 2.18232 | name matches or is a spelling variant. KSG: Meilland 2005 Floribunda. HMF: Marie-Louise (Louisette) Meilland (Paolino) (1920-1987) (France, before 1978), Floribunda. |
+| `terracotta` | TERRACOTTA (Meilland, 2002, Hybrid Tea) | 2.18927 | KSG name is a listed synonym. KSG: Meilland 2002 Hybrid Tea. HMF: Alain Meilland (1940-....) (France, 1994), Florists Rose, Hybrid Tea. |
+| `the-manju-rose-virvalencia` | THE MANJU ROSE(VIRVALENCIA) (M.S.Viraraghavan, 2019, Hybrid Tea) | 2.81337 | name matches or is a spelling variant. KSG: M.S.Viraraghavan 2019 Hybrid Tea. HMF: M.S. Viraraghavan (India, 2010), Hybrid Gigantea. |
+| `the-mccartney-rose` | THE MCCARTNEY ROSE (Meilland, 1991, Hybrid Tea) | 2.6245 | KSG name is a listed synonym. KSG: Meilland 1991 Hybrid Tea. HMF: Alain Meilland (1940-....) (France, before 1988), Hybrid Tea. |
+| `thungabhadra` | THUNGABHADRA (Kasturi Rangan(KSG Son), 1985, Hybrid Tea) | 2.72280 | name matches or is a spelling variant. KSG: Kasturi Rangan(KSG Son) 1985 Hybrid Tea. HMF: G. Kasturi Rangan (India, before 1985), Floribunda. |
+| `tiddly-winks` | TIDDLY WINKS (Carruth, 2006, Miniature) | 2.40968 | KSG name is a listed synonym. KSG: Carruth 2006 Miniature. HMF: Tom Carruth (United States, before 2005), Miniature. |
+| `toi-toi-toi` | TOI TOI TOI (Keisei, 2016, Floribunda) | 2.71518 | KSG name is a listed synonym. KSG: Keisei 2016 Floribunda. HMF: W. Kordes & Sons (Germany, 2004), Floribunda. |
+| `toro` | TORO (no breeder, no year, Hybrid Tea) | 2.6368 | KSG name is a listed synonym. KSG: -  Hybrid Tea. HMF: Kern Rose Nursery (United States, 1972), Hybrid Tea. |
+| `touch-of-class` | TOUCH OF CLASS (Kriloff, 1984, Hybrid Tea) | 2.6071 | KSG name is a listed synonym. KSG: Kriloff 1984 Hybrid Tea. HMF: Michel Kriloff (France, before 1982), Hybrid Tea. |
+| `valiant-heart` | VALIANT HEART (Poulson, 2001, Floribunda) | 2.40846 | KSG name is a listed synonym. KSG: Poulson 2001 Floribunda. HMF: L. Pernille Olesen (Denmark, 1998), Floribunda. |
+| `velasquez` | VELASQUEZ (Meilland, 2012, Hybrid Tea) | 2.64239 | name matches or is a spelling variant. KSG: Meilland 2012 Hybrid Tea. HMF: Alain Meilland (1940-....) (France, before 2010), Hybrid Tea. |
+| `veteran-s-honor` | VETERAN'S HONOR (Zary, 1999, Hybrid Tea) | 2.20712 | KSG name is a listed synonym. KSG: Zary 1999 Hybrid Tea. HMF: Dr. Keith W. Zary (United States, 1997), Hybrid Tea. |
+| `warm-wishes` | WARM WISHES (Fryer, 1991, Hybrid Tea) | 2.6482 | KSG name is a listed synonym. KSG: Fryer 1991 Hybrid Tea. HMF: Gareth Fryer (1948-....) (United Kingdom, before 1991), Hybrid Tea. |
+| `weeping-china-doll` | WEEPING CHINA DOLL (Weeks, 1982, Floribunda) | 2.1154 | KSG name is a listed synonym. KSG: Weeks 1982 Floribunda. HMF: Robert Hardman Melville (Australia, 1965), Polyantha, Cl.. |
+| `welwyn-garden-glory` | WELWYN GARDEN GLORY (Harkness, 1996, Hybrid Tea) | 2.24333 | KSG name is a listed synonym. KSG: Harkness 1996 Hybrid Tea. HMF: Harkness & Co. (United Kingdom, 1996), Hybrid Tea. |
+| `wheel-horse-classic` | WHEEL HORSE CLASSIC (Harkness, 1996, Floribunda) | 2.23751 | KSG name is a listed synonym. KSG: Harkness 1996 Floribunda. HMF: Harkness & Co. (United Kingdom, 1996), Floribunda. |
+| `white-spire` | WHITE SPIRE (Kordes, 1994, Hybrid Tea) | 2.32740 | KSG name is a listed synonym. KSG: Kordes 1994 Hybrid Tea. HMF: W. Kordes & Sons (Germany, before 1994), Hybrid Tea. |
+| `wild-blue-yonder` | WILD BLUE YONDER (Carruth, 2005, Hybrid Tea) | 2.37386 | KSG name is a listed synonym. KSG: Carruth 2005 Hybrid Tea. HMF: Tom Carruth (United States, before 2003), Grandiflora. |
+| `wonderful-news` | WONDERFUL NEWS (C & K Jones, 2001, Miniature) | 2.41056 | KSG name is a listed synonym. KSG: C & K Jones 2001 Miniature. HMF: Chris Jones (United Kingdom, before 1994), Miniature, Patio. |
+| `world-war-ii-memorial-rose` | WORLD WAR II MEMORIAL ROSE (Weeks, 2000, Hybrid Tea) | 2.30429 | KSG name is a listed synonym. KSG: Weeks 2000 Hybrid Tea. HMF: O.L. Weeks (1912-2002) (United States, 2000), Florists Rose, Hybrid Tea. |
+| `you-re-beautiful` | YOU'RE BEAUTIFUL (Fryer, 2013, Floribunda) | 2.65629 | KSG name is a listed synonym. KSG: Fryer 2013 Floribunda. HMF: Gareth Fryer (1948-....) (United Kingdom, before 2007), Floribunda, Hybrid Tea. |
+
+## Marked not on HMF (31)
+
+| Rose | KSG entry | Reason |
+|---|---|---|
+| `abigail` | ABIGAIL (Tantau, 1992, Floribunda) | HMF Abigail Rose is a Zary shrub (before 2007); KSG has Tantau 1992 floribunda |
+| `black-berry` | BLACK BERRY (Ludwig, 1990, Hybrid Tea) | HMF "China Berry" is a different rose (patio, Benardella); name only partly alike |
+| `clg-apricot-midinette` | CLG. APRICOT MIDINETTE (no breeder, no year, Climber) | HMF "Apricot Clementine" is a Tantau floribunda; no climbing Apricot Midinette found |
+| `diane-de-poitiers` | DIANE DE POITIERS (no breeder, no year, Hybrid Tea) | HMF Diane de Poitiers is an alba (Vibert, 1818); KSG lists a hybrid tea |
+| `diplomat` | DIPLOMAT (Meilland, no year, Hybrid Tea) | HMF Diplomat is a Boerner hybrid tea (1962); KSG says Meilland |
+| `duett-balconia` | DUETT BALCONIA (Kor, 2017, Hybrid Tea) | HMF "Neon Balconia" (Kordes) does not list Duett Balconia as a synonym |
+| `edward-rose` | EDWARD ROSE (no breeder, no year, Hybrid Tea) | HMF match was "Edward VII", a different rose |
+| `elegance-champagne` | ELEGANCE CHAMPAGNE (Teranishi, 2004, Hybrid Tea) | HMF "Champagne Cocktail" (Horner 1983) is a different rose; KSG says Teranishi 2004 |
+| `elina` | ELINA (NIRP, 1984, Hybrid Tea) | HMF "Avelina" is an 1845 noisette, a different rose |
+| `fancy` | FANCY (Interplant, 2010, Miniature) | HMF Fancy is a Schuurman florists rose; KSG says Interplant 2010 miniature |
+| `fanny-ardent` | FANNY ARDENT (Adam, 2004, Hybrid Tea) | HMF "Ardente" is a Portuguese climber/floribunda, a different rose |
+| `fire-glo` | FIRE GLO (Kasturi & Sriram, 2010, Miniature) | HMF "Ablaze" (Read, Australia 1997, synonym "Fire Glow") is a different spelling and breeder; KSG says Kasturi & Sriram 2010 |
+| `fire-glo-2` | FIRE GLO (Kasturi & Sriram, 2010, Polyantha) | same as fire-glo |
+| `forever` | FOREVER (Armstrong, 1978, Hybrid Tea) | HMF Forever is by Oly (Netherlands); KSG says Armstrong 1978 |
+| `fredric-mistral` | FREDRIC MISTRAL (Meilland, 1998, Hybrid Tea) | HMF "Fredica" is an INRA hybrid china understock, a different rose |
+| `great-days` | GREAT DAYS (Japanese, no year, Hybrid Tea) | HMF "Great Day" is a Williams miniature (1982); KSG says hybrid tea, Japanese |
+| `inferno` | INFERNO (Interplant, 2012, Floribunda) | HMF Inferno is an Armstrong hybrid tea (Christensen 1982); KSG says Interplant 2012 floribunda |
+| `j-p-agarwal` | J.P.AGARWAL (Ashok Agarwal, Friends Rosary, 2013, Hybrid Tea) | HMF "Commanding Grace" (Viraraghavan) lists no synonym J.P. Agarwal |
+| `julia-rose` | JULIA ROSE (Tystermann, 1974, Hybrid Tea) | HMF match was "Julia", a climbing miniature, a different rose |
+| `leana` | LEANA (Ludwig, 1993, Hybrid Tea) | HMF match was "Lowleana", an 1854 tea, a different rose |
+| `majestic` | MAJESTIC (Poulsen, 2001, Hybrid Tea) | HMF Majestic is a Hill hybrid tea (1922); KSG says Poulsen 2001 |
+| `maria-mcgredy` | MARIA MCGREDY (McGredy, 2001, Hybrid Tea) | HMF "Maria" is an Olesen/Poulsen shrub, a different rose |
+| `mary-lou` | MARY LOU (Meilland, 2010, Hybrid Tea) | HMF "Mary Lou Whitney" (Jalbert, Canada 2011) is a different rose |
+| `milkyway` | MILKYWAY (Lisnik, 1992, Hybrid Tea) | HMF "Milk 'n' Honey" (Walsh, 2017) is a different rose; KSG says Lisnik 1992 |
+| `pulman-orient-express` | PULMAN ORIENT EXPRESS (Twomy, 2001, Hybrid Tea) | HMF "Irene Pony Express" is a different rose |
+| `queen-mary` | QUEEN MARY (Meilland, 2004, Hybrid Tea) | HMF Queen Mary is a hybrid spinosissima; KSG says Meilland 2004 hybrid tea |
+| `regensburg` | REGENSBURG (McGredy, 1979, Floribunda) | HMF match was "Glacier" (Poulsen 1985), which only lists an unrelated "Regensburg (floribunda, Olesen 1996)"; the McGredy 1979 rose was not found |
+| `rubicon` | RUBICON (Interplant, 2011, Miniature) | HMF "Rubiconde" is an 1832 alba, a different rose |
+| `sao-hime` | SAO HIME (no breeder, no year, Hybrid Tea) | HMF "Matsuo-Hime" (Shimizu 1999) is a different name |
+| `silver-anniversary` | SILVER ANNIVERSARY (Olesan, 1996, Hybrid Tea) | HMF "Anniversary" is a Matthews floribunda (1997), a different rose |
+| `summer-time` | SUMMER TIME (Meilland, 2011, Hybrid Tea) | HMF "Summertime" is a Boerner rose (1956); KSG says Meilland 2011 |
