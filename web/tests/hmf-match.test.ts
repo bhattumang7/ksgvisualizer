@@ -36,6 +36,10 @@ describe("names", () => {
   it("normalises accents, quotes and ampersands", () => {
     expect(normalizeName("Princesse d’Été & Co®")).toBe("princesse dete and co");
   });
+  it("drops trademark signs instead of leaving \"tm\" behind", () => {
+    expect(titleName("'About Face ™' Rose")).toBe("about face");
+    expect(titleName("'Ajatashatru Kasturi™' Rose")).toBe("ajatashatru kasturi");
+  });
   it("pulls the rose name out of an HMF title", () => {
     expect(titleName("'Earth Angel' Floribunda Rose - HelpMeFind")).toBe("earth angel");
     expect(titleName("Rose Gaujard Hybrid Tea | HelpMeFind")).toBe("gaujard");

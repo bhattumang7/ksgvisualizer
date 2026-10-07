@@ -66,9 +66,9 @@ export function parseHmfUrl(raw: string): { key: string; id: string | null; url:
 
 export function normalizeName(s: string): string {
   return s
+    .replaceAll(/[®™]/g, "") // before NFKD, which would turn ™ into "TM"
     .normalize("NFKD")
     .replaceAll(/[̀-ͯ]/g, "")
-    .replaceAll(/[®™]/g, "")
     .toLowerCase()
     .replaceAll("&", " and ")
     .replaceAll(/['’‘`"“”]/g, "")
