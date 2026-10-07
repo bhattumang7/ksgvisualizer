@@ -151,7 +151,9 @@ export function score(dir: string) {
       const fb = fallbackTerm(t);
       return [t, ...(fb && fs.existsSync(fbFile(fb)) ? [fb] : [])].map((x, i) => JSON.parse(fs.readFileSync(i ? fbFile(x) : file(x), "utf8")) as Cached);
     });
-    const cached: Cached = { query: parts.map((p) => p.query).join(" | "), fetchedAt: parts[0].fetchedAt, results: parts.flatMap((p) => p.results) };
+    // A page read after HMF's single-hit redirect carries the generic page description; the searched name is then a synonym.
+    const withAlias = (p: Cached) => p.results.map((x) => (x.snippet.startsWith("Description, photos, references") && !x.alias ? { ...x, alias: p.query.replace(/^contains: /, "") } : x));
+    const cached: Cached = { query: parts.map((p) => p.query).join(" | "), fetchedAt: parts[0].fetchedAt, results: parts.flatMap(withAlias) };
     const q: RoseQuery = {
       name: r.canonical_name,
       year: r.year,

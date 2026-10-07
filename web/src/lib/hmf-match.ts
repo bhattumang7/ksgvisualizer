@@ -7,6 +7,8 @@ export interface SearchResult {
   url: string;
   title: string;
   snippet: string;
+  /** The name that was searched, when HMF redirected it to this plant: the plant is known by that name, as a synonym. */
+  alias?: string;
 }
 
 export interface RoseQuery {
@@ -207,7 +209,7 @@ export function matchRose(q: RoseQuery, results: SearchResult[]): MatchOutcome {
       url: p.url,
       title: r.title,
       snippet: r.snippet,
-      score: Number(Math.max(...wants.map((w) => similarity(w, got))).toFixed(3)),
+      score: Number(Math.max(...wants.map((w) => similarity(w, got)), r.alias && wants.includes(stripDescriptors(normalizeName(r.alias))) ? 0.9 : 0).toFixed(3)),
       nameExact: wants.includes(got),
       evidence: evidenceFor(q, `${r.title} ${r.snippet}`),
       conflict: false,

@@ -107,6 +107,12 @@ describe("matchRose", () => {
     expect(m).toMatchObject({ id: "2", match_confidence: "exact" });
   });
 
+  it("treats a redirect from a searched name to a differently named plant as a fuzzy synonym hit", () => {
+    const hit = [{ url: "https://www.helpmefind.com/gardening/l.php?l=2.33059", title: "'Jubilé du Prince de Monaco ®' Rose", snippet: "Description, photos.", alias: "Cherry Parfait" }];
+    expect(matchRose(q({ name: "CHERRY PARFAIT", year: null, breeders: [] }), hit)).toMatchObject({ match_confidence: "fuzzy", url: "https://www.helpmefind.com/gardening/l.php?l=2.33059" });
+    expect(matchRose(q({ name: "SOMETHING ELSE", year: null, breeders: [] }), hit).match_confidence).toBe("none");
+  });
+
   it("is none for unrelated or empty results", () => {
     expect(matchRose(q({ name: "Ajatashatru Kasturi" }), earth).match_confidence).toBe("none");
     expect(matchRose(q({}), []).match_confidence).toBe("none");

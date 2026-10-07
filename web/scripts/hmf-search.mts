@@ -3,9 +3,9 @@
  * matches the result rows (name, class, "Breeder (year)") against the KSG breeder, year and class offline.
  * One request per unique name; the page is plain HTML, so no browser is needed.
  *
- *   pnpm hmf-search [--limit N] [--id ROSE_ID] [--refresh] [--score-only]
+ *   pnpm hmf-search [--limit N] [--id ROSE_ID] [--refresh] [--score-only] [--delay MIN-MAX]
  *
- * Gentle by design: --limit defaults to 100 requests per run, 5-8 s apart, one at a time. It stops at the
+ * Gentle by design: --limit defaults to 100 requests per run, 5-8 s apart by default (--delay 2-3 to go faster), one at a time. It stops at the
  * first 403/429/5xx or unexpected page. Raw result pages are parsed and cached per name in cache/hmf-search/
  * (gitignored), so an interrupted or later run resumes and no name is ever fetched twice unless --refresh.
  * Output: data/hmf-matches.json (merged into roses.json by `python -m pipeline.run`) and
@@ -28,6 +28,10 @@ const flag = (name: string) => args.includes(`--${name}`);
 const value = (name: string) => args[args.indexOf(`--${name}`) + 1];
 const cacheFile = cacheFor(CACHE);
 
+/** Seconds between requests, "--delay 2-3" or "--delay 2"; default 5-8. */
+const [DELAY_MIN, DELAY_MAX] = (flag("delay") ? value("delay") : "5-8").split("-").map((x) => Number(x) * 1000) as [number, number?];
+const gap = () => jitter(DELAY_MIN, DELAY_MAX ?? DELAY_MIN);
+
 const blocked = (status: number) => status === 403 || status === 429 || status >= 500;
 
 const decode = (s: string) => s.replaceAll("&amp;", "&").replaceAll("&#039;", "'").replaceAll("&quot;", '"').replaceAll(/\s+/g, " ").trim();
@@ -39,7 +43,7 @@ const decode = (s: string) => s.replaceAll("&amp;", "&").replaceAll("&#039;", "'
 async function followSingleHit(location: string): Promise<{ url: string; title: string; snippet: string } | null> {
   const plant = parseHmfUrl(new URL(location, "https://www.helpmefind.com").href);
   if (!plant) return null;
-  await sleep(jitter(5000, 8000));
+  await sleep(gap());
   const res = await hmfFetch(plant.url, { referer: REFERER });
   if (!res.ok) return null;
   const html = await res.text();
@@ -108,7 +112,7 @@ async function search(todo: string[], fallbacks: (() => string[]) | null, limit:
   persistCookies(path.join(ROOT, "cache", "hmf-search-cookies.json"));
   let used = 0;
   const pause = async () => {
-    if (used++ > 0) await sleep(jitter(5000, 8000));
+    if (used++ > 0) await sleep(gap());
   };
   console.log(`${todo.length} names to search`);
   for (const [n, term] of todo.entries()) {
