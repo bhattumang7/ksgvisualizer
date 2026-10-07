@@ -50,6 +50,16 @@ export function HmfGallery({ hmfId, hmfUrl, name, stored }: Readonly<{ hmfId: st
     return () => controller.abort();
   }, [hmfId, stored, load]);
 
+  if (!hmfId && hmfUrl) {
+    // Matched by url only: photos need the numeric id, which the details step fills in later.
+    return (
+      <div className="flex h-24 items-center rounded-lg border border-dashed border-border px-4 text-sm text-muted">
+        <a href={hmfUrl} target="_blank" rel="noopener noreferrer" className="underline">
+          See {name} on HelpMeFind
+        </a>
+      </div>
+    );
+  }
   if (!hmfId) {
     return <Placeholder text="This rose hasn't been matched to HelpMeFind yet." />;
   }

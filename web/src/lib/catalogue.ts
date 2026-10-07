@@ -112,8 +112,9 @@ function matchesFlags(r: CatalogueRose, f: Filters): boolean {
   if (f.fragrant && !r.fragrance) return false;
   if (f.isNew && !r.is_new) return false;
   if (f.awards && r.awards.length === 0) return false;
-  if (f.hmf === "matched" && !r.hmf.id) return false;
-  return !(f.hmf === "unmatched" && r.hmf.id);
+  const mapped = !!(r.hmf.id ?? r.hmf.url);
+  if (f.hmf === "matched" && !mapped) return false;
+  return !(f.hmf === "unmatched" && mapped);
 }
 
 function matches(r: CatalogueRose, f: Filters, skip?: FacetKey): boolean {
