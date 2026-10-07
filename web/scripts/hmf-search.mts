@@ -116,8 +116,9 @@ async function pool<T>(items: T[], threads: number, work: (item: T, n: number) =
   await Promise.all(
     Array.from({ length: Math.min(threads, items.length) }, async (_, w) => {
       await sleep(w * 400);
-      for (let first = true; !stop && next < items.length; first = false) {
+      for (let first = true; ; first = false) {
         if (!first) await sleep(gap());
+        if (stop || next >= items.length) break; // checked after the wait: another worker may have taken the last item
         const n = next++;
         stop ||= (await work(items[n], n)) ?? 0;
       }
