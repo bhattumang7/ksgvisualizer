@@ -1,0 +1,67 @@
+{
+  "abbaye-de-cluny": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.15",
+    "match_confidence": "exact",
+    "hmf_title": "'Abbaye de Cluny ®' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Abbaye De Cluny"
+  },
+  "about-face": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.37356",
+    "match_confidence": "exact",
+    "hmf_title": "'About Face ™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "About Face"
+  },
+  "abracadabra": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.36427",
+    "match_confidence": "exact",
+    "hmf_title": "Abracadabra (floribunda, Kordes, 2001)",
+    "evidence": [
+      "breeder:kordes",
+      "year:2001"
+    ],
+    "query": "Abracadabra"
+  },
+  "acapella": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.26811",
+    "match_confidence": "exact",
+    "hmf_title": "Acapella ® (hybrid tea, Evers/Tantau 1994)",
+    "evidence": [
+      "breeder:tantau",
+      "year:1994",
+      "class:Hybrid Tea"
+    ],
+    "query": "Acapella"
+  },
+  "ajatashatru-kasturi": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.87704",
+    "match_confidence": "exact",
+    "hmf_title": "'Ajatashatru Kasturi™' Rose",
+    "evidence": [
+      "sole-result"
+    ],
+    "query": "Ajatashatru Kasturi"
+  },
+  "earth-angel": {
+    "id": null,
+    "url": "https://www.helpmefind.com/gardening/l.php?l=2.69538",
+    "match_confidence": "exact",
+    "hmf_title": "Earth Angel",
+    "evidence": [
+      "breeder:kordes",
+      "class:Floribunda",
+      "sole-result"
+    ],
+    "query": "Earth Angel"
+  }
+}

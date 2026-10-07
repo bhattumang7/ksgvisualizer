@@ -18,8 +18,8 @@
   "ksg_page": 30,
   "hmf": {
    "id": null,
-   "url": null,
-   "match_confidence": "none"
+   "url": "https://www.helpmefind.com/gardening/l.php?l=2.87704",
+   "match_confidence": "exact"
   },
   "links": {
    "wikidata": null,
@@ -46,8 +46,8 @@
   "ksg_page": 30,
   "hmf": {
    "id": null,
-   "url": null,
-   "match_confidence": "none"
+   "url": "https://www.helpmefind.com/gardening/l.php?l=2.15",
+   "match_confidence": "exact"
   },
   "links": {
    "wikidata": null,
@@ -79,8 +79,8 @@
   "ksg_page": 30,
   "hmf": {
    "id": null,
-   "url": null,
-   "match_confidence": "none"
+   "url": "https://www.helpmefind.com/gardening/l.php?l=2.37356",
+   "match_confidence": "exact"
   },
   "links": {
    "wikidata": null,
@@ -107,8 +107,8 @@
   "ksg_page": 30,
   "hmf": {
    "id": null,
-   "url": null,
-   "match_confidence": "none"
+   "url": "https://www.helpmefind.com/gardening/l.php?l=2.36427",
+   "match_confidence": "exact"
   },
   "links": {
    "wikidata": null,
@@ -135,8 +135,8 @@
   "ksg_page": 30,
   "hmf": {
    "id": null,
-   "url": null,
-   "match_confidence": "none"
+   "url": "https://www.helpmefind.com/gardening/l.php?l=2.26811",
+   "match_confidence": "exact"
   },
   "links": {
    "wikidata": null,
@@ -14737,9 +14737,9 @@
   "price_inr": 100,
   "ksg_page": 47,
   "hmf": {
-   "id": null,
-   "url": null,
-   "match_confidence": "none"
+   "id": "18083",
+   "url": "https://www.helpmefind.com/rose/pl.php?n=18083",
+   "match_confidence": "manual"
   },
   "links": {
    "wikidata": null,
@@ -24116,8 +24116,8 @@
   "ksg_page": 62,
   "hmf": {
    "id": null,
-   "url": null,
-   "match_confidence": "none"
+   "url": "https://www.helpmefind.com/gardening/l.php?l=2.69538",
+   "match_confidence": "exact"
   },
   "links": {
    "wikidata": null,
