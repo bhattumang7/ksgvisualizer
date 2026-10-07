@@ -11,8 +11,9 @@
   --accent-soft: #f6e4ea;
 }
 
+/* Dark applies when the OS prefers it (unless light is chosen) or when dark is chosen explicitly. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --background: #171114;
     --foreground: #f2e9ec;
     --muted: #a99ba1;
@@ -21,7 +22,24 @@
     --accent: #e0668e;
     --accent-fg: #1a0f14;
     --accent-soft: #3a1f2b;
+    color-scheme: dark;
   }
+}
+
+:root[data-theme="dark"] {
+    --background: #171114;
+    --foreground: #f2e9ec;
+    --muted: #a99ba1;
+    --card: #221a1e;
+    --border: #3a2d33;
+    --accent: #e0668e;
+    --accent-fg: #1a0f14;
+    --accent-soft: #3a1f2b;
+    color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
 }
 
 @theme inline {
