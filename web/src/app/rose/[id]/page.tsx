@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { joinBreeders } from "@/lib/catalogue";
+import { isHmfVerified, joinBreeders } from "@/lib/catalogue";
 import { loadDataset } from "@/lib/data";
 import { loadHmfDetails } from "@/lib/hmf-store";
 import { loadStoredPhotos } from "@/lib/photos";
@@ -27,7 +27,10 @@ export default async function RosePage({ params }: Readonly<PageProps<"/rose/[id
   const rose = all().find((r) => r.id === id);
   if (!rose) notFound();
 
-  const hmf = rose.hmf.id ? loadHmfDetails(rose.hmf.id) : null;
+  const verified = isHmfVerified(rose.hmf);
+  const hmfId = verified ? rose.hmf.id : null;
+  const hmfUrl = verified ? rose.hmf.url : null;
+  const hmf = hmfId ? loadHmfDetails(hmfId) : null;
   const facts: [string, React.ReactNode][] = [
     ["Section", rose.class],
     ["Breeder", rose.breeder_id ? <Link className="underline" href={`/breeder/${rose.breeder_id}`}>{rose.breeder_name}</Link> : (rose.breeder_name ?? "Not listed")],
@@ -49,8 +52,18 @@ export default async function RosePage({ params }: Readonly<PageProps<"/rose/[id
       </h1>
       <p className="mt-1 text-muted">{rose.ksg_name !== rose.canonical_name.toUpperCase() && <>Listed by KSG as {rose.ksg_name}. </>}</p>
 
+      {verified && rose.hmf.url ? (
+        <p className="mt-2 text-sm">
+          <a href={rose.hmf.url} target="_blank" rel="noopener noreferrer" className="rounded border border-border px-2 py-0.5 text-muted hover:text-accent">
+            ✓ Verified on HelpMeFind
+          </a>
+        </p>
+      ) : (
+        rose.hmf.url && <p className="mt-2 text-sm text-muted">Possible HelpMeFind match, not confirmed yet.</p>
+      )}
+
       <div className="mt-5">
-        <HmfGallery hmfId={rose.hmf.id} hmfUrl={rose.hmf.url} name={rose.canonical_name} stored={rose.hmf.id ? loadStoredPhotos(rose.hmf.id) : null} />
+        <HmfGallery hmfId={hmfId} hmfUrl={hmfUrl} name={rose.canonical_name} stored={hmfId ? loadStoredPhotos(hmfId) : null} />
       </div>
 
       <p className="mt-6 text-lg leading-relaxed">{rose.description}</p>

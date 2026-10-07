@@ -107,12 +107,16 @@ function matchesFacets(r: CatalogueRose, f: Filters, skip?: FacetKey): boolean {
   );
 }
 
+/** A rose counts as on HelpMeFind once the match is confirmed (exact, or checked by hand); a fuzzy match is only a guess. */
+export const isHmfVerified = (h: { id: string | null; url: string | null; match_confidence: string }) =>
+  (h.match_confidence === "exact" || h.match_confidence === "manual") && !!(h.id ?? h.url);
+
 function matchesFlags(r: CatalogueRose, f: Filters): boolean {
   if (f.indian && !r.breeder_indian) return false;
   if (f.fragrant && !r.fragrance) return false;
   if (f.isNew && !r.is_new) return false;
   if (f.awards && r.awards.length === 0) return false;
-  const mapped = !!(r.hmf.id ?? r.hmf.url);
+  const mapped = isHmfVerified(r.hmf);
   if (f.hmf === "matched" && !mapped) return false;
   return !(f.hmf === "unmatched" && mapped);
 }

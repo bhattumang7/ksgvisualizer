@@ -34,7 +34,7 @@ describe("filters", () => {
     expect(run({ indian: true }).every((r) => r.breeder_indian)).toBe(true);
     expect(run({ isNew: true }).map((r) => r.id)).toEqual(["abracadabra"]);
     expect(run({ awards: true }).map((r) => r.id).sort()).toEqual(["about-face", "starry-night"]);
-    expect(run({ hmf: "matched" }).map((r) => r.id).sort()).toEqual(["earth-angel", "princess-charlene-de-monaco", "princess-de-monaco"]);
+    expect(run({ hmf: "matched" }).map((r) => r.id).sort()).toEqual(["earth-angel", "princess-charlene-de-monaco"]); // a fuzzy match is not verified
   });
   it("excludes roses with no year or price when a range is set", () => {
     expect(run({ yearFrom: 1900 }).some((r) => r.year === null)).toBe(false);
