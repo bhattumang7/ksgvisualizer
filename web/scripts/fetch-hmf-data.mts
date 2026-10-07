@@ -6,11 +6,14 @@
  * Roses that already have a file are skipped, so an interrupted run can simply be restarted and the
  * data is never re-read from HMF unless you ask: --refresh redoes everything, --id redoes one rose,
  * --older-than redoes files fetched more than DAYS ago. Stops at the first 403/429/5xx.
+ *
+ * Pages are opened in a real, visible Chromium (persistent profile in cache/hmf-browser, shared with
+ * `pnpm photos`, so cookies carry over); pass --headless to hide the window.
  */
 import fs from "node:fs";
 import path from "node:path";
 import { hmfPlantUrl } from "../src/lib/hmf.ts";
-import { hmfFetch, persistCookies } from "../src/lib/hmf-client.ts";
+import { chromium } from "@playwright/test";
 import { parseDetails } from "../src/lib/hmf-details.ts";
 
 const GAP_MS = 4000;
@@ -18,7 +21,7 @@ const ROOT = path.join(import.meta.dirname, "..", "..");
 const OUT = process.env.KSG_HMF_DIR ?? path.join(ROOT, "data", "hmf");
 const DATA = process.env.KSG_DATA_DIR ?? path.join(ROOT, "data", "sample");
 
-persistCookies(path.join(import.meta.dirname, "..", "..", "cache", "hmf-cookies.json"));
+const PROFILE = path.join(ROOT, "cache", "hmf-browser");
 
 class Blocked extends Error {}
 
@@ -28,15 +31,7 @@ const value = (name: string) => args[args.indexOf(`--${name}`) + 1];
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 let last = 0;
-async function polite(url: string, referer?: string): Promise<Response> {
-  const wait = last + GAP_MS + Math.random() * 1500 - Date.now();
-  if (wait > 0) await sleep(wait);
-  last = Date.now();
-  const res = await hmfFetch(url, { referer, signal: AbortSignal.timeout(15000) });
-  if (res.status === 403 || res.status === 429 || res.status >= 500) throw new Blocked(`HTTP ${res.status} from ${url}`);
-  return res;
-}
-
+const blocked = (status: number) => status === 403 || status === 429 || status >= 500;
 const file = (id: string) => path.join(OUT, `${id}.json`);
 
 function needsFetch(id: string): boolean {
@@ -57,27 +52,41 @@ if (flag("limit")) ids = ids.slice(0, Number(value("limit")));
 
 fs.mkdirSync(OUT, { recursive: true });
 console.log(`${ids.length} roses to fetch`);
-for (const [n, id] of ids.entries()) {
-  try {
-    const res = await polite(hmfPlantUrl(id));
-    if (!res.ok) {
-      console.error(`${id}: HTTP ${res.status}; will retry on the next run`);
-      continue;
+const ctx = await chromium.launchPersistentContext(PROFILE, { headless: flag("headless"), locale: "en-IN" });
+const page = ctx.pages()[0] ?? (await ctx.newPage());
+let code = 0;
+try {
+  for (const [n, id] of ids.entries()) {
+    try {
+      const wait = last + GAP_MS + Math.random() * 1500 - Date.now();
+      if (wait > 0) await sleep(wait);
+      last = Date.now();
+      const url = hmfPlantUrl(id);
+      const res = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30000 });
+      if (res && blocked(res.status())) throw new Blocked(`HTTP ${res.status()} from ${url}`);
+      if (!res?.ok()) {
+        console.error(`${id}: HTTP ${res?.status()}; will retry on the next run`);
+        continue;
+      }
+      const details = parseDetails(await page.content(), id);
+      if (!Object.keys(details.rows).length) {
+        console.error(`${id}: no details found in the page (markup changed?); not saved`);
+        continue;
+      }
+      // Write-then-rename so an interrupted run never leaves a half-written file.
+      fs.writeFileSync(file(id) + ".tmp", JSON.stringify(details, null, 2) + "\n");
+      fs.renameSync(file(id) + ".tmp", file(id));
+      console.log(`[${n + 1}/${ids.length}] ${id}: ${Object.keys(details.rows).join(", ")}`);
+    } catch (e) {
+      if (e instanceof Blocked) {
+        console.error(`Stopped: ${e.message}. Wait a while, then re-run to resume.`);
+        code = 2;
+        break;
+      }
+      console.error(`${id}: failed (${(e as Error).message}); will retry on the next run`);
     }
-    const details = parseDetails(await res.text(), id);
-    if (!Object.keys(details.rows).length) {
-      console.error(`${id}: no details found in the page (markup changed?); not saved`);
-      continue;
-    }
-    // Write-then-rename so an interrupted run never leaves a half-written file.
-    fs.writeFileSync(file(id) + ".tmp", JSON.stringify(details, null, 2) + "\n");
-    fs.renameSync(file(id) + ".tmp", file(id));
-    console.log(`[${n + 1}/${ids.length}] ${id}: ${Object.keys(details.rows).join(", ")}`);
-  } catch (e) {
-    if (e instanceof Blocked) {
-      console.error(`Stopped: ${e.message}. Wait a while, then re-run to resume.`);
-      process.exit(2);
-    }
-    console.error(`${id}: failed (${(e as Error).message}); will retry on the next run`);
   }
+} finally {
+  await ctx.close();
 }
+process.exit(code);
