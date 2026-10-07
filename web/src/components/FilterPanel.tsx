@@ -89,6 +89,18 @@ function NumberField({ label, value, onChange, placeholder }: Readonly<{ label: 
 export function FilterPanel({ filters, options, onChange }: Readonly<FilterPanelProps>) {
   return (
     <div className="space-y-5">
+      <label className="block text-sm font-semibold">
+        <span>HelpMeFind mapping</span>
+        <select
+          value={filters.hmf}
+          onChange={(e) => onChange({ hmf: e.target.value as HmfFilter })}
+          className="mt-1 w-full rounded-lg border border-border bg-card px-2 py-1.5 text-sm font-normal"
+        >
+          <option value="all">All roses</option>
+          <option value="matched">Mapped (done)</option>
+          <option value="unmatched">Pending</option>
+        </select>
+      </label>
       <Group title="Section" options={options.classes} selected={filters.classes} onToggle={(v) => onChange({ classes: toggle(filters.classes, v) })} />
       <Group title="Colour" options={options.colours} selected={filters.colours} onToggle={(v) => onChange({ colours: toggle(filters.colours, v) })} />
       <Group title="Breeder" options={options.breeders} selected={filters.breeders} onToggle={(v) => onChange({ breeders: toggle(filters.breeders, v) })} searchable />
@@ -108,18 +120,6 @@ export function FilterPanel({ filters, options, onChange }: Readonly<FilterPanel
             <NumberField label="Price from (₹)" value={filters.priceMin} onChange={(v) => onChange({ priceMin: v })} placeholder="100" />
             <NumberField label="Price to (₹)" value={filters.priceMax} onChange={(v) => onChange({ priceMax: v })} placeholder="300" />
           </div>
-          <label className="block text-sm font-semibold">
-            <span>HelpMeFind match</span>
-            <select
-              value={filters.hmf}
-              onChange={(e) => onChange({ hmf: e.target.value as HmfFilter })}
-              className="mt-1 w-full rounded-lg border border-border bg-card px-2 py-1.5 text-sm font-normal"
-            >
-              <option value="all">Any</option>
-              <option value="matched">Matched</option>
-              <option value="unmatched">Not matched</option>
-            </select>
-          </label>
         </div>
       </details>
     </div>

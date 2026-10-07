@@ -144,7 +144,7 @@ describe("Catalogue", () => {
     fireEvent.change(side.getByLabelText("Year to"), { target: { value: "2000" } });
     fireEvent.change(side.getByLabelText("Price from (₹)"), { target: { value: "100" } });
     fireEvent.change(side.getByLabelText("Price to (₹)"), { target: { value: "200" } });
-    fireEvent.change(side.getByLabelText("HelpMeFind match"), { target: { value: "matched" } });
+    fireEvent.change(side.getByLabelText("HelpMeFind mapping"), { target: { value: "matched" } });
     fireEvent.click(side.getByLabelText(/^France/));
     fireEvent.click(side.getByLabelText(/^Red/));
     fireEvent.click(side.getByLabelText(/^Meilland/));
