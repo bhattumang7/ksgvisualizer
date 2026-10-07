@@ -75,9 +75,10 @@ export interface HmfRequest {
   referer?: string;
   signal?: AbortSignal;
   cache?: RequestCache;
+  redirect?: RequestRedirect;
 }
 
-export async function hmfFetch(url: string, { kind = "document", referer = `${HMF_ORIGIN}/`, signal, cache }: HmfRequest = {}) {
+export async function hmfFetch(url: string, { kind = "document", referer = `${HMF_ORIGIN}/`, signal, cache, redirect }: HmfRequest = {}) {
   const headers: Record<string, string> = {
     "user-agent": USER_AGENT,
     accept: ACCEPT[kind],
@@ -86,7 +87,7 @@ export async function hmfFetch(url: string, { kind = "document", referer = `${HM
   };
   const cookie = cookieHeader();
   if (cookie) headers.cookie = cookie;
-  const res = await fetch(url, { headers, signal, cache });
+  const res = await fetch(url, { headers, signal, cache, redirect });
   const set = res.headers?.getSetCookie?.();
   if (set?.length) {
     storeCookies(set);

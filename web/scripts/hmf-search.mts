@@ -13,6 +13,7 @@
  */
 import path from "node:path";
 import { persistCookies, hmfFetch } from "../src/lib/hmf-client.ts";
+import { parseHmfUrl } from "../src/lib/hmf-match.ts";
 import { hasMorePages, hmfSearchUrl, isSearchPage, parseSearchRows } from "../src/lib/hmf-search.ts";
 import fs from "node:fs";
 import { matchRose } from "../src/lib/hmf-match.ts";
@@ -29,10 +30,40 @@ const cacheFile = cacheFor(CACHE);
 
 const blocked = (status: number) => status === 403 || status === 429 || status >= 500;
 
+const decode = (s: string) => s.replaceAll("&amp;", "&").replaceAll("&#039;", "'").replaceAll("&quot;", '"').replaceAll(/\s+/g, " ").trim();
+
+/**
+ * HMF sends a search with exactly one hit straight to that plant's page (a redirect with no body). The page is read
+ * once for its title and description, which stand in for the one result row.
+ */
+async function followSingleHit(location: string): Promise<{ url: string; title: string; snippet: string } | null> {
+  const plant = parseHmfUrl(new URL(location, "https://www.helpmefind.com").href);
+  if (!plant) return null;
+  await sleep(jitter(5000, 8000));
+  const res = await hmfFetch(plant.url, { referer: REFERER });
+  if (!res.ok) return null;
+  const html = await res.text();
+  const title = /<title>([^<]*)<\/title>/i.exec(html)?.[1];
+  if (!title) return null;
+  const desc = /<meta[^>]+name="description"[^>]+content="([^"]*)"/i.exec(html)?.[1] ?? "";
+  return { url: plant.url, title: decode(title), snippet: decode(desc) };
+}
+
 /** Fetches one search page and caches its rows; returns a process exit code when the run must stop, else null. */
 async function fetchOne(term: string, mode: "best" | "contains", file: string, n: number, total: number): Promise<number | null> {
   try {
-    const res = await hmfFetch(hmfSearchUrl(term, mode), { referer: REFERER });
+    const res = await hmfFetch(hmfSearchUrl(term, mode), { referer: REFERER, redirect: "manual" });
+    const location = res.headers.get("location");
+    if (res.status >= 300 && res.status < 400 && location) {
+      const hit = await followSingleHit(location);
+      if (!hit) {
+        console.error(`"${term}": redirected to ${location}, which is not a readable plant page; will retry on the next run`);
+        return null;
+      }
+      writeJson(file, { query: mode === "best" ? term : `contains: ${term}`, fetchedAt: new Date().toISOString(), results: [hit] } satisfies Cached);
+      console.log(`[${n}/${total}] ${mode === "best" ? "" : "contains "}${term}: single hit "${hit.title}"`);
+      return null;
+    }
     if (blocked(res.status)) {
       console.error(`Stopped: HTTP ${res.status} from HMF for "${term}". Wait a while, then re-run to resume.`);
       return 2;
