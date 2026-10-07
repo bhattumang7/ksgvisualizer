@@ -27,7 +27,7 @@ export const RoseSchema = z.object({
   fragrance: z.string().nullable(),
   description: z.string(),
   price_inr: z.number().int().nullable(),
-  ksg_page: z.number().int(),
+  ksg_page: z.number().int().nullable(),
   hmf: z.object({
     id: z.string().nullable(),
     url: z.string().url().nullable(),

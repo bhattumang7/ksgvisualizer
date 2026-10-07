@@ -1,0 +1,10 @@
+# Temporary HTTP cache for matching runs (never shipped)
+cache/
+
+# Python
+pipeline/.venv/
+__pycache__/
+
+# Web
+web/test-results/
+web/playwright-report/

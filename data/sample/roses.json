@@ -568,5 +568,89 @@
       "breeder_url": null,
       "ars": null
     }
+  },
+  {
+    "id": "princess-charlene-de-monaco",
+    "ksg_name": "PRINCESS CHARLENE DE MONACO",
+    "canonical_name": "Princess Charlene de Monaco",
+    "is_new": false,
+    "class": "Hybrid Tea",
+    "breeder_raw": "Meilland",
+    "breeder_id": "meilland",
+    "year_raw": null,
+    "year": null,
+    "awards": [],
+    "colour_text": "(KSG text pending)",
+    "colour_group": "orange",
+    "fragrance": null,
+    "description": "(KSG text pending)",
+    "price_inr": null,
+    "ksg_page": null,
+    "hmf": {
+      "id": "96406",
+      "url": "https://www.helpmefind.com/rose/pl.php?n=96406",
+      "match_confidence": "manual"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "earth-angel",
+    "ksg_name": "EARTH ANGEL",
+    "canonical_name": "Earth Angel",
+    "is_new": false,
+    "class": "Floribunda",
+    "breeder_raw": "Kor",
+    "breeder_id": "kordes",
+    "year_raw": "'15",
+    "year": 2015,
+    "awards": [],
+    "colour_text": "Light pink, cream outer petals. Sweet fragrance, old-fashioned bloom form. Blooms in flushes throughout the season.",
+    "colour_group": "pink",
+    "fragrance": "sweet fragrance",
+    "description": "Light pink, cream outer petals. Sweet fragrance, old-fashioned bloom form. Blooms in flushes throughout the season.",
+    "price_inr": 250,
+    "ksg_page": 62,
+    "hmf": {
+      "id": "97659",
+      "url": "https://www.helpmefind.com/rose/pl.php?n=97659",
+      "match_confidence": "exact"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "princess-de-monaco",
+    "ksg_name": "PRINCESS DE MONACO",
+    "canonical_name": "Princess de Monaco",
+    "is_new": false,
+    "class": "Hybrid Tea",
+    "breeder_raw": "Meilland",
+    "breeder_id": "meilland",
+    "year_raw": "'82",
+    "year": 1982,
+    "awards": [],
+    "colour_text": "Creamy white edged red. Elegant, perfect, fragrant.",
+    "colour_group": "bicolour",
+    "fragrance": "fragrant",
+    "description": "Creamy white edged red. Elegant, perfect, fragrant.",
+    "price_inr": 100,
+    "ksg_page": 47,
+    "hmf": {
+      "id": "18083",
+      "url": "https://www.helpmefind.com/rose/pl.php?n=18083",
+      "match_confidence": "fuzzy"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
   }
 ]

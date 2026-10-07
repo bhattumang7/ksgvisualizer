@@ -1,0 +1,114 @@
+"use client";
+
+import { useCallback, useEffect, useState } from "react";
+import type { HmfPhoto, HmfPhotos } from "@/lib/hmf";
+
+type Status = "loading" | "loading-more" | "idle" | "error";
+
+export function HmfGallery({ hmfId, hmfUrl, name }: { hmfId: string | null; hmfUrl: string | null; name: string }) {
+  const [photos, setPhotos] = useState<HmfPhoto[]>([]);
+  const [next, setNext] = useState<string | null>(null);
+  const [status, setStatus] = useState<Status>("loading");
+  const [unavailable, setUnavailable] = useState(false);
+
+  const load = useCallback(
+    (cursor: string | null, signal?: AbortSignal) => {
+      const query = cursor ? `?cursor=${cursor}` : "";
+      return fetch(`/api/hmf/${hmfId}/photos${query}`, { signal })
+        .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+        .then((data: HmfPhotos) => {
+          setPhotos((prev) => {
+            const seen = new Set(prev.map((p) => p.src));
+            return [...prev, ...data.photos.filter((p) => !seen.has(p.src))];
+          });
+          setNext(data.next);
+          setUnavailable(data.status === "unavailable");
+          setStatus("idle");
+        })
+        .catch((e) => {
+          if (e.name !== "AbortError") {
+            setUnavailable(true);
+            setStatus("error");
+          }
+        });
+    },
+    [hmfId],
+  );
+
+  useEffect(() => {
+    if (!hmfId) return;
+    const controller = new AbortController();
+    load(null, controller.signal);
+    return () => controller.abort();
+  }, [hmfId, load]);
+
+  if (!hmfId) {
+    return <Placeholder text="This rose hasn't been matched to HelpMeFind yet." />;
+  }
+
+  const link = hmfUrl ?? `https://www.helpmefind.com/rose/pl.php?n=${hmfId}`;
+  const busy = status === "loading" || status === "loading-more";
+
+  return (
+    <section aria-label={`Photos of ${name} from HelpMeFind`}>
+      {photos.length > 0 && (
+        <ul className="-mx-4 flex snap-x scroll-pl-4 gap-3 overflow-x-auto px-4 pb-2">
+          {photos.map((p) => (
+            <li key={p.src} className="shrink-0 snap-start">
+              <a href={p.pageUrl} target="_blank" rel="noopener noreferrer">
+                {/* eslint-disable-next-line @next/next/no-img-element -- live HMF thumbnail, never re-hosted */}
+                <img src={p.src} width={p.width} height={p.height} loading="lazy" alt={`${name}, photo from HelpMeFind`} className="h-24 w-auto rounded-lg border border-border" />
+              </a>
+              {p.credit && (
+                <p className="mt-1 max-w-[9rem] truncate text-xs text-muted">
+                  Photo:{" "}
+                  <a className="underline" href={p.creditUrl ?? link} target="_blank" rel="noopener noreferrer">{p.credit}</a>
+                </p>
+              )}
+            </li>
+          ))}
+          {next && (
+            <li className="flex shrink-0 snap-start items-center">
+              <button
+                type="button"
+                disabled={busy}
+                onClick={() => {
+                  setStatus("loading-more");
+                  load(next);
+                }}
+                className="h-24 rounded-lg border border-border bg-card px-4 text-sm font-medium disabled:opacity-60"
+              >
+                {status === "loading-more" ? "Loading…" : "More photos"}
+              </button>
+            </li>
+          )}
+        </ul>
+      )}
+      {status === "loading" && (
+        <div className="flex gap-3 overflow-hidden" aria-busy="true">
+          {[0, 1, 2].map((i) => (
+            <div key={i} className="h-24 w-24 shrink-0 animate-pulse rounded-lg bg-border" />
+          ))}
+        </div>
+      )}
+      {!busy && photos.length === 0 && (
+        <Placeholder text={unavailable ? "Photos from HelpMeFind aren't available right now." : "HelpMeFind has no photos of this rose yet."} />
+      )}
+      {!busy && photos.length > 0 && unavailable && (
+        <p className="text-sm text-muted">Couldn&rsquo;t load more photos from HelpMeFind right now.</p>
+      )}
+      <p className="mt-2 text-sm">
+        <a className="font-medium text-accent underline" href={link} target="_blank" rel="noopener noreferrer">
+          View on HelpMeFind
+        </a>
+        <span className="text-muted"> for more photos, ratings and details.</span>
+      </p>
+    </section>
+  );
+}
+
+function Placeholder({ text }: { text: string }) {
+  return (
+    <div className="flex h-24 items-center rounded-lg border border-dashed border-border px-4 text-sm text-muted">{text}</div>
+  );
+}
