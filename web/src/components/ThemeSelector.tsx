@@ -23,11 +23,11 @@ function read(): Theme {
 }
 
 function subscribe(onChange: () => void) {
-  window.addEventListener(CHANGE, onChange);
-  window.addEventListener("storage", onChange);
+  globalThis.addEventListener(CHANGE, onChange);
+  globalThis.addEventListener("storage", onChange);
   return () => {
-    window.removeEventListener(CHANGE, onChange);
-    window.removeEventListener("storage", onChange);
+    globalThis.removeEventListener(CHANGE, onChange);
+    globalThis.removeEventListener("storage", onChange);
   };
 }
 
@@ -38,7 +38,7 @@ function apply(theme: Theme) {
     if (theme === "system") localStorage.removeItem(KEY);
     else localStorage.setItem(KEY, theme);
   } catch {}
-  window.dispatchEvent(new Event(CHANGE));
+  globalThis.dispatchEvent(new Event(CHANGE));
 }
 
 export function ThemeSelector() {
