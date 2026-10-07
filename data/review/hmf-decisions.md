@@ -2,7 +2,7 @@
 
 Every rose in `data/overrides.json` with an `hmf` entry, with the reason. Facts were read from each HMF plant page (saved temporarily in `cache/hmf-verify/`, gitignored). Undo with `pnpm hmf-decide ROSE_ID --undo`.
 
-## Linked to an HMF plant (190)
+## Linked to an HMF plant (195)
 
 | Rose | KSG entry | HMF plant | Reason |
 |---|---|---|---|
@@ -196,8 +196,13 @@ Every rose in `data/overrides.json` with an `hmf` entry, with the reason. Facts 
 | `wonderful-news` | WONDERFUL NEWS (C & K Jones, 2001, Miniature) | 2.41056 | KSG name is a listed synonym. KSG: C & K Jones 2001 Miniature. HMF: Chris Jones (United Kingdom, before 1994), Miniature, Patio. |
 | `world-war-ii-memorial-rose` | WORLD WAR II MEMORIAL ROSE (Weeks, 2000, Hybrid Tea) | 2.30429 | KSG name is a listed synonym. KSG: Weeks 2000 Hybrid Tea. HMF: O.L. Weeks (1912-2002) (United States, 2000), Florists Rose, Hybrid Tea. |
 | `you-re-beautiful` | YOU'RE BEAUTIFUL (Fryer, 2013, Floribunda) | 2.65629 | KSG name is a listed synonym. KSG: Fryer 2013 Floribunda. HMF: Gareth Fryer (1948-....) (United Kingdom, before 2007), Floribunda, Hybrid Tea. |
+| `black-gold` | BLACK GOLD (no breeder, no year, Hybrid Tea) | 63293 | Meilland hybrid tea, before 2008: 'dark velvety red, reverse light cream yellow' is word for word the KSG description |
+| `scandia` | SCANDIA (Cooper, 1996, Hybrid Tea) | 5634 | only hybrid tea Scandia (mauve or purple blend, matches KSG 'mauve blend'); the other is a polyantha |
+| `tata-centenary` | TATA CENTENARY (Telco Nursery, 1979, Hybrid Tea) | 22104 | hybrid tea, dark purple, same name; the other page is the climbing sport 'Tata Centenary, Cl'. KSG: purple mauve splashed yellow, hybrid tea |
+| `merry-go-round` | MERRY GO ROUND (no breeder, no year, Floribunda) | 82371 | floribunda, green-white with carmine edges: matches the KSG description (greenish white, carmine line) and class; the Fisher 1950 one is an orange-pink hybrid tea |
+| `best-of-friends` | BEST OF FRIENDS (Poulson, 2002, Hybrid Tea) | 26791 | Olesen (Poulsen) 1999 hybrid tea, yellow, strong fragrance: matches KSG deep yellow, fragrant, Poulsen; the Rawlins 2018 floribunda is deep pink |
 
-## Marked not on HMF (31)
+## Marked not on HMF (33)
 
 | Rose | KSG entry | Reason |
 |---|---|---|
@@ -232,3 +237,5 @@ Every rose in `data/overrides.json` with an `hmf` entry, with the reason. Facts 
 | `sao-hime` | SAO HIME (no breeder, no year, Hybrid Tea) | HMF "Matsuo-Hime" (Shimizu 1999) is a different name |
 | `silver-anniversary` | SILVER ANNIVERSARY (Olesan, 1996, Hybrid Tea) | HMF "Anniversary" is a Matthews floribunda (1997), a different rose |
 | `summer-time` | SUMMER TIME (Meilland, 2011, Hybrid Tea) | HMF "Summertime" is a Boerner rose (1956); KSG says Meilland 2011 |
+| `barbarella` | BARBARELLA (no breeder, no year, Hybrid Tea) | KSG: peach pink hybrid tea (Ecuadorian). HMF has a yellow-red miniature (Barni 1981) and an orange-red hybrid tea (1973): colour fits neither |
+| `bellisima` | BELLISIMA (Laperriere, 1992, Hybrid Tea) | KSG: non-fading yellow hybrid tea, Laperriere 1992. HMF 'SUNlampo' (synonym Bellisima) is an orange blend by Schuurman, NZ 1998: colour, breeder and year differ |

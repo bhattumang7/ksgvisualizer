@@ -1545,5 +1545,54 @@
       "url": "https://www.helpmefind.com/gardening/l.php?l=2.65629",
       "match_confidence": "manual"
     }
+  },
+  "black-gold": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.63293",
+      "match_confidence": "manual"
+    }
+  },
+  "scandia": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.5634",
+      "match_confidence": "manual"
+    }
+  },
+  "tata-centenary": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.22104",
+      "match_confidence": "manual"
+    }
+  },
+  "merry-go-round": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.82371",
+      "match_confidence": "manual"
+    }
+  },
+  "best-of-friends": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.26791",
+      "match_confidence": "manual"
+    }
+  },
+  "barbarella": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "bellisima": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
   }
 }

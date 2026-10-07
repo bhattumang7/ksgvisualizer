@@ -785,14 +785,6 @@
     ],
     "query": "Barbara Bush"
   },
-  "barbarella": {
-    "id": null,
-    "url": "https://www.helpmefind.com/gardening/l.php?l=2.28344",
-    "match_confidence": "fuzzy",
-    "hmf_title": "Barbarella (miniature, Barni, 1981)",
-    "evidence": [],
-    "query": "Barbarella"
-  },
   "barkarole": {
     "id": null,
     "url": "https://www.helpmefind.com/gardening/l.php?l=2.2467",
@@ -900,16 +892,6 @@
     ],
     "query": "Belle Epoque"
   },
-  "bellisima": {
-    "id": null,
-    "url": "https://www.helpmefind.com/gardening/l.php?l=2.24825",
-    "match_confidence": "fuzzy",
-    "hmf_title": "'SUNlampo' Rose",
-    "evidence": [
-      "sole-result"
-    ],
-    "query": "Bellisima"
-  },
   "bertrand-amoussou": {
     "id": null,
     "url": "https://www.helpmefind.com/gardening/l.php?l=2.43586",
@@ -930,14 +912,6 @@
       "sole-result"
     ],
     "query": "Best Impression"
-  },
-  "best-of-friends": {
-    "id": null,
-    "url": "https://www.helpmefind.com/gardening/l.php?l=2.82798",
-    "match_confidence": "fuzzy",
-    "hmf_title": "Best of Friends (floribunda, Rawlins, before 2018)",
-    "evidence": [],
-    "query": "Best Of Friends"
   },
   "beverly": {
     "id": null,
@@ -1092,14 +1066,6 @@
       "class:Hybrid Tea"
     ],
     "query": "Black Delight"
-  },
-  "black-gold": {
-    "id": null,
-    "url": "https://www.helpmefind.com/gardening/l.php?l=2.710",
-    "match_confidence": "fuzzy",
-    "hmf_title": "Black Gold (miniature, Clements 1996)",
-    "evidence": [],
-    "query": "Black Gold"
   },
   "black-lady": {
     "id": null,
@@ -6095,14 +6061,6 @@
     ],
     "query": "Meridiana"
   },
-  "merry-go-round": {
-    "id": null,
-    "url": "https://www.helpmefind.com/gardening/l.php?l=2.72827",
-    "match_confidence": "fuzzy",
-    "hmf_title": "Merry-Go-Round (hybrid tea, Fisher 1950)",
-    "evidence": [],
-    "query": "Merry Go Round"
-  },
   "michael-fish": {
     "id": null,
     "url": "https://www.helpmefind.com/gardening/l.php?l=2.35011",
@@ -8489,16 +8447,6 @@
     ],
     "query": "Savannah"
   },
-  "scandia": {
-    "id": null,
-    "url": "https://www.helpmefind.com/gardening/l.php?l=2.5634",
-    "match_confidence": "fuzzy",
-    "hmf_title": "Scandia (Hybrid Tea)",
-    "evidence": [
-      "class:Hybrid Tea"
-    ],
-    "query": "Scandia"
-  },
   "scarlet-bonica": {
     "id": null,
     "url": "https://www.helpmefind.com/gardening/l.php?l=2.72936",
@@ -9537,16 +9485,6 @@
       "sole-result"
     ],
     "query": "Taser Bibi"
-  },
-  "tata-centenary": {
-    "id": null,
-    "url": "https://www.helpmefind.com/gardening/l.php?l=2.72375",
-    "match_confidence": "fuzzy",
-    "hmf_title": "Tata Centenary, Cl",
-    "evidence": [
-      "class:Hybrid Tea"
-    ],
-    "query": "Tata Centenary"
   },
   "tatton": {
     "id": null,
