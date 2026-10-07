@@ -1,0 +1,572 @@
+[
+  {
+    "id": "ajatashatru-kasturi",
+    "ksg_name": "AJATASHATRU KASTURI",
+    "canonical_name": "Ajatashatru Kasturi",
+    "is_new": false,
+    "class": "Hybrid Tea",
+    "breeder_raw": "M.S. Viraraghavan",
+    "breeder_id": "viraraghavan",
+    "year_raw": null,
+    "year": null,
+    "awards": [],
+    "colour_text": "Pink, deep pink reverse. Large, very full (41+ petals), classic hybrid tea, high-centered, quilled bloom form. Continuous bloom. Mild fragrance.",
+    "colour_group": "pink",
+    "fragrance": "mild fragrance",
+    "description": "Pink, deep pink reverse. Large, very full (41+ petals), classic hybrid tea, high-centered, quilled bloom form. Continuous bloom. Mild fragrance.",
+    "price_inr": 300,
+    "ksg_page": 30,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "abbaye-de-cluny",
+    "ksg_name": "ABBAYE DE CLUNY",
+    "canonical_name": "Abbaye De Cluny",
+    "is_new": false,
+    "class": "Hybrid Tea",
+    "breeder_raw": "Meilland",
+    "breeder_id": "meilland",
+    "year_raw": "'93",
+    "year": 1993,
+    "awards": [],
+    "colour_text": "Orange apricot. Huge flowers.",
+    "colour_group": "orange",
+    "fragrance": null,
+    "description": "Orange apricot. Huge flowers.",
+    "price_inr": 100,
+    "ksg_page": 30,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "about-face",
+    "ksg_name": "ABOUT FACE",
+    "canonical_name": "About Face",
+    "is_new": false,
+    "class": "Hybrid Tea",
+    "breeder_raw": "Carruth",
+    "breeder_id": "carruth",
+    "year_raw": "'04",
+    "year": 2004,
+    "awards": [
+      {
+        "name": "AARS",
+        "year": 2005
+      }
+    ],
+    "colour_text": "Unique grandiflora. Dark bronzy red golden orange fragrant.",
+    "colour_group": "red",
+    "fragrance": "fragrant",
+    "description": "Unique grandiflora. Dark bronzy red golden orange fragrant.",
+    "price_inr": 100,
+    "ksg_page": 30,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "abracadabra",
+    "ksg_name": "ABRACADABRA",
+    "canonical_name": "Abracadabra",
+    "is_new": true,
+    "class": "Hybrid Tea",
+    "breeder_raw": "Kordes",
+    "breeder_id": "kordes",
+    "year_raw": "'02",
+    "year": 2002,
+    "awards": [],
+    "colour_text": "Striped - brownish black red with specks and splashes of yellow",
+    "colour_group": "multicolour",
+    "fragrance": null,
+    "description": "Striped - brownish black red with specks and splashes of yellow",
+    "price_inr": 200,
+    "ksg_page": 30,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "acapella",
+    "ksg_name": "ACAPELLA",
+    "canonical_name": "Acapella",
+    "is_new": false,
+    "class": "Hybrid Tea",
+    "breeder_raw": "Tantau",
+    "breeder_id": "tantau",
+    "year_raw": "'94",
+    "year": 1994,
+    "awards": [],
+    "colour_text": "Bicolour blend. Rose red with peachy white reverse",
+    "colour_group": "bicolour",
+    "fragrance": null,
+    "description": "Bicolour blend. Rose red with peachy white reverse",
+    "price_inr": 150,
+    "ksg_page": 30,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "adriana",
+    "ksg_name": "ADRIANA",
+    "canonical_name": "Adriana",
+    "is_new": false,
+    "class": "Hybrid Tea",
+    "breeder_raw": "Fryer",
+    "breeder_id": "fryer",
+    "year_raw": "2000",
+    "year": 2000,
+    "awards": [],
+    "colour_text": "Delicate creamy caramel. Large with spicy fragrance.",
+    "colour_group": "yellow",
+    "fragrance": "spicy fragrance",
+    "description": "Delicate creamy caramel. Large with spicy fragrance.",
+    "price_inr": 100,
+    "ksg_page": 30,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "alliance",
+    "ksg_name": "ALLIANCE",
+    "canonical_name": "Alliance",
+    "is_new": false,
+    "class": "Hybrid Tea",
+    "breeder_raw": "Meilland",
+    "breeder_id": "meilland",
+    "year_raw": "'85",
+    "year": 1985,
+    "awards": [],
+    "colour_text": "White, perfect.",
+    "colour_group": "white",
+    "fragrance": null,
+    "description": "White, perfect.",
+    "price_inr": 100,
+    "ksg_page": 30,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "acropolis",
+    "ksg_name": "ACROPOLIS",
+    "canonical_name": "Acropolis",
+    "is_new": false,
+    "class": "Floribunda",
+    "breeder_raw": "Meilland",
+    "breeder_id": "meilland",
+    "year_raw": "'02",
+    "year": 2002,
+    "awards": [],
+    "colour_text": "Suffused bicolour. Dusty rose bronze with greenish white reverse. Good bloomer, powerful scent.",
+    "colour_group": "bicolour",
+    "fragrance": "powerful scent",
+    "description": "Suffused bicolour. Dusty rose bronze with greenish white reverse. Good bloomer, powerful scent.",
+    "price_inr": 125,
+    "ksg_page": 60,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "apple-jack",
+    "ksg_name": "APPLE JACK",
+    "canonical_name": "Apple Jack",
+    "is_new": false,
+    "class": "Floribunda",
+    "breeder_raw": "Kenny",
+    "breeder_id": "kenny",
+    "year_raw": "'14",
+    "year": 2014,
+    "awards": [],
+    "colour_text": "Vibrant yellow. Light scent, abundant bloomer, compact.",
+    "colour_group": "yellow",
+    "fragrance": "light scent",
+    "description": "Vibrant yellow. Light scent, abundant bloomer, compact.",
+    "price_inr": 150,
+    "ksg_page": 60,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "arctic-blue",
+    "ksg_name": "ARCTIC BLUE",
+    "canonical_name": "Arctic Blue",
+    "is_new": false,
+    "class": "Floribunda",
+    "breeder_raw": "Bedard",
+    "breeder_id": "bedard",
+    "year_raw": "'18",
+    "year": 2018,
+    "awards": [],
+    "colour_text": "New bicolour blue - lavender, white reverse.",
+    "colour_group": "mauve",
+    "fragrance": null,
+    "description": "New bicolour blue - lavender, white reverse.",
+    "price_inr": null,
+    "ksg_page": 60,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "chandrika",
+    "ksg_name": "CHANDRIKA",
+    "canonical_name": "Chandrika",
+    "is_new": false,
+    "class": "Miniature",
+    "breeder_raw": "G.Kasturi Rangan",
+    "breeder_id": "kasturi-rangan",
+    "year_raw": "'78",
+    "year": 1978,
+    "awards": [],
+    "colour_text": "Free. Clusters of greenish white to pure white.",
+    "colour_group": "white",
+    "fragrance": null,
+    "description": "Free. Clusters of greenish white to pure white.",
+    "price_inr": 100,
+    "ksg_page": 74,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "diamond-eyes",
+    "ksg_name": "DIAMOND EYES",
+    "canonical_name": "Diamond Eyes",
+    "is_new": false,
+    "class": "Miniature",
+    "breeder_raw": "Carruth",
+    "breeder_id": "carruth",
+    "year_raw": "'11",
+    "year": 2011,
+    "awards": [],
+    "colour_text": "Mysterious colour of dark blackish purple. Double blooms with sparkling white eye at the centre in small clusters. Perfumed.",
+    "colour_group": "mauve",
+    "fragrance": "perfumed",
+    "description": "Mysterious colour of dark blackish purple. Double blooms with sparkling white eye at the centre in small clusters. Perfumed.",
+    "price_inr": 200,
+    "ksg_page": 74,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "clg-oh-wow",
+    "ksg_name": "CLG.OH WOW",
+    "canonical_name": "Clg. Oh Wow",
+    "is_new": false,
+    "class": "Climber",
+    "breeder_raw": "Carruth",
+    "breeder_id": "carruth",
+    "year_raw": "'11",
+    "year": 2011,
+    "awards": [],
+    "colour_text": "Striped purple, pink and cream. Magnificent flowers in varied clusters, fragrant, all over the plant, prolific.",
+    "colour_group": "multicolour",
+    "fragrance": "fragrant",
+    "description": "Striped purple, pink and cream. Magnificent flowers in varied clusters, fragrant, all over the plant, prolific.",
+    "price_inr": 200,
+    "ksg_page": 77,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "clg-sadabahar",
+    "ksg_name": "CLG.SADABAHAR",
+    "canonical_name": "Clg. Sadabahar",
+    "is_new": false,
+    "class": "Climber",
+    "breeder_raw": "IARI",
+    "breeder_id": "iari",
+    "year_raw": "'91",
+    "year": 1991,
+    "awards": [],
+    "colour_text": "Sport of floribunda 'Sadabahar'. Pink in enormous bunches.",
+    "colour_group": "pink",
+    "fragrance": null,
+    "description": "Sport of floribunda 'Sadabahar'. Pink in enormous bunches.",
+    "price_inr": 150,
+    "ksg_page": 77,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "clg-quick-silver",
+    "ksg_name": "CLG.QUICK SILVER",
+    "canonical_name": "Clg. Quick Silver",
+    "is_new": false,
+    "class": "Climber",
+    "breeder_raw": null,
+    "breeder_id": null,
+    "year_raw": null,
+    "year": null,
+    "awards": [],
+    "colour_text": "Lavender. Medium, very full, in small clusters. Blooms in flushes throughout the season.",
+    "colour_group": "mauve",
+    "fragrance": null,
+    "description": "Lavender. Medium, very full, in small clusters. Blooms in flushes throughout the season.",
+    "price_inr": 250,
+    "ksg_page": 77,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "rashmi",
+    "ksg_name": "RASHMI",
+    "canonical_name": "Rashmi",
+    "is_new": false,
+    "class": "Polyantha",
+    "breeder_raw": "G.Kasturi Rangan",
+    "breeder_id": "kasturi-rangan",
+    "year_raw": "'77",
+    "year": 1977,
+    "awards": [],
+    "colour_text": "Sport of 'Priti'. Deep blackish crimson with velvety sheen.",
+    "colour_group": "red",
+    "fragrance": null,
+    "description": "Sport of 'Priti'. Deep blackish crimson with velvety sheen.",
+    "price_inr": 100,
+    "ksg_page": 79,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "pretty-scarlet",
+    "ksg_name": "PRETTY SCARLET",
+    "canonical_name": "Pretty Scarlet",
+    "is_new": false,
+    "class": "Polyantha",
+    "breeder_raw": "Kasturi & Sriram",
+    "breeder_id": "kasturi-sriram",
+    "year_raw": "'09",
+    "year": 2009,
+    "awards": [],
+    "colour_text": "Brightest scarlet vermilion, full, in clusters, dwarf compact.",
+    "colour_group": "red",
+    "fragrance": null,
+    "description": "Brightest scarlet vermilion, full, in clusters, dwarf compact.",
+    "price_inr": 100,
+    "ksg_page": 79,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "raven",
+    "ksg_name": "RAVEN",
+    "canonical_name": "Raven",
+    "is_new": false,
+    "class": "Shrub",
+    "breeder_raw": "Fryer",
+    "breeder_id": "fryer",
+    "year_raw": "'97",
+    "year": 1997,
+    "awards": [],
+    "colour_text": "Deep velvety red in huge clusters, non fading, lasting.",
+    "colour_group": "red",
+    "fragrance": null,
+    "description": "Deep velvety red in huge clusters, non fading, lasting.",
+    "price_inr": 100,
+    "ksg_page": 81,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "starry-night",
+    "ksg_name": "STARRY NIGHT",
+    "canonical_name": "Starry Night",
+    "is_new": false,
+    "class": "Shrub",
+    "breeder_raw": "Orard",
+    "breeder_id": "orard",
+    "year_raw": "2000",
+    "year": 2000,
+    "awards": [
+      {
+        "name": "AARS",
+        "year": 2002
+      }
+    ],
+    "colour_text": "Pure white, huge clusters, spreading bushy plant.",
+    "colour_group": "white",
+    "fragrance": null,
+    "description": "Pure white, huge clusters, spreading bushy plant.",
+    "price_inr": 125,
+    "ksg_page": 81,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  },
+  {
+    "id": "winchester-cathedral",
+    "ksg_name": "WINCHESTER CATHEDRAL",
+    "canonical_name": "Winchester Cathedral",
+    "is_new": false,
+    "class": "Shrub",
+    "breeder_raw": "Austin",
+    "breeder_id": "austin",
+    "year_raw": "'95",
+    "year": 1995,
+    "awards": [],
+    "colour_text": "English rose. White, shapely, very fragrant",
+    "colour_group": "white",
+    "fragrance": "very fragrant",
+    "description": "English rose. White, shapely, very fragrant",
+    "price_inr": 200,
+    "ksg_page": 81,
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    },
+    "links": {
+      "wikidata": null,
+      "breeder_url": null,
+      "ars": null
+    }
+  }
+]

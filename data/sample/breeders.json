@@ -1,0 +1,93 @@
+[
+  {
+    "id": "meilland",
+    "ksg_name": "Meilland",
+    "name": "Meilland International",
+    "country": "FR",
+    "indian": false
+  },
+  {
+    "id": "carruth",
+    "ksg_name": "Carruth",
+    "name": "Tom Carruth",
+    "country": "US",
+    "indian": false
+  },
+  {
+    "id": "kordes",
+    "ksg_name": "Kordes",
+    "name": "W. Kordes' Söhne",
+    "country": "DE",
+    "indian": false
+  },
+  {
+    "id": "tantau",
+    "ksg_name": "Tantau",
+    "name": "Rosen Tantau",
+    "country": "DE",
+    "indian": false
+  },
+  {
+    "id": "fryer",
+    "ksg_name": "Fryer",
+    "name": "Fryer's Roses",
+    "country": "GB",
+    "indian": false
+  },
+  {
+    "id": "kenny",
+    "ksg_name": "Kenny",
+    "name": "Kenny",
+    "country": "US",
+    "indian": false
+  },
+  {
+    "id": "bedard",
+    "ksg_name": "Bedard",
+    "name": "Bedard",
+    "country": "US",
+    "indian": false
+  },
+  {
+    "id": "orard",
+    "ksg_name": "Orard",
+    "name": "Orard",
+    "country": "FR",
+    "indian": false
+  },
+  {
+    "id": "austin",
+    "ksg_name": "Austin",
+    "name": "David Austin Roses",
+    "country": "GB",
+    "indian": false
+  },
+  {
+    "id": "iari",
+    "ksg_name": "IARI",
+    "name": "IARI",
+    "country": "IN",
+    "indian": true
+  },
+  {
+    "id": "viraraghavan",
+    "ksg_name": "M.S. Viraraghavan",
+    "name": "M.S. Viraraghavan",
+    "country": "IN",
+    "indian": true
+  },
+  {
+    "id": "kasturi-rangan",
+    "ksg_name": "G.Kasturi Rangan",
+    "name": "G. Kasturi Rangan",
+    "country": "IN",
+    "indian": true
+  },
+  {
+    "id": "kasturi-sriram",
+    "ksg_name": "Kasturi & Sriram",
+    "name": "Kasturi & Sriram",
+    "country": "IN",
+    "indian": true
+  }
+]
