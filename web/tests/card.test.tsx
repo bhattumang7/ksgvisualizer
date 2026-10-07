@@ -87,6 +87,16 @@ describe("RoseCard", () => {
     expect(container.querySelector("[aria-hidden]")).not.toBeNull();
   });
 
+  it("gives grid cards the same height and image area with or without photos", () => {
+    const { container, rerender } = render(<RoseCard rose={{ ...rose, photos: undefined }} />);
+    const card = () => container.firstElementChild as HTMLElement;
+    expect(card().className).toContain("h-full");
+    const swatch = (container.querySelector("[aria-hidden]") as HTMLElement).className;
+    rerender(<RoseCard rose={{ ...rose, photos: [photo(1)] }} />);
+    expect(card().className).toContain("h-full");
+    expect(container.querySelector(`.${swatch.match(/h-\d+/)![0]}`)).not.toBeNull();
+  });
+
   it("falls back to year_raw and uses the swipeable photos when present", () => {
     const { container } = render(<RoseCard rose={{ ...rose, year: null, year_raw: "c.1990", photos: [photo(1), photo(2)] }} />);
     expect(screen.getByText(/c\.1990/)).toBeTruthy();
