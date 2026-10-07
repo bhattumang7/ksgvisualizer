@@ -16,12 +16,12 @@ import path from "node:path";
 import { chromium, type BrowserContext, type Page } from "@playwright/test";
 import { fullSizeUrl, hmfPlantUrl, jpegSize, parseNext, parsePhotos, type HmfPhoto } from "../src/lib/hmf.ts";
 
-const MAX_PAGES = 2;
-const MAX_PHOTOS = 12;
-const GAP_MS = 4000;
+const MAX_PAGES = 1;
+const MAX_PHOTOS = Number(process.env.KSG_MAX_PHOTOS ?? 4);
+const GAP_MS = Number(process.env.KSG_GAP_MS ?? 4000);
 const OUT = path.join(import.meta.dirname, "..", "public", "photos");
 const DATA = process.env.KSG_DATA_DIR ?? path.join(import.meta.dirname, "..", "..", "data", "sample");
-const PROFILE = path.join(import.meta.dirname, "..", "..", "cache", "hmf-browser");
+const PROFILE = process.env.KSG_PROFILE ?? path.join(import.meta.dirname, "..", "..", "cache", "hmf-browser");
 
 class Blocked extends Error {}
 
@@ -32,7 +32,7 @@ const value = (name: string) => args[args.indexOf(`--${name}`) + 1];
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 let last = 0;
 async function gap() {
-  const wait = last + GAP_MS + Math.random() * 1500 - Date.now();
+  const wait = last + GAP_MS + Math.random() * Math.min(1500, GAP_MS) - Date.now();
   if (wait > 0) await sleep(wait);
   last = Date.now();
 }
@@ -87,8 +87,10 @@ async function snapshot(ctx: BrowserContext, page: Page, id: string) {
   return photos;
 }
 
-const roses: { hmf: { id: string | null } }[] = JSON.parse(fs.readFileSync(path.join(DATA, "roses.json"), "utf8"));
-let ids = [...new Set(roses.map((r) => r.hmf.id).filter((i): i is string => !!i))];
+const roses: { hmf: { id: string | null; url: string | null } }[] = JSON.parse(fs.readFileSync(path.join(DATA, "roses.json"), "utf8"));
+// Roses matched through an l.php link have no numeric id; their listing code ("2.87704") stands in for it.
+const idOf = (h: { id: string | null; url: string | null }) => h.id ?? /[?&]l=(2\.\d+)/.exec(h.url ?? "")?.[1] ?? null;
+let ids = [...new Set(roses.map((r) => idOf(r.hmf)).filter((i): i is string => !!i))];
 if (flag("id")) ids = [value("id")];
 if (!flag("refresh")) ids = ids.filter((i) => !fs.existsSync(path.join(OUT, i, "index.json")));
 if (flag("limit")) ids = ids.slice(0, Number(value("limit")));

@@ -1,7 +1,7 @@
 import "server-only";
 import fs from "node:fs";
 import path from "node:path";
-import { isValidHmfId } from "./hmf";
+import { hmfKey, isValidHmfId } from "./hmf";
 import type { CatalogueRose } from "./catalogue";
 
 export interface StoredPhoto {
@@ -36,7 +36,8 @@ export function loadStoredPhotos(hmfId: string): StoredPhoto[] | null {
 /** Attaches the stored photos (without credit-page URLs we don't need) to each rose for listing cards. */
 export function withCardPhotos(roses: CatalogueRose[]): CatalogueRose[] {
   return roses.map((r) => {
-    const stored = r.hmf.id ? loadStoredPhotos(r.hmf.id) : null;
+    const key = hmfKey(r.hmf);
+    const stored = key ? loadStoredPhotos(key) : null;
     if (!stored?.length) return r;
     return { ...r, photos: stored.map(({ src, width, height, pageUrl, credit }) => ({ src, width, height, pageUrl, credit })) };
   });

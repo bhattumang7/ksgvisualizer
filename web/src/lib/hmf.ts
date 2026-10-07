@@ -28,8 +28,12 @@ export interface HmfPhotos {
   status: "ok" | "empty" | "unavailable";
 }
 
-export const hmfPlantUrl = (id: string) => `${HMF}/rose/pl.php?n=${id}`;
-export const isValidHmfId = (id: string) => /^\d{1,8}$/.test(id);
+/** Numeric ids use pl.php; listing codes like "2.87704" (roses matched through an l.php link) use l.php, which serves the same page and tabs. */
+export const hmfPlantUrl = (id: string) => (id.includes(".") ? `${HMF}/gardening/l.php?l=${id}` : `${HMF}/rose/pl.php?n=${id}`);
+export const isValidHmfId = (id: string) => /^(2\.)?\d{1,8}$/.test(id);
+/** Key of a rose's local snapshots: the numeric plant id, else the listing code ("2.87704") from its l.php link. */
+export const hmfKey = (h: { id: string | null; url: string | null }): string | null =>
+  h.id ?? /[?&]l=(2\.\d+)/.exec(h.url ?? "")?.[1] ?? null;
 /** A cursor is "<qn>.<qc>", the two numbers HMF puts in its own paging links. */
 export const isValidCursor = (c: string) => /^\d{1,3}\.\d{1,3}$/.test(c);
 

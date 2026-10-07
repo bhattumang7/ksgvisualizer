@@ -1,0 +1,30 @@
+{
+  "hmfId": "2.4342",
+  "sourceUrl": "https://www.helpmefind.com/gardening/l.php?l=2.4342",
+  "fetchedAt": "2026-10-07T21:55:11.900Z",
+  "rows": {
+    "Availability": "Commercially available",
+    "HMF Ratings": "6 favorite votes.",
+    "ARS": "White, near white or white blend Hybrid Tea.\nRegistration name: Miyabi (hybrid tea, Teranishi, 1976)",
+    "Origin": "Bred by Kikuo Teranishi (Japan, 1976).",
+    "Class": "Hybrid Tea.",
+    "Bloom": "White or white blend. Mild fragrance. 30 petals. Average diameter 4.5\". Large, double (17-25 petals), high-centered bloom form. Blooms in flushes throughout the season.",
+    "Habit": "Height: up to 4'11\" (up to 150cm).",
+    "Growing": "USDA zone 6b through 9b (default).",
+    "Patents": "Patent status unknown (to HelpMeFind).",
+    "Parentage": "seed:\nAmatsu-Otome (hybrid tea, Teranishi, 1960) ×\nSamba ® (floribunda, Kordes, 1964)pollen:\nPerfecta (hybrid tea, Kordes, 1957) ×\nAmerican Heritage ® (hybrid tea, Lammerts, 1965)",
+    "Notes": "Source: Miyabi"
+  },
+  "colour": "White or white blend.",
+  "fragrance": "Mild fragrance.",
+  "classes": [
+    "Hybrid Tea"
+  ],
+  "parentage": {
+    "seed": "Amatsu-Otome (hybrid tea, Teranishi, 1960) × Samba ® (floribunda, Kordes, 1964)",
+    "pollen": "Perfecta (hybrid tea, Kordes, 1957) × American Heritage ® (hybrid tea, Lammerts, 1965)"
+  },
+  "synonyms": [],
+  "favorites": 6,
+  "rating": null
+}

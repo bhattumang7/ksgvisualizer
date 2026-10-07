@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { isHmfVerified, joinBreeders } from "@/lib/catalogue";
 import { loadDataset } from "@/lib/data";
 import { loadHmfDetails } from "@/lib/hmf-store";
+import { hmfKey } from "@/lib/hmf";
 import { loadStoredPhotos } from "@/lib/photos";
 import { HmfGallery } from "@/components/HmfGallery";
 
@@ -29,8 +30,10 @@ export default async function RosePage({ params }: Readonly<PageProps<"/rose/[id
 
   const verified = isHmfVerified(rose.hmf);
   const hmfId = verified ? rose.hmf.id : null;
+  const snapshotKey = verified ? hmfKey(rose.hmf) : null;
   const hmfUrl = verified ? rose.hmf.url : null;
-  const hmf = hmfId ? loadHmfDetails(hmfId) : null;
+  const storedPhotos = snapshotKey ? loadStoredPhotos(snapshotKey) : null;
+  const hmf = snapshotKey ? loadHmfDetails(snapshotKey) : null;
   const facts: [string, React.ReactNode][] = [
     ["Section", rose.class],
     ["Breeder", rose.breeder_id ? <Link className="underline" href={`/breeder/${rose.breeder_id}`}>{rose.breeder_name}</Link> : (rose.breeder_name ?? "Not listed")],
@@ -63,7 +66,7 @@ export default async function RosePage({ params }: Readonly<PageProps<"/rose/[id
       )}
 
       <div className="mt-5">
-        <HmfGallery hmfId={hmfId} hmfUrl={hmfUrl} name={rose.canonical_name} stored={hmfId ? loadStoredPhotos(hmfId) : null} />
+        <HmfGallery hmfId={storedPhotos ? snapshotKey : hmfId} hmfUrl={hmfUrl} name={rose.canonical_name} stored={storedPhotos} />
       </div>
 
       <p className="mt-6 text-lg leading-relaxed">{rose.description}</p>

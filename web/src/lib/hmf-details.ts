@@ -4,6 +4,8 @@
  * with a heading (`hdg`) and a value (`dsc`).
  */
 
+import { hmfPlantUrl } from "./hmf.ts";
+
 export interface HmfDetails {
   hmfId: string;
   sourceUrl: string;
@@ -89,7 +91,7 @@ export function parseDetails(html: string, hmfId: string, fetchedAt = new Date()
 
   return {
     hmfId,
-    sourceUrl: `https://www.helpmefind.com/rose/pl.php?n=${hmfId}`,
+    sourceUrl: hmfPlantUrl(hmfId),
     fetchedAt,
     rows,
     colour: colourParts.join(" ").trim() || null,

@@ -16,12 +16,12 @@ import { hmfPlantUrl } from "../src/lib/hmf.ts";
 import { chromium } from "@playwright/test";
 import { parseDetails } from "../src/lib/hmf-details.ts";
 
-const GAP_MS = 4000;
+const GAP_MS = Number(process.env.KSG_GAP_MS ?? 4000);
 const ROOT = path.join(import.meta.dirname, "..", "..");
 const OUT = process.env.KSG_HMF_DIR ?? path.join(ROOT, "data", "hmf");
 const DATA = process.env.KSG_DATA_DIR ?? path.join(ROOT, "data", "sample");
 
-const PROFILE = path.join(ROOT, "cache", "hmf-browser");
+const PROFILE = process.env.KSG_PROFILE ?? path.join(ROOT, "cache", "hmf-browser");
 
 class Blocked extends Error {}
 
@@ -44,8 +44,10 @@ function needsFetch(id: string): boolean {
   return false;
 }
 
-const roses: { hmf: { id: string | null } }[] = JSON.parse(fs.readFileSync(path.join(DATA, "roses.json"), "utf8"));
-let ids = [...new Set(roses.map((r) => r.hmf.id).filter((i): i is string => !!i))];
+const roses: { hmf: { id: string | null; url: string | null } }[] = JSON.parse(fs.readFileSync(path.join(DATA, "roses.json"), "utf8"));
+// Roses matched through an l.php link have no numeric id; their listing code ("2.87704") stands in for it.
+const idOf = (h: { id: string | null; url: string | null }) => h.id ?? /[?&]l=(2\.\d+)/.exec(h.url ?? "")?.[1] ?? null;
+let ids = [...new Set(roses.map((r) => idOf(r.hmf)).filter((i): i is string => !!i))];
 if (flag("id")) ids = [value("id")];
 ids = ids.filter(needsFetch);
 if (flag("limit")) ids = ids.slice(0, Number(value("limit")));
@@ -58,7 +60,7 @@ let code = 0;
 try {
   for (const [n, id] of ids.entries()) {
     try {
-      const wait = last + GAP_MS + Math.random() * 1500 - Date.now();
+      const wait = last + GAP_MS + Math.random() * Math.min(1500, GAP_MS) - Date.now();
       if (wait > 0) await sleep(wait);
       last = Date.now();
       const url = hmfPlantUrl(id);
