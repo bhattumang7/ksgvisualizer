@@ -7164,8 +7164,8 @@
   "ksg_page": 38,
   "hmf": {
    "id": null,
-   "url": "https://www.helpmefind.com/gardening/l.php?l=2.2968",
-   "match_confidence": "manual"
+   "url": null,
+   "match_confidence": "none"
   },
   "links": {
    "wikidata": null,

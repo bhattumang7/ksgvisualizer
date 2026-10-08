@@ -2,7 +2,7 @@
 
 Every rose in `data/overrides.json` with an `hmf` entry, with the reason. Facts were read from each HMF plant page (saved temporarily in `cache/hmf-verify/`, gitignored). Undo with `pnpm hmf-decide ROSE_ID --undo`.
 
-## Linked to an HMF plant (355)
+## Linked to an HMF plant (354)
 
 | Rose | KSG entry | HMF plant | Reason |
 |---|---|---|---|
@@ -360,7 +360,6 @@ Every rose in `data/overrides.json` with an `hmf` entry, with the reason. Facts 
 | `dr-noushir-wadia` | DR.NOUSHIR WADIA (C.R.Chiplunkar, 1992, Hybrid Tea) | 2.24112 | Misspelt or alternate name in the catalogue; HMF 'Dr. Noshir Wadia', red blend Hybrid Tea (Indian striped cultivar, matches the KSG description). Checked on the plant page. |
 | `annie-birnhak` | ANNIE BIRNHAK (Fryer, 2011, Floribunda) | 2.63680 | Misspelt or alternate name in the catalogue; HMF 'Anne Birnhak' (FRYnippy), Gareth Fryer, pink Floribunda, introduced 2010. Confirmed by the user and checked on the plant page. |
 | `crimson-boquet` | CRIMSON BOQUET (Kordes, 1999, Hybrid Tea) | 2.24916 | Misspelt or alternate name in the catalogue; HMF 'Crimson Bouquet' (KORbeteilich), Kordes, introduced 1999, dark red Grandiflora. Confirmed by the user and checked on the plant page. |
-| `gladiator` | GLADIATOR (Kern, 1972, Hybrid Tea) | 2.2968 | Misspelt or alternate name in the catalogue; HMF 'Gladiator' is a Malandrone (Italy, 1955) large-flowered climber, so breeder, year and class differ from the KSG entry; linked at the user's direction ('this is gladiator'). |
 
 ## Marked not on HMF (20)
 
