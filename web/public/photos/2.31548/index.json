@@ -1,0 +1,46 @@
+{
+  "hmfId": "2.31548",
+  "fetchedAt": "2026-10-08T01:29:10.302Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 558,
+      "width": 700,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.213899",
+      "credit": "David Elliott",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.97131"
+    },
+    {
+      "file": "2.webp",
+      "height": 450,
+      "width": 347,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.61657",
+      "credit": "Beth Clark",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.98283"
+    },
+    {
+      "file": "3.webp",
+      "height": 467,
+      "width": 700,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.213898",
+      "credit": "David Elliott",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.97131"
+    },
+    {
+      "file": "4.webp",
+      "height": 450,
+      "width": 523,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.61244",
+      "credit": "Beth Clark",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.98283"
+    },
+    {
+      "file": "5.webp",
+      "height": 541,
+      "width": 700,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.213897",
+      "credit": "David Elliott",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.97131"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.66095",
+  "fetchedAt": "2026-10-08T01:54:48.899Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 480,
+      "width": 640,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.249828",
+      "credit": "Täubchen",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4860188"
+    },
+    {
+      "file": "2.webp",
+      "height": 609,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.231874",
+      "credit": "Eri",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.1143354"
+    },
+    {
+      "file": "3.webp",
+      "height": 579,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.231875",
+      "credit": "Eri",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.1143354"
+    },
+    {
+      "file": "4.webp",
+      "height": 529,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.231873",
+      "credit": "Eri",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.1143354"
+    }
+  ]
+}

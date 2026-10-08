@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.32869",
+  "fetchedAt": "2026-10-07T23:01:41.217Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.357226",
+      "credit": "Shamim",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4899307"
+    },
+    {
+      "file": "2.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.340302",
+      "credit": "jonyfriends",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4893823"
+    },
+    {
+      "file": "3.webp",
+      "height": 800,
+      "width": 568,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.357225",
+      "credit": "Shamim",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4899307"
+    },
+    {
+      "file": "4.webp",
+      "height": 470,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.285584",
+      "credit": "mar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.98621"
+    }
+  ]
+}

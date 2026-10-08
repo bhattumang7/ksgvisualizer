@@ -1,0 +1,86 @@
+{
+  "hmfId": "2.18875",
+  "fetchedAt": "2026-10-07T23:54:03.696Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.459315",
+      "credit": "Cobalt",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4909583"
+    },
+    {
+      "file": "2.webp",
+      "height": 499,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.374915",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "3.webp",
+      "height": 531,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.410528",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    },
+    {
+      "file": "4.webp",
+      "height": 482,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.374914",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "5.webp",
+      "height": 619,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.382218",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "6.webp",
+      "height": 504,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.374913",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "7.webp",
+      "height": 524,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.374916",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "8.webp",
+      "height": 461,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.374912",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "9.webp",
+      "height": 531,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.311709",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "10.webp",
+      "height": 486,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.132401",
+      "credit": null,
+      "creditUrl": null
+    }
+  ]
+}

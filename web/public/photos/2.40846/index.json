@@ -1,0 +1,30 @@
+{
+  "hmfId": "2.40846",
+  "fetchedAt": "2026-10-08T01:56:08.031Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 488,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.80581",
+      "credit": "Ron Harris",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.2496"
+    },
+    {
+      "file": "2.webp",
+      "height": 487,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.33744",
+      "credit": "Ron Harris",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.2496"
+    },
+    {
+      "file": "3.webp",
+      "height": 450,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.37648",
+      "credit": "Ron Harris",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.2496"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "hmfId": "2.40812",
+  "fetchedAt": "2026-10-07T23:16:33.545Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 533,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.422529",
+      "credit": "Alf E. Andresen",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.1724"
+    },
+    {
+      "file": "2.webp",
+      "height": 616,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.422526",
+      "credit": "Alf E. Andresen",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.1724"
+    },
+    {
+      "file": "3.webp",
+      "height": 530,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.422528",
+      "credit": "Alf E. Andresen",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.1724"
+    },
+    {
+      "file": "4.webp",
+      "height": 533,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.422525",
+      "credit": "Alf E. Andresen",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.1724"
+    },
+    {
+      "file": "5.webp",
+      "height": 598,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.422527",
+      "credit": "Alf E. Andresen",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.1724"
+    }
+  ]
+}

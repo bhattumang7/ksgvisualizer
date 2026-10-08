@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.31667",
+  "fetchedAt": "2026-10-07T22:53:52.635Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 402,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.198425",
+      "credit": "passiflora",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.335183"
+    },
+    {
+      "file": "2.webp",
+      "height": 488,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.73657",
+      "credit": "AmiRoses",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.48557"
+    },
+    {
+      "file": "3.webp",
+      "height": 402,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.198424",
+      "credit": "passiflora",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.335183"
+    },
+    {
+      "file": "4.webp",
+      "height": 488,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.73656",
+      "credit": "AmiRoses",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.48557"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "hmfId": "2.23922",
+  "fetchedAt": "2026-10-08T02:10:07.508Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 350,
+      "width": 349,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.87989",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    },
+    {
+      "file": "2.webp",
+      "height": 395,
+      "width": 473,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.10529",
+      "credit": "Vienna Public Gardens",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.1619"
+    }
+  ]
+}

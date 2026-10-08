@@ -1,0 +1,62 @@
+{
+  "hmfId": "2.39068",
+  "fetchedAt": "2026-10-08T00:55:36.273Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 623,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.442839",
+      "credit": "Steve Jones",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4907219"
+    },
+    {
+      "file": "2.webp",
+      "height": 576,
+      "width": 385,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.204019",
+      "credit": "David Elliott",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.97131"
+    },
+    {
+      "file": "3.webp",
+      "height": 800,
+      "width": 605,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.337351",
+      "credit": "Girija and Viru",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.115417"
+    },
+    {
+      "file": "4.webp",
+      "height": 291,
+      "width": 576,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.204018",
+      "credit": "David Elliott",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.97131"
+    },
+    {
+      "file": "5.webp",
+      "height": 800,
+      "width": 770,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.294129",
+      "credit": "Girija and Viru",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.115417"
+    },
+    {
+      "file": "6.webp",
+      "height": 201,
+      "width": 332,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.56849",
+      "credit": "Girija and Viru",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.115417"
+    },
+    {
+      "file": "7.webp",
+      "height": 385,
+      "width": 576,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.204020",
+      "credit": "David Elliott",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.97131"
+    }
+  ]
+}

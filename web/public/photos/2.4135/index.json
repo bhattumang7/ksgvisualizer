@@ -1,0 +1,62 @@
+{
+  "hmfId": "2.4135",
+  "fetchedAt": "2026-10-07T23:38:30.213Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 533,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.222957",
+      "credit": "SageT",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4853148"
+    },
+    {
+      "file": "2.webp",
+      "height": 488,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.76689",
+      "credit": "Henrique R. Vivián",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.2424"
+    },
+    {
+      "file": "3.webp",
+      "height": 488,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.82810",
+      "credit": "Henrique R. Vivián",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.2424"
+    },
+    {
+      "file": "4.webp",
+      "height": 488,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.69214",
+      "credit": "Henrique R. Vivián",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.2424"
+    },
+    {
+      "file": "5.webp",
+      "height": 400,
+      "width": 457,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.76961",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    },
+    {
+      "file": "6.webp",
+      "height": 487,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.33518",
+      "credit": "Henrique R. Vivián",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.2424"
+    },
+    {
+      "file": "7.webp",
+      "height": 400,
+      "width": 437,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.76960",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    }
+  ]
+}

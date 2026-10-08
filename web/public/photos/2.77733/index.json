@@ -1,0 +1,30 @@
+{
+  "hmfId": "2.77733",
+  "fetchedAt": "2026-10-07T22:33:39.193Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 775,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.364470",
+      "credit": "Kathy Strong",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.100473"
+    },
+    {
+      "file": "2.webp",
+      "height": 800,
+      "width": 450,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.302437",
+      "credit": "Towandaaz",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4893474"
+    },
+    {
+      "file": "3.webp",
+      "height": 799,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.364042",
+      "credit": "Kathy Strong",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.100473"
+    }
+  ]
+}

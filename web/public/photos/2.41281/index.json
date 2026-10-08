@@ -1,0 +1,30 @@
+{
+  "hmfId": "2.41281",
+  "fetchedAt": "2026-10-08T00:46:39.496Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 450,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.290327",
+      "credit": "Liezel",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891854"
+    },
+    {
+      "file": "2.webp",
+      "height": 800,
+      "width": 450,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.290325",
+      "credit": "Liezel",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891854"
+    },
+    {
+      "file": "3.webp",
+      "height": 800,
+      "width": 450,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.290326",
+      "credit": "Liezel",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891854"
+    }
+  ]
+}

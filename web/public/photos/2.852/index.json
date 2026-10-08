@@ -1,0 +1,86 @@
+{
+  "hmfId": "2.852",
+  "fetchedAt": "2026-10-07T22:32:52.070Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 480,
+      "width": 640,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.357741",
+      "credit": "asakombu",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.100081"
+    },
+    {
+      "file": "2.webp",
+      "height": 588,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.272986",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "3.webp",
+      "height": 318,
+      "width": 420,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.301297",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    },
+    {
+      "file": "4.webp",
+      "height": 663,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.261836",
+      "credit": "Eugene V.",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.274295"
+    },
+    {
+      "file": "5.webp",
+      "height": 800,
+      "width": 772,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.286630",
+      "credit": "ken-n-ga.mts",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.597897"
+    },
+    {
+      "file": "6.webp",
+      "height": 608,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.230621",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "7.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.285595",
+      "credit": "ken-n-ga.mts",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.597897"
+    },
+    {
+      "file": "8.webp",
+      "height": 622,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.203659",
+      "credit": "Eugene V.",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.274295"
+    },
+    {
+      "file": "9.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.178406",
+      "credit": "JDR-ID159686",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.159686"
+    },
+    {
+      "file": "10.webp",
+      "height": 488,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.96990",
+      "credit": null,
+      "creditUrl": null
+    }
+  ]
+}

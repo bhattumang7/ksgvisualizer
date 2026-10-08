@@ -3,7 +3,7 @@
   "fetchedAt": "2026-10-07T19:06:24.040Z",
   "photos": [
     {
-      "file": "1.jpg",
+      "file": "1.webp",
       "height": 800,
       "width": 600,
       "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.459393",
@@ -11,7 +11,7 @@
       "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4909006"
     },
     {
-      "file": "2.jpg",
+      "file": "2.webp",
       "height": 800,
       "width": 600,
       "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.453060",
@@ -19,7 +19,7 @@
       "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4893480"
     },
     {
-      "file": "3.jpg",
+      "file": "3.webp",
       "height": 800,
       "width": 600,
       "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.459390",
@@ -27,7 +27,7 @@
       "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4909006"
     },
     {
-      "file": "4.jpg",
+      "file": "4.webp",
       "height": 800,
       "width": 600,
       "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.452805",
@@ -35,7 +35,7 @@
       "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4908389"
     },
     {
-      "file": "5.jpg",
+      "file": "5.webp",
       "height": 800,
       "width": 600,
       "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.459388",
@@ -43,7 +43,7 @@
       "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4909006"
     },
     {
-      "file": "6.jpg",
+      "file": "6.webp",
       "height": 800,
       "width": 800,
       "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.452670",
@@ -51,7 +51,7 @@
       "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4901866"
     },
     {
-      "file": "7.jpg",
+      "file": "7.webp",
       "height": 800,
       "width": 800,
       "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.454515",
@@ -59,7 +59,7 @@
       "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4903887"
     },
     {
-      "file": "8.jpg",
+      "file": "8.webp",
       "height": 800,
       "width": 800,
       "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.452493",
@@ -67,7 +67,7 @@
       "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4901866"
     },
     {
-      "file": "9.jpg",
+      "file": "9.webp",
       "height": 800,
       "width": 800,
       "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.452335",
@@ -75,7 +75,7 @@
       "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4901866"
     },
     {
-      "file": "10.jpg",
+      "file": "10.webp",
       "height": 800,
       "width": 534,
       "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.447026",
@@ -83,15 +83,15 @@
       "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4906788"
     },
     {
-      "file": "11.jpg",
-      "height": 573,
-      "width": 896,
+      "file": "11.webp",
+      "height": 512,
+      "width": 800,
       "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.449729",
       "credit": "Johno",
       "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
     },
     {
-      "file": "12.jpg",
+      "file": "12.webp",
       "height": 800,
       "width": 800,
       "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.446822",

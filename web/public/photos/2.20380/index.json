@@ -1,0 +1,46 @@
+{
+  "hmfId": "2.20380",
+  "fetchedAt": "2026-10-08T02:01:08.063Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.349877",
+      "credit": "Arpit",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4901477"
+    },
+    {
+      "file": "2.webp",
+      "height": 318,
+      "width": 420,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.300411",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    },
+    {
+      "file": "3.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.349876",
+      "credit": "Arpit",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4901477"
+    },
+    {
+      "file": "4.webp",
+      "height": 247,
+      "width": 264,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.8637",
+      "credit": "Jean Marion",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.179"
+    },
+    {
+      "file": "5.webp",
+      "height": 318,
+      "width": 420,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.300412",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    }
+  ]
+}

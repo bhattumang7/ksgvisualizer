@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.79285",
+  "fetchedAt": "2026-10-07T22:32:18.076Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.418188",
+      "credit": "Huyustus",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4901866"
+    },
+    {
+      "file": "2.webp",
+      "height": 621,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.341379",
+      "credit": "Singularly Beautiful Roses",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.106915"
+    },
+    {
+      "file": "3.webp",
+      "height": 599,
+      "width": 421,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.397189",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    },
+    {
+      "file": "4.webp",
+      "height": 800,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.337523",
+      "credit": "viscount89",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4896997"
+    }
+  ]
+}

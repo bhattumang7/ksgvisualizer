@@ -1,0 +1,54 @@
+{
+  "hmfId": "2.19803",
+  "fetchedAt": "2026-10-08T01:27:36.297Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 531,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.312438",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "2.webp",
+      "height": 500,
+      "width": 490,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.169604",
+      "credit": "Cliff",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.280"
+    },
+    {
+      "file": "3.webp",
+      "height": 318,
+      "width": 420,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.299372",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    },
+    {
+      "file": "4.webp",
+      "height": 226,
+      "width": 341,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.27641",
+      "credit": "Riet",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.96832"
+    },
+    {
+      "file": "5.webp",
+      "height": 318,
+      "width": 420,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.299371",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    },
+    {
+      "file": "6.webp",
+      "height": 450,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.22699",
+      "credit": "Martien Brand",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.64321"
+    }
+  ]
+}

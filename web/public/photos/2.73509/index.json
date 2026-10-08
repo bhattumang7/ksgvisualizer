@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.73509",
+  "fetchedAt": "2026-10-08T01:24:24.599Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.448956",
+      "credit": "Resper",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4904783"
+    },
+    {
+      "file": "2.webp",
+      "height": 635,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.410051",
+      "credit": "Resper",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4904783"
+    },
+    {
+      "file": "3.webp",
+      "height": 619,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.428066",
+      "credit": "Resper",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4904783"
+    },
+    {
+      "file": "4.webp",
+      "height": 534,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.294612",
+      "credit": "Kamila Rakowska-Szlazkiewicz Rosaplant / Warsaw Rose Trials",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.533633"
+    }
+  ]
+}

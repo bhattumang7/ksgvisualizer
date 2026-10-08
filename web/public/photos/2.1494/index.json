@@ -1,0 +1,54 @@
+{
+  "hmfId": "2.1494",
+  "fetchedAt": "2026-10-07T22:47:38.766Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 492,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.74286",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "2.webp",
+      "height": 450,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.37758",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "3.webp",
+      "height": 450,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.57862",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "4.webp",
+      "height": 450,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.25497",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "5.webp",
+      "height": 400,
+      "width": 388,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.42200",
+      "credit": "Cliff",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.280"
+    },
+    {
+      "file": "6.webp",
+      "height": 309,
+      "width": 300,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.956",
+      "credit": "anonymous-257",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.257"
+    }
+  ]
+}

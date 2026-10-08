@@ -1,0 +1,54 @@
+{
+  "hmfId": "2.3232",
+  "fetchedAt": "2026-10-07T23:08:44.545Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 700,
+      "width": 489,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.221332",
+      "credit": "Maurice REYBAUD",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.109894"
+    },
+    {
+      "file": "2.webp",
+      "height": 425,
+      "width": 640,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.179582",
+      "credit": "Bierkreek",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.219892"
+    },
+    {
+      "file": "3.webp",
+      "height": 684,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.218614",
+      "credit": "mashamcl",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.209972"
+    },
+    {
+      "file": "4.webp",
+      "height": 550,
+      "width": 642,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.122435",
+      "credit": "Cavallo",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.111472"
+    },
+    {
+      "file": "5.webp",
+      "height": 425,
+      "width": 640,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.179583",
+      "credit": "Bierkreek",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.219892"
+    },
+    {
+      "file": "6.webp",
+      "height": 550,
+      "width": 642,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.122434",
+      "credit": "Cavallo",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.111472"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "hmfId": "2.20314",
+  "fetchedAt": "2026-10-07T23:57:33.006Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 595,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.264852",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "2.webp",
+      "height": 523,
+      "width": 700,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.148686",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "3.webp",
+      "height": 700,
+      "width": 709,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.233360",
+      "credit": "Ben R. Williams",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.759"
+    },
+    {
+      "file": "4.webp",
+      "height": 485,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.100398",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "5.webp",
+      "height": 461,
+      "width": 500,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.181654",
+      "credit": "Cliff",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.280"
+    },
+    {
+      "file": "6.webp",
+      "height": 488,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.89355",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "7.webp",
+      "height": 544,
+      "width": 700,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.149973",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "8.webp",
+      "height": 450,
+      "width": 602,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.50533",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "9.webp",
+      "height": 450,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.50447",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "10.webp",
+      "height": 450,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.30082",
+      "credit": "Chany",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.97116"
+    }
+  ]
+}

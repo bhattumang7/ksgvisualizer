@@ -1,0 +1,78 @@
+{
+  "hmfId": "2.3824",
+  "fetchedAt": "2026-10-07T23:28:43.662Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.381755",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "2.webp",
+      "height": 488,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.80390",
+      "credit": "Henrique R. Vivián",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.2424"
+    },
+    {
+      "file": "3.webp",
+      "height": 618,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.352317",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "4.webp",
+      "height": 499,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.80339",
+      "credit": "Pongracz",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.99721"
+    },
+    {
+      "file": "5.webp",
+      "height": 720,
+      "width": 540,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.349988",
+      "credit": "amieuke",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.463783"
+    },
+    {
+      "file": "6.webp",
+      "height": 550,
+      "width": 505,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.80131",
+      "credit": "Pongracz",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.99721"
+    },
+    {
+      "file": "7.webp",
+      "height": 500,
+      "width": 423,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.142196",
+      "credit": "Cliff",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.280"
+    },
+    {
+      "file": "8.webp",
+      "height": 450,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.56832",
+      "credit": "Henrique R. Vivián",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.2424"
+    },
+    {
+      "file": "9.webp",
+      "height": 450,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.37108",
+      "credit": "Donald L. Cox",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.97903"
+    }
+  ]
+}

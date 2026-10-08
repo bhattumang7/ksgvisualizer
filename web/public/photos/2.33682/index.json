@@ -1,0 +1,54 @@
+{
+  "hmfId": "2.33682",
+  "fetchedAt": "2026-10-07T22:53:25.802Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 533,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.242760",
+      "credit": "Jaume Garcia Urpí",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.115003"
+    },
+    {
+      "file": "2.webp",
+      "height": 550,
+      "width": 594,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.73655",
+      "credit": "AmiRoses",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.48557"
+    },
+    {
+      "file": "3.webp",
+      "height": 366,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.123107",
+      "credit": "asakombu",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.100081"
+    },
+    {
+      "file": "4.webp",
+      "height": 413,
+      "width": 551,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.71976",
+      "credit": "J. Moragues",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.97775"
+    },
+    {
+      "file": "5.webp",
+      "height": 487,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.76265",
+      "credit": "AmiRoses",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.48557"
+    },
+    {
+      "file": "6.webp",
+      "height": 295,
+      "width": 394,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.34605",
+      "credit": "J. Moragues",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.97775"
+    }
+  ]
+}

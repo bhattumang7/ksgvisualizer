@@ -1,0 +1,22 @@
+{
+  "hmfId": "2.64303",
+  "fetchedAt": "2026-10-08T00:53:42.818Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 646,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.364332",
+      "credit": "Dhananjay Gujarathi",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4900926"
+    },
+    {
+      "file": "2.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.293601",
+      "credit": "Ashish",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4895670"
+    }
+  ]
+}

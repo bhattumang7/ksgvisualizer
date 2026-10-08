@@ -1,0 +1,70 @@
+{
+  "hmfId": "2.26811",
+  "fetchedAt": "2026-10-07T22:04:53.921Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.453327",
+      "credit": "JDR-ID159686",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.159686"
+    },
+    {
+      "file": "2.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.419961",
+      "credit": "kitta.roses",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4903470"
+    },
+    {
+      "file": "3.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.453326",
+      "credit": "JDR-ID159686",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.159686"
+    },
+    {
+      "file": "4.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.411731",
+      "credit": "anonymous-382123",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.382123"
+    },
+    {
+      "file": "5.webp",
+      "height": 800,
+      "width": 450,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.422218",
+      "credit": "CamiSnell",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4907382"
+    },
+    {
+      "file": "6.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.407686",
+      "credit": "JDR-ID159686",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.159686"
+    },
+    {
+      "file": "7.webp",
+      "height": 800,
+      "width": 450,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.422217",
+      "credit": "CamiSnell",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4907382"
+    },
+    {
+      "file": "8.webp",
+      "height": 800,
+      "width": 490,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.398066",
+      "credit": "-Chiara-",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4893480"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.82370",
+  "fetchedAt": "2026-10-08T01:27:23.197Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.366504",
+      "credit": "Girija and Viru",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.115417"
+    },
+    {
+      "file": "2.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.366502",
+      "credit": "Girija and Viru",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.115417"
+    },
+    {
+      "file": "3.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.366503",
+      "credit": "Girija and Viru",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.115417"
+    },
+    {
+      "file": "4.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.366501",
+      "credit": "Girija and Viru",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.115417"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "hmfId": "2.5599",
+  "fetchedAt": "2026-10-08T00:18:30.077Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 617,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.402892",
+      "credit": "Beth's Northern CA Rose Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.5792"
+    },
+    {
+      "file": "2.webp",
+      "height": 488,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.120365",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "3.webp",
+      "height": 605,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.382617",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "4.webp",
+      "height": 494,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.87063",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "5.webp",
+      "height": 525,
+      "width": 700,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.148662",
+      "credit": "Debstwin",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.315733"
+    },
+    {
+      "file": "6.webp",
+      "height": 70,
+      "width": 73,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.4734",
+      "credit": "anonymous-706",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.706"
+    },
+    {
+      "file": "7.webp",
+      "height": 400,
+      "width": 407,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.129608",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    }
+  ]
+}

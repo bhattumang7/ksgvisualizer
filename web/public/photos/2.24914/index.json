@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.24914",
+  "fetchedAt": "2026-10-08T02:04:26.832Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 450,
+      "width": 524,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.16792",
+      "credit": "Carter Mayer",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.5002"
+    },
+    {
+      "file": "2.webp",
+      "height": 450,
+      "width": 493,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.16790",
+      "credit": "Carter Mayer",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.5002"
+    },
+    {
+      "file": "3.webp",
+      "height": 450,
+      "width": 450,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.16791",
+      "credit": "Carter Mayer",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.5002"
+    },
+    {
+      "file": "4.webp",
+      "height": 322,
+      "width": 551,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.12135",
+      "credit": "Jean Marion",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.179"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "hmfId": "2.32629",
+  "fetchedAt": "2026-10-07T22:49:05.292Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.435797",
+      "credit": "Debbie de Coning",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4905959"
+    },
+    {
+      "file": "2.webp",
+      "height": 154,
+      "width": 170,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.78732",
+      "credit": "Dudley Bartlett",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.112865"
+    },
+    {
+      "file": "3.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.216179",
+      "credit": "Labrador",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.844910"
+    }
+  ]
+}

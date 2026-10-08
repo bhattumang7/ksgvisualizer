@@ -1,0 +1,22 @@
+{
+  "hmfId": "2.32766",
+  "fetchedAt": "2026-10-08T00:18:34.794Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 744,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.319436",
+      "credit": "Patricia Routley",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.102446"
+    },
+    {
+      "file": "2.webp",
+      "height": 700,
+      "width": 525,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.257773",
+      "credit": "IDenys",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891594"
+    }
+  ]
+}

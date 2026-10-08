@@ -1,0 +1,86 @@
+{
+  "hmfId": "2.34106",
+  "fetchedAt": "2026-10-08T02:20:14.863Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 613,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.435204",
+      "credit": "Beth's Northern CA Rose Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.5792"
+    },
+    {
+      "file": "2.webp",
+      "height": 646,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.364655",
+      "credit": "Kathy Strong",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.100473"
+    },
+    {
+      "file": "3.webp",
+      "height": 602,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.424061",
+      "credit": "Beth's Northern CA Rose Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.5792"
+    },
+    {
+      "file": "4.webp",
+      "height": 594,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.338263",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "5.webp",
+      "height": 603,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.401932",
+      "credit": "Beth's Northern CA Rose Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.5792"
+    },
+    {
+      "file": "6.webp",
+      "height": 800,
+      "width": 578,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.322944",
+      "credit": "carlysuko",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4897584"
+    },
+    {
+      "file": "7.webp",
+      "height": 622,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.381151",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "8.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.321988",
+      "credit": "carlysuko",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4897584"
+    },
+    {
+      "file": "9.webp",
+      "height": 667,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.307255",
+      "credit": "Kathy Strong",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.100473"
+    },
+    {
+      "file": "10.webp",
+      "height": 588,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.233747",
+      "credit": null,
+      "creditUrl": null
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "hmfId": "2.42109",
+  "fetchedAt": "2026-10-08T01:37:40.051Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 788,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.450740",
+      "credit": "Kathy Strong",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.100473"
+    },
+    {
+      "file": "2.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.337997",
+      "credit": "SoCal Coastal Rosarian by",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.335416"
+    },
+    {
+      "file": "3.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.417656",
+      "credit": "SoCal Coastal Rosarian by",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.335416"
+    },
+    {
+      "file": "4.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.335617",
+      "credit": "SoCal Coastal Rosarian by",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.335416"
+    },
+    {
+      "file": "5.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.395406",
+      "credit": "SoCal Coastal Rosarian by",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.335416"
+    },
+    {
+      "file": "6.webp",
+      "height": 534,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.325355",
+      "credit": "Kamila Rakowska-Szlazkiewicz Rosaplant / Warsaw Rose Trials",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.533633"
+    },
+    {
+      "file": "7.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.383430",
+      "credit": "SoCal Coastal Rosarian by",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.335416"
+    },
+    {
+      "file": "8.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.322444",
+      "credit": "GERDA23",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4875364"
+    },
+    {
+      "file": "9.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.302798",
+      "credit": "GERDA23",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4875364"
+    },
+    {
+      "file": "10.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.270000",
+      "credit": "Moonfall",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4854394"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "hmfId": "2.41435",
+  "fetchedAt": "2026-10-08T00:11:15.490Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 580,
+      "width": 397,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.273514",
+      "credit": "Cà Berta",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.110097"
+    },
+    {
+      "file": "2.webp",
+      "height": 542,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.220446",
+      "credit": "Maurice REYBAUD",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.109894"
+    }
+  ]
+}

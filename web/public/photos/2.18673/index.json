@@ -1,0 +1,30 @@
+{
+  "hmfId": "2.18673",
+  "fetchedAt": "2026-10-08T01:19:20.781Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 529,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.302124",
+      "credit": "lilia",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4895166"
+    },
+    {
+      "file": "2.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.259941",
+      "credit": "Darius",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4890453"
+    },
+    {
+      "file": "3.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.259942",
+      "credit": "Darius",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4890453"
+    }
+  ]
+}

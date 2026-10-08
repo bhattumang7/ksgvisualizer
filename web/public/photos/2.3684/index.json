@@ -1,0 +1,22 @@
+{
+  "hmfId": "2.3684",
+  "fetchedAt": "2026-10-07T23:25:21.521Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 525,
+      "width": 700,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.142149",
+      "credit": "David Giroux",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.1537"
+    },
+    {
+      "file": "2.webp",
+      "height": 328,
+      "width": 377,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.15639",
+      "credit": "Jean Marion",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.179"
+    }
+  ]
+}

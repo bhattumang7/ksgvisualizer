@@ -1,0 +1,78 @@
+{
+  "hmfId": "2.3821",
+  "fetchedAt": "2026-10-07T23:28:27.896Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 583,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.439218",
+      "credit": "Beth's Northern CA Rose Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.5792"
+    },
+    {
+      "file": "2.webp",
+      "height": 497,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.75337",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "3.webp",
+      "height": 535,
+      "width": 700,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.148529",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "4.webp",
+      "height": 400,
+      "width": 334,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.17651",
+      "credit": "Cliff",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.280"
+    },
+    {
+      "file": "5.webp",
+      "height": 478,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.122595",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "6.webp",
+      "height": 400,
+      "width": 335,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.17650",
+      "credit": "Cliff",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.280"
+    },
+    {
+      "file": "7.webp",
+      "height": 488,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.81662",
+      "credit": "Hannah's Little Rose Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.112642"
+    },
+    {
+      "file": "8.webp",
+      "height": 454,
+      "width": 549,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.5809",
+      "credit": "anonymous-126",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.126"
+    },
+    {
+      "file": "9.webp",
+      "height": 166,
+      "width": 200,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.3595",
+      "credit": "anonymous-706",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.706"
+    }
+  ]
+}

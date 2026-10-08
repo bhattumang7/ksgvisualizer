@@ -1,0 +1,70 @@
+{
+  "hmfId": "2.45685",
+  "fetchedAt": "2026-10-07T22:09:01.118Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 675,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.422907",
+      "credit": "Robert Neil Rippetoe",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.33"
+    },
+    {
+      "file": "2.webp",
+      "height": 556,
+      "width": 591,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.264743",
+      "credit": "Michael Garhart",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.105070"
+    },
+    {
+      "file": "3.webp",
+      "height": 743,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.281424",
+      "credit": "Michael Garhart",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.105070"
+    },
+    {
+      "file": "4.webp",
+      "height": 700,
+      "width": 707,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.239033",
+      "credit": "Michael Garhart",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.105070"
+    },
+    {
+      "file": "5.webp",
+      "height": 630,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.281229",
+      "credit": "Michael Garhart",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.105070"
+    },
+    {
+      "file": "6.webp",
+      "height": 607,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.222717",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "7.webp",
+      "height": 698,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.279958",
+      "credit": "Michael Garhart",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.105070"
+    },
+    {
+      "file": "8.webp",
+      "height": 485,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.91289",
+      "credit": null,
+      "creditUrl": null
+    }
+  ]
+}

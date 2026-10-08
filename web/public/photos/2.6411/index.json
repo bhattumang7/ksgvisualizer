@@ -1,0 +1,70 @@
+{
+  "hmfId": "2.6411",
+  "fetchedAt": "2026-10-08T00:44:53.817Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 612,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.382838",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "2.webp",
+      "height": 488,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.74494",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "3.webp",
+      "height": 602,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.339283",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "4.webp",
+      "height": 496,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.71012",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "5.webp",
+      "height": 800,
+      "width": 450,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.288425",
+      "credit": "Northland Rosarium",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.115456"
+    },
+    {
+      "file": "6.webp",
+      "height": 450,
+      "width": 579,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.50230",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "7.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.195728",
+      "credit": "HonzaPM",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.113440"
+    },
+    {
+      "file": "8.webp",
+      "height": 450,
+      "width": 577,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.13942",
+      "credit": "Michel",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.2730"
+    }
+  ]
+}

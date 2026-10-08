@@ -1,0 +1,62 @@
+{
+  "hmfId": "2.63560",
+  "fetchedAt": "2026-10-08T00:58:03.531Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 605,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.398112",
+      "credit": "Cambridgelad",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4898387"
+    },
+    {
+      "file": "2.webp",
+      "height": 800,
+      "width": 533,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.274219",
+      "credit": "Elen",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4893815"
+    },
+    {
+      "file": "3.webp",
+      "height": 800,
+      "width": 778,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.375292",
+      "credit": "Cambridgelad",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4898387"
+    },
+    {
+      "file": "4.webp",
+      "height": 450,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.273927",
+      "credit": "Elen",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4893815"
+    },
+    {
+      "file": "5.webp",
+      "height": 533,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.294223",
+      "credit": "Elen",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4893815"
+    },
+    {
+      "file": "6.webp",
+      "height": 530,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.180999",
+      "credit": "Irina Shushakova",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.163690"
+    },
+    {
+      "file": "7.webp",
+      "height": 533,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.293807",
+      "credit": "Elen",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4893815"
+    }
+  ]
+}

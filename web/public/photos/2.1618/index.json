@@ -1,0 +1,62 @@
+{
+  "hmfId": "2.1618",
+  "fetchedAt": "2026-10-07T22:51:24.864Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 640,
+      "width": 480,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.357815",
+      "credit": "asakombu",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.100081"
+    },
+    {
+      "file": "2.webp",
+      "height": 536,
+      "width": 480,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.224850",
+      "credit": "npierce",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.18523"
+    },
+    {
+      "file": "3.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.328208",
+      "credit": "GardenGlimpses",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4895591"
+    },
+    {
+      "file": "4.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.179314",
+      "credit": "KRob",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.423170"
+    },
+    {
+      "file": "5.webp",
+      "height": 570,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.315677",
+      "credit": "GardenGlimpses",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4895591"
+    },
+    {
+      "file": "6.webp",
+      "height": 357,
+      "width": 305,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.117477",
+      "credit": "npierce",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.18523"
+    },
+    {
+      "file": "7.webp",
+      "height": 480,
+      "width": 722,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.224851",
+      "credit": "npierce",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.18523"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "hmfId": "2.1536",
+  "fetchedAt": "2026-10-07T22:49:24.339Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 618,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.235856",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "2.webp",
+      "height": 450,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.38900",
+      "credit": "Lee's Roses",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.98241"
+    },
+    {
+      "file": "3.webp",
+      "height": 512,
+      "width": 700,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.150208",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "4.webp",
+      "height": 487,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.33124",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "5.webp",
+      "height": 489,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.75227",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "6.webp",
+      "height": 487,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.33070",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "7.webp",
+      "height": 450,
+      "width": 595,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.58160",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "8.webp",
+      "height": 450,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.20514",
+      "credit": null,
+      "creditUrl": null
+    }
+  ]
+}

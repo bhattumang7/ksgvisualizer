@@ -1,0 +1,22 @@
+{
+  "hmfId": "2.1157",
+  "fetchedAt": "2026-10-08T02:00:01.090Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 480,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.88676",
+      "credit": "blujen",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.111871"
+    },
+    {
+      "file": "2.webp",
+      "height": 294,
+      "width": 417,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.7008",
+      "credit": "Jean Marion",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.179"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "hmfId": "2.28376",
+  "fetchedAt": "2026-10-07T23:15:29.022Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 450,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.339153",
+      "credit": "asakombu",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.100081"
+    },
+    {
+      "file": "2.webp",
+      "height": 627,
+      "width": 493,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.212824",
+      "credit": "Cà Berta",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.110097"
+    },
+    {
+      "file": "3.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.339152",
+      "credit": "asakombu",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.100081"
+    }
+  ]
+}

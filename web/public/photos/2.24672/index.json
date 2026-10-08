@@ -1,0 +1,30 @@
+{
+  "hmfId": "2.24672",
+  "fetchedAt": "2026-10-07T23:15:11.214Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 500,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.348234",
+      "credit": "viscount89",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4896997"
+    },
+    {
+      "file": "2.webp",
+      "height": 428,
+      "width": 640,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.154134",
+      "credit": "Bierkreek",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.219892"
+    },
+    {
+      "file": "3.webp",
+      "height": 428,
+      "width": 640,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.154135",
+      "credit": "Bierkreek",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.219892"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "hmfId": "2.24464",
+  "fetchedAt": "2026-10-07T22:08:47.807Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.419683",
+      "credit": "Beth's Northern CA Rose Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.5792"
+    },
+    {
+      "file": "2.webp",
+      "height": 623,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.237571",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "3.webp",
+      "height": 586,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.376815",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "4.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.234330",
+      "credit": "Meetza",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4870170"
+    },
+    {
+      "file": "5.webp",
+      "height": 531,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.361048",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "6.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.211956",
+      "credit": "Floralia",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4861623"
+    },
+    {
+      "file": "7.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.238325",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "8.webp",
+      "height": 700,
+      "width": 525,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.211952",
+      "credit": "Floralia",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4861623"
+    },
+    {
+      "file": "9.webp",
+      "height": 700,
+      "width": 525,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.211949",
+      "credit": "Floralia",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4861623"
+    },
+    {
+      "file": "10.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.176966",
+      "credit": "Danish private garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.100828"
+    }
+  ]
+}

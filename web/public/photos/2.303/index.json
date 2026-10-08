@@ -1,0 +1,54 @@
+{
+  "hmfId": "2.303",
+  "fetchedAt": "2026-10-07T22:30:34.649Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 716,
+      "width": 762,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.442824",
+      "credit": "Steve Jones",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4907219"
+    },
+    {
+      "file": "2.webp",
+      "height": 610,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.207119",
+      "credit": "Bettina Gatti",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.44321"
+    },
+    {
+      "file": "3.webp",
+      "height": 318,
+      "width": 420,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.300901",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    },
+    {
+      "file": "4.webp",
+      "height": 550,
+      "width": 367,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.128158",
+      "credit": "aga13",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.207683"
+    },
+    {
+      "file": "5.webp",
+      "height": 800,
+      "width": 532,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.295026",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    },
+    {
+      "file": "6.webp",
+      "height": 550,
+      "width": 368,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.104686",
+      "credit": "Spencer Gosenson",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.209902"
+    }
+  ]
+}

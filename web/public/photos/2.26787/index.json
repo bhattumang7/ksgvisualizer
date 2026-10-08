@@ -1,0 +1,86 @@
+{
+  "hmfId": "2.26787",
+  "fetchedAt": "2026-10-07T22:24:53.453Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 754,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.398856",
+      "credit": "Rose Selavy",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4897821"
+    },
+    {
+      "file": "2.webp",
+      "height": 531,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.243078",
+      "credit": "Svetlana Dudina",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.376419"
+    },
+    {
+      "file": "3.webp",
+      "height": 800,
+      "width": 775,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.398855",
+      "credit": "Rose Selavy",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4897821"
+    },
+    {
+      "file": "4.webp",
+      "height": 533,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.227894",
+      "credit": "galusik / Vasilieva Galina",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4878637"
+    },
+    {
+      "file": "5.webp",
+      "height": 360,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.392661",
+      "credit": "Maddalena Piccinini",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4855026"
+    },
+    {
+      "file": "6.webp",
+      "height": 700,
+      "width": 529,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.227893",
+      "credit": "galusik / Vasilieva Galina",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4878637"
+    },
+    {
+      "file": "7.webp",
+      "height": 531,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.243079",
+      "credit": "Svetlana Dudina",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.376419"
+    },
+    {
+      "file": "8.webp",
+      "height": 613,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.227892",
+      "credit": "galusik / Vasilieva Galina",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4878637"
+    },
+    {
+      "file": "9.webp",
+      "height": 553,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.211944",
+      "credit": "Marina's Garden.  Crawfordville, FL",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.73270"
+    },
+    {
+      "file": "10.webp",
+      "height": 413,
+      "width": 551,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.93404",
+      "credit": "J. Moragues",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.97775"
+    }
+  ]
+}

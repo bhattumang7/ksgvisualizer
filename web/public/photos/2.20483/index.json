@@ -1,0 +1,30 @@
+{
+  "hmfId": "2.20483",
+  "fetchedAt": "2026-10-08T01:59:18.290Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 789,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.394950",
+      "credit": "Umang",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4903367"
+    },
+    {
+      "file": "2.webp",
+      "height": 295,
+      "width": 233,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.8167",
+      "credit": "Jean Marion",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.179"
+    },
+    {
+      "file": "3.webp",
+      "height": 257,
+      "width": 374,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.341478",
+      "credit": "demicent",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.191956"
+    }
+  ]
+}

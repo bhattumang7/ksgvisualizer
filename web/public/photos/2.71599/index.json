@@ -1,0 +1,22 @@
+{
+  "hmfId": "2.71599",
+  "fetchedAt": "2026-10-07T22:11:41.677Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.288308",
+      "credit": "galra",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4895278"
+    },
+    {
+      "file": "2.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.288307",
+      "credit": "galra",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4895278"
+    }
+  ]
+}

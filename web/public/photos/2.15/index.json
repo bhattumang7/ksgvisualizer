@@ -1,0 +1,70 @@
+{
+  "hmfId": "2.15",
+  "fetchedAt": "2026-10-07T22:03:33.377Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.456895",
+      "credit": "Amy (bug_girl)",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4903887"
+    },
+    {
+      "file": "2.webp",
+      "height": 800,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.445985",
+      "credit": "Amy (bug_girl)",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4903887"
+    },
+    {
+      "file": "3.webp",
+      "height": 800,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.455907",
+      "credit": "Amy (bug_girl)",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4903887"
+    },
+    {
+      "file": "4.webp",
+      "height": 800,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.445984",
+      "credit": "Amy (bug_girl)",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4903887"
+    },
+    {
+      "file": "5.webp",
+      "height": 800,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.455906",
+      "credit": "Amy (bug_girl)",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4903887"
+    },
+    {
+      "file": "6.webp",
+      "height": 586,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.445449",
+      "credit": "Beth's Northern CA Rose Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.5792"
+    },
+    {
+      "file": "7.webp",
+      "height": 530,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.450545",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "8.webp",
+      "height": 800,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.445257",
+      "credit": "Amy (bug_girl)",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4903887"
+    }
+  ]
+}

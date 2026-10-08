@@ -1,0 +1,86 @@
+{
+  "hmfId": "2.1017",
+  "fetchedAt": "2026-10-07T22:38:24.879Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.338783",
+      "credit": "asakombu",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.100081"
+    },
+    {
+      "file": "2.webp",
+      "height": 588,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.222709",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "3.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.280830",
+      "credit": "Greenman",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.492081"
+    },
+    {
+      "file": "4.webp",
+      "height": 500,
+      "width": 446,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.178356",
+      "credit": "Cliff",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.280"
+    },
+    {
+      "file": "5.webp",
+      "height": 609,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.280099",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "6.webp",
+      "height": 468,
+      "width": 700,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.156622",
+      "credit": "mashamcl",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.209972"
+    },
+    {
+      "file": "7.webp",
+      "height": 621,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.280043",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "8.webp",
+      "height": 528,
+      "width": 700,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.154383",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "9.webp",
+      "height": 541,
+      "width": 700,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.146127",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "10.webp",
+      "height": 468,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.93423",
+      "credit": null,
+      "creditUrl": null
+    }
+  ]
+}

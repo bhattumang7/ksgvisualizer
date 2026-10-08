@@ -1,0 +1,46 @@
+{
+  "hmfId": "2.71986",
+  "fetchedAt": "2026-10-08T01:59:37.548Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.418625",
+      "credit": "Nahush",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4905695"
+    },
+    {
+      "file": "2.webp",
+      "height": 800,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.341012",
+      "credit": "Azlan Syazani Adanan",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4900411"
+    },
+    {
+      "file": "3.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.418624",
+      "credit": "Nahush",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4905695"
+    },
+    {
+      "file": "4.webp",
+      "height": 800,
+      "width": 378,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.341011",
+      "credit": "Azlan Syazani Adanan",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4900411"
+    },
+    {
+      "file": "5.webp",
+      "height": 600,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.418623",
+      "credit": "Nahush",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4905695"
+    }
+  ]
+}

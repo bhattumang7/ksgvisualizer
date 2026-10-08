@@ -1,0 +1,30 @@
+{
+  "hmfId": "2.37448",
+  "fetchedAt": "2026-10-07T22:43:35.558Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 800,
+      "width": 450,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.403398",
+      "credit": "Dhananjay Gujarathi",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4900926"
+    },
+    {
+      "file": "2.webp",
+      "height": 488,
+      "width": 650,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.70440",
+      "credit": "Tumwater Susan",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.109000"
+    },
+    {
+      "file": "3.webp",
+      "height": 800,
+      "width": 686,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.272838",
+      "credit": "Arun Pratap Singh",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4893328"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "hmfId": "2.3108",
+  "fetchedAt": "2026-10-07T23:06:43.295Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "height": 638,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.386564",
+      "credit": "Beth's Northern CA Rose Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.5792"
+    },
+    {
+      "file": "2.webp",
+      "height": 550,
+      "width": 412,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.116969",
+      "credit": "North GA. Chuck",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.252186"
+    },
+    {
+      "file": "3.webp",
+      "height": 641,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.381138",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "4.webp",
+      "height": 550,
+      "width": 413,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.116968",
+      "credit": "North GA. Chuck",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.252186"
+    },
+    {
+      "file": "5.webp",
+      "height": 534,
+      "width": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.263678",
+      "credit": "npierce",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.18523"
+    },
+    {
+      "file": "6.webp",
+      "height": 450,
+      "width": 560,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.47862",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "7.webp",
+      "height": 488,
+      "width": 576,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.234741",
+      "credit": "dee choi",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4882752"
+    },
+    {
+      "file": "8.webp",
+      "height": 450,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.39975",
+      "credit": "Idahoroselady",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.3416"
+    },
+    {
+      "file": "9.webp",
+      "height": 450,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.39974",
+      "credit": "Idahoroselady",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.3416"
+    },
+    {
+      "file": "10.webp",
+      "height": 450,
+      "width": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.24935",
+      "credit": null,
+      "creditUrl": null
+    }
+  ]
+}
