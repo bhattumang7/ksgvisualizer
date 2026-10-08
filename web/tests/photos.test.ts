@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { withBasePath } from "@/lib/base-path";
 import { joinBreeders } from "@/lib/catalogue";
 import { loadStoredPhotos, withCardPhotos } from "@/lib/photos";
 import { RoseSchema } from "@/lib/schema";
@@ -16,7 +17,7 @@ describe("withCardPhotos", () => {
   it("attaches stored photos to a matched rose", () => {
     const [r] = withCardPhotos(make("96406"));
     expect(r.photos?.length).toBeGreaterThan(1);
-    expect(r.photos?.[0].src).toBe("/photos/96406/1.webp");
+    expect(r.photos?.[0].src).toBe(withBasePath("/photos/96406/1.webp"));
   });
   it("leaves unmatched and unsnapshotted roses alone", () => {
     expect(withCardPhotos(make(null))[0].photos).toBeUndefined();
