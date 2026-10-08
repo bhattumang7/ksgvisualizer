@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.18201",
+  "fetchedAt": "2026-10-08T14:02:45.056Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 600,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.367817",
+      "credit": "Nigel McCollum",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4902101"
+    },
+    {
+      "file": "2.webp",
+      "width": 413,
+      "height": 550,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.103166",
+      "credit": "Meschuee",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.103590"
+    },
+    {
+      "file": "3.webp",
+      "width": 800,
+      "height": 533,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.205173",
+      "credit": "A Little Piece of Heaven.  Tatiana Roses",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.106987"
+    },
+    {
+      "file": "4.webp",
+      "width": 413,
+      "height": 550,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.103165",
+      "credit": "Meschuee",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.103590"
+    }
+  ]
+}

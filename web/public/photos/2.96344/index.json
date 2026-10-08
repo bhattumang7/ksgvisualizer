@@ -1,0 +1,30 @@
+{
+  "hmfId": "2.96344",
+  "fetchedAt": "2026-10-08T14:01:10.039Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 600,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.455105",
+      "credit": "Eisrose",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4895398"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 603,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.454846",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "3.webp",
+      "width": 800,
+      "height": 515,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.454883",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    }
+  ]
+}

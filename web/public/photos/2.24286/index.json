@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.24286",
+  "fetchedAt": "2026-10-08T14:12:04.359Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 690,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.393423",
+      "credit": "Rosarium M.Kralka",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4894306"
+    },
+    {
+      "file": "2.webp",
+      "width": 512,
+      "height": 700,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.205518",
+      "credit": "Marina's Garden.  Crawfordville, FL",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.73270"
+    },
+    {
+      "file": "3.webp",
+      "width": 800,
+      "height": 517,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.363956",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "4.webp",
+      "width": 516,
+      "height": 700,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.201314",
+      "credit": "Marina's Garden.  Crawfordville, FL",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.73270"
+    }
+  ]
+}

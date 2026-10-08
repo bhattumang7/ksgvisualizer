@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.4102",
+  "fetchedAt": "2026-10-08T14:04:26.009Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 552,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.456107",
+      "credit": "Patricia Routley",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.102446"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 546,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.443148",
+      "credit": "HubertG",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4860588"
+    },
+    {
+      "file": "3.webp",
+      "width": 376,
+      "height": 577,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.452274",
+      "credit": "scvirginia",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4887378"
+    },
+    {
+      "file": "4.webp",
+      "width": 392,
+      "height": 632,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.436432",
+      "credit": "HubertG",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4860588"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.69182",
+  "fetchedAt": "2026-10-08T14:03:23.975Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 603,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.458876",
+      "credit": "Rozarium",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.322204"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.390335",
+      "credit": "Marijke Verdonk",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4904706"
+    },
+    {
+      "file": "3.webp",
+      "width": 603,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.458875",
+      "credit": "Rozarium",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.322204"
+    },
+    {
+      "file": "4.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.390334",
+      "credit": "Marijke Verdonk",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4904706"
+    }
+  ]
+}

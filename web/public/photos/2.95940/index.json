@@ -1,0 +1,30 @@
+{
+  "hmfId": "2.95940",
+  "fetchedAt": "2026-10-08T13:56:46.647Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 600,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.450309",
+      "credit": "Kim Rupert",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.97434"
+    },
+    {
+      "file": "2.webp",
+      "width": 600,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.450307",
+      "credit": "Kim Rupert",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.97434"
+    },
+    {
+      "file": "3.webp",
+      "width": 600,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.450308",
+      "credit": "Kim Rupert",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.97434"
+    }
+  ]
+}

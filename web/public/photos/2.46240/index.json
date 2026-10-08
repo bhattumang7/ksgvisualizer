@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.46240",
+  "fetchedAt": "2026-10-08T14:01:32.553Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 531,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.360506",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.343747",
+      "credit": "matroskin",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4900795"
+    },
+    {
+      "file": "3.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.348906",
+      "credit": "Sina",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4901379"
+    },
+    {
+      "file": "4.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.343735",
+      "credit": "matroskin",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4900795"
+    }
+  ]
+}

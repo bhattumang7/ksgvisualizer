@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.4648",
+  "fetchedAt": "2026-10-08T14:08:09.073Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 520,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.450165",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "2.webp",
+      "width": 517,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.426155",
+      "credit": "scvirginia",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4887378"
+    },
+    {
+      "file": "3.webp",
+      "width": 800,
+      "height": 744,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.435863",
+      "credit": "johnm99",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891057"
+    },
+    {
+      "file": "4.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.403148",
+      "credit": "ydpgm-dashen",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.881355"
+    }
+  ]
+}

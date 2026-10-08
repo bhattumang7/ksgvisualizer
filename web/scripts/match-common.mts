@@ -52,8 +52,11 @@ const titleCase = (s: string) => s.toLowerCase().replaceAll(/(^|[\s(-])([a-z])/g
  * The names to search for one KSG entry: "ROSE SULLIVAN (VIR WINE)" is searched as "Rose Sullivan" and "Vir Wine",
  * "SA GARDEN / TUIN" as both halves. Spelling is kept (apostrophes and all) because the site does the matching.
  */
+/** "CLG.AMADEUS" is the climbing form of 'Amadeus': HMF lists it as "Amadeus" (class Climber), never with the "Clg." prefix. */
+export const stripClimbing = (name: string) => name.replace(/^\s*clg\.?\s*/i, "");
+
 export function searchTerms(name: string): string[] {
-  const base = name.replaceAll(/\([^)]*\)/g, " ");
+  const base = stripClimbing(name).replaceAll(/\([^)]*\)/g, " ");
   const inner = [...name.matchAll(/\(([^)]*)\)/g)].map((m) => m[1]);
   const parts = [...base.split("/"), ...inner.flatMap((p) => p.split("/"))].map((s) => s.replaceAll(/^[\s.]+|[\s.]+$/g, "")).filter(Boolean);
   return [...new Set((parts.length ? parts : [name]).map(titleCase))];
@@ -155,7 +158,7 @@ export function score(dir: string) {
     const withAlias = (p: Cached) => p.results.map((x) => (x.snippet.startsWith("Description, photos, references") && !x.alias ? { ...x, alias: p.query.replace(/^contains: /, "") } : x));
     const cached: Cached = { query: parts.map((p) => p.query).join(" | "), fetchedAt: parts[0].fetchedAt, results: parts.flatMap(withAlias) };
     const q: RoseQuery = {
-      name: r.canonical_name,
+      name: stripClimbing(r.canonical_name),
       year: r.year,
       cls: r.class,
       breeders: breederTermsFor(r),

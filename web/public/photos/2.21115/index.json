@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.21115",
+  "fetchedAt": "2026-10-08T14:05:51.038Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 317,
+      "height": 476,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.459544",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 607,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.399787",
+      "credit": "billy teabag",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.98615"
+    },
+    {
+      "file": "3.webp",
+      "width": 676,
+      "height": 416,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.457931",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    },
+    {
+      "file": "4.webp",
+      "width": 800,
+      "height": 531,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.399786",
+      "credit": "billy teabag",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.98615"
+    }
+  ]
+}

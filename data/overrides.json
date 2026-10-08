@@ -1594,5 +1594,166 @@
       "url": null,
       "match_confidence": "none"
     }
+  },
+  "clg-amadeus": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.39720",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-baby-romantica": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.67242",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-golden-gate": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.39721",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-ole": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.25360",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-candyland": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.40938",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-oh-wow": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.61780",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-painter-s-palette": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.18968",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-palais-royal": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.37469",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-prosperity": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.5005",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-scarlet-midinette": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.41277",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-super-elfin": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.24286",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-that-s-jazz": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.22241",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-the-wedgewood-rose": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.61281",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-too-hot-to-handle": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.19814",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-tropical-lightning": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.72904",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-twist": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.41761",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-pennylane": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.18159",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-perinnial-blue": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.41412",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-soliel-vertical": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.43670",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-fancy-ruffles": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.96344",
+      "match_confidence": "manual"
+    }
+  },
+  "clg-crimson-boquet": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "clg-perfume-royale": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
+  },
+  "clg-eiffel-2000": {
+    "hmf": {
+      "id": null,
+      "url": null,
+      "match_confidence": "none"
+    }
   }
 }

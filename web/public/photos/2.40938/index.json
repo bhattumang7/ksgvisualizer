@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.40938",
+  "fetchedAt": "2026-10-08T13:59:54.870Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.455081",
+      "credit": "Zone5CO",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4896423"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 534,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.310811",
+      "credit": "Kamila Rakowska-Szlazkiewicz Rosaplant / Warsaw Rose Trials",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.533633"
+    },
+    {
+      "file": "3.webp",
+      "width": 800,
+      "height": 587,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.399138",
+      "credit": "Beth's Northern CA Rose Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.5792"
+    },
+    {
+      "file": "4.webp",
+      "width": 800,
+      "height": 534,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.310809",
+      "credit": "Kamila Rakowska-Szlazkiewicz Rosaplant / Warsaw Rose Trials",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.533633"
+    }
+  ]
+}

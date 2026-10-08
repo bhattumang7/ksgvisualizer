@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.4057",
+  "fetchedAt": "2026-10-08T14:04:02.468Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 533,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.386677",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 477,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.266859",
+      "credit": "blueisland",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891053"
+    },
+    {
+      "file": "3.webp",
+      "width": 600,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.370089",
+      "credit": "ratdogheads",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4862910"
+    },
+    {
+      "file": "4.webp",
+      "width": 557,
+      "height": 700,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.252399",
+      "credit": "blueisland",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891053"
+    }
+  ]
+}

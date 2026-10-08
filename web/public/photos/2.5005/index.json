@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.5005",
+  "fetchedAt": "2026-10-08T14:09:30.974Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 503,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.446748",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 361,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.421932",
+      "credit": "Maddalena Piccinini",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4855026"
+    },
+    {
+      "file": "3.webp",
+      "width": 800,
+      "height": 533,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.446747",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "4.webp",
+      "width": 800,
+      "height": 530,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.415799",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    }
+  ]
+}

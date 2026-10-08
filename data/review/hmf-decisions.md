@@ -2,7 +2,7 @@
 
 Every rose in `data/overrides.json` with an `hmf` entry, with the reason. Facts were read from each HMF plant page (saved temporarily in `cache/hmf-verify/`, gitignored). Undo with `pnpm hmf-decide ROSE_ID --undo`.
 
-## Linked to an HMF plant (195)
+## Linked to an HMF plant (215)
 
 | Rose | KSG entry | HMF plant | Reason |
 |---|---|---|---|
@@ -201,8 +201,28 @@ Every rose in `data/overrides.json` with an `hmf` entry, with the reason. Facts 
 | `tata-centenary` | TATA CENTENARY (Telco Nursery, 1979, Hybrid Tea) | 22104 | hybrid tea, dark purple, same name; the other page is the climbing sport 'Tata Centenary, Cl'. KSG: purple mauve splashed yellow, hybrid tea |
 | `merry-go-round` | MERRY GO ROUND (no breeder, no year, Floribunda) | 82371 | floribunda, green-white with carmine edges: matches the KSG description (greenish white, carmine line) and class; the Fisher 1950 one is an orange-pink hybrid tea |
 | `best-of-friends` | BEST OF FRIENDS (Poulson, 2002, Hybrid Tea) | 26791 | Olesen (Poulsen) 1999 hybrid tea, yellow, strong fragrance: matches KSG deep yellow, fragrant, Poulsen; the Rawlins 2018 floribunda is deep pink |
+| `clg-amadeus` | CLG.AMADEUS (Kordes, 2006), Climber | 2.39720 | Searched without the CLG. prefix, class Climber. HMF: Amadeus ™, Kordes 2003, Large-Flowered Climber (the hybrid tea Amadeus is a different plant). |
+| `clg-baby-romantica` | CLG.BABY ROMANTICA (Meilland, 2004), Climber | 2.67242 | Searched without the CLG. prefix, class Climber. HMF: Baby Romantica, Meilland 2010, Large-Flowered Climber (2.38907 is the miniature). |
+| `clg-golden-gate` | CLG.GOLDEN GATE (Kordes, 2004), Climber | 2.39721 | Searched without the CLG. prefix, class Climber. HMF: Golden Gate ®, Kordes 1995, Large-Flowered Climber. |
+| `clg-ole` | CLG. OLE (Tejganga Roses, 1996), Climber | 2.25360 | Searched without the CLG. prefix, class Climber. HMF: Olé, Cl ™, climbing grandiflora, orange-red (2.45410 is a Zuzek shrub). |
+| `clg-candyland` | CLG.CANDYLAND (Carruth, 2007), Climber | 2.40938 | Searched without the CLG. prefix, class Climber. HMF: 'WEKrosopela', Tom Carruth, Large-Flowered Climber; Candyland is its name. |
+| `clg-oh-wow` | CLG.OH WOW (Carruth, 2011), Climber | 2.61780 | Searched without the CLG. prefix, class Climber. HMF: 'Purple Splash ®', Tom Carruth, Large-Flowered Climber; HMF redirects the name. |
+| `clg-painter-s-palette` | CLG.PAINTER'S PALETTE (Moore, 1984), Climber | 2.18968 | Searched without the CLG. prefix, class Climber. HMF: 'MORpale', Moore 1984, miniature; HMF redirects the name (no climbing form listed). |
+| `clg-palais-royal` | CLG.PALAIS ROYAL (Meilland, 2004), Climber | 2.37469 | Searched without the CLG. prefix, class Climber. HMF: 'MEIviowit', white Large-Flowered Climber; HMF redirects the name. |
+| `clg-prosperity` | CLG.PROSPERITY (no breeder, no year), Climber | 2.5005 | Searched without the CLG. prefix, class Climber. HMF: Prosperity, Pemberton 1919, hybrid musk; colour text identical (white, pink undertones); no separate climbing entry on HMF. |
+| `clg-scarlet-midinette` | CLG.SCARLET MIDINETTE (Horner, 2003), Climber | 2.41277 | Searched without the CLG. prefix, class Climber. HMF: 'HORlobster', Horner, Miniature, Cl.; HMF redirects the name. |
+| `clg-super-elfin` | CLG.SUPER ELFIN (Hetzel, 1996), Climber | 2.24286 | Searched without the CLG. prefix, class Climber. HMF: 'HELkleger', Hetzel 1996, Rambler; HMF redirects the name. |
+| `clg-that-s-jazz` | CLG.THAT'S JAZZ (Poulsen, 1994), Climber | 2.22241 | Searched without the CLG. prefix, class Climber. HMF: 'POUlnorm', Olesen/Poulsen, dark red Large-Flowered Climber; HMF redirects the name. |
+| `clg-the-wedgewood-rose` | CLG.THE WEDGEWOOD ROSE (no breeder), Climber | 2.61281 | Searched without the CLG. prefix, class Climber. HMF: The Wedgwood Rose, Austin, Climber/Shrub, rose-pink with blush reverse. |
+| `clg-too-hot-to-handle` | CLG.TOO HOT TO HANDLE (McGredy, 1995), Climber | 2.19814 | Searched without the CLG. prefix, class Climber. HMF: 'MACloupri', McGredy, Large-Flowered Climber; HMF redirects the name. |
+| `clg-tropical-lightning` | CLG.TROPICAL LIGHTNING (Orard, 2016), Climber | 2.72904 | Searched without the CLG. prefix, class Climber. HMF: 'Poséidon ®', Orard, Climber; HMF redirects the name. |
+| `clg-twist` | CLG.TWIST (Poulsen, 2000), Climber | 2.41761 | Searched without the CLG. prefix, class Climber. HMF: Twist ™, Olesen 1993, Large-Flowered Climber (cl. patio). |
+| `clg-pennylane` | CLG.PENNYLANE (Harkness, 1998), Climber | 2.18159 | Searched without the CLG. prefix, class Climber. HMF: Penny Lane, Harkness 1998, Large-Flowered Climber (spelling). |
+| `clg-perinnial-blue` | CLG.PERINNIAL BLUE (Menring, 2004), Climber | 2.41412 | Searched without the CLG. prefix, class Climber. HMF: Perennial Blue ®, Mehring, Large-Flowered Climber (spelling). |
+| `clg-soliel-vertical` | CLG.SOLIEL VERTICAL (Delbard, 2010), Climber | 2.43670 | Searched without the CLG. prefix, class Climber. HMF: 'DELsar', Delbard 2007, yellow; HMF redirects 'Soleil Vertical' (spelling). |
+| `clg-fancy-ruffles` | CLG.FANCY RUFFLES (Interplant), Climber | 2.96344 | Searched without the CLG. prefix, class Climber. HMF: Fancy Ruffle, Climber (spelling). |
 
-## Marked not on HMF (33)
+## Marked not on HMF (36)
 
 | Rose | KSG entry | Reason |
 |---|---|---|
@@ -239,3 +259,6 @@ Every rose in `data/overrides.json` with an `hmf` entry, with the reason. Facts 
 | `summer-time` | SUMMER TIME (Meilland, 2011, Hybrid Tea) | HMF "Summertime" is a Boerner rose (1956); KSG says Meilland 2011 |
 | `barbarella` | BARBARELLA (no breeder, no year, Hybrid Tea) | KSG: peach pink hybrid tea (Ecuadorian). HMF has a yellow-red miniature (Barni 1981) and an orange-red hybrid tea (1973): colour fits neither |
 | `bellisima` | BELLISIMA (Laperriere, 1992, Hybrid Tea) | KSG: non-fading yellow hybrid tea, Laperriere 1992. HMF 'SUNlampo' (synonym Bellisima) is an orange blend by Schuurman, NZ 1998: colour, breeder and year differ |
+| `clg-crimson-boquet` | CLG. CRIMSON BOQUET (Kasturi & Sriram, 2015), Climber | HMF 'Crimson Bouquet' is the Kordes grandiflora; no climbing sport listed |
+| `clg-perfume-royale` | CLG.PERFUME ROYALE (Adam, 2010), Climber | no HMF plant named Perfume Royale or Perfume Royal |
+| `clg-eiffel-2000` | CLG.EIFFEL 2000 (Kordes, 2009), Climber | HMF 'Tour Eiffel 2000' is a red Delbard climber (1998); KSG says light pink, Kordes 2009 |

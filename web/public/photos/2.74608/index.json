@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.74608",
+  "fetchedAt": "2026-10-08T14:10:03.541Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 560,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.458059",
+      "credit": "Elestrial's Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4906788"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 594,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.450238",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "3.webp",
+      "width": 534,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.456673",
+      "credit": "Elestrial's Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4906788"
+    },
+    {
+      "file": "4.webp",
+      "width": 800,
+      "height": 451,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.450237",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    }
+  ]
+}
