@@ -1,0 +1,31 @@
+{
+  "hmfId": "2.81",
+  "sourceUrl": "https://www.helpmefind.com/gardening/l.php?l=2.81",
+  "fetchedAt": "2026-10-08T14:27:53.999Z",
+  "rows": {
+    "Availability": "Commercially available",
+    "Synonyms": "• Heather Rumsey\n• KORnauer\n• KORnuar",
+    "HMF Ratings": "19 favorite votes.",
+    "ARS": "Light pink Hybrid Tea.\nRegistration name: KORnauer",
+    "Origin": "Bred by W. Kordes & Sons (Germany, 1989).",
+    "Class": "Hybrid Tea, Shrub.",
+    "Bloom": "Light pink. Mild fragrance. Blooms in flushes throughout the season.",
+    "Growing": "USDA zone 6b through 9b (default).",
+    "Patents": "Patent status unknown (to HelpMeFind).",
+    "Parentage": "Die Welt ® (hybrid tea, Kordes 1976) ×\nRainy Day ®",
+    "Notes": "Dedicated to Agnes Bernauer (1410-1435), lover of Albrecht III of Bayern, was drowned in the Danube on order of Albrecht's father, who was against what he considered a mesalliance. The tragic story was the basis for numerous literary works."
+  },
+  "colour": "Light pink.",
+  "fragrance": "Mild fragrance.",
+  "classes": [
+    "Hybrid Tea",
+    "Shrub"
+  ],
+  "parentage": {
+    "seed": null,
+    "pollen": null
+  },
+  "synonyms": [],
+  "favorites": 19,
+  "rating": null
+}

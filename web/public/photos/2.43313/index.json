@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.43313",
+  "fetchedAt": "2026-10-08T16:09:00.283Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 600,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.355414",
+      "credit": "Huyustus",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4901866"
+    },
+    {
+      "file": "2.webp",
+      "width": 600,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.355410",
+      "credit": "Huyustus",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4901866"
+    },
+    {
+      "file": "3.webp",
+      "width": 600,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.355413",
+      "credit": "Huyustus",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4901866"
+    },
+    {
+      "file": "4.webp",
+      "width": 600,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.355409",
+      "credit": "Huyustus",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4901866"
+    }
+  ]
+}

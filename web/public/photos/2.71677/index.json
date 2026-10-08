@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.71677",
+  "fetchedAt": "2026-10-08T14:26:45.860Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 630,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.459347",
+      "credit": "Earth Angel Flower Farm",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4906769"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.446852",
+      "credit": "Amy (bug_girl)",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4903887"
+    },
+    {
+      "file": "3.webp",
+      "width": 534,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.456755",
+      "credit": "Elestrial's Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4906788"
+    },
+    {
+      "file": "4.webp",
+      "width": 800,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.443830",
+      "credit": "Amy (bug_girl)",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4903887"
+    }
+  ]
+}

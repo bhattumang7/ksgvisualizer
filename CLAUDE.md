@@ -9,7 +9,7 @@ A searchable, filterable, mobile-friendly catalogue of the roses sold by **K.S.G
 
 ## Status
 
-KSG extraction is done: `python -m pipeline.run` (venv in `pipeline/.venv`) writes `data/raw/entries.json`, `data/roses.json`, `data/breeders.json` and `data/review/extraction-report.md` (1,262 entries). HMF matching is done: `pnpm hmf-search` (see `docs/matching.md`) searched every name, and the fuzzy matches were checked by hand against each plant page (815 exact, 221 decided by hand, 217 none, 2 open in `data/review/hmf-open-cases.md`, every decision logged in `data/review/hmf-decisions.md`). Roses the matcher can't settle are listed in `data/review/hmf-matches.csv`; resolve them with `pnpm hmf-decide ROSE_ID <hmf url | --none | --undo>` in `web/` (writes `data/overrides.json`, see "Resolving what the matcher could not" in `docs/matching.md`). Never hard-code specific roses in the matcher; hand decisions are data.
+KSG extraction is done: `python -m pipeline.run` (venv in `pipeline/.venv`) writes `data/raw/entries.json`, `data/roses.json`, `data/breeders.json` and `data/review/extraction-report.md` (1,262 entries; 1,261 roses after merging a duplicate). HMF matching is done: `pnpm hmf-search` (see `docs/matching.md`) searched every name, and the fuzzy matches were checked by hand against each plant page (844 exact, 352 decided by hand, 61 none, 4 fuzzy, every decision logged in `data/review/hmf-decisions.md`). Roses the matcher can't settle are listed in `data/review/hmf-matches.csv`; resolve them with `pnpm hmf-decide ROSE_ID <hmf url | --none | --undo>` in `web/` (writes `data/overrides.json`, see "Resolving what the matcher could not" in `docs/matching.md`). Never hard-code specific roses in the matcher; hand decisions are data.
 
 ## Core rules
 

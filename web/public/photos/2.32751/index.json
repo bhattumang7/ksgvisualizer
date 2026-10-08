@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.32751",
+  "fetchedAt": "2026-10-08T15:59:22.529Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 650,
+      "height": 488,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.126732",
+      "credit": "Fredrik",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.108912"
+    },
+    {
+      "file": "2.webp",
+      "width": 413,
+      "height": 550,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.126730",
+      "credit": "Fredrik",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.108912"
+    },
+    {
+      "file": "3.webp",
+      "width": 650,
+      "height": 488,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.126731",
+      "credit": "Fredrik",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.108912"
+    },
+    {
+      "file": "4.webp",
+      "width": 650,
+      "height": 432,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.125830",
+      "credit": "FilRoses",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.159230"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.3776",
+  "fetchedAt": "2026-10-08T16:14:13.202Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.200949",
+      "credit": "Labrador",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.844910"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 655,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.188510",
+      "credit": "Labrador",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.844910"
+    },
+    {
+      "file": "3.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.200948",
+      "credit": "Labrador",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.844910"
+    },
+    {
+      "file": "4.webp",
+      "width": 385,
+      "height": 400,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.44254",
+      "credit": "Cliff",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.280"
+    }
+  ]
+}

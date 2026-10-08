@@ -2,7 +2,7 @@
 
 Every rose in `data/overrides.json` with an `hmf` entry, with the reason. Facts were read from each HMF plant page (saved temporarily in `cache/hmf-verify/`, gitignored). Undo with `pnpm hmf-decide ROSE_ID --undo`.
 
-## Linked to an HMF plant (215)
+## Linked to an HMF plant (352)
 
 | Rose | KSG entry | HMF plant | Reason |
 |---|---|---|---|
@@ -221,44 +221,165 @@ Every rose in `data/overrides.json` with an `hmf` entry, with the reason. Facts 
 | `clg-perinnial-blue` | CLG.PERINNIAL BLUE (Menring, 2004), Climber | 2.41412 | Searched without the CLG. prefix, class Climber. HMF: Perennial Blue ®, Mehring, Large-Flowered Climber (spelling). |
 | `clg-soliel-vertical` | CLG.SOLIEL VERTICAL (Delbard, 2010), Climber | 2.43670 | Searched without the CLG. prefix, class Climber. HMF: 'DELsar', Delbard 2007, yellow; HMF redirects 'Soleil Vertical' (spelling). |
 | `clg-fancy-ruffles` | CLG.FANCY RUFFLES (Interplant), Climber | 2.96344 | Searched without the CLG. prefix, class Climber. HMF: Fancy Ruffle, Climber (spelling). |
+| `abigail` | ABIGAIL (Tantau, 1992, Floribunda) | 2.17128 | Spelling variant: HMF 'Abigaile ®' (TANelaigib), Hans Jürgen Evers for Rosen-Tantau (Germany, 1988), Floribunda, pink blend; Tantau's note says Abigaile is the correct name. KSG: Silver pink and deep carmine. |
+| `agnes-bernaur` | AGNES BERNAUR (Kordes, 1989, Hybrid Tea) | 2.81 | Misspelt in the catalogue; HMF 'Agnes Bernauer', Kordes, light pink Hybrid Tea. Identified by the user. |
+| `alderly-park` | ALDERLY PARK (Fryer, 2007, Floribunda) | 2.43494 | Misspelt in the catalogue; HMF 'Alderley Park', Gareth Fryer, light pink Floribunda. Identified by the user. |
+| `apricola` | APRICOLA (Kordes, 2000, Floribunda) | 2.32155 | Misspelt in the catalogue; HMF 'Aprikola ®', apricot blend Floribunda. Identified by the user. |
+| `burgundy-panorosa` | BURGUNDY PANOROSA (Kordes, 2012, Hybrid Tea) | 2.67218 | HMF 'Burgundy Panarosa' (Tim Kordes), Hybrid Tea. Identified by the user. The catalogue lists it twice (p33 as Hybrid Tea, p79 as Shrub); `burgundy-panorosa-2` is merged into this entry (`merge_into` in `data/overrides.json`). |
+| `california-dreamin` | CALIFORNIA DREAMIN' (Meilland, 2009, Hybrid Tea) | 2.45618 | HMF 'California Dreamin' ™', Mouchotte, Hybrid Tea, mauve blend. Identified by the user. |
+| `carmousine` | CARMOUSINE (Laperriere, 1984, Hybrid Tea) | 2.39874 | Misspelt in the catalogue; HMF 'Carmoisine', Louis Laperrière, medium red Hybrid Tea. Identified by the user. |
+| `carribean` | CARRIBEAN (Kordes, 1992, Hybrid Tea) | 2.979 | Misspelt in the catalogue; HMF 'Caribbean ™', Kordes, apricot blend Grandiflora. Identified by the user. |
+| `catherine-denevue` | CATHERINE DENEVUE (Meilland, 1981, Hybrid Tea) | 2.19688 | Misspelt in the catalogue; HMF 'Catherine Deneuve ®', Meilland, Hybrid Tea. Identified by the user. |
+| `brittania` | BRITTANIA (Fryer, 1998, Hybrid Tea) | 2.18162 | Misspelt or alternate name in the catalogue; HMF 'Britannia', Gareth Fryer, Hybrid Tea. Checked on the plant page. |
+| `puedouce` | PUEDOUCE (Dickson, 1981, Hybrid Tea) | 2.2588 | Misspelt or alternate name in the catalogue; HMF 'Elina (synonym Peaudouce)', Colin Dickson, Hybrid Tea. Checked on the plant page. |
+| `soliel-du-munde` | SOLIEL DU MUNDE (Delbard, 2008, Hybrid Tea) | 2.45906 | Misspelt or alternate name in the catalogue; HMF 'Soleil du Monde', Delbard, Floribunda. Checked on the plant page. |
+| `soviens-toi` | SOVIENS TOI (Kriloff, 1987, Hybrid Tea) | 2.32972 | Misspelt or alternate name in the catalogue; HMF 'Souviens-Toi', Michel Kriloff, 1986, Floribunda. Checked on the plant page. |
+| `summer-time` | SUMMER TIME (Meilland, 2011, Hybrid Tea) | 2.65354 | Misspelt or alternate name in the catalogue; HMF 'Summertime', Michèle Meilland Richardier, Hybrid Tea. Checked on the plant page. |
+| `sun-bright` | SUN BRIGHT (Warriner, 1984, Hybrid Tea) | 2.6032 | Misspelt or alternate name in the catalogue; HMF 'Sunbright ®', W. A. Warriner, Hybrid Tea. Checked on the plant page. |
+| `up-town-girl` | UP TOWN GIRL (Carruth, 2011, Hybrid Tea) | 2.66208 | Misspelt or alternate name in the catalogue; HMF 'Uptown Girl™', Tom Carruth, 2011, Grandiflora. Checked on the plant page. |
+| `bad-barnibach` | BAD BARNIBACH (Kordes, 1999, Floribunda) | 2.62605 | Misspelt or alternate name in the catalogue; HMF 'Electric Balconia ® (synonym Bad Birnbach)', Reimer Kordes, 1983, Floribunda, Shrub. Checked on the plant page. |
+| `la-savillana` | LA SAVILLANA (Meilland, 1978, Floribunda) | 2.3678 | Misspelt or alternate name in the catalogue; HMF 'La Sevillana ®', Meilland, 1969, Floribunda, Shrub. Checked on the plant page. |
+| `marlyn-munroe` | MARLYN MUNROE (Carruth, 2002, Hybrid Tea) | 2.34107 | Misspelt or alternate name in the catalogue; HMF 'Marilyn Monroe ™', Tom Carruth, Hybrid Tea. Checked on the plant page. |
+| `moon-stone` | MOON STONE (Carruth, 1998, Hybrid Tea) | 2.898 | Misspelt or alternate name in the catalogue; HMF 'Moonstone ™ (HMF title Cadillac DeVille ®)', Tom Carruth, 1998, Hybrid Tea. Checked on the plant page. |
+| `evenlyne-dheliat` | EVENLYNE DHELIAT (Sauvageot, 2007, Hybrid Tea) | 2.43313 | Misspelt or alternate name in the catalogue; HMF 'Evelyne Dheliat ®', Bernard Sauvageot, 2006, Hybrid Tea. Checked on the plant page. |
+| `fredric-mistral` | FREDRIC MISTRAL (Meilland, 1998, Hybrid Tea) | 2.2853 | Misspelt or alternate name in the catalogue; HMF 'Frederic Mistral ®', Alain Meilland, Hybrid Tea. Checked on the plant page. |
+| `julia-rose` | JULIA ROSE (Tystermann, 1974, Hybrid Tea) | 2.3551 | Misspelt or alternate name in the catalogue; HMF 'Julia's Rose', Willem E. Tysterman, 1976, Floribunda, Hybrid Tea. Checked on the plant page. |
+| `ochi-di-fita` | OCHI DI FITA (Barni, 2005, Shrub) | 2.42109 | Misspelt or alternate name in the catalogue; HMF 'Occhi di Fata ®', Enrico Barni, 2004, Floribunda. Checked on the plant page. |
+| `avante-garde` | AVANTE GARDE (Delbard, 2003, Hybrid Tea) | 2.65428 | Misspelt or alternate name in the catalogue; HMF 'Avant-Garde', see HMF page, Hybrid Tea. Checked on the plant page. |
+| `bellisima` | BELLISIMA (Laperriere, 1992, Hybrid Tea) | 2.35053 | Misspelt or alternate name in the catalogue; HMF 'Bellissima ®', Louis Laperrière (France, before 1989), Hybrid Tea. Checked on the plant page. |
+| `caritas` | CARITAS (Poulsen, 2002, Hybrid Tea) | 2.31690 | Misspelt or alternate name in the catalogue; HMF 'Grenadine ™', see HMF page, Hybrid Tea. Checked on the plant page. |
+| `corpus-christie` | CORPUS CHRISTIE (Weeks, 1985, Hybrid Tea) | 2.1331 | Misspelt or alternate name in the catalogue; HMF 'Corpus Christi', see HMF page, Hybrid Tea. Checked on the plant page. |
+| `comtesse-de-provence` | COMTESSE DE PROVENCE (Meilland, 2002, Hybrid Tea) | 2.39752 | Misspelt or alternate name in the catalogue; HMF 'Liv Tyler ®', Alain Meilland (1940-, Hybrid Tea. Checked on the plant page. |
+| `deborah-beggs-moncrief` | DEBORAH BEGGS MONCRIEF (J.H.Williams, 1995, Hybrid Tea) | 2.1480 | Misspelt or alternate name in the catalogue; HMF 'Deborah Moncrief ™', see HMF page, Hybrid Tea. Checked on the plant page. |
+| `diane-de-poitiers` | DIANE DE POITIERS (no breeder, no year, Hybrid Tea) | 2.43578 | Misspelt or alternate name in the catalogue; HMF 'Diane de Poitiers', Paul Croix (1924-1999) (France, 1985), Hybrid Tea. Checked on the plant page. |
+| `ecole-d-ecolly` | ECOLE D'ECOLLY (Laperriere, 1988, Hybrid Tea) | 2.32487 | Misspelt or alternate name in the catalogue; HMF 'École d'Ecully®', Louis Laperrière (France, 1988), Hybrid Tea. Checked on the plant page. |
+| `elina` | ELINA (NIRP, 1984, Hybrid Tea) | 2.2588 | Misspelt or alternate name in the catalogue; HMF 'Elina ®', Colin Dickson (1956-, Hybrid Tea. Checked on the plant page. |
+| `fanny-ardent` | FANNY ARDENT (Adam, 2004, Hybrid Tea) | 2.39449 | Misspelt or alternate name in the catalogue; HMF 'ADArocona', Michel Adam (France, before 2001), Hybrid Tea. Checked on the plant page. |
+| `first-federal-s-rennaissance` | FIRST FEDERAL'S RENNAISSANCE (Warriner, 1980, Hybrid Tea) | 2.2760 | Misspelt or alternate name in the catalogue; HMF 'First Federal's Renaissance', William A, Hybrid Tea. Checked on the plant page. |
+| `forever` | FOREVER (Armstrong, 1978, Hybrid Tea) | 2.33248 | Misspelt or alternate name in the catalogue; HMF 'Forever', Hendrik W, Hybrid Tea. Checked on the plant page. |
+| `fortyniner` | FORTYNINER (Swim, 1949, Hybrid Tea) | 2.2811 | Misspelt or alternate name in the catalogue; HMF 'Forty-niner', Herbert C, Hybrid Tea. Checked on the plant page. |
+| `glowing-peace` | GLOWING PEACE (Meilland, 2000, Hybrid Tea) | 2.26374 | Misspelt or alternate name in the catalogue; HMF 'Glowing Peace', Meilland International (France, 1998), Grandiflora, Hybrid Tea. Checked on the plant page. |
+| `golden-age` | GOLDEN AGE (Certified, 2003, Hybrid Tea) | 2.34121 | Misspelt or alternate name in the catalogue; HMF 'Golden Age', John & Robyn Sheldon (United States, 2001), Hybrid Tea. Checked on the plant page. |
+| `golden-medallon` | GOLDEN MEDALLON (Kordes, 1984, Hybrid Tea) | 2.3822 | Misspelt or alternate name in the catalogue; HMF 'Limelight', Reimer Kordes (1922-1997) (Germany, 1984), Hybrid Tea. Checked on the plant page. |
+| `goethe-rose` | GOETHE ROSE (Tantau, 2011, Hybrid Tea) | 2.61916 | Misspelt or alternate name in the catalogue; HMF 'Johann Wolfgang von Goethe ®', Hans Jürgen Evers (1940-2007) (Germany, 2004), Hybrid Tea. Checked on the plant page. |
+| `gundis-rose` | GUNDIS ROSE (Kordes, 2007, Hybrid Tea) | 2.3647 | Misspelt or alternate name in the catalogue; HMF 'Konrad Henkel', Reimer Kordes (1922-1997) (Germany, 1977), Hybrid Tea. Checked on the plant page. |
+| `impertrice-farah` | IMPERTRICE FARAH (Delbard, 1992, Hybrid Tea) | 2.3376 | Misspelt or alternate name in the catalogue; HMF 'Impératrice Farah ®', see HMF page, Hybrid Tea. Checked on the plant page. |
+| `ingrid-bergmann` | INGRID BERGMANN (Poulson, 1986, Hybrid Tea) | 2.3389 | Misspelt or alternate name in the catalogue; HMF 'Ingrid Bergman ®', see HMF page, Hybrid Tea. Checked on the plant page. |
+| `jardenero-ortiz` | JARDENERO ORTIZ (Dot, 1969, Hybrid Tea) | 2.39949 | Misspelt or alternate name in the catalogue; HMF 'Jardinero Ortiz', Simon (Simó) Dot (Spain, before 1969), Hybrid Tea. Checked on the plant page. |
+| `joquina-munoz` | JOQUINA MUNOZ (Dot, 1960, Hybrid Tea) | 2.19735 | Misspelt or alternate name in the catalogue; HMF 'Rose Search', see HMF page, . Checked on the plant page. |
+| `just-joey` | JUST JOEY (Cant, 1974, Hybrid Tea) | 2.3564 | Misspelt or alternate name in the catalogue; HMF 'Just Joey', see HMF page, Hybrid Tea. Checked on the plant page. |
+| `kupfer-konigin` | KUPFER KONIGIN (Kordes, 1966, Hybrid Tea) | 2.36775 | Misspelt or alternate name in the catalogue; HMF 'Kupferkönigin ™', see HMF page, Hybrid Tea. Checked on the plant page. |
+| `la-rose-petit-prince` | LA ROSE PETIT PRINCE (Delbard, 2009, Hybrid Tea) | 2.47328 | Misspelt or alternate name in the catalogue; HMF 'La du Petit Prince', see HMF page, Floribunda, Hybrid Tea. Checked on the plant page. |
+| `leana` | LEANA (Ludwig, 1993, Hybrid Tea) | 2.3776 | Misspelt or alternate name in the catalogue; HMF 'Leana', Jozef Orye (Belgium, before 2008), Hybrid Tea. Checked on the plant page. |
+| `lolita-lempica` | LOLITA LEMPICA (Meilland, 2002, Hybrid Tea) | 2.32349 | Misspelt or alternate name in the catalogue; HMF 'Peter Mayle ™', Alain Meilland (1940-, Florists Rose, Hybrid Tea. Checked on the plant page. |
+| `machoman` | MACHOMAN (A.Perry, 1999, Hybrid Tea) | 2.26498 | Misspelt or alternate name in the catalogue; HMF 'PERmach', Astor Perry (United States, 1999), Hybrid Tea. Checked on the plant page. |
+| `majestic` | MAJESTIC (Poulsen, 2001, Hybrid Tea) | 2.42120 | Misspelt or alternate name in the catalogue; HMF 'Majestic ™', see HMF page, Hybrid Tea. Checked on the plant page. |
+| `marchen-konigin` | MARCHEN KONIGIN (Kordes, 1987, Hybrid Tea) | 2.844 | Misspelt or alternate name in the catalogue; HMF 'Bride's Dream', Reimer Kordes (1922-1997) (Germany, 1985), Hybrid Tea. Checked on the plant page. |
+| `melodie-perfume` | MELODIE PERFUME (Dorrieux, 1995, Hybrid Tea) | 2.2094 | Misspelt or alternate name in the catalogue; HMF 'Melody Parfumée ™', Francois Dorieux II (1955-2015) (France, 1992), Grandiflora. Checked on the plant page. |
+| `milkyway` | MILKYWAY (Lisnik, 1992, Hybrid Tea) | 2.20719 | Misspelt or alternate name in the catalogue; HMF 'Milky Way', Gerrit Pieter Ilsink (Netherlands, before 1989), Hybrid Tea. Checked on the plant page. |
+| `mme-teresa-estabin` | MME.TERESA ESTABIN (Dot, 1983, Hybrid Tea) | 2.1313 | Misspelt or alternate name in the catalogue; HMF 'Coral Fiesta ®', Simon (Simó) Dot (Spain, 1983), Hybrid Tea. Checked on the plant page. |
+| `moon-drops` | MOON DROPS (Delforge, 1985, Hybrid Tea) | 2.4372 | Misspelt or alternate name in the catalogue; HMF 'Moondrops 85', Wilfried Delforge / Select Delforge (Belgium, 1985), Hybrid Tea. Checked on the plant page. |
+| `my-lovely-dad` | MY LOVELY DAD (Fryer, 2010, Hybrid Tea) | 2.50770 | Misspelt or alternate name in the catalogue; HMF 'Moody Blue', Gareth Fryer (1948-, Hybrid Tea. Checked on the plant page. |
+| `october-fest` | OCTOBER FEST (McGredy, 1999, Hybrid Tea) | 2.19812 | Misspelt or alternate name in the catalogue; HMF 'MAClanter', Samuel Darragh (1932-2019) McGredy IV (1989), Grandiflora. Checked on the plant page. |
+| `paul-gauguin` | PAUL GAUGUIN (Meilland, 2009, Hybrid Tea) | 2.41028 | Misspelt or alternate name in the catalogue; HMF 'Paul Gauguin ®', see HMF page, Shrub. Checked on the plant page. |
+| `prestige-de-lyon` | PRESTIGE DE LYON (no breeder, 1992, Hybrid Tea) | 2.18928 | Misspelt or alternate name in the catalogue; HMF '21 Again!', Alain Meilland (1940-, Hybrid Tea. Checked on the plant page. |
+| `primosole` | PRIMOSOLE (Barni, no year, Hybrid Tea) | 2.28379 | Misspelt or alternate name in the catalogue; HMF 'Primo Sole ®', Vittorio Barni (1914-1999) (Italy, 1987), Hybrid Tea. Checked on the plant page. |
+| `pulman-orient-express` | PULMAN ORIENT EXPRESS (Twomy, 2001, Hybrid Tea) | 2.33736 | Misspelt or alternate name in the catalogue; HMF 'BAIpeace', Peter Ping Lim ：林 彬 (United States, 1991), Hybrid Tea. Checked on the plant page. |
+| `shinoburedo` | SHINOBUREDO (Kei, 2007, Hybrid Tea) | 2.70515 | Misspelt or alternate name in the catalogue; HMF 'Shinoburedo', Keisei Rose Nursery (Japan, 2006), Hybrid Tea. Checked on the plant page. |
+| `shreveport` | SHREVEPORT (Kordes, 1981, Hybrid Tea) | 2.5747 | Misspelt or alternate name in the catalogue; HMF 'Shreveport ™', Reimer Kordes (1922-1997) (Germany, 1981), Floribunda, Grandiflora, Hybrid Tea. Checked on the plant page. |
+| `silver-anniversary` | SILVER ANNIVERSARY (Olesan, 1996, Hybrid Tea) | 2.3578 | Misspelt or alternate name in the catalogue; HMF 'Karen Blixen ™', see HMF page, Hybrid Tea. Checked on the plant page. |
+| `smoking-hot` | SMOKING HOT (Bedard, 2014, Hybrid Tea) | 2.72450 | Misspelt or alternate name in the catalogue; HMF 'WEKmopaga', Christian Bédard (United States, before 2012), Hybrid Tea. Checked on the plant page. |
+| `spell-caster` | SPELL CASTER (Warriner, 1992, Hybrid Tea) | 2.2436 | Misspelt or alternate name in the catalogue; HMF 'Spellcaster', William A, Grandiflora. Checked on the plant page. |
+| `steve-hoffmeyr` | STEVE HOFFMEYR (Delbard, 2009, Hybrid Tea) | 2.76326 | Misspelt or alternate name in the catalogue; HMF 'Rose Search', see HMF page, . Checked on the plant page. |
+| `stepping-out` | STEPPING OUT (Bridges, 1995, Hybrid Tea) | 2.5969 | Misspelt or alternate name in the catalogue; HMF 'Steppin' Out', Dennis A, Hybrid Tea. Checked on the plant page. |
+| `therese-de-lisieux` | THERESE DE LISIEUX (Winchel, 1993, Hybrid Tea) | 2.32446 | Misspelt or alternate name in the catalogue; HMF 'Thérèse de Lisieux ®', Joseph Orard (France, before 1991), Hybrid Tea. Checked on the plant page. |
+| `tira-misu` | TIRA MISU (Teranishi, 1994, Hybrid Tea) | 2.24172 | Misspelt or alternate name in the catalogue; HMF 'Tira-Mi-Su', Kikuo Teranishi (Japan, 1999), Hybrid Tea. Checked on the plant page. |
+| `tsuki-akari` | TSUKI AKARI (Ota, 1984, Hybrid Tea) | 2.26048 | Misspelt or alternate name in the catalogue; HMF 'Tsukiakari', Kaichiro Ōta (Japan, 1984), Hybrid Tea. Checked on the plant page. |
+| `valencia-89` | VALENCIA '89 (Kordes, 1989, Hybrid Tea) | 2.4465 | Misspelt or alternate name in the catalogue; HMF 'New Valencia', see HMF page, Hybrid Tea. Checked on the plant page. |
+| `variegata-de-barni` | VARIEGATA DE BARNI (Barni, 2008, Hybrid Tea) | 2.46323 | Misspelt or alternate name in the catalogue; HMF 'Variegata di Barni ®', see HMF page, Hybrid Tea. Checked on the plant page. |
+| `violon-d-ingress` | VIOLON D'INGRESS (Meilland, 2001, Hybrid Tea) | 2.33060 | Misspelt or alternate name in the catalogue; HMF 'Violon d'Ingres', Michèle Meilland Richardier (France, before 2000), Hybrid Tea. Checked on the plant page. |
+| `westminister-pink` | WESTMINISTER PINK (Fryer, 1998, Hybrid Tea) | 2.18186 | Misspelt or alternate name in the catalogue; HMF 'Westminster Pink', Gareth Fryer (1948-, Hybrid Tea. Checked on the plant page. |
+| `winning-colours` | WINNING COLOURS (Twomey, 1989, Hybrid Tea) | 2.6595 | Misspelt or alternate name in the catalogue; HMF 'Winning Colors ™', Jerry F, Grandiflora, Hybrid Tea. Checked on the plant page. |
+| `vishwakalyan` | VISHWAKALYAN (Dr.K.Chakraborty, no year, Hybrid Tea) | 2.72238 | Misspelt or alternate name in the catalogue; HMF 'Viswakalyan', see HMF page, Hybrid Tea. Checked on the plant page. |
+| `boquet-de-mariee` | BOQUET DE MARIEE (Delbard, 2010, Floribunda) | 2.61390 | Misspelt or alternate name in the catalogue; HMF 'Bouquet de Mariée', see HMF page, Floribunda. Checked on the plant page. |
+| `bright-pink-iceberg` | BRIGHT PINK ICEBERG (Weatherly, 2000, Floribunda) | 2.24372 | Misspelt or alternate name in the catalogue; HMF 'PRObril', see HMF page, Floribunda. Checked on the plant page. |
+| `burgundy-ice` | BURGUNDY ICE (Prose, 2005, Floribunda) | 2.37596 | Misspelt or alternate name in the catalogue; HMF 'Burgundy Iceberg', see HMF page, Floribunda. Checked on the plant page. |
+| `centinaire-de-lourdes-rose` | CENTINAIRE DE LOURDES ROSE (Delbard, no year, Floribunda) | 2.1039 | Misspelt or alternate name in the catalogue; HMF 'Centenaire de Lourdes ®', André Delbard-Chabert (1915-2012) (France, before 1958), Floribunda. Checked on the plant page. |
+| `centinaire-de-lourdes-rouge` | CENTINAIRE DE LOURDES ROUGE (Delbard, 1992, Floribunda) | 2.17433 | Misspelt or alternate name in the catalogue; HMF 'Centenaire de Lourdes Rouge ®', see HMF page, Floribunda. Checked on the plant page. |
+| `clos-fleur-bicolour` | CLOS FLEUR BICOLOUR (Delbard Chabert, 1988, Floribunda) | 2.38956 | Misspelt or alternate name in the catalogue; HMF 'Clos Fleuri Bicolore ®', André Delbard-Chabert (1915-2012) (France, 1988), Floribunda. Checked on the plant page. |
+| `crispin-morwena` | CRISPIN MORWENA (Harkness, 1982, Floribunda) | 2.24224 | Misspelt or alternate name in the catalogue; HMF 'HARkitten', Harkness & Co, Miniature. Checked on the plant page. |
+| `drop-dead-red` | DROP DEAD RED (Carruth, 2008, Floribunda) | 2.58895 | Misspelt or alternate name in the catalogue; HMF 'Rose Search', see HMF page, . Checked on the plant page. |
+| `garden-of-roses` | GARDEN OF ROSES (Kordes, 2007, Floribunda) | 2.46662 | Misspelt or alternate name in the catalogue; HMF 'Cream Flower Circus ®', Tim Hermann Kordes (Germany, 1997), Floribunda, Patio, Shrub. Checked on the plant page. |
+| `gartenspar` | GARTENSPAR (Kordes, 2008, Floribunda) | 2.61618 | Misspelt or alternate name in the catalogue; HMF 'Gartenspaß ®', Tim Hermann Kordes (Germany, 2001), Floribunda. Checked on the plant page. |
+| `golden-wedding` | GOLDEN WEDDING (Bear creek, 1990, Floribunda) | 2.3052 | Misspelt or alternate name in the catalogue; HMF 'Golden Wedding', Jack E, Floribunda. Checked on the plant page. |
+| `joachim-du-billay` | JOACHIM DU BILLAY (Sauvageot, 2004, Floribunda) | 2.41010 | Misspelt or alternate name in the catalogue; HMF 'Joachim du Bellay ®', Bernard Sauvageot (France, 2004), Floribunda. Checked on the plant page. |
+| `joie-de-vivre` | JOIE DE VIVRE (Kordes, 2010, Floribunda) | 2.46662 | Misspelt or alternate name in the catalogue; HMF 'Cream Flower Circus ®', Tim Hermann Kordes (Germany, 1997), Floribunda, Patio, Shrub. Checked on the plant page. |
+| `jugendlibe` | JUGENDLIBE (Kordes, 2010, Floribunda) | 2.41212 | Misspelt or alternate name in the catalogue; HMF 'KORtutu', Tim Hermann Kordes (Germany, 2000), Floribunda, Shrub. Checked on the plant page. |
+| `justice-of-peace` | JUSTICE OF PEACE (Fryer, 2012, Floribunda) | 2.75315 | Misspelt or alternate name in the catalogue; HMF 'Justice of the Peace', Gareth Fryer (1948-, Floribunda. Checked on the plant page. |
+| `lavender-simplicity` | LAVENDER SIMPLICITY (J & P, 2005, Floribunda) | 2.38295 | Misspelt or alternate name in the catalogue; HMF 'Fragrant Lavender Simplicity ®', see HMF page, Shrub. Checked on the plant page. |
+| `little-miss-sunshine` | LITTLE MISS SUNSHINE (Dickson, 2012, Floribunda) | 2.64373 | Misspelt or alternate name in the catalogue; HMF 'Rose Search', see HMF page, . Checked on the plant page. |
+| `my-lovely-mum` | MY LOVELY MUM (Fryer, 2011, Floribunda) | 2.39790 | Misspelt or alternate name in the catalogue; HMF 'Keep Smiling', Gareth Fryer (1948-, Hybrid Tea. Checked on the plant page. |
+| `niso-fumigalli` | NISO FUMIGALLI (Barni, 2006, Floribunda) | 2.44252 | Misspelt or alternate name in the catalogue; HMF 'Niso Fumagalli ®', Anna Medici Barni (Italy, 2005), Floribunda. Checked on the plant page. |
+| `novalis` | NOVALIS (Kordes, 2004, Floribunda) | 2.63414 | Misspelt or alternate name in the catalogue; HMF 'Novalis ®', Tim Hermann Kordes (Germany, 2004), Floribunda. Checked on the plant page. |
+| `nurse-tracy-davis` | NURSE TRACY DAVIS (Fryer, 2006, Floribunda) | 2.41027 | Misspelt or alternate name in the catalogue; HMF 'Frykookie', Gareth Fryer (1948-, Floribunda. Checked on the plant page. |
+| `plein-soliel` | PLEIN SOLIEL (Leperriere, 1991, Floribunda) | 2.28400 | Misspelt or alternate name in the catalogue; HMF 'Plein Soleil', Louis Laperrière (France, 1991), Floribunda. Checked on the plant page. |
+| `regensburg` | REGENSBURG (McGredy, 1979, Floribunda) | 2.2314 | Misspelt or alternate name in the catalogue; HMF 'Regensberg', Samuel Darragh (1932-2019) McGredy IV (1973), Floribunda, Shrub. Checked on the plant page. |
+| `rhapsody-in-blue` | RHAPSODY IN BLUE (Cowlisah, 2005, Floribunda) | 2.24115 | Misspelt or alternate name in the catalogue; HMF 'FRAntasia', Frank R, Shrub. Checked on the plant page. |
+| `tenacious` | TENACIOUS (McGredy, 2004, Floribunda) | 2.39343 | Misspelt or alternate name in the catalogue; HMF 'Rose Search', see HMF page, . Checked on the plant page. |
+| `the-jubilee-rose` | THE JUBILEE ROSE (Poulsen, 1998, Floribunda) | 2.32751 | Misspelt or alternate name in the catalogue; HMF 'P.G. Wodehouse ®', see HMF page, Hybrid Tea. Checked on the plant page. |
+| `the-soroptomist-rose` | THE SOROPTOMIST ROSE (Bernadella, 1994, Floribunda) | 2.374 | Misspelt or alternate name in the catalogue; HMF 'Astra', Frank A, Mini-Flora, Miniature, Patio. Checked on the plant page. |
+| `tropical-sherbat` | TROPICAL SHERBAT (Keihan, 2003, Floribunda) | 2.61602 | Misspelt or alternate name in the catalogue; HMF 'Tropical Sherbet', Ken Osanai (Japan, before 2003), Floribunda. Checked on the plant page. |
+| `vodacom` | VODACOM (Kordes, 2009, Floribunda) | 2.66318 | Misspelt or alternate name in the catalogue; HMF 'Rose Search', see HMF page, . Checked on the plant page. |
+| `allegro-symphony` | ALLEGRO SYMPHONY (Meilland, 2002, Miniature) | 2.38902 | Misspelt or alternate name in the catalogue; HMF 'Allegro Symphonie ®', Meilland International (France, 2003), Miniature. Checked on the plant page. |
+| `blue-blood` | BLUE BLOOD (Laver, 1982, Miniature) | 2.766 | Misspelt or alternate name in the catalogue; HMF 'Blueblood ™', Keith G, Miniature. Checked on the plant page. |
+| `cotton-tail` | COTTON TAIL (Strawn, 1983, Miniature) | 2.1341 | Misspelt or alternate name in the catalogue; HMF 'Cottontail', Leslie E, Miniature. Checked on the plant page. |
+| `sassy-lassie` | SASSY LASSIE (Williams, no year, Miniature) | 2.5624 | Misspelt or alternate name in the catalogue; HMF 'Sassy Lassy', Ernest D, Miniature. Checked on the plant page. |
+| `flambouyant` | FLAMBOUYANT (Turbat, 1931, Polyantha) | 2.19435 | Misspelt or alternate name in the catalogue; HMF 'Flamboyant', Eugène Turbat & Compagnie (France, 1931), Polyantha. Checked on the plant page. |
+| `ideal` | IDEAL (Speck, 2021, Polyantha) | 2.3365 | Misspelt or alternate name in the catalogue; HMF 'Ideal', see HMF page, Polyantha. Checked on the plant page. |
+| `sneprincess` | SNEPRINCESS (Gootendorst, 1946, Polyantha) | 2.19458 | Misspelt or alternate name in the catalogue; HMF 'Sneprinsesse ®', see HMF page, Polyantha. Checked on the plant page. |
+| `juanito` | JUANITO (Kordes, 2006, Shrub) | 2.44027 | Misspelt or alternate name in the catalogue; HMF 'KORalbeid', see HMF page, Shrub. Checked on the plant page. |
+| `prodige-ecarlte` | PRODIGE ECARLTE (Meilland, 2009, Shrub) | 2.61616 | Misspelt or alternate name in the catalogue; HMF 'Prodige Ecarlate ®', Meilland International (France, before 2009), Shrub. Checked on the plant page. |
+| `pink-knock-out` | PINK KNOCK OUT (Radlan, 2004, Shrub) | 2.37629 | Misspelt or alternate name in the catalogue; HMF 'Pink Knock Out ®', see HMF page, Shrub. Checked on the plant page. |
+| `clg-apricot-midinette` | CLG. APRICOT MIDINETTE (no breeder, no year, Climber) | 2.20691 | Misspelt or alternate name in the catalogue; HMF 'Patio Flame', see HMF page, Miniature. Checked on the plant page. |
+| `chalis-gold` | CHALIS GOLD (Greensitt, 1986, Hybrid Tea) | 2.29572 | Misspelt or alternate name in the catalogue; HMF 'Challis Gold' (NOSchal), Greensitt 1986, deep yellow Hybrid Tea. Checked on the plant page. |
+| `moncheri` | MONCHERI (Christensen, 1982, Hybrid Tea) | 2.4351 | Misspelt or alternate name in the catalogue; HMF 'Mon Cheri', Christensen 1981, Hybrid Tea. Checked on the plant page. |
+| `scarlet-night` | SCARLET NIGHT (Meilland, 1966, Hybrid Tea) | 2.5637 | Misspelt or alternate name in the catalogue; HMF 'Scarlet Knight', Meilland before 1966, Grandiflora. Checked on the plant page. |
+| `queen-mary` | QUEEN MARY (Meilland, 2004, Hybrid Tea) | 2.37406 | Misspelt or alternate name in the catalogue; HMF 'Queen Mary 2' (MEIfaissel), Meilland, white Hybrid Tea. Checked on the plant page. |
+| `mr-blue-bird` | MR.BLUE BIRD (Moore, 1960, Miniature) | 2.4293 | Misspelt or alternate name in the catalogue; HMF 'Mr. Bluebird', Moore 1960, Miniature. Checked on the plant page. |
+| `valentine-day` | VALENTINE DAY (Carruth, 2004, Miniature) | 2.37382 | Misspelt or alternate name in the catalogue; HMF "Valentine's Day" (WEKamrav), Carruth, Mini-Flora. Checked on the plant page. |
+| `leeudoorn-s-first-choice` | LEEUDOORN'S FIRST CHOICE (Harkness, 2005, Floribunda) | 2.43527 | Misspelt or alternate name in the catalogue; HMF 'The Brownie Rose', Harkness 2005, sold in South Africa as 'Leeudoorn'. Checked on the plant page. |
+| `maria-mcgredy` | MARIA MCGREDY (McGredy, 2001, Hybrid Tea) | 2.19822 | Misspelt or alternate name in the catalogue; HMF 'Maria McGredy' (MACturang), McGredy, Hybrid Tea. Checked on the plant page. |
+| `purple-passion` | PURPLE PASSION (Zary, 1999, Hybrid Tea) | 2.25130 | Misspelt or alternate name in the catalogue; HMF 'Purple Passion' (JAColpur), Zary, Hybrid Tea / Grandiflora. Checked on the plant page. |
+| `orange-n-lemons` | ORANGE 'N LEMONS (McGredy, 1994, Floribunda) | 2.4594 | Misspelt or alternate name in the catalogue; HMF "Oranges 'n' Lemons", McGredy, Floribunda / Shrub. Checked on the plant page. |
+| `orange-n-lemons-2` | ORANGE 'N LEMONS (McGredy, 1994, Shrub) | 2.4594 | Misspelt or alternate name in the catalogue; HMF "Oranges 'n' Lemons", McGredy, Floribunda / Shrub; same plant as the other catalogue entry. Checked on the plant page. |
+| `jackwood` | JACKWOOD (Fryer, 1999, Floribunda) | 2.24465 | Misspelt or alternate name in the catalogue; HMF 'Jack Wood' (FRYdabble), Gareth Fryer, medium pink Floribunda. Checked on the plant page. |
+| `mary-lou` | MARY LOU (Meilland, 2010, Hybrid Tea) | 2.61383 | Misspelt or alternate name in the catalogue; HMF 'Marylou', Meilland, Hybrid Tea. Checked on the plant page. |
+| `sweet-water` | SWEET WATER (McGredy, 1987, Hybrid Tea) | 2.24698 | Misspelt or alternate name in the catalogue; HMF 'Sweetwaters', McGredy 1978, orange-pink Hybrid Tea. Checked on the plant page. |
+| `mum-in-a-million` | MUM IN A MILLION (Poulsen, 2004, Hybrid Tea) | 2.41768 | Misspelt or alternate name in the catalogue; 'Mum in a Million' is a listed synonym of HMF 'Ghita Renaissance' (Olesen, Denmark), pink shrub. Checked on the plant page. |
+| `mum-in-a-million-2` | MUM IN A MILLION (Poulsen, 2004, Shrub) | 2.41768 | Misspelt or alternate name in the catalogue; Same plant as the other catalogue entry ('Mum in a Million' = 'Ghita Renaissance'). Checked on the plant page. |
+| `dr-noushir-wadia` | DR.NOUSHIR WADIA (C.R.Chiplunkar, 1992, Hybrid Tea) | 2.24112 | Misspelt or alternate name in the catalogue; HMF 'Dr. Noshir Wadia', red blend Hybrid Tea (Indian striped cultivar, matches the KSG description). Checked on the plant page. |
 
-## Marked not on HMF (36)
+## Marked not on HMF (20)
 
 | Rose | KSG entry | Reason |
 |---|---|---|
-| `abigail` | ABIGAIL (Tantau, 1992, Floribunda) | HMF Abigail Rose is a Zary shrub (before 2007); KSG has Tantau 1992 floribunda |
 | `black-berry` | BLACK BERRY (Ludwig, 1990, Hybrid Tea) | HMF "China Berry" is a different rose (patio, Benardella); name only partly alike |
-| `clg-apricot-midinette` | CLG. APRICOT MIDINETTE (no breeder, no year, Climber) | HMF "Apricot Clementine" is a Tantau floribunda; no climbing Apricot Midinette found |
-| `diane-de-poitiers` | DIANE DE POITIERS (no breeder, no year, Hybrid Tea) | HMF Diane de Poitiers is an alba (Vibert, 1818); KSG lists a hybrid tea |
 | `diplomat` | DIPLOMAT (Meilland, no year, Hybrid Tea) | HMF Diplomat is a Boerner hybrid tea (1962); KSG says Meilland |
 | `duett-balconia` | DUETT BALCONIA (Kor, 2017, Hybrid Tea) | HMF "Neon Balconia" (Kordes) does not list Duett Balconia as a synonym |
 | `edward-rose` | EDWARD ROSE (no breeder, no year, Hybrid Tea) | HMF match was "Edward VII", a different rose |
 | `elegance-champagne` | ELEGANCE CHAMPAGNE (Teranishi, 2004, Hybrid Tea) | HMF "Champagne Cocktail" (Horner 1983) is a different rose; KSG says Teranishi 2004 |
-| `elina` | ELINA (NIRP, 1984, Hybrid Tea) | HMF "Avelina" is an 1845 noisette, a different rose |
 | `fancy` | FANCY (Interplant, 2010, Miniature) | HMF Fancy is a Schuurman florists rose; KSG says Interplant 2010 miniature |
-| `fanny-ardent` | FANNY ARDENT (Adam, 2004, Hybrid Tea) | HMF "Ardente" is a Portuguese climber/floribunda, a different rose |
 | `fire-glo` | FIRE GLO (Kasturi & Sriram, 2010, Miniature) | HMF "Ablaze" (Read, Australia 1997, synonym "Fire Glow") is a different spelling and breeder; KSG says Kasturi & Sriram 2010 |
 | `fire-glo-2` | FIRE GLO (Kasturi & Sriram, 2010, Polyantha) | same as fire-glo |
-| `forever` | FOREVER (Armstrong, 1978, Hybrid Tea) | HMF Forever is by Oly (Netherlands); KSG says Armstrong 1978 |
-| `fredric-mistral` | FREDRIC MISTRAL (Meilland, 1998, Hybrid Tea) | HMF "Fredica" is an INRA hybrid china understock, a different rose |
 | `great-days` | GREAT DAYS (Japanese, no year, Hybrid Tea) | HMF "Great Day" is a Williams miniature (1982); KSG says hybrid tea, Japanese |
 | `inferno` | INFERNO (Interplant, 2012, Floribunda) | HMF Inferno is an Armstrong hybrid tea (Christensen 1982); KSG says Interplant 2012 floribunda |
 | `j-p-agarwal` | J.P.AGARWAL (Ashok Agarwal, Friends Rosary, 2013, Hybrid Tea) | HMF "Commanding Grace" (Viraraghavan) lists no synonym J.P. Agarwal |
-| `julia-rose` | JULIA ROSE (Tystermann, 1974, Hybrid Tea) | HMF match was "Julia", a climbing miniature, a different rose |
-| `leana` | LEANA (Ludwig, 1993, Hybrid Tea) | HMF match was "Lowleana", an 1854 tea, a different rose |
-| `majestic` | MAJESTIC (Poulsen, 2001, Hybrid Tea) | HMF Majestic is a Hill hybrid tea (1922); KSG says Poulsen 2001 |
 | `maria-mcgredy` | MARIA MCGREDY (McGredy, 2001, Hybrid Tea) | HMF "Maria" is an Olesen/Poulsen shrub, a different rose |
 | `mary-lou` | MARY LOU (Meilland, 2010, Hybrid Tea) | HMF "Mary Lou Whitney" (Jalbert, Canada 2011) is a different rose |
-| `milkyway` | MILKYWAY (Lisnik, 1992, Hybrid Tea) | HMF "Milk 'n' Honey" (Walsh, 2017) is a different rose; KSG says Lisnik 1992 |
-| `pulman-orient-express` | PULMAN ORIENT EXPRESS (Twomy, 2001, Hybrid Tea) | HMF "Irene Pony Express" is a different rose |
 | `queen-mary` | QUEEN MARY (Meilland, 2004, Hybrid Tea) | HMF Queen Mary is a hybrid spinosissima; KSG says Meilland 2004 hybrid tea |
-| `regensburg` | REGENSBURG (McGredy, 1979, Floribunda) | HMF match was "Glacier" (Poulsen 1985), which only lists an unrelated "Regensburg (floribunda, Olesen 1996)"; the McGredy 1979 rose was not found |
 | `rubicon` | RUBICON (Interplant, 2011, Miniature) | HMF "Rubiconde" is an 1832 alba, a different rose |
 | `sao-hime` | SAO HIME (no breeder, no year, Hybrid Tea) | HMF "Matsuo-Hime" (Shimizu 1999) is a different name |
-| `silver-anniversary` | SILVER ANNIVERSARY (Olesan, 1996, Hybrid Tea) | HMF "Anniversary" is a Matthews floribunda (1997), a different rose |
-| `summer-time` | SUMMER TIME (Meilland, 2011, Hybrid Tea) | HMF "Summertime" is a Boerner rose (1956); KSG says Meilland 2011 |
 | `barbarella` | BARBARELLA (no breeder, no year, Hybrid Tea) | KSG: peach pink hybrid tea (Ecuadorian). HMF has a yellow-red miniature (Barni 1981) and an orange-red hybrid tea (1973): colour fits neither |
-| `bellisima` | BELLISIMA (Laperriere, 1992, Hybrid Tea) | KSG: non-fading yellow hybrid tea, Laperriere 1992. HMF 'SUNlampo' (synonym Bellisima) is an orange blend by Schuurman, NZ 1998: colour, breeder and year differ |
 | `clg-crimson-boquet` | CLG. CRIMSON BOQUET (Kasturi & Sriram, 2015), Climber | HMF 'Crimson Bouquet' is the Kordes grandiflora; no climbing sport listed |
 | `clg-perfume-royale` | CLG.PERFUME ROYALE (Adam, 2010), Climber | no HMF plant named Perfume Royale or Perfume Royal |
 | `clg-eiffel-2000` | CLG.EIFFEL 2000 (Kordes, 2009), Climber | HMF 'Tour Eiffel 2000' is a red Delbard climber (1998); KSG says light pink, Kordes 2009 |

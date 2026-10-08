@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.66208",
+  "fetchedAt": "2026-10-08T16:22:21.915Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 775,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.451986",
+      "credit": "cgurtler",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4907385"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 605,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.442319",
+      "credit": "Beth's Northern CA Rose Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.5792"
+    },
+    {
+      "file": "3.webp",
+      "width": 600,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.451985",
+      "credit": "cgurtler",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4907385"
+    },
+    {
+      "file": "4.webp",
+      "width": 800,
+      "height": 784,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.441752",
+      "credit": "Dianne's Southwest Idaho Rose Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.98994"
+    }
+  ]
+}

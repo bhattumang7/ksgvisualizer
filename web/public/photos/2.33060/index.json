@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.33060",
+  "fetchedAt": "2026-10-08T16:22:45.642Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.348628",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.289388",
+      "credit": "Maurice REYBAUD",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.109894"
+    },
+    {
+      "file": "3.webp",
+      "width": 800,
+      "height": 759,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.348627",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    },
+    {
+      "file": "4.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.289387",
+      "credit": "Maurice REYBAUD",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.109894"
+    }
+  ]
+}

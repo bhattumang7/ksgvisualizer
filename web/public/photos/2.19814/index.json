@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.19814",
+  "fetchedAt": "2026-10-08T14:24:29.751Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 538,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.446416",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "2.webp",
+      "width": 531,
+      "height": 700,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.185654",
+      "credit": "Horst Peters",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.949879"
+    },
+    {
+      "file": "3.webp",
+      "width": 602,
+      "height": 400,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.320276",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    },
+    {
+      "file": "4.webp",
+      "width": 650,
+      "height": 488,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.70379",
+      "credit": "Kjeld Mathiasen",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.110831"
+    }
+  ]
+}

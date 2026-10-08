@@ -1,0 +1,30 @@
+{
+  "hmfId": "2.38902",
+  "fetchedAt": "2026-10-08T16:00:30.127Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 624,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.268736",
+      "credit": "Charles Quest-Ritson",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.298319"
+    },
+    {
+      "file": "2.webp",
+      "width": 650,
+      "height": 488,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.98917",
+      "credit": "NatYU",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.185523"
+    },
+    {
+      "file": "3.webp",
+      "width": 800,
+      "height": 680,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.238405",
+      "credit": "Eugene V.",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.274295"
+    }
+  ]
+}

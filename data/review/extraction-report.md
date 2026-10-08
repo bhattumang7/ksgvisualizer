@@ -1,6 +1,6 @@
 # Extraction report
 
-Total entries: **1262** (docs expected ~1217)
+Total entries: **1261** (docs expected ~1217)
 
 | Class | Extracted | Docs estimate |
 |---|---|---|
@@ -8,14 +8,13 @@ Total entries: **1262** (docs expected ~1217)
 | Floribunda | 280 | 270 |
 | Miniature | 61 | 60 |
 | Climber | 58 | 55 |
-| Shrub | 51 | 49 |
+| Shrub | 50 | 49 |
 | Polyantha | 27 | 26 |
 
 ## Repeated names (same name listed more than once)
 
 - ANJANI x2
 - BHARANI x2
-- BURGUNDY PANOROSA x2
 - CAREFREE BEAUTY x2
 - CHANDRIKA x2
 - CLG.SADABAHAR x2

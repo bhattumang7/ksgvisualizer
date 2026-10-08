@@ -1,0 +1,30 @@
+{
+  "hmfId": "2.1331",
+  "fetchedAt": "2026-10-08T16:07:19.517Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 650,
+      "height": 488,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.79932",
+      "credit": "chubite",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.113488"
+    },
+    {
+      "file": "2.webp",
+      "width": 350,
+      "height": 293,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.52440",
+      "credit": "Mike Gleason",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.19372"
+    },
+    {
+      "file": "3.webp",
+      "width": 600,
+      "height": 450,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.54619",
+      "credit": "VAIrishRose",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.105032"
+    }
+  ]
+}

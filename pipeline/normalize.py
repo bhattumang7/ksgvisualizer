@@ -125,6 +125,8 @@ def build():
     overrides = json.loads(ov_path.read_text() or "{}")
     for r in roses:
         r.update(overrides.get(r["id"], {}))
+    # `merge_into` marks a catalogue entry as a repeat of another one (same rose listed under two classes): only the target is kept.
+    roses = [r for r in roses if not r.pop("merge_into", None)]
 
     (DATA / "roses.json").write_text(json.dumps(roses, ensure_ascii=False, indent=1) + "\n")
     (DATA / "breeders.json").write_text(json.dumps(sorted(breeders.values(), key=lambda b: b["id"]), ensure_ascii=False, indent=1) + "\n")

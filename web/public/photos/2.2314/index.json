@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.2314",
+  "fetchedAt": "2026-10-08T15:58:31.548Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.437974",
+      "credit": "Magical fog kingdom",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4889217"
+    },
+    {
+      "file": "2.webp",
+      "width": 640,
+      "height": 480,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.346712",
+      "credit": "anna.bradbury",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4892170"
+    },
+    {
+      "file": "3.webp",
+      "width": 785,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.436569",
+      "credit": "Kathy Strong",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.100473"
+    },
+    {
+      "file": "4.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.318333",
+      "credit": "Jeri Bissell",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.27273"
+    }
+  ]
+}

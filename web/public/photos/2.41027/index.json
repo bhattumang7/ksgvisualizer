@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.41027",
+  "fetchedAt": "2026-10-08T15:57:39.512Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 531,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.360622",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 535,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.238442",
+      "credit": "A Rose Man",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.97017"
+    },
+    {
+      "file": "3.webp",
+      "width": 800,
+      "height": 531,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.360621",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "4.webp",
+      "width": 600,
+      "height": 450,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.222328",
+      "credit": "vgbasil",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.100263"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.18928",
+  "fetchedAt": "2026-10-08T16:18:05.263Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 610,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.442061",
+      "credit": "Beth's Northern CA Rose Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.5792"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 594,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.382511",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "3.webp",
+      "width": 800,
+      "height": 497,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.430044",
+      "credit": "Rose Man Stan",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.141"
+    },
+    {
+      "file": "4.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.365737",
+      "credit": "Marilina",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4902826"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.2760",
+  "fetchedAt": "2026-10-08T15:31:13.513Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 608,
+      "height": 456,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.184910",
+      "credit": "rosechic",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.1055839"
+    },
+    {
+      "file": "2.webp",
+      "width": 350,
+      "height": 400,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.31233",
+      "credit": "Cliff",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.280"
+    },
+    {
+      "file": "3.webp",
+      "width": 600,
+      "height": 450,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.38777",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "4.webp",
+      "width": 600,
+      "height": 450,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.27008",
+      "credit": null,
+      "creditUrl": null
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.979",
+  "fetchedAt": "2026-10-08T16:06:38.156Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 600,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.456944",
+      "credit": "Michael Garhart",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.105070"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 767,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.441968",
+      "credit": "Dianne's Southwest Idaho Rose Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.98994"
+    },
+    {
+      "file": "3.webp",
+      "width": 782,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.448218",
+      "credit": "Michael Garhart",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.105070"
+    },
+    {
+      "file": "4.webp",
+      "width": 785,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.441322",
+      "credit": "Kathy Strong",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.100473"
+    }
+  ]
+}

@@ -25,6 +25,22 @@ const PROFILE = process.env.KSG_PROFILE ?? path.join(ROOT, "cache", "hmf-browser
 
 class Blocked extends Error {}
 
+/**
+ * A plant that HMF lists only under a synonym row ("l=2.21669.3") shows the search page when opened without that suffix.
+ * The suffixes seen in the cached name searches are tried in turn.
+ */
+const SEARCH_CACHES = ["hmf-search", "hmf-variants"].map((d) => path.join(ROOT, "cache", d));
+function suffixes(id: string): string[] {
+  if (!id.startsWith("2.")) return [];
+  const found = new Set<string>();
+  const re = new RegExp(`l=${id.replace(".", "\\.")}(\\.\\d+)`, "g");
+  for (const dir of SEARCH_CACHES) {
+    if (!fs.existsSync(dir)) continue;
+    for (const f of fs.readdirSync(dir)) for (const m of fs.readFileSync(path.join(dir, f), "utf8").matchAll(re)) found.add(m[1]);
+  }
+  return [...found];
+}
+
 const args = process.argv.slice(2);
 const flag = (name: string) => args.includes(`--${name}`);
 const value = (name: string) => args[args.indexOf(`--${name}`) + 1];
@@ -70,7 +86,13 @@ try {
         console.error(`${id}: HTTP ${res?.status()}; will retry on the next run`);
         continue;
       }
-      const details = parseDetails(await page.content(), id);
+      let details = parseDetails(await page.content(), id);
+      for (const suffix of Object.keys(details.rows).length ? [] : suffixes(id)) {
+        await sleep(GAP_MS);
+        await page.goto(url + suffix, { waitUntil: "domcontentloaded", timeout: 30000 });
+        details = parseDetails(await page.content(), id);
+        if (Object.keys(details.rows).length) break;
+      }
       if (!Object.keys(details.rows).length) {
         console.error(`${id}: no details found in the page (markup changed?); not saved`);
         continue;

@@ -1,0 +1,30 @@
+{
+  "hmfId": "2.81",
+  "fetchedAt": "2026-10-08T14:29:25.358Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.357898",
+      "credit": "asakombu",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.100081"
+    },
+    {
+      "file": "2.webp",
+      "width": 444,
+      "height": 333,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.56500",
+      "credit": "mosscube",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.105965"
+    },
+    {
+      "file": "3.webp",
+      "width": 349,
+      "height": 550,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.114615",
+      "credit": "Patricia Routley",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.102446"
+    }
+  ]
+}

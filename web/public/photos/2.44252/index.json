@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.44252",
+  "fetchedAt": "2026-10-08T15:57:18.232Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 600,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.349839",
+      "credit": "flowerchild75 - Zone 6a Missouri",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4899522"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 656,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.348734",
+      "credit": "jedmar",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.101610"
+    },
+    {
+      "file": "3.webp",
+      "width": 600,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.349838",
+      "credit": "flowerchild75 - Zone 6a Missouri",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4899522"
+    },
+    {
+      "file": "4.webp",
+      "width": 600,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.343900",
+      "credit": "flowerchild75 - Zone 6a Missouri",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4899522"
+    }
+  ]
+}

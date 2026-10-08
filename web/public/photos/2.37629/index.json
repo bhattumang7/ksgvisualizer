@@ -1,0 +1,38 @@
+{
+  "hmfId": "2.37629",
+  "fetchedAt": "2026-10-08T16:03:08.251Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 533,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.444732",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 533,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.330057",
+      "credit": "Badger",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4897601"
+    },
+    {
+      "file": "3.webp",
+      "width": 800,
+      "height": 533,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.444731",
+      "credit": "Johno",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4891373"
+    },
+    {
+      "file": "4.webp",
+      "width": 600,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.285831",
+      "credit": "ken-n-ga.mts",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.597897"
+    }
+  ]
+}
