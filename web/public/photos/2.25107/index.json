@@ -1,5 +1,38 @@
 {
   "hmfId": "2.25107",
-  "fetchedAt": "2026-10-07T22:41:07.106Z",
-  "photos": []
+  "fetchedAt": "2026-10-08T17:03:47.556Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 705,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.445251",
+      "credit": "Dianne's Southwest Idaho Rose Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.98994"
+    },
+    {
+      "file": "2.webp",
+      "width": 650,
+      "height": 480,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.118241",
+      "credit": null,
+      "creditUrl": null
+    },
+    {
+      "file": "3.webp",
+      "width": 800,
+      "height": 530,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.180985",
+      "credit": "Irina Shushakova",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.163690"
+    },
+    {
+      "file": "4.webp",
+      "width": 650,
+      "height": 477,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.106884",
+      "credit": null,
+      "creditUrl": null
+    }
+  ]
 }

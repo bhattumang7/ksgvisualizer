@@ -1,5 +1,38 @@
 {
   "hmfId": "2.16834",
-  "fetchedAt": "2026-10-08T13:55:02.053Z",
-  "photos": []
+  "fetchedAt": "2026-10-08T17:01:04.347Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 577,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.442283",
+      "credit": "Beth's Northern CA Rose Garden",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.5792"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.408859",
+      "credit": "anonymous-382123",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.382123"
+    },
+    {
+      "file": "3.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.428769",
+      "credit": "anonymous-382123",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.382123"
+    },
+    {
+      "file": "4.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.395700",
+      "credit": "anonymous-382123",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.382123"
+    }
+  ]
 }

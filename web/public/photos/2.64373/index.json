@@ -1,5 +1,22 @@
 {
   "hmfId": "2.64373",
-  "fetchedAt": "2026-10-08T15:56:53.844Z",
-  "photos": []
+  "fetchedAt": "2026-10-08T16:55:48.516Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.285020",
+      "credit": "quendery",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.965521"
+    },
+    {
+      "file": "2.webp",
+      "width": 450,
+      "height": 443,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.250734",
+      "credit": "16-Eichen-Rosenschätze",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.296028"
+    }
+  ]
 }

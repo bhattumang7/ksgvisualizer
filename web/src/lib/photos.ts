@@ -2,7 +2,7 @@ import "server-only";
 import fs from "node:fs";
 import path from "node:path";
 import { hmfKey, isValidHmfId } from "./hmf";
-import type { CatalogueRose } from "./catalogue";
+import { isHmfVerified, type CatalogueRose } from "./catalogue";
 import { withBasePath } from "./base-path";
 
 export interface StoredPhoto {
@@ -37,7 +37,8 @@ export function loadStoredPhotos(hmfId: string): StoredPhoto[] | null {
 /** Attaches the stored photos (without credit-page URLs we don't need) to each rose for listing cards. */
 export function withCardPhotos(roses: CatalogueRose[]): CatalogueRose[] {
   return roses.map((r) => {
-    const key = hmfKey(r.hmf);
+    // Same rule as the rose page: an unconfirmed (fuzzy) match could be a different rose, so no photos.
+    const key = isHmfVerified(r.hmf) ? hmfKey(r.hmf) : null;
     const stored = key ? loadStoredPhotos(key) : null;
     if (!stored?.length) return r;
     return { ...r, photos: stored.map(({ src, width, height, pageUrl, credit }) => ({ src, width, height, pageUrl, credit })) };

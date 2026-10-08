@@ -16,6 +16,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { chromium, type BrowserContext, type Page } from "@playwright/test";
 import { toWebp } from "./webp.mts";
+import { suffixes } from "./hmf-suffixes.mts";
 import { fullSizeUrl, hmfPlantUrl, parseNext, parsePhotos, type HmfPhoto } from "../src/lib/hmf.ts";
 
 const MAX_PAGES = 2;
@@ -62,12 +63,24 @@ async function download(ctx: BrowserContext, p: HmfPhoto): Promise<Buffer | null
 async function snapshot(ctx: BrowserContext, page: Page, id: string) {
   const found: HmfPhoto[] = [];
   let cursor: string | null = null;
+  // A plant HMF lists only under a synonym row ("l=2.21669.3") shows the search page without that suffix, so no photos.
+  let suffix = "";
+  const tried = [""];
   for (let n = 0; n < MAX_PAGES && found.length < MAX_PHOTOS; n++) {
     const paging = cursor ? `&qn=${cursor.split(".")[0]}&qc=${cursor.split(".")[1]}` : "";
-    const html = await listHtml(page, `${hmfPlantUrl(id)}&tab=36${paging}`);
+    const html = await listHtml(page, `${hmfPlantUrl(id)}${suffix}&tab=36${paging}`);
     if (!html) break;
     found.push(...parsePhotos(html));
     cursor = parseNext(html);
+    if (!found.length && !cursor && n === 0) {
+      const next = suffixes(id).find((s) => !tried.includes(s));
+      if (next !== undefined) {
+        tried.push(next);
+        suffix = next;
+        n = -1;
+        continue;
+      }
+    }
     if (!cursor) break;
   }
 

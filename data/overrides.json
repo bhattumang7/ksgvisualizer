@@ -2584,5 +2584,26 @@
       "url": "https://www.helpmefind.com/gardening/l.php?l=2.24112",
       "match_confidence": "manual"
     }
+  },
+  "annie-birnhak": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.63680",
+      "match_confidence": "manual"
+    }
+  },
+  "crimson-boquet": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.24916",
+      "match_confidence": "manual"
+    }
+  },
+  "gladiator": {
+    "hmf": {
+      "id": null,
+      "url": "https://www.helpmefind.com/gardening/l.php?l=2.2968",
+      "match_confidence": "manual"
+    }
   }
 }

@@ -15,6 +15,7 @@ import path from "node:path";
 import { hmfPlantUrl } from "../src/lib/hmf.ts";
 import { chromium } from "@playwright/test";
 import { parseDetails } from "../src/lib/hmf-details.ts";
+import { suffixes } from "./hmf-suffixes.mts";
 
 const GAP_MS = Number(process.env.KSG_GAP_MS ?? 4000);
 const ROOT = path.join(import.meta.dirname, "..", "..");
@@ -24,22 +25,6 @@ const DATA = process.env.KSG_DATA_DIR ?? path.join(ROOT, "data", "sample");
 const PROFILE = process.env.KSG_PROFILE ?? path.join(ROOT, "cache", "hmf-browser");
 
 class Blocked extends Error {}
-
-/**
- * A plant that HMF lists only under a synonym row ("l=2.21669.3") shows the search page when opened without that suffix.
- * The suffixes seen in the cached name searches are tried in turn.
- */
-const SEARCH_CACHES = ["hmf-search", "hmf-variants"].map((d) => path.join(ROOT, "cache", d));
-function suffixes(id: string): string[] {
-  if (!id.startsWith("2.")) return [];
-  const found = new Set<string>();
-  const re = new RegExp(`l=${id.replace(".", "\\.")}(\\.\\d+)`, "g");
-  for (const dir of SEARCH_CACHES) {
-    if (!fs.existsSync(dir)) continue;
-    for (const f of fs.readdirSync(dir)) for (const m of fs.readFileSync(path.join(dir, f), "utf8").matchAll(re)) found.add(m[1]);
-  }
-  return [...found];
-}
 
 const args = process.argv.slice(2);
 const flag = (name: string) => args.includes(`--${name}`);

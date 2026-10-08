@@ -1,5 +1,38 @@
 {
   "hmfId": "2.26374",
-  "fetchedAt": "2026-10-07T23:59:31.413Z",
-  "photos": []
+  "fetchedAt": "2026-10-08T16:56:19.052Z",
+  "photos": [
+    {
+      "file": "1.webp",
+      "width": 800,
+      "height": 361,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.421843",
+      "credit": "Maddalena Piccinini",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4855026"
+    },
+    {
+      "file": "2.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.339297",
+      "credit": "Maurice REYBAUD",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.109894"
+    },
+    {
+      "file": "3.webp",
+      "width": 600,
+      "height": 800,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.419277",
+      "credit": "richarddee",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.4903124"
+    },
+    {
+      "file": "4.webp",
+      "width": 800,
+      "height": 600,
+      "pageUrl": "https://www.helpmefind.com/gardening/l.php?l=21.329313",
+      "credit": "Maurice REYBAUD",
+      "creditUrl": "https://www.helpmefind.com/gardening/l.php?l=99.109894"
+    }
+  ]
 }
