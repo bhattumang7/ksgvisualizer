@@ -15,7 +15,8 @@ KSG extraction is done: `python -m pipeline.run` (venv in `pipeline/.venv`) writ
 
 - **The PDF is read-only.** Never modify it.
 - **HMF data is stored locally (changed 2026-10-08):** the plant-page details (colour, fragrance, class, bloom, habit, parentage and so on) are snapshotted into `data/hmf/<hmfId>.json` by `pnpm hmf-data` in `web/`, so we never need to read them from HMF again. Refreshing is manual only (`--refresh`, `--id`, `--older-than`). Always link back to HMF.
-- **Photos (changed 2026-10-07):** HMF rate-limits live requests, so small HMF thumbnails are snapshotted into `web/public/photos/<hmfId>/` (with `index.json` holding credits and photo-page links) by `pnpm photos` in `web/`. Always show the photographer credit and link back to HMF. The KSG PDF images are still never stored. Roses without a snapshot fall back to the live route.
+- **Hosting (2026-10-08):** the site is a static export at `https://umangbhatt.in/ksgvisualizer/` (GitHub Pages, sub-path via `NEXT_PUBLIC_BASE_PATH`). There is no server code; never add API routes or live HMF requests. See `docs/web-platform.md`.
+- **Photos (changed 2026-10-07):** HMF rate-limits live requests, so small HMF thumbnails are snapshotted into `web/public/photos/<hmfId>/` (with `index.json` holding credits and photo-page links) by `pnpm photos` in `web/`. Always show the photographer credit and link back to HMF. The KSG PDF images are still never stored. Photos are stored as small WebP files so the site stays under the GitHub Pages size limit; roses without a snapshot show a placeholder.
 - Be polite when scraping: rate-limit requests, respect robots.txt, and keep any cache temporary and gitignored.
 - Keep manual corrections in `data/overrides.json`, apply them last, and never overwrite them.
 
@@ -35,7 +36,7 @@ ksgvisualizer/
   pipeline/                  # Python 3.11+: extract → normalize → match → export (venv in pipeline/.venv)
   data/                      # extraction output, breeder map, overrides, final roses.json
   cache/                     # temporary HTTP cache for matching runs (gitignored)
-  web/                       # web app, including the live HMF photo route
+  web/                       # static Next.js site (output: export), deployed to GitHub Pages by .github/workflows/pages.yml
 ```
 
 Pipeline steps are idempotent: each reads from and writes to `data/`, and none re-fetch from the network what is already cached.

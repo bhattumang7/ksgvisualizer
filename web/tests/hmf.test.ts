@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { allowRequest, fullSizeUrl, jpegSize, isValidCursor, isValidHmfId, parseNext, parsePhotos } from "@/lib/hmf";
+import { fullSizeUrl, isValidHmfId, parseNext, parsePhotos } from "@/lib/hmf";
 
 const html = `<table id="imgLst"><tr>
  <td width="50%" class="c1 o">
@@ -41,22 +41,10 @@ describe("parseNext", () => {
 });
 
 describe("guards", () => {
-  it("accepts only well-formed cursors", () => {
-    expect(isValidCursor("2.0")).toBe(true);
-    expect(isValidCursor("2")).toBe(false);
-    expect(isValidCursor("2.0&x=1")).toBe(false);
-  });
   it("accepts only numeric ids", () => {
     expect(isValidHmfId("97659")).toBe(true);
     expect(isValidHmfId("97659/../x")).toBe(false);
     expect(isValidHmfId("")).toBe(false);
-  });
-  it("limits requests per client to 30 a minute", () => {
-    const now = 1_000_000;
-    for (let i = 0; i < 30; i++) expect(allowRequest("a", now)).toBe(true);
-    expect(allowRequest("a", now)).toBe(false);
-    expect(allowRequest("b", now)).toBe(true);
-    expect(allowRequest("a", now + 61_000)).toBe(true);
   });
 });
 
@@ -89,11 +77,6 @@ describe("parseDetails", () => {
 describe("full-size helpers", () => {
   it("swaps the thumbnail path for the full-size one", () => {
     expect(fullSizeUrl("https://www.helpmefind.com/gardening/tn/897/459393.jpg")).toBe("https://www.helpmefind.com/gardening/fs/897/459393.jpg");
-  });
-  it("reads JPEG dimensions and rejects non-JPEGs", () => {
-    const jpg = Uint8Array.from([0xff, 0xd8, 0xff, 0xe0, 0, 4, 0, 0, 0xff, 0xc0, 0, 11, 8, 0x03, 0x20, 0x02, 0x58, 3, 0, 0, 0]);
-    expect(jpegSize(jpg)).toEqual({ width: 600, height: 800 });
-    expect(jpegSize(Uint8Array.from([1, 2, 3]))).toBeNull();
   });
 });
 

@@ -13,3 +13,4 @@ sonar-scan.ps1
 web/coverage/
 web/test-results/
 web/playwright-report/
+web/out/

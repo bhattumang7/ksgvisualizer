@@ -12,7 +12,7 @@ export default defineConfig({
     { name: "desktop-1280", use: { viewport: { width: 1280, height: 800 } } },
   ],
   webServer: {
-    command: `pnpm build && pnpm start -p ${port}`,
+    command: `pnpm build && python3 -m http.server --directory out ${port}`,
     url: `http://localhost:${port}`,
     env: { KSG_DATA_DIR: path.join(__dirname, "..", "data", "sample") },
     reuseExistingServer: true,

@@ -1,5 +1,5 @@
 /**
- * The one way we talk to HelpMeFind: the live photo route and both snapshot scripts go through here,
+ * The one way we talk to HelpMeFind: the snapshot scripts go through here,
  * so every request carries the same browser-style headers (accept, language, referer) and the same
  * cookie handling. Cookies are only what HMF itself hands us (Set-Cookie), kept in memory and sent
  * back like a browser would; we never replay anyone's real session. The user-agent stays honest.

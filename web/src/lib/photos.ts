@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { hmfKey, isValidHmfId } from "./hmf";
 import type { CatalogueRose } from "./catalogue";
+import { withBasePath } from "./base-path";
 
 export interface StoredPhoto {
   /** Public URL of the snapshot image. */
@@ -21,7 +22,7 @@ export function loadStoredPhotos(hmfId: string): StoredPhoto[] | null {
   try {
     const m = JSON.parse(fs.readFileSync(path.join(dir, "index.json"), "utf8"));
     return m.photos.map((p: Omit<StoredPhoto, "src"> & { file: string }) => ({
-      src: `/photos/${hmfId}/${p.file}`,
+      src: withBasePath(`/photos/${hmfId}/${p.file}`),
       width: p.width,
       height: p.height,
       pageUrl: p.pageUrl,

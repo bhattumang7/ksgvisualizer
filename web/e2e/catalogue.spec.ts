@@ -27,7 +27,7 @@ test("filters by section and colour, and resets to page 1", async ({ page }) => 
   await page.goto("/?page=2");
   await openFilters(page);
   // The panel is in the DOM twice (sidebar and phone sheet); only one is visible.
-  const panel = page.locator('aside, [role="dialog"]').filter({ visible: true });
+  const panel = page.locator('aside, dialog').filter({ visible: true });
   await panel.getByLabel(/^Hybrid Teas/).check();
   await panel.getByLabel(/^White/).check();
   await closeFilters(page);
@@ -50,34 +50,15 @@ test("searches with typos", async ({ page }) => {
   await expect(page.getByRole("heading", { name: "Winchester Cathedral" })).toBeVisible();
 });
 
-test("rose page loads more photos from HelpMeFind", async ({ page }) => {
-  const photo = (n: number) => ({
-    src: `https://www.helpmefind.com/gardening/tn/897/${n}.jpg`,
-    width: 96,
-    height: 96,
-    pageUrl: `https://www.helpmefind.com/gardening/l.php?l=21.${n}`,
-    credit: "Someone",
-    creditUrl: "https://www.helpmefind.com/gardening/l.php?l=99.1",
-  });
+test("rose page shows the stored photos with credits and a link back to HelpMeFind", async ({ page }) => {
+  // Everything is served from the static site: HMF must never be contacted.
   await page.route("https://www.helpmefind.com/**", (route) => route.abort());
-  await page.route("**/api/hmf/97659/photos*", (route) => {
-    const more = new URL(route.request().url()).searchParams.get("cursor") === "1.0";
-    return route.fulfill({
-      json: {
-        hmfUrl: "https://www.helpmefind.com/rose/pl.php?n=97659",
-        status: "ok",
-        photos: more ? [photo(3), photo(4)] : [photo(1), photo(2)],
-        next: more ? null : "1.0",
-      },
-    });
-  });
-
-  await page.goto("/rose/earth-angel");
-  await expect(page.getByAltText(/Earth Angel, photo from HelpMeFind/)).toHaveCount(2);
-  await page.getByRole("button", { name: "More photos" }).click();
-  await expect(page.getByAltText(/Earth Angel, photo from HelpMeFind/)).toHaveCount(4);
-  await expect(page.getByRole("button", { name: "More photos" })).toHaveCount(0);
-  await expect(page.getByRole("link", { name: "View on HelpMeFind" })).toHaveAttribute("href", /n=97659/);
+  await page.goto("/rose/princess-charlene-de-monaco");
+  const photos = page.getByAltText(/Princess Charlene de Monaco, from HelpMeFind/);
+  expect(await photos.count()).toBeGreaterThan(1);
+  await expect(photos.first()).toHaveJSProperty("complete", true);
+  await expect(page.getByText(/^Photo: /).first()).toBeVisible();
+  await expect(page.getByRole("link", { name: "View on HelpMeFind" })).toHaveAttribute("href", /n=96406/);
 });
 
 test("unmatched rose shows the placeholder", async ({ page }) => {

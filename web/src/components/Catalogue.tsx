@@ -169,7 +169,7 @@ export function Catalogue({ roses, breeders, pageSize: defaultSize }: Readonly<{
             <p className="text-sm text-muted" aria-live="polite">
               {page.total} {page.total === 1 ? "rose" : "roses"}
             </p>
-            <div className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2">
               <label className="sr-only" htmlFor="sort">Sort by</label>
               <select
                 id="sort"

@@ -7,6 +7,7 @@
  * visible Chromium (persistent profile in cache/hmf-browser, so cookies carry over between runs).
  * It opens each rose's photos tab, reads the thumbnail list from the page, then downloads the
  * full-size image (the thumbnail's "fs" twin), falling back to the thumbnail if that is refused.
+ * Each image is re-encoded as a small WebP before it is saved (see webp.mts).
  *
  * Roses that already have a manifest are skipped, so an interrupted run can simply be restarted.
  * The run stops at the first 403/429/5xx so we never hammer HMF while it is pushing back.
@@ -14,9 +15,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import { chromium, type BrowserContext, type Page } from "@playwright/test";
-import { fullSizeUrl, hmfPlantUrl, jpegSize, parseNext, parsePhotos, type HmfPhoto } from "../src/lib/hmf.ts";
+import { toWebp } from "./webp.mts";
+import { fullSizeUrl, hmfPlantUrl, parseNext, parsePhotos, type HmfPhoto } from "../src/lib/hmf.ts";
 
-const MAX_PAGES = 1;
+const MAX_PAGES = 2;
 const MAX_PHOTOS = Number(process.env.KSG_MAX_PHOTOS ?? 4);
 const GAP_MS = Number(process.env.KSG_GAP_MS ?? 4000);
 const OUT = path.join(import.meta.dirname, "..", "public", "photos");
@@ -75,10 +77,11 @@ async function snapshot(ctx: BrowserContext, page: Page, id: string) {
   for (const p of found.slice(0, MAX_PHOTOS)) {
     const body = await download(ctx, p);
     if (!body) continue;
-    const size = jpegSize(body) ?? { width: p.width, height: p.height };
-    const file = `${photos.length + 1}.jpg`;
-    fs.writeFileSync(path.join(dir, file), body);
-    photos.push({ file, ...size, pageUrl: p.pageUrl, credit: p.credit, creditUrl: p.creditUrl });
+    // Keep only a small WebP: the whole snapshot is committed and served as a static site.
+    const { data, width, height } = await toWebp(body);
+    const file = `${photos.length + 1}.webp`;
+    fs.writeFileSync(path.join(dir, file), data);
+    photos.push({ file, width, height, pageUrl: p.pageUrl, credit: p.credit, creditUrl: p.creditUrl });
   }
   fs.writeFileSync(
     path.join(dir, "index.json"),
@@ -93,6 +96,9 @@ const idOf = (h: { id: string | null; url: string | null }) => h.id ?? /[?&]l=(2
 let ids = [...new Set(roses.map((r) => idOf(r.hmf)).filter((i): i is string => !!i))];
 if (flag("id")) ids = [value("id")];
 if (!flag("refresh")) ids = ids.filter((i) => !fs.existsSync(path.join(OUT, i, "index.json")));
+// KSG_SHARD="k/N" makes this process handle every N-th rose, so N workers (each with its own KSG_PROFILE) can run side by side.
+const [shard, shards] = (process.env.KSG_SHARD ?? "0/1").split("/").map(Number);
+ids = ids.filter((_, i) => i % shards === shard);
 if (flag("limit")) ids = ids.slice(0, Number(value("limit")));
 
 console.log(`${ids.length} roses to fetch`);
@@ -103,7 +109,7 @@ try {
   for (const [n, id] of ids.entries()) {
     try {
       const photos = await snapshot(ctx, page, id);
-      console.log(`[${n + 1}/${ids.length}] ${id}: ${photos.length} photos, largest ${Math.max(0, ...photos.map((p) => p.width))}px wide`);
+      console.log(`[${n + 1}/${ids.length}] ${id}: ${photos.length} photos`);
     } catch (e) {
       if (e instanceof Blocked) {
         console.error(`Stopped: ${e.message}. Wait a while, then re-run to resume.`);
